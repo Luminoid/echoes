@@ -1,0 +1,1554 @@
+import type { PersonData } from './types';
+
+export const filmmakerData: PersonData[] = [
+  {
+    slug: 'andrei-tarkovsky',
+    name: { en: 'Andrei Tarkovsky', zh: '安德烈·塔可夫斯基' },
+    years: '1932–1986',
+    nationality: { en: 'Russian', zh: '俄罗斯' },
+    bio: {
+      en: 'Visionary director whose poetic explorations of memory, spirituality, and time in films like Stalker and Mirror redefined the language of cinema.',
+      zh: '富有远见的导演，在《潜行者》和《镜子》等影片中对记忆、灵性与时间的诗意探索重新定义了电影语言。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Andrei_Tarkovsky',
+      zh: 'https://zh.wikipedia.org/wiki/安德烈·塔可夫斯基',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The allotted function of art is not, as is often assumed, to put across ideas, to propagate thoughts, to serve as example. The aim of art is to prepare a person for death, to plough and harrow his soul, rendering it capable of turning to good.',
+          zh: '艺术被赋予的功能并非如人们通常所认为的那样，是传达思想、传播理念或充当范例。艺术的目的是让人为死亡做好准备，是耕耘和翻垦人的灵魂，使其能够转向善。',
+        },
+        original: 'The allotted function of art is not, as is often assumed, to put across ideas, to propagate thoughts, to serve as example. The aim of art is to prepare a person for death, to plough and harrow his soul, rendering it capable of turning to good.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'The image is not a certain meaning, expressed by the director, but an entire world reflected as in a drop of water.',
+          zh: '影像不是导演表达的某种含义，而是一个完整的世界，如同映照在一滴水中。',
+        },
+        original: 'The image is not a certain meaning, expressed by the director, but an entire world reflected as in a drop of water.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'We can express our feelings regarding the world around us either by poetic or by descriptive means. I prefer to express myself metaphorically.',
+          zh: '我们可以用诗意的方式或描述性的方式来表达我们对周围世界的感受。我更喜欢用隐喻来表达自己。',
+        },
+        original: 'We can express our feelings regarding the world around us either by poetic or by descriptive means. I prefer to express myself metaphorically.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'The artist exists because the world is not perfect.',
+          zh: '艺术家的存在是因为世界并不完美。',
+        },
+        original: 'The artist exists because the world is not perfect.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'A book read by a thousand different people is a thousand different books.',
+          zh: '一本书被一千个不同的人阅读，就是一千本不同的书。',
+        },
+        original: 'A book read by a thousand different people is a thousand different books.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'I think that what people need is not a new world, but to be renewed themselves.',
+          zh: '我认为人们需要的不是一个新世界，而是让自己焕然一新。',
+        },
+        original: 'I think that what people need is not a new world, but to be renewed themselves.',
+        originalLang: 'ru',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'No one has ever filmed what happens to a man when he stands face to face with that which cannot be expressed in words.',
+          zh: '从来没有人拍过一个人面对无法用言语表达的事物时会发生什么。',
+        },
+        original: 'No one has ever filmed what happens to a man when he stands face to face with that which cannot be expressed in words.',
+        originalLang: 'ru',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'Time is a condition for the existence of our ego.',
+          zh: '时间是我们自我存在的条件。',
+        },
+        original: 'Time is a condition for the existence of our ego.',
+        originalLang: 'ru',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'Life is nothing but a brief interval of time in which we are given to study the spirit through matter.',
+          zh: '生命不过是一段短暂的时间间隔，让我们得以通过物质研究精神。',
+        },
+        original: 'Life is nothing but a brief interval of time in which we are given to study the spirit through matter.',
+        originalLang: 'ru',
+        source: { en: 'Time Within Time: The Diaries', zh: '《时间中的时间：日记》' },
+        year: 1991,
+      },
+    ],
+  },
+  {
+    slug: 'akira-kurosawa',
+    name: { en: 'Akira Kurosawa', zh: '黑泽明' },
+    years: '1910–1998',
+    nationality: { en: 'Japanese', zh: '日本' },
+    bio: {
+      en: 'Emperor of Japanese cinema whose masterful storytelling in Rashomon, Seven Samurai, and Ikiru influenced filmmakers worldwide for decades.',
+      zh: '日本电影天皇，在《罗生门》《七武士》和《生之欲》中展现的精湛叙事影响了全球电影人数十年。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Akira_Kurosawa',
+      zh: 'https://zh.wikipedia.org/wiki/黑泽明',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'In a mad world, only the mad are sane.',
+          zh: '在疯狂的世界里，只有疯子才是清醒的。',
+        },
+        original: 'In a mad world, only the mad are sane.',
+        originalLang: 'ja',
+        originalLocale: 'en',
+        source: { en: 'Ran', zh: '《乱》' },
+        year: 1985,
+      },
+      {
+        text: {
+          en: 'To be an artist means to search for, find, and look at these realities. To be an artist means never to avert one\'s eyes.',
+          zh: '做一个艺术家，就意味着去寻找、发现和审视这些现实。做一个艺术家，就意味着永远不要移开你的目光。',
+        },
+        original: 'To be an artist means to search for, find, and look at these realities. To be an artist means never to avert one\'s eyes.',
+        originalLang: 'ja',
+        originalLocale: 'en',
+        source: {
+          en: 'Something Like an Autobiography',
+          zh: '《蛤蟆的油——黑泽明自传》',
+        },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'Man is a genius when he is dreaming.',
+          zh: '人在梦中是天才。',
+        },
+        original: 'Man is a genius when he is dreaming.',
+        originalLang: 'ja',
+        originalLocale: 'en',
+        source: {
+          en: 'Something Like an Autobiography',
+          zh: '《蛤蟆的油——黑泽明自传》',
+        },
+        year: 1982,
+      },
+    ],
+  },
+  {
+    slug: 'ingmar-bergman',
+    name: { en: 'Ingmar Bergman', zh: '英格玛·伯格曼' },
+    years: '1918–2007',
+    nationality: { en: 'Swedish', zh: '瑞典' },
+    bio: {
+      en: 'Swedish master whose intensely personal films explored faith, mortality, and the human psyche with uncompromising depth.',
+      zh: '瑞典电影大师，以极具个人色彩的影片毫不妥协地深入探索信仰、死亡与人类心灵。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Ingmar_Bergman',
+      zh: 'https://zh.wikipedia.org/wiki/英格玛·伯格曼',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'No form of art goes beyond ordinary consciousness as film does, straight to our emotions, deep into the twilight room of the soul.',
+          zh: '没有任何艺术形式能像电影那样超越日常意识，直达我们的情感，深入灵魂的暮光之室。',
+        },
+        original: 'No form of art goes beyond ordinary consciousness as film does, straight to our emotions, deep into the twilight room of the soul.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Magic Lantern', zh: '《魔灯》' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'Film as dream, film as music. No art passes our conscience in the way film does, and goes directly to our feelings, deep down into the dark rooms of our souls.',
+          zh: '电影如梦，电影如乐。没有任何艺术能像电影那样穿越我们的意识，直达情感深处，进入我们灵魂的暗室。',
+        },
+        original: 'Film as dream, film as music. No art passes our conscience in the way film does, and goes directly to our feelings, deep down into the dark rooms of our souls.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Introduction to Four Screenplays of Ingmar Bergman',
+          zh: '《英格玛·伯格曼四部电影剧本》序言',
+        },
+        year: 1960,
+      },
+      {
+        text: {
+          en: 'I make all my decisions on intuition. I throw a spear into the darkness. That is intuition. Then I must send an army into the darkness to find the spear. That is intellect.',
+          zh: '我所有的决定都依靠直觉。我向黑暗中掷出一支矛，这就是直觉。然后我必须派遣一支军队进入黑暗去找到那支矛，这就是理智。',
+        },
+        original: 'I make all my decisions on intuition. I throw a spear into the darkness. That is intuition. Then I must send an army into the darkness to find the spear. That is intellect.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in Ingmar Bergman: Interviews',
+          zh: '引自《英格玛·伯格曼访谈录》',
+        },
+      },
+      {
+        text: {
+          en: 'The demons are innumerable, arrive at the most inappropriate times, and create panic and terror. But I have learned that if I can master the negative forces and channel them into my work, it can be positive.',
+          zh: '心魔不计其数，总在最不合时宜的时候出现，制造恐慌与恐惧。但我学会了如果能驾驭这些负面力量并将它们引入我的工作，它可以变成积极的东西。',
+        },
+        original: 'The demons are innumerable, arrive at the most inappropriate times, and create panic and terror. But I have learned that if I can master the negative forces and channel them into my work, it can be positive.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Magic Lantern', zh: '《魔灯》' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'Old age is like climbing a mountain. You climb from ledge to ledge. The higher you get, the more tired and breathless you become, but your view becomes much more extensive.',
+          zh: '年老如同登山。你从一个台阶攀向另一个台阶。爬得越高，你越疲惫气喘，但你的视野变得更加广阔。',
+        },
+        original: 'Old age is like climbing a mountain. You climb from ledge to ledge. The higher you get, the more tired and breathless you become, but your view becomes much more extensive.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, from interviews',
+          zh: '综合采访的引用',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'wong-kar-wai',
+    name: { en: 'Wong Kar-wai', zh: '王家卫' },
+    years: '1958–',
+    nationality: { en: 'Hong Kong Chinese', zh: '中国香港' },
+    bio: {
+      en: 'Hong Kong auteur whose lush, atmospheric films like In the Mood for Love and Chungking Express capture the ache of memory, desire, and time lost.',
+      zh: '香港电影作者，以《花样年华》和《重庆森林》等华丽而富有氛围的影片捕捉记忆、欲望与逝去时光的痛楚。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Wong_Kar-wai',
+      zh: 'https://zh.wikipedia.org/wiki/王家卫',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'If memories could be canned, would they also have expiry dates? If so, I hope they last for centuries.',
+          zh: '如果记忆也是一个罐头的话，我希望它的有效期是一万年。',
+        },
+        original: '如果记忆也是一个罐头的话，我希望它的有效期是一万年。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Chungking Express', zh: '《重庆森林》' },
+        year: 1994,
+      },
+      {
+        text: {
+          en: 'Feelings can creep up just like that. I thought I was in control.',
+          zh: '感情的事情，你不想它来的时候，它偏偏来了。我以为我能控制。',
+        },
+        original: '感情的事情，你不想它来的时候，它偏偏来了。我以为我能控制。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'In the Mood for Love', zh: '《花样年华》' },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'If there were an extra ticket, would you come with me?',
+          zh: '如果多一张船票，你会不会跟我走？',
+        },
+        original: '如果多一张船票，你会不会跟我走？',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'In the Mood for Love', zh: '《花样年华》' },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'The thing about falling in love is, you never know when you started.',
+          zh: '恋爱这种事，你永远不知道是什么时候开始的。',
+        },
+        original: '恋爱这种事，你永远不知道是什么时候开始的。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Fallen Angels', zh: '《堕落天使》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'We are all unlucky in love sometimes. When I am, I go jogging. The body loses water when you jog, so you have none left for tears.',
+          zh: '我们都有失恋的时候。失恋的时候我就去跑步，跑步的时候身体在出水，就没有多余的水分流泪了。',
+        },
+        original: '我们都有失恋的时候。失恋的时候我就去跑步，跑步的时候身体在出水，就没有多余的水分流泪了。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Chungking Express', zh: '《重庆森林》' },
+        year: 1994,
+      },
+    ],
+  },
+  {
+    slug: 'stanley-kubrick',
+    name: { en: 'Stanley Kubrick', zh: '斯坦利·库布里克' },
+    years: '1928–1999',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Perfectionist filmmaker whose genre-defining works across science fiction, horror, and war cinema set unmatched standards for visual storytelling.',
+      zh: '完美主义电影大师，在科幻、恐怖和战争类型片中定义了视觉叙事的至高标准。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Stanley_Kubrick',
+      zh: 'https://zh.wikipedia.org/wiki/斯坦利·库布里克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'However vast the darkness, we must supply our own light.',
+          zh: '无论黑暗多么广袤，我们都必须提供自己的光。',
+        },
+        original: 'However vast the darkness, we must supply our own light.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Playboy, September 1968',
+          zh: '《花花公子》采访，1968年9月',
+        },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'A film is — or should be — more like music than like fiction. It should be a progression of moods and feelings.',
+          zh: '一部电影是——或者说应该是——更像音乐而非小说。它应该是情绪和感受的递进。',
+        },
+        original: 'A film is — or should be — more like music than like fiction. It should be a progression of moods and feelings.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Sight & Sound interview', zh: '《视与听》采访' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'The most terrifying fact about the universe is not that it is hostile but that it is indifferent.',
+          zh: '关于宇宙最可怕的事实不是它充满敌意，而是它漠不关心。',
+        },
+        original: 'The most terrifying fact about the universe is not that it is hostile but that it is indifferent.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Playboy, September 1968',
+          zh: '《花花公子》采访，1968年9月',
+        },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'If it can be written, or thought, it can be filmed.',
+          zh: '如果它能被写出来或被想到，它就能被拍成电影。',
+        },
+        original: 'If it can be written, or thought, it can be filmed.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'I never learned anything at all in school and didn\'t read a book for pleasure until I was 19 years old.',
+          zh: '我在学校里什么也没学到，直到19岁才为了兴趣读了一本书。',
+        },
+        original: 'I never learned anything at all in school and didn\'t read a book for pleasure until I was 19 years old.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Playboy, September 1968',
+          zh: '《花花公子》采访，1968年9月',
+        },
+        year: 1968,
+      },
+    ],
+  },
+  {
+    slug: 'federico-fellini',
+    name: { en: 'Federico Fellini', zh: '费德里科·费里尼' },
+    years: '1920–1993',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian maestro whose fantastical, autobiographical films like 8 1/2 and La Dolce Vita blurred the line between dream and reality.',
+      zh: '意大利电影大师，以《八部半》和《甜蜜的生活》等奇幻的自传体影片模糊了梦境与现实的界限。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Federico_Fellini',
+      zh: 'https://zh.wikipedia.org/wiki/费德里科·费里尼',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'All art is autobiographical. The pearl is the oyster\'s autobiography.',
+          zh: '所有的艺术都是自传性的。珍珠是牡蛎的自传。',
+        },
+        original: 'All art is autobiographical. The pearl is the oyster\'s autobiography.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Atlantic Monthly interview, 1965',
+          zh: '《大西洋月刊》采访，1965年',
+        },
+        year: 1965,
+      },
+      {
+        text: {
+          en: 'Realism is a bad word. In a sense everything is realistic. I see no line between the imaginary and the real.',
+          zh: '现实主义是一个糟糕的词。从某种意义上说，一切都是现实的。我看不到想象与真实之间的界限。',
+        },
+        original: 'Realism is a bad word. In a sense everything is realistic. I see no line between the imaginary and the real.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Atlantic Monthly interview, 1965',
+          zh: '《大西洋月刊》采访，1965年',
+        },
+        year: 1965,
+      },
+      {
+        text: {
+          en: 'There is no end. There is no beginning. There is only the infinite passion of life.',
+          zh: '没有终点，没有起点，只有生命无尽的激情。',
+        },
+        original: 'There is no end. There is no beginning. There is only the infinite passion of life.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'Even the most miserable life is better than a sheltered existence in an organized society where everything is calculated and perfected.',
+          zh: '即使是最悲惨的生活，也比一个一切都被计算和完善的有组织社会中的受庇护的存在要好。',
+        },
+        original: 'Even the most miserable life is better than a sheltered existence in an organized society where everything is calculated and perfected.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Fellini on Fellini',
+          zh: '《费里尼谈费里尼》',
+        },
+        year: 1976,
+      },
+      {
+        text: {
+          en: 'You exist only in what you do.',
+          zh: '你只存在于你所做的事情之中。',
+        },
+        original: 'You exist only in what you do.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, from interviews',
+          zh: '综合采访的引用',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'alfred-hitchcock',
+    name: { en: 'Alfred Hitchcock', zh: '阿尔弗雷德·希区柯克' },
+    years: '1899–1980',
+    nationality: { en: 'British-American', zh: '英裔美国人' },
+    bio: {
+      en: 'Master of suspense whose meticulous craft in Psycho, Vertigo, and Rear Window defined the thriller genre and influenced generations.',
+      zh: '悬疑大师，在《惊魂记》《迷魂记》和《后窗》中的精湛技艺定义了惊悚片类型并影响了数代人。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Alfred_Hitchcock',
+      zh: 'https://zh.wikipedia.org/wiki/阿尔弗雷德·希区柯克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'There is no terror in the bang, only in the anticipation of it.',
+          zh: '恐惧不在于爆炸本身，而在于对它的期待。',
+        },
+        original: 'There is no terror in the bang, only in the anticipation of it.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in Alfred Hitchcock: A Life in Darkness and Light by Patrick McGilligan',
+          zh: '引自帕特里克·麦吉利根《阿尔弗雷德·希区柯克：光影人生》',
+        },
+      },
+      {
+        text: {
+          en: 'Drama is life with the dull bits cut out.',
+          zh: '戏剧就是删去无聊部分的人生。',
+        },
+        original: 'Drama is life with the dull bits cut out.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'In feature films the director is God; in documentary films God is the director.',
+          zh: '在故事片中导演是上帝；在纪录片中上帝是导演。',
+        },
+        original: 'In feature films the director is God; in documentary films God is the director.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'The length of a film should be directly related to the endurance of the human bladder.',
+          zh: '一部电影的长度应该与人类膀胱的耐力直接相关。',
+        },
+        original: 'The length of a film should be directly related to the endurance of the human bladder.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'Give them pleasure — the same pleasure they have when they wake up from a nightmare.',
+          zh: '给他们快感——和他们从噩梦中醒来时一样的快感。',
+        },
+        original: 'Give them pleasure — the same pleasure they have when they wake up from a nightmare.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'martin-scorsese',
+    name: { en: 'Martin Scorsese', zh: '马丁·斯科塞斯' },
+    years: '1942–',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'One of the defining filmmakers of New Hollywood, known for visceral explorations of violence, faith, and identity in Taxi Driver, Goodfellas, and Raging Bull.',
+      zh: '新好莱坞最重要的电影人之一，以《出租车司机》《好家伙》和《愤怒的公牛》中对暴力、信仰与身份的深刻探索著称。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Martin_Scorsese',
+      zh: 'https://zh.wikipedia.org/wiki/马丁·斯科塞斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Cinema is a matter of what\'s in the frame and what\'s out.',
+          zh: '电影是关于画面之内和画面之外的艺术。',
+        },
+        original: 'Cinema is a matter of what\'s in the frame and what\'s out.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in Scorsese on Scorsese by David Thompson',
+          zh: '引自大卫·汤普森《斯科塞斯论斯科塞斯》',
+        },
+      },
+      {
+        text: {
+          en: 'The most personal is the most creative.',
+          zh: '最个人的就是最有创造力的。',
+        },
+        original: 'The most personal is the most creative.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Paraphrased from various interviews',
+          zh: '综合多次采访的概述',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'david-lynch',
+    name: { en: 'David Lynch', zh: '大卫·林奇' },
+    years: '1946–2025',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Enigmatic auteur whose surreal, dreamlike worlds in Mulholland Drive, Blue Velvet, and Twin Peaks explored the uncanny darkness beneath everyday life.',
+      zh: '神秘的电影作者，以《穆赫兰道》《蓝丝绒》和《双峰》中超现实的梦境世界探索日常生活之下的诡异黑暗。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/David_Lynch',
+      zh: 'https://zh.wikipedia.org/wiki/大卫·林奇',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Ideas are like fish. If you want to catch little fish, you can stay in the shallow water. But if you want to catch the big fish, you\'ve got to go deeper.',
+          zh: '创意就像鱼。如果你想抓小鱼，你可以待在浅水区。但如果你想抓到大鱼，你得潜入深处。',
+        },
+        original: 'Ideas are like fish. If you want to catch little fish, you can stay in the shallow water. But if you want to catch the big fish, you\'ve got to go deeper.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Catching the Big Fish', zh: '《捕捉大鱼》' },
+        year: 2006,
+      },
+      {
+        text: {
+          en: 'Stories hold conflict and contrast, tension and release. All these things can be thought of as music.',
+          zh: '故事包含冲突与对比、张力与释放。所有这些都可以被视为音乐。',
+        },
+        original: 'Stories hold conflict and contrast, tension and release. All these things can be thought of as music.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Catching the Big Fish', zh: '《捕捉大鱼》' },
+        year: 2006,
+      },
+    ],
+  },
+  {
+    slug: 'wim-wenders',
+    name: { en: 'Wim Wenders', zh: '维姆·文德斯' },
+    years: '1945–',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German director whose contemplative road films and meditations on time, place, and longing — from Paris, Texas to Wings of Desire — bridge European art cinema and American landscapes.',
+      zh: '德国导演，从《德州巴黎》到《柏林苍穹下》，以沉思性的公路电影和对时间、地点与渴望的冥想架起欧洲艺术电影与美国风景之间的桥梁。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Wim_Wenders',
+      zh: 'https://zh.wikipedia.org/wiki/维姆·文德斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Any image can be a beginning.',
+          zh: '任何一个影像都可以是一个开始。',
+        },
+        original: 'Any image can be a beginning.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Logic of Images',
+          zh: '《影像的逻辑》',
+        },
+        year: 1991,
+      },
+      {
+        text: {
+          en: 'The more opinions you have, the less you see.',
+          zh: '你有越多的成见，你看到的就越少。',
+        },
+        original: 'The more opinions you have, the less you see.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Act of Seeing',
+          zh: '《观看的行为》',
+        },
+        year: 1997,
+      },
+    ],
+  },
+  {
+    slug: 'jean-luc-godard',
+    name: { en: 'Jean-Luc Godard', zh: '让-吕克·戈达尔' },
+    years: '1930–2022',
+    nationality: { en: 'Franco-Swiss', zh: '法国-瑞士' },
+    bio: {
+      en: 'Iconoclastic pioneer of the French New Wave whose radical experiments with narrative and form in Breathless and Contempt forever changed cinema.',
+      zh: '法国新浪潮的反叛先驱，在《精疲力尽》和《蔑视》中对叙事与形式的激进实验永远改变了电影。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Jean-Luc_Godard',
+      zh: 'https://zh.wikipedia.org/wiki/让-吕克·戈达尔',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Cinema is truth twenty-four times per second.',
+          zh: '电影是每秒二十四格的真理。',
+        },
+        original: 'Cinema is truth twenty-four times per second.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Le Petit Soldat', zh: '《小兵》' },
+        year: 1963,
+      },
+      {
+        text: {
+          en: 'A story should have a beginning, a middle, and an end, but not necessarily in that order.',
+          zh: '一个故事应该有开头、中间和结尾，但不一定按这个顺序。',
+        },
+        original: 'A story should have a beginning, a middle, and an end, but not necessarily in that order.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'It\'s not where you take things from — it\'s where you take them to.',
+          zh: '重要的不是你从哪里拿来的东西——而是你把它们带到了哪里。',
+        },
+        original: 'It\'s not where you take things from — it\'s where you take them to.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, from various interviews',
+          zh: '综合多次采访的引用',
+        },
+      },
+      {
+        text: {
+          en: 'To be or not to be. That\'s not really a question.',
+          zh: '生存还是毁灭，这其实不是一个问题。',
+        },
+        original: 'To be or not to be. That\'s not really a question.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+      {
+        text: {
+          en: 'All you need for a movie is a gun and a girl.',
+          zh: '拍电影你只需要一把枪和一个女孩。',
+        },
+        original: 'All you need for a movie is a gun and a girl.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广为流传的引用',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'francois-truffaut',
+    name: { en: 'Francois Truffaut', zh: '弗朗索瓦·特吕弗' },
+    years: '1932–1984',
+    nationality: { en: 'French', zh: '法国' },
+    bio: {
+      en: 'Central figure of the French New Wave whose autobiographical Antoine Doinel films and passionate criticism championed cinema as a deeply personal art.',
+      zh: '法国新浪潮核心人物，以自传体安托万·杜瓦内尔系列影片和充满激情的影评倡导电影作为深刻的个人艺术。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Fran%C3%A7ois_Truffaut',
+      zh: 'https://zh.wikipedia.org/wiki/弗朗索瓦·特吕弗',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'An actor is never so great as when he reminds you of an animal — falling like a cat, moving like a fox, holding still like a snake.',
+          zh: '演员最伟大的时刻，是当他让你想起一种动物——像猫一样跌落，像狐狸一样移动，像蛇一样静止。',
+        },
+        original: 'An actor is never so great as when he reminds you of an animal — falling like a cat, moving like a fox, holding still like a snake.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Hitchcock/Truffaut',
+          zh: '《希区柯克与特吕弗对话录》',
+        },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'When humor can be made to alternate with melancholy, one has a success, but when the same things are funny and melancholic at the same time, it\'s just wonderful.',
+          zh: '当幽默与忧郁能够交替出现时，你就成功了；但当同一件事同时是有趣的和忧郁的，那就是了不起的。',
+        },
+        original: 'When humor can be made to alternate with melancholy, one has a success, but when the same things are funny and melancholic at the same time, it\'s just wonderful.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in Truffaut by Antoine de Baecque and Serge Toubiana',
+          zh: '引自安托万·德·贝克与塞尔日·图比亚纳《特吕弗传》',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'hayao-miyazaki',
+    name: { en: 'Hayao Miyazaki', zh: '宫崎骏' },
+    years: '1941–',
+    nationality: { en: 'Japanese', zh: '日本' },
+    bio: {
+      en: 'Legendary animator and co-founder of Studio Ghibli whose enchanting worlds in Spirited Away and My Neighbor Totoro celebrate nature, childhood, and the resilience of the human spirit.',
+      zh: '传奇动画大师、吉卜力工作室联合创始人，以《千与千寻》和《龙猫》中的奇幻世界颂扬自然、童年与人类精神的韧性。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Hayao_Miyazaki',
+      zh: 'https://zh.wikipedia.org/wiki/宫崎骏',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I would like to make a film to tell children "it\'s good to be alive."',
+          zh: '我想制作一部能告诉孩子们"活着真好"的电影。',
+        },
+        original: 'I would like to make a film to tell children "it\'s good to be alive."',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Starting Point: 1979–1996',
+          zh: '《出发点：1979–1996》',
+        },
+        year: 1996,
+      },
+      {
+        text: {
+          en: 'Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.',
+          zh: '永远相信自己。做到这一点，无论身在何处，你都无所畏惧。',
+        },
+        original: 'Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Art of Spirited Away',
+          zh: '《千与千寻的艺术》',
+        },
+        year: 2001,
+      },
+      {
+        text: {
+          en: 'The creation of a single world comes from a huge number of fragments and chaos.',
+          zh: '一个世界的创造来自于大量的碎片和混沌。',
+        },
+        original: 'The creation of a single world comes from a huge number of fragments and chaos.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Starting Point: 1979–1996',
+          zh: '《出发点：1979–1996》',
+        },
+        year: 1996,
+      },
+      {
+        text: {
+          en: 'To see with eyes unclouded by hate.',
+          zh: '用不被仇恨蒙蔽的眼睛去看。',
+        },
+        original: 'To see with eyes unclouded by hate.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Princess Mononoke (Ashitaka\'s line)',
+          zh: '《幽灵公主》（阿席达卡的台词）',
+        },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'I\'ve become skeptical of the unwritten rule that just because a boy and girl appear in the same feature, a romance must ensue. Rather, I want to portray a slightly different relationship, one where the two mutually inspire each other to live.',
+          zh: '我开始质疑那条不成文的规则——只要一个男孩和一个女孩出现在同一部作品中，就一定会有恋爱。我想描绘一种略微不同的关系，一种两人相互激励彼此去生活的关系。',
+        },
+        original: 'I\'ve become skeptical of the unwritten rule that just because a boy and girl appear in the same feature, a romance must ensue. Rather, I want to portray a slightly different relationship, one where the two mutually inspire each other to live.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Starting Point: 1979–1996',
+          zh: '《出发点：1979–1996》',
+        },
+        year: 1996,
+      },
+    ],
+  },
+  {
+    slug: 'abbas-kiarostami',
+    name: { en: 'Abbas Kiarostami', zh: '阿巴斯·基亚罗斯塔米' },
+    years: '1940–2016',
+    nationality: { en: 'Iranian', zh: '伊朗' },
+    bio: {
+      en: 'Iranian master whose deceptively simple films like Taste of Cherry and Close-Up dissolved the boundary between documentary and fiction.',
+      zh: '伊朗电影大师，以《樱桃的滋味》和《特写》等看似简单的影片消融了纪录片与虚构的界限。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Abbas_Kiarostami',
+      zh: 'https://zh.wikipedia.org/wiki/阿巴斯·基亚罗斯塔米',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I prefer the films that put their audience to sleep in the theatre. I think those films are sufficiently brave to allow you an absolutely free association with what you are watching.',
+          zh: '我更喜欢那些让观众在影院里睡着的电影。我认为这些电影足够勇敢，能让你对所看到的进行完全自由的联想。',
+        },
+        original: 'I prefer the films that put their audience to sleep in the theatre. I think those films are sufficiently brave to allow you an absolutely free association with what you are watching.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Guardian interview, 2005',
+          zh: '《卫报》采访，2005年',
+        },
+        year: 2005,
+      },
+      {
+        text: {
+          en: 'We can never get close to the truth except through lying.',
+          zh: '除了通过撒谎，我们永远无法接近真相。',
+        },
+        original: 'We can never get close to the truth except through lying.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Lessons with Kiarostami',
+          zh: '《基亚罗斯塔米的课》',
+        },
+        year: 2015,
+      },
+    ],
+  },
+  {
+    slug: 'werner-herzog',
+    name: { en: 'Werner Herzog', zh: '维尔纳·赫尔佐格' },
+    years: '1942–',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'Fearless German filmmaker whose obsessive pursuit of ecstatic truth, from Aguirre to Grizzly Man, blurs the line between madness and art.',
+      zh: '无所畏惧的德国电影人，从《阿基尔，上帝的愤怒》到《灰熊人》，对狂喜真理的执着追求模糊了疯狂与艺术的界线。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Werner_Herzog',
+      zh: 'https://zh.wikipedia.org/wiki/维尔纳·赫尔佐格',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I believe the common denominator of the universe is not harmony, but chaos, hostility, and murder.',
+          zh: '我相信宇宙的共同主题不是和谐，而是混沌、敌意和杀戮。',
+        },
+        original: 'I believe the common denominator of the universe is not harmony, but chaos, hostility, and murder.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Burden of Dreams documentary, 1982',
+          zh: '纪录片《梦的重负》，1982年',
+        },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'Facts do not convey truth. That\'s a misunderstanding of what truth is. Facts create norms, but truth illuminates.',
+          zh: '事实并不传达真理。这是对真理的一种误解。事实创造规范，但真理带来启示。',
+        },
+        original: 'Facts do not convey truth. That\'s a misunderstanding of what truth is. Facts create norms, but truth illuminates.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Minnesota Declaration: Truth and Fact in Documentary Cinema',
+          zh: '《明尼苏达宣言：纪录片中的真理与事实》',
+        },
+        year: 1999,
+      },
+      {
+        text: {
+          en: 'The poet must not avert his eyes. You have to take a deep breath and jump, even if you are not sure there is water below.',
+          zh: '诗人不能移开目光。你必须深吸一口气然后跳下去，即使你不确定下面有没有水。',
+        },
+        original: 'The poet must not avert his eyes. You have to take a deep breath and jump, even if you are not sure there is water below.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Paul Cronin, Werner Herzog: A Guide for the Perplexed',
+          zh: '保罗·克罗宁《维尔纳·赫尔佐格：困惑者指南》',
+        },
+        year: 2014,
+      },
+      {
+        text: {
+          en: 'I am someone who takes footsteps very seriously.',
+          zh: '我是一个非常认真对待每一步脚步的人。',
+        },
+        original: 'I am someone who takes footsteps very seriously.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Of Walking in Ice',
+          zh: '《冰中行走》',
+        },
+        year: 1978,
+      },
+      {
+        text: {
+          en: 'Civilization is like a thin layer of ice upon a deep ocean of chaos and darkness.',
+          zh: '文明就像混沌与黑暗深海上的一层薄冰。',
+        },
+        original: 'Civilization is like a thin layer of ice upon a deep ocean of chaos and darkness.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Paul Cronin, Werner Herzog: A Guide for the Perplexed',
+          zh: '保罗·克罗宁《维尔纳·赫尔佐格：困惑者指南》',
+        },
+        year: 2014,
+      },
+    ],
+  },
+  {
+    slug: 'agnes-varda',
+    name: { en: 'Agnes Varda', zh: '阿涅斯·瓦尔达' },
+    years: '1928–2019',
+    nationality: { en: 'French', zh: '法国' },
+    bio: {
+      en: 'Pioneering filmmaker and grandmother of the French New Wave whose playful, deeply humane films — from Cleo from 5 to 7 to Faces Places — celebrated ordinary people and the passage of time.',
+      zh: '先驱电影人、法国新浪潮的祖母，从《五至七时的克莱奥》到《脸庞，村庄》，以充满趣味和深刻人性的影片颂扬普通人和时光的流逝。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Agn%C3%A8s_Varda',
+      zh: 'https://zh.wikipedia.org/wiki/阿涅斯·瓦尔达',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'If we opened people up, we\'d find landscapes. If we opened me up, we\'d find beaches.',
+          zh: '如果我们打开人的内心，会发现风景。如果打开我，会发现海滩。',
+        },
+        original: 'If we opened people up, we\'d find landscapes. If we opened me up, we\'d find beaches.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Beaches of Agnes', zh: '《阿涅斯的海滩》' },
+        year: 2008,
+      },
+      {
+        text: {
+          en: 'I\'m still alive and I\'m still curious.',
+          zh: '我还活着，我仍然充满好奇。',
+        },
+        original: 'I\'m still alive and I\'m still curious.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Faces Places',
+          zh: '《脸庞，村庄》',
+        },
+        year: 2017,
+      },
+    ],
+  },
+  {
+    slug: 'edward-yang',
+    name: { en: 'Edward Yang', zh: '杨德昌' },
+    years: '1947–2007',
+    nationality: { en: 'Taiwanese', zh: '台湾' },
+    bio: {
+      en: 'Taiwanese master whose epic, intricately structured films like Yi Yi and A Brighter Summer Day captured modern urban life with novelistic depth.',
+      zh: '台湾电影大师，以《一一》和《牯岭街少年杀人事件》等结构精密的史诗影片，以小说般的深度捕捉现代都市生活。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Edward_Yang',
+      zh: 'https://zh.wikipedia.org/wiki/杨德昌',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'After watching this movie, you have lived one more life.',
+          zh: '看完这部电影，你多活了一次。',
+        },
+        original: '看完这部电影，你多活了一次。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'Concept behind Yi Yi',
+          zh: '《一一》的创作理念',
+        },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'We can only know the world half of it at a time, because we can only see in front but not behind us.',
+          zh: '我们每次只能了解世界的一半，因为我们只能看到前面看不到后面。',
+        },
+        original: '我们每次只能了解世界的一半，因为我们只能看到前面看不到后面。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Yi Yi', zh: '《一一》' },
+        year: 2000,
+        comment: {
+          en: 'Spoken by the young boy Yang-Yang in the film',
+          zh: '电影中小男孩洋洋的台词',
+        },
+      },
+      {
+        text: {
+          en: 'Cinema exists because life is not enough.',
+          zh: '电影存在是因为生活还不够。',
+        },
+        original: '电影存在是因为生活还不够。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'Attributed, from interviews',
+          zh: '综合采访的引用',
+        },
+      },
+      {
+        text: {
+          en: 'I think the purpose of film is to let people experience something they haven\'t experienced before.',
+          zh: '我认为电影的目的是让人们体验他们以前从未体验过的东西。',
+        },
+        original: '我认为电影的目的是让人们体验他们以前从未体验过的东西。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'Interview, Cannes Film Festival',
+          zh: '戛纳电影节采访',
+        },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'The more you try to explain everything with reason, the less you understand about real life.',
+          zh: '你越想用理性解释一切，你对真实生活的理解就越少。',
+        },
+        original: '你越想用理性解释一切，你对真实生活的理解就越少。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'A Brighter Summer Day press interviews',
+          zh: '《牯岭街少年杀人事件》记者采访',
+        },
+        year: 1991,
+      },
+    ],
+  },
+  {
+    slug: 'hou-hsiao-hsien',
+    name: { en: 'Hou Hsiao-hsien', zh: '侯孝贤' },
+    years: '1947–',
+    nationality: { en: 'Taiwanese', zh: '台湾' },
+    bio: {
+      en: 'Taiwanese auteur whose long takes and lyrical compositions in A City of Sadness and The Assassin contemplate history, memory, and the passing of time.',
+      zh: '台湾电影作者，以《悲情城市》和《刺客聂隐娘》中的长镜头与诗意构图沉思历史、记忆和时间的流逝。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Hou_Hsiao-hsien',
+      zh: 'https://zh.wikipedia.org/wiki/侯孝贤',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I feel that a movie shouldn\'t explain itself. People have to search, to feel what it\'s about.',
+          zh: '我觉得电影不应该解释自己。人们需要自己去探索、去感受它在讲什么。',
+        },
+        original: '我觉得电影不应该解释自己。人们需要自己去探索、去感受它在讲什么。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'Interview with Film Comment',
+          zh: '《电影评论》采访',
+        },
+      },
+      {
+        text: {
+          en: 'I always want the audience to find themselves in my films.',
+          zh: '我总是希望观众能在我的电影里找到自己。',
+        },
+        original: '我总是希望观众能在我的电影里找到自己。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: {
+          en: 'Interview, Cannes Film Festival',
+          zh: '戛纳电影节采访',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'krzysztof-kieslowski',
+    name: { en: 'Krzysztof Kieslowski', zh: '克日什托夫·基耶斯洛夫斯基' },
+    years: '1941–1996',
+    nationality: { en: 'Polish', zh: '波兰' },
+    bio: {
+      en: 'Polish filmmaker whose Dekalog and Three Colors trilogy examined moral dilemmas and the invisible threads connecting human lives with quiet, devastating power.',
+      zh: '波兰电影人，以《十诫》和《三色》三部曲审视道德困境和连接人类生活的无形纽带，以安静而毁灭性的力量著称。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Krzysztof_Kie%C5%9Blowski',
+      zh: 'https://zh.wikipedia.org/wiki/克日什托夫·基耶斯洛夫斯基',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I\'m interested in what\'s inside people. I want to photograph what can\'t be photographed — what\'s between people, what it means when they look at each other.',
+          zh: '我对人的内心世界感兴趣。我想拍摄那些无法拍摄的东西——人与人之间的东西，他们对视时的含义。',
+        },
+        original: 'I\'m interested in what\'s inside people. I want to photograph what can\'t be photographed — what\'s between people, what it means when they look at each other.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Kieslowski on Kieslowski',
+          zh: '《基耶斯洛夫斯基谈基耶斯洛夫斯基》',
+        },
+        year: 1993,
+      },
+      {
+        text: {
+          en: 'I\'m always looking for a way to show something that\'s invisible.',
+          zh: '我一直在寻找一种方式来展示那些看不见的东西。',
+        },
+        original: 'I\'m always looking for a way to show something that\'s invisible.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Kieslowski on Kieslowski',
+          zh: '《基耶斯洛夫斯基谈基耶斯洛夫斯基》',
+        },
+        year: 1993,
+      },
+    ],
+  },
+  {
+    slug: 'lars-von-trier',
+    name: { en: 'Lars von Trier', zh: '拉斯·冯·提尔' },
+    years: '1956–',
+    nationality: { en: 'Danish', zh: '丹麦' },
+    bio: {
+      en: 'Provocative Danish auteur and co-founder of Dogme 95 whose confrontational films — from Breaking the Waves to Melancholia — push cinema to its emotional and formal extremes.',
+      zh: '具有挑衅性的丹麦电影作者、道格玛95联合创始人，从《破浪》到《忧郁症》，将电影推向情感与形式的极致。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Lars_von_Trier',
+      zh: 'https://zh.wikipedia.org/wiki/拉斯·冯·提尔',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'A film should be like a stone in your shoe.',
+          zh: '一部电影应该像你鞋里的石子。',
+        },
+        original: 'A film should be like a stone in your shoe.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Various interviews',
+          zh: '综合多次采访',
+        },
+      },
+      {
+        text: {
+          en: 'I find that the only way to get through life is to have principles — and then break them.',
+          zh: '我发现度过一生的唯一方式是拥有原则——然后打破它们。',
+        },
+        original: 'I find that the only way to get through life is to have principles — and then break them.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in Trier on von Trier',
+          zh: '引自《提尔谈冯·提尔》',
+        },
+        year: 1999,
+      },
+    ],
+  },
+  {
+    slug: 'pedro-almodovar',
+    name: { en: 'Pedro Almodovar', zh: '佩德罗·阿莫多瓦尔' },
+    years: '1949–',
+    nationality: { en: 'Spanish', zh: '西班牙' },
+    bio: {
+      en: 'Spain\'s most celebrated contemporary filmmaker, whose vibrant melodramas like All About My Mother and Talk to Her explore desire, identity, and reinvention with bold emotion.',
+      zh: '西班牙当代最受赞誉的电影人，以《关于我母亲的一切》和《对她说》等色彩鲜明的情节剧大胆探索欲望、身份与自我重塑。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Pedro_Almod%C3%B3var',
+      zh: 'https://zh.wikipedia.org/wiki/佩德罗·阿莫多瓦尔',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Cinema can fill in the empty spaces of your life and your loneliness.',
+          zh: '电影能够填补你生命中的空白和你的孤独。',
+        },
+        original: 'Cinema can fill in the empty spaces of your life and your loneliness.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with El Pais',
+          zh: '《国家报》采访',
+        },
+      },
+      {
+        text: {
+          en: 'In my films I always wanted to make people react. I\'ve always wanted my characters to be free, to be able to talk about everything.',
+          zh: '在我的电影中，我一直想让人们做出反应。我一直希望我的角色是自由的，能够谈论一切。',
+        },
+        original: 'In my films I always wanted to make people react. I\'ve always wanted my characters to be free, to be able to talk about everything.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with The Guardian, 2002',
+          zh: '《卫报》采访，2002年',
+        },
+        year: 2002,
+      },
+    ],
+  },
+  {
+    slug: 'terrence-malick',
+    name: { en: 'Terrence Malick', zh: '泰伦斯·马力克' },
+    years: '1943–',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Reclusive American filmmaker whose transcendental visual poetry in The Tree of Life and The Thin Red Line meditates on nature, grace, and the meaning of existence.',
+      zh: '隐居的美国电影人，以《生命之树》和《细细的红线》中超验的视觉诗意沉思自然、恩典与存在的意义。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Terrence_Malick',
+      zh: 'https://zh.wikipedia.org/wiki/泰伦斯·马力克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I just wanted to make a film that gave you the experience of living, more than telling you a story.',
+          zh: '我只是想拍一部给你活着的体验的电影，而不是给你讲一个故事。',
+        },
+        original: 'I just wanted to make a film that gave you the experience of living, more than telling you a story.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Rare interview regarding The Tree of Life',
+          zh: '关于《生命之树》的罕见访谈',
+        },
+        year: 2011,
+      },
+      {
+        text: {
+          en: 'The world is charged with the grandeur of God.',
+          zh: '世界充满了上帝的庄严。',
+        },
+        original: 'The world is charged with the grandeur of God.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Tree of Life (quoting Gerard Manley Hopkins)',
+          zh: '《生命之树》（引用杰拉德·曼利·霍普金斯）',
+        },
+        year: 2011,
+        comment: {
+          en: 'Hopkins\' poem, central to the film\'s vision',
+          zh: '霍普金斯的诗，是影片视野的核心',
+        },
+      },
+    ],
+  },
+  {
+    slug: 'bong-joon-ho',
+    name: { en: 'Bong Joon-ho', zh: '奉俊昊' },
+    years: '1969–',
+    nationality: { en: 'South Korean', zh: '韩国' },
+    bio: {
+      en: 'South Korean filmmaker whose genre-bending masterpieces Parasite and Memories of Murder dissect class, injustice, and the absurdity of modern life with razor-sharp precision.',
+      zh: '韩国电影人，以《寄生虫》和《杀人回忆》等打破类型边界的杰作，用犀利的精准解剖阶级、不公与现代生活的荒谬。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Bong_Joon-ho',
+      zh: 'https://zh.wikipedia.org/wiki/奉俊昊',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films.',
+          zh: '一旦你跨越了字幕那一英寸高的障碍，你会发现更多令人惊叹的电影。',
+        },
+        original: 'Once you overcome the one-inch-tall barrier of subtitles, you will be introduced to so many more amazing films.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Golden Globes acceptance speech',
+          zh: '金球奖获奖感言',
+        },
+        year: 2020,
+      },
+      {
+        text: {
+          en: 'I\'m a very selfish filmmaker. I make films for me. And then I share them with the audience.',
+          zh: '我是一个非常自私的电影人。我为自己拍电影。然后与观众分享。',
+        },
+        original: 'I\'m a very selfish filmmaker. I make films for me. And then I share them with the audience.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Variety, 2019',
+          zh: '《综艺》杂志采访，2019年',
+        },
+        year: 2019,
+      },
+    ],
+  },
+  {
+    slug: 'denis-villeneuve',
+    name: { en: 'Denis Villeneuve', zh: '丹尼斯·维伦纽瓦' },
+    years: '1967–',
+    nationality: { en: 'Canadian', zh: '加拿大' },
+    bio: {
+      en: 'Quebecois filmmaker whose immersive, cerebral science fiction — from Arrival to Dune — balances spectacle with profound emotional and philosophical depth.',
+      zh: '魁北克电影人，从《降临》到《沙丘》，以沉浸式、充满思辨的科幻片在壮观场面与深刻的情感和哲学深度之间取得平衡。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Denis_Villeneuve',
+      zh: 'https://zh.wikipedia.org/wiki/丹尼斯·维伦纽瓦',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Cinema is an art of time. You can play with time in cinema — you can compress it or expand it. That\'s the magic of cinema.',
+          zh: '电影是时间的艺术。你可以在电影中玩弄时间——压缩它或扩展它。这就是电影的魔力。',
+        },
+        original: 'Cinema is an art of time. You can play with time in cinema — you can compress it or expand it. That\'s the magic of cinema.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Deadline, 2021',
+          zh: '《截止日期》采访，2021年',
+        },
+        year: 2021,
+      },
+      {
+        text: {
+          en: 'I love to put the audience in a state of dreaming. I want people to come out of the movie theatre and feel like they need to readjust to reality.',
+          zh: '我喜欢让观众进入一种梦境状态。我希望人们走出电影院时感觉需要重新适应现实。',
+        },
+        original: 'I love to put the audience in a state of dreaming. I want people to come out of the movie theatre and feel like they need to readjust to reality.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with IndieWire, 2017',
+          zh: '《IndieWire》采访，2017年',
+        },
+        year: 2017,
+      },
+    ],
+  },
+  {
+    slug: 'chloe-zhao',
+    name: { en: 'Chloe Zhao', zh: '赵婷' },
+    years: '1982–',
+    nationality: { en: 'Chinese-American', zh: '华裔美国人' },
+    bio: {
+      en: 'Chinese-born filmmaker whose naturalistic, poetic vision in Nomadland and The Rider finds grace and resilience in the overlooked corners of America.',
+      zh: '中国出生的电影人，以《无依之地》和《骑士》中自然主义的诗意视角，在美国被忽视的角落中发现优雅与坚韧。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Chlo%C3%A9_Zhao',
+      zh: 'https://zh.wikipedia.org/wiki/赵婷',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I fell in love with the American West. For someone from China, the vast emptiness was something I could breathe in.',
+          zh: '我爱上了美国西部。对于一个来自中国的人来说，那广袤的空旷是我可以尽情呼吸的。',
+        },
+        original: '我爱上了美国西部。对于一个来自中国的人来说，那广袤的空旷是我可以尽情呼吸的。',
+        originalLang: 'en',
+        source: {
+          en: 'Interview with The New York Times, 2021',
+          zh: '《纽约时报》采访，2021年',
+        },
+        year: 2021,
+      },
+      {
+        text: {
+          en: 'Compassion is the breakdown of all the barriers between us. A heart that is open to everything.',
+          zh: '慈悲是打破我们之间一切障碍。一颗对万物敞开的心。',
+        },
+        original: '慈悲是打破我们之间一切障碍。一颗对万物敞开的心。',
+        originalLang: 'en',
+        source: {
+          en: 'Academy Awards acceptance speech',
+          zh: '奥斯卡获奖感言',
+        },
+        year: 2021,
+      },
+    ],
+  },
+  {
+    slug: 'yasujiro-ozu',
+    name: { en: 'Yasujirō Ozu', zh: '小津安二郎' },
+    years: '1903–1963',
+    nationality: { en: 'Japanese', zh: '日本' },
+    bio: {
+      en: 'Filmmaker whose serene domestic dramas, told through his signature low-angle "tatami shots" and rigorous visual grammar, revealed the profound depths of ordinary family life.',
+      zh: '电影导演，以标志性的低角度"榻榻米镜头"和严谨的视觉语法讲述宁静的家庭剧，揭示了平凡家庭生活的深邃。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Yasujir%C5%8D_Ozu',
+      zh: 'https://zh.wikipedia.org/wiki/小津安二郎',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I try to depict only the surface of human beings. But in the deepest layer of that surface is something quite universal.',
+          zh: '我只试图描绘人的表面。但在那个表面最深的层次里，有着相当普遍的东西。',
+        },
+        original: '人間の表面だけを撮ろうとしているが、その表面の最も深い層には、かなり普遍的なものがある。',
+        originalLang: 'ja',
+        source: { en: 'Interview, Kinema Junpo', zh: '《电影旬报》采访' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'I want to make people feel what life is like without delineating all the dramatic ups and downs.',
+          zh: '我想让人们感受生活是什么样的，而不必勾勒所有戏剧性的起伏。',
+        },
+        originalLang: 'ja',
+        source: { en: 'Interview', zh: '采访' },
+        year: 1959,
+      },
+      {
+        text: {
+          en: 'Nothingness.',
+          zh: '无。',
+        },
+        original: '無',
+        originalLang: 'ja',
+        source: { en: 'Inscription on his gravestone, Engaku-ji temple', zh: '刻于圆觉寺墓碑上' },
+        year: 1963,
+        comment: {
+          en: 'A single character meaning "mu" (nothingness/void), central to Zen Buddhism. Ozu chose this as the only inscription on his grave.',
+          zh: '一个字"无"（虚无/空），是禅宗的核心概念。小津选择这个字作为墓碑上唯一的铭文。',
+        },
+      },
+    ],
+  },
+];
