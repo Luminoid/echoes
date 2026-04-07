@@ -2,7 +2,7 @@
   import type { Locale, Category } from '$lib/data/types';
   import { categoryList } from '$lib/data/types';
   import { t, localePath } from '$lib/i18n/translations';
-  import { getPeopleByCategory, getCategoryInfo } from '$lib/data';
+  import { getPeopleByCategory, getCategoryInfo, shuffle } from '$lib/data';
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import HeroSection from '$lib/components/HeroSection.svelte';
@@ -43,7 +43,7 @@
         </div>
 
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {#each people.slice(0, 3) as person}
+          {#each shuffle(people).slice(0, 3) as person}
             <PersonCard {person} category={cat.key} {locale} />
           {/each}
         </div>

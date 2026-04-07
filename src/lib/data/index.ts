@@ -69,7 +69,12 @@ function resolveQuote(q: QuoteData, locale: Locale): Quote {
   };
 }
 
+const localeTag: Record<Locale, string> = { en: 'en', zh: 'zh-Hans' };
+
 function resolvePerson(data: PersonData, locale: Locale): Person {
+  const quotes = data.quotes
+    .map((q) => resolveQuote(q, locale))
+    .sort((a, b) => (a.year ?? Infinity) - (b.year ?? Infinity));
   return {
     slug: data.slug,
     name: data.name[locale],
@@ -77,12 +82,14 @@ function resolvePerson(data: PersonData, locale: Locale): Person {
     nationality: data.nationality[locale],
     bio: data.bio[locale],
     wikipedia: data.wikipedia?.[locale],
-    quotes: data.quotes.map((q) => resolveQuote(q, locale)),
+    quotes,
   };
 }
 
 export function getPeopleByCategory(category: Category, locale: Locale): Person[] {
-  return (categoryMap[category] ?? []).map((p) => resolvePerson(p, locale));
+  return (categoryMap[category] ?? [])
+    .map((p) => resolvePerson(p, locale))
+    .sort((a, b) => a.name.localeCompare(b.name, localeTag[locale]));
 }
 
 export function getPersonBySlug(
@@ -110,6 +117,15 @@ export function getCategoryInfo(category: Category, locale: Locale) {
   };
 }
 
+export function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export function getFeaturedQuotes(locale: Locale, count: number = 5) {
   const all = getAllPeopleData();
   const featured: { person: Person; quote: Quote; category: Category }[] = [];
@@ -125,16 +141,5 @@ export function getFeaturedQuotes(locale: Locale, count: number = 5) {
     }
   }
 
-  // Deterministic shuffle based on date (changes daily)
-  const today = new Date().toISOString().slice(0, 10);
-  let seed = 0;
-  for (const ch of today) seed = (seed * 31 + ch.charCodeAt(0)) & 0x7fffffff;
-
-  for (let i = featured.length - 1; i > 0; i--) {
-    seed = (seed * 16807) % 2147483647;
-    const j = seed % (i + 1);
-    [featured[i], featured[j]] = [featured[j], featured[i]];
-  }
-
-  return featured.slice(0, count);
+  return shuffle(featured).slice(0, count);
 }

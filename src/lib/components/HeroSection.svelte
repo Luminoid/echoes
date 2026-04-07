@@ -5,8 +5,8 @@
 
   let { locale }: { locale: Locale } = $props();
 
-  const featured = getFeaturedQuotes(locale, 1);
-  const hero = featured[0];
+  let featured = $derived(getFeaturedQuotes(locale, 1));
+  let hero = $derived(featured[0]);
 </script>
 
 <section class="flex min-h-[70vh] flex-col items-center justify-center px-6 pt-24 text-center">
