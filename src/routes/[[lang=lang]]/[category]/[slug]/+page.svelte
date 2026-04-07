@@ -9,9 +9,9 @@
   import BackLink from '$lib/components/BackLink.svelte';
 
   let { data } = $props();
-  const locale: Locale = data.locale;
-  const category: Category = data.category;
-  const person: Person = data.person;
+  let locale = $derived(data.locale as Locale);
+  let category = $derived(data.category as Category);
+  let person = $derived(data.person as Person);
 </script>
 
 <svelte:head>

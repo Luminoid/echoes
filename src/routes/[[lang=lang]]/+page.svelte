@@ -9,7 +9,7 @@
   import PersonCard from '$lib/components/PersonCard.svelte';
 
   let { data } = $props();
-  const locale: Locale = data.locale;
+  let locale = $derived(data.locale as Locale);
 </script>
 
 <svelte:head>

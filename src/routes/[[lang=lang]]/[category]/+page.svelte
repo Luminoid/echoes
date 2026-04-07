@@ -10,10 +10,10 @@
   import FilterInput from '$lib/components/FilterInput.svelte';
 
   let { data } = $props();
-  const locale: Locale = data.locale;
-  const category: Category = data.category;
-  const people: Person[] = data.people;
-  const info = getCategoryInfo(category, locale);
+  let locale = $derived(data.locale as Locale);
+  let category = $derived(data.category as Category);
+  let people = $derived(data.people as Person[]);
+  let info = $derived(getCategoryInfo(category, locale));
 
   let filter = $state('');
   let filtered = $derived(
