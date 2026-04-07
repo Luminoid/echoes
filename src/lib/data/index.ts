@@ -74,7 +74,7 @@ const localeTag: Record<Locale, string> = { en: 'en', zh: 'zh-Hans' };
 function resolvePerson(data: PersonData, locale: Locale): Person {
   const quotes = data.quotes
     .map((q) => resolveQuote(q, locale))
-    .sort((a, b) => (a.year ?? Infinity) - (b.year ?? Infinity));
+    .sort((a, b) => (a.year ?? Infinity) - (b.year ?? Infinity) || a.sourceOriginal.localeCompare(b.sourceOriginal));
   return {
     slug: data.slug,
     name: data.name[locale],

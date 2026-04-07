@@ -12,6 +12,13 @@
   let { data } = $props();
   let locale = $derived(data.locale as Locale);
 
+  // Pick 3 random slugs per category once (stable across locale switches)
+  const selectedSlugs: Record<string, string[]> = {};
+  for (const cat of categoryList) {
+    const people = getPeopleByCategory(cat.key, 'en');
+    selectedSlugs[cat.key] = shuffle(people).slice(0, 3).map((p) => p.slug);
+  }
+
   let enUrl = $derived(`${page.url.origin}/`);
   let zhUrl = $derived(`${page.url.origin}/zh/`);
   let canonicalUrl = $derived(locale === 'en' ? enUrl : zhUrl);
@@ -61,7 +68,7 @@
         </div>
 
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {#each shuffle(people).slice(0, 3) as person}
+          {#each people.filter((p) => selectedSlugs[cat.key].includes(p.slug)) as person}
             <PersonCard {person} category={cat.key} {locale} />
           {/each}
         </div>

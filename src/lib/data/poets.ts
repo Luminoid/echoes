@@ -56,7 +56,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Village', zh: '《村庄》' },
-        year: 1984,
+        year: 1986,
       },
       {
         text: {
