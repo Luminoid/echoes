@@ -92,8 +92,8 @@ export const artistData: PersonData[] = [
         },
         original: 'Ik zoek, ik streef, ik zit er met heel mijn hart in.',
         originalLang: 'nl',
-        source: { en: 'Letter to Theo van Gogh, 1878', zh: '致提奥·梵高的信，1878年' },
-        year: 1878,
+        source: { en: 'Letter to Theo van Gogh, 1882', zh: '致提奥·梵高的信，1882年' },
+        year: 1882,
       },
       {
         text: {
@@ -112,17 +112,8 @@ export const artistData: PersonData[] = [
         },
         original: 'Er is niets waardiger kunstig dan de mensen lief te hebben.',
         originalLang: 'nl',
-        source: { en: 'Letter to Theo van Gogh, 1880', zh: '致提奥·梵高的信，1880年' },
-        year: 1880,
-      },
-      {
-        text: {
-          en: 'Normality is a paved road: it\'s comfortable to walk, but no flowers grow.',
-          zh: '正常就像一条铺好的路：走起来舒服，但不长花。',
-        },
-        original: 'Normality is a paved road: it\'s comfortable to walk, but no flowers grow.',
-        originalLang: 'en',
-        source: { en: 'Misattributed to Van Gogh; origin unknown (earliest citation 2009)', zh: '常被误归于梵高；出处不明（最早引用见于2009年）' },
+        source: { en: 'Letter to Theo van Gogh, 1888', zh: '致提奥·梵高的信，1888年' },
+        year: 1888,
       },
       {
         text: {
@@ -178,28 +169,11 @@ export const artistData: PersonData[] = [
           en: 'Feet, what do I need you for when I have wings to fly?',
           zh: '脚，我要你们做什么？我有翅膀可以飞翔。',
         },
-        original: 'Feet, what do I need you for when I have wings to fly?',
-        originalLang: 'en',
+        original: 'Pies, ¿para qué los quiero si tengo alas pa\' volar?',
+        originalLang: 'es',
         originalLocale: 'en',
         source: { en: 'Frida Kahlo\'s diary', zh: '弗里达·卡罗的日记' },
         year: 1953,
-      },
-      {
-        text: {
-          en: 'I used to think I was the strangest person in the world but then I thought there are so many people in the world, there must be someone just like me.',
-          zh: '我曾以为自己是世界上最奇怪的人，但后来我想，世界上有这么多人，一定有一个和我一样的人。',
-        },
-        original: 'I used to think I was the strangest person in the world but then I thought there are so many people in the world, there must be someone just like me.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'The Diary of Frida Kahlo: An Intimate Self-Portrait',
-          zh: '《弗里达·卡罗的日记：亲密的自画像》',
-        },
-        comment: {
-          en: 'Not by Frida Kahlo. This text was written by Rebecca Katherine Martin for PostSecret in 2008 and widely misattributed after being placed over a Kahlo photo.',
-          zh: '并非弗里达·卡罗所写。此文由丽贝卡·凯瑟琳·马丁于2008年为PostSecret创作，被放在卡罗的照片上后被广泛错误归属。',
-        },
       },
       {
         text: {
@@ -269,32 +243,6 @@ export const artistData: PersonData[] = [
         source: {
           en: 'Quoted in Roland Penrose, Picasso: His Life and Work',
           zh: '引自罗兰·彭罗斯《毕加索：他的生平与作品》',
-        },
-      },
-      {
-        text: {
-          en: 'The purpose of art is washing the dust of daily life off our souls.',
-          zh: '艺术的目的是洗去我们灵魂上日常生活的尘埃。',
-        },
-        original: 'The purpose of art is washing the dust of daily life off our souls.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Misattributed to Picasso; adapted from Berthold Auerbach (on music, 1864), attributed to Picasso in Playboy, 1964',
-          zh: '常被误归于毕加索；改编自贝托尔德·奥尔巴赫（论音乐，1864年），1964年《花花公子》将其归于毕加索',
-        },
-      },
-      {
-        text: {
-          en: 'Learn the rules like a pro, so you can break them like an artist.',
-          zh: '像专家一样学习规则，这样你才能像艺术家一样打破它们。',
-        },
-        original: 'Learn the rules like a pro, so you can break them like an artist.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Misattributed to Picasso; no verified source (also attributed to Dalai Lama)',
-          zh: '常被误归于毕加索；无确认来源（亦被归于达赖喇嘛）',
         },
       },
       {
@@ -606,7 +554,7 @@ export const artistData: PersonData[] = [
   },
   {
     slug: 'edward-hopper',
-    name: { en: 'Edward Hopper', zh: '爱德华·霍珀' },
+    name: { en: 'Edward Hopper', zh: '爱德华·霍普' },
     years: '1882\u20131967',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -649,7 +597,7 @@ export const artistData: PersonData[] = [
   },
   {
     slug: 'klimt',
-    name: { en: 'Gustav Klimt', zh: '古斯塔夫·克里姆特' },
+    name: { en: 'Gustav Klimt', zh: '古斯塔夫·克林姆' },
     years: '1862\u20131918',
     nationality: { en: 'Austrian', zh: '奥地利' },
     bio: {
@@ -885,19 +833,6 @@ export const artistData: PersonData[] = [
         },
         year: 1939,
       },
-      {
-        text: {
-          en: 'Intelligence without ambition is a bird without wings.',
-          zh: '没有雄心的才智是一只没有翅膀的鸟。',
-        },
-        original: 'Intelligence without ambition is a bird without wings.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Misattributed to Dal\u00ed; likely originates from C. Archie Danielson or Walter H. Cottingham (1908)',
-          zh: '常被误归于达利；可能源自C·阿奇·丹尼尔森或沃尔特·H·科廷汉姆（1908年）',
-        },
-      },
     ],
   },
   {
@@ -946,7 +881,7 @@ export const artistData: PersonData[] = [
   },
   {
     slug: 'keith-haring',
-    name: { en: 'Keith Haring', zh: '基思·哈林' },
+    name: { en: 'Keith Haring', zh: '凯斯·哈林' },
     years: '1958\u20131990',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -988,7 +923,7 @@ export const artistData: PersonData[] = [
   },
   {
     slug: 'agnes-martin',
-    name: { en: 'Agnes Martin', zh: '阿格尼斯·马丁' },
+    name: { en: 'Agnes Martin', zh: '阿格尼丝·马丁' },
     years: '1912\u20132004',
     nationality: { en: 'Canadian-American', zh: '加拿大裔美国' },
     bio: {
@@ -1430,7 +1365,7 @@ export const artistData: PersonData[] = [
   },
   {
     slug: 'magritte',
-    name: { en: 'Ren\u00e9 Magritte', zh: '勒内·马格里特' },
+    name: { en: 'Ren\u00e9 Magritte', zh: '勒内·马格利特' },
     years: '1898\u20131967',
     nationality: { en: 'Belgian', zh: '比利时' },
     bio: {

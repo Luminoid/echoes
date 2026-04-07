@@ -34,8 +34,8 @@ export const comedianData: PersonData[] = [
         original: 'Inside every cynical person, there is a disappointed idealist.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Interview with Jon Stewart', zh: '乔恩·斯图尔特访谈' },
-        year: 2004,
+        source: { en: 'Interview with Marc Cooper, The Progressive', zh: '马克·库珀采访，《进步》杂志' },
+        year: 2001,
       },
       {
         text: {
@@ -66,8 +66,8 @@ export const comedianData: PersonData[] = [
         original: 'Some people see things that are and ask, Why? Some people dream of things that never were and ask, Why not? Some people have to go to work and don\'t have time for all that.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Napalm & Silly Putty', zh: '《凝固汽油弹与橡皮泥》' },
-        year: 2001,
+        source: { en: 'Brain Droppings', zh: '《脑汁》' },
+        year: 1997,
       },
       {
         text: {
@@ -100,17 +100,6 @@ export const comedianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Jammin\' in New York', zh: '《纽约即兴》' },
         year: 1992,
-      },
-      {
-        text: {
-          en: 'Fighting for peace is like screwing for virginity.',
-          zh: '为和平而战就像为贞操而做爱。',
-        },
-        original: 'Fighting for peace is like screwing for virginity.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'What Am I Doing in New Jersey?', zh: '《我在新泽西干嘛？》' },
-        year: 1988,
       },
       {
         text: {
@@ -194,13 +183,13 @@ export const comedianData: PersonData[] = [
       },
       {
         text: {
-          en: 'The reports of my death are greatly exaggerated.',
-          zh: '关于我死亡的报道被大大夸大了。',
+          en: 'The report of my death was an exaggeration.',
+          zh: '关于我死亡的报道是一种夸张。',
         },
-        original: 'The reports of my death are greatly exaggerated.',
+        original: 'The report of my death was an exaggeration.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Cable to the Associated Press', zh: '致美联社电报' },
+        source: { en: 'Note shown to Frank Marshall White, New York Journal', zh: '展示给弗兰克·马歇尔·怀特的便条，《纽约日报》' },
         year: 1897,
       },
       {
@@ -232,26 +221,6 @@ export const comedianData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'The cure for boredom is curiosity. There is no cure for curiosity.',
-          zh: '好奇心是治疗无聊的良药。而好奇心本身无药可救。',
-        },
-        original: 'The cure for boredom is curiosity. There is no cure for curiosity.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-      },
-      {
-        text: {
-          en: 'I\'d rather have a bottle in front of me than a frontal lobotomy.',
-          zh: '我宁可面前有一瓶酒，也不要做额叶切除手术。',
-        },
-        original: 'I\'d rather have a bottle in front of me than a frontal lobotomy.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-      },
-      {
-        text: {
           en: 'If you want to know what God thinks of money, just look at the people he gave it to.',
           zh: '如果你想知道上帝对金钱的看法，只要看看他把钱给了谁。',
         },
@@ -268,8 +237,8 @@ export const comedianData: PersonData[] = [
         original: 'That would be a good thing for them to cut on my tombstone: Wherever she went, including here, it was against her better judgment.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Here Lies (poem)', zh: '《此处长眠》（诗）' },
-        year: 1925,
+        source: { en: 'But the One on the Right (short story), The New Yorker', zh: '短篇小说《但右边的那个》，《纽约客》' },
+        year: 1929,
       },
       {
         text: {
@@ -357,16 +326,6 @@ export const comedianData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/查理·卓别林',
     },
     quotes: [
-      {
-        text: {
-          en: 'A day without laughter is a day wasted.',
-          zh: '没有笑声的一天是虚度的一天。',
-        },
-        original: 'A day without laughter is a day wasted.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-      },
       {
         text: {
           en: 'Life is a tragedy when seen in close-up, but a comedy in long-shot.',
@@ -476,20 +435,6 @@ export const comedianData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'Everyone you meet is fighting a battle you know nothing about. Be kind. Always.',
-          zh: '你遇到的每个人都在打一场你一无所知的战斗。善良一些，永远如此。',
-        },
-        original: 'Everyone you meet is fighting a battle you know nothing about. Be kind. Always.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-        comment: {
-          en: 'Widely misattributed to Williams. The sentiment traces to Rev. John Watson (Ian Maclaren), 19th century.',
-          zh: '广泛误引为威廉斯语。该表述可追溯至19世纪的约翰·沃森牧师（笔名伊恩·麦克拉伦）。',
-        },
-      },
-      {
-        text: {
           en: 'You\'re only given a little spark of madness. You mustn\'t lose it.',
           zh: '你只被赋予了一点点疯狂的火花。你千万不能失去它。',
         },
@@ -524,16 +469,6 @@ export const comedianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Le dîner du comte de Boulainvilliers', zh: '《布朗维利耶伯爵的晚餐》' },
         year: 1767,
-      },
-      {
-        text: {
-          en: 'Judge a man by his questions rather than by his answers.',
-          zh: '根据一个人的问题而非答案来判断他。',
-        },
-        original: 'Jugez un homme par ses questions plutôt que par ses réponses.',
-        originalLang: 'fr',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
       },
       {
         text: {

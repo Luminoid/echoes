@@ -8,7 +8,7 @@ export const playwrightData: PersonData[] = [
     nationality: { en: 'English', zh: '英国' },
     bio: {
       en: 'England\'s national poet and the most performed playwright in history, whose tragedies, comedies, and histories explored the full depth of human nature with unmatched linguistic invention.',
-      zh: '英国国诗人、历史上演出最多的剧作家，其悲剧、喜剧和历史剧以无与伦比的语言创造力探索了人性的全部深度。',
+      zh: '英国国民诗人、历史上演出最多的剧作家，其悲剧、喜剧和历史剧以无与伦比的语言创造力探索了人性的全部深度。',
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/William_Shakespeare',
@@ -317,16 +317,6 @@ export const playwrightData: PersonData[] = [
       },
       {
         text: {
-          en: 'Any idiot can face a crisis; it\'s day to day living that wears you out.',
-          zh: '任何白痴都能面对危机；真正让你疲惫的是日复一日的生活。',
-        },
-        original: 'Any idiot can face a crisis; it\'s day to day living that wears you out.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-      },
-      {
-        text: {
           en: 'Don\'t tell me the moon is shining; show me the glint of light on broken glass.',
           zh: '不要告诉我月亮在发光；让我看到碎玻璃上的一线光芒。',
         },
@@ -424,16 +414,6 @@ export const playwrightData: PersonData[] = [
       },
       {
         text: {
-          en: 'Art is not a mirror held up to reality, but a hammer with which to shape it.',
-          zh: '艺术不是照映现实的镜子，而是塑造现实的锤子。',
-        },
-        original: 'Die Kunst ist nicht ein Spiegel, den man der Wirklichkeit vorhält, sondern ein Hammer, mit dem man sie gestaltet.',
-        originalLang: 'de',
-        originalLocale: 'en',
-        source: { en: 'Attributed (various essays)', zh: '出自其文论' },
-      },
-      {
-        text: {
           en: 'Do not fear death so much, but rather the inadequate life.',
           zh: '不要太害怕死亡，而要害怕不充分的生活。',
         },
@@ -507,10 +487,10 @@ export const playwrightData: PersonData[] = [
       },
       {
         text: {
-          en: 'A prayer for the wild at heart kept in cages.',
+          en: 'A prayer for the wild of heart kept in cages.',
           zh: '为关在笼中的狂野心灵祈祷。',
         },
-        original: 'A prayer for the wild at heart kept in cages.',
+        original: 'A prayer for the wild of heart kept in cages.',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Stairs to the Roof (epigraph)', zh: '《通往屋顶的阶梯》（题词）' },

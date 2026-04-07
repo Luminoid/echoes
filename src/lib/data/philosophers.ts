@@ -50,20 +50,6 @@ export const philosopherData: PersonData[] = [
       },
       {
         text: {
-          en: 'Should I kill myself, or have a cup of coffee?',
-          zh: '我应该自杀，还是喝一杯咖啡？',
-        },
-        original: 'Dois-je me tuer, ou prendre une tasse de café ?',
-        originalLang: 'fr',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为加缪语' },
-        comment: {
-          en: 'Not found in any of Camus\'s published works. Popularized by Barry Schwartz in The Paradox of Choice (2004) without citing a source.',
-          zh: '在加缪的任何已出版著作中均未找到。由巴里·施瓦茨在《选择的悖论》（2004）中广为传播，但未注明出处。',
-        },
-      },
-      {
-        text: {
           en: 'I opened myself to the gentle indifference of the world.',
           zh: '我向这个世界温柔的冷漠敞开了自己。',
         },
@@ -203,8 +189,8 @@ export const philosopherData: PersonData[] = [
         },
         original: 'The general population doesn\'t know what\'s happening, and it doesn\'t even know that it doesn\'t know.',
         originalLang: 'en',
-        source: { en: 'Manufacturing Consent', zh: '《制造共识》' },
-        year: 1988,
+        source: { en: 'How the World Works', zh: '《世界如何运作》' },
+        year: 2011,
       },
     ],
   },
@@ -427,8 +413,8 @@ export const philosopherData: PersonData[] = [
         original: 'La liberté, c\'est ce qu\'on fait de ce qu\'on a fait de nous.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'Being and Nothingness', zh: '存在与虚无' },
-        year: 1943,
+        source: { en: 'Saint Genet: Actor and Martyr', zh: '《圣热内：演员与殉道者》' },
+        year: 1952,
       },
       {
         text: {
@@ -440,21 +426,6 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Being and Nothingness', zh: '存在与虚无' },
         year: 1943,
-      },
-      {
-        text: {
-          en: 'If you are lonely when you are alone, you are in bad company.',
-          zh: '如果你独处时感到孤独，说明你和自己相处得不好。',
-        },
-        original: 'Si vous vous sentez seul quand vous êtes seul, vous êtes en mauvaise compagnie.',
-        originalLang: 'fr',
-        originalLocale: 'en',
-        source: { en: 'Nausea', zh: '恶心' },
-        year: 1938,
-        comment: {
-          en: 'Widely attributed to Sartre but not found in Nausea or any confirmed published work.',
-          zh: '广泛归于萨特名下，但未见于《恶心》或其他已确认的出版著作中。',
-        },
       },
       {
         text: {
@@ -596,20 +567,6 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Gay Science', zh: '快乐的科学' },
         year: 1882,
-      },
-      {
-        text: {
-          en: 'And those who were seen dancing were thought to be insane by those who could not hear the music.',
-          zh: '那些听不到音乐的人以为跳舞的人疯了。',
-        },
-        original: 'Und die, welche tanzen sahen, wurden für wahnsinnig gehalten von denen, welche die Musik nicht hören konnten.',
-        originalLang: 'de',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为尼采语' },
-        comment: {
-          en: 'Not found in any of Nietzsche\'s works. Earliest known version is an anonymous proverb in The Times of London (1927). A precursor appears in Madame de Staël\'s De l\'Allemagne (1813).',
-          zh: '在尼采的任何著作中均未找到。已知最早版本是1927年《泰晤士报》中的匿名谚语。更早的前身出现在斯塔尔夫人的《论德国》（1813）中。',
-        },
       },
       {
         text: {
@@ -1033,7 +990,11 @@ export const philosopherData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Mortals and Others', zh: '凡人与他者' },
-        year: 1950,
+        year: 1933,
+        comment: {
+          en: 'Popular paraphrase. Russell\'s actual words in "The Triumph of Stupidity" (1933): "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt."',
+          zh: '流行改述版。罗素在《愚蠢的胜利》（1933）中的原话是："麻烦的根本原因在于，在现代世界中，愚蠢的人信心十足，而聪明的人却充满怀疑。"',
+        },
       },
       {
         text: {
@@ -1477,20 +1438,6 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第八十一章' },
       },
-      {
-        text: {
-          en: 'When I let go of what I am, I become what I might be.',
-          zh: '为学日益，为道日损。',
-        },
-        original: '为学日益，为道日损。',
-        originalLang: 'zh',
-        originalLocale: 'zh',
-        source: { en: 'Attributed', zh: '传为老子语' },
-        comment: {
-          en: 'The English quote is a fabricated Lao Tzu quote not found in the Tao Te Ching. The Chinese text (Ch. 48) actually means "In pursuit of learning, one gains daily; in pursuit of Tao, one loses daily" — a different concept entirely.',
-          zh: '英文引文为伪造的老子语录，并非出自《道德经》。中文原文（第四十八章）实际含义为"追求学问则日有所增，追求道则日有所减"——是完全不同的概念。',
-        },
-      },
     ],
   },
   {
@@ -1503,7 +1450,7 @@ export const philosopherData: PersonData[] = [
       zh: '中国古代哲学家，与老子并称为道家学说的奠基人，以其富有想象力的寓言和相对主义著称。',
     },
     wikipedia: {
-      en: 'https://en.wikipedia.org/wiki/Zhuangzi_(book)',
+      en: 'https://en.wikipedia.org/wiki/Zhuangzi',
       zh: 'https://zh.wikipedia.org/wiki/庄子',
     },
     quotes: [
@@ -1637,9 +1584,9 @@ export const philosopherData: PersonData[] = [
           en: 'Begin at once to live, and count each separate day as a separate life.',
           zh: '立即开始生活，将每一天都当作一段独立的人生。',
         },
-        original: 'Fac ergo, mi Lucili, quod facere te scribis, omnes horas complectere.',
+        original: 'Ideo propera, Lucili mi, vivere, et singulos dies singulas vitas puta.',
         originalLang: 'la',
-        source: { en: 'Letters to Lucilius, Letter 1', zh: '《致鲁基里乌斯的道德书简》第1封' },
+        source: { en: 'Letters to Lucilius, Letter 101', zh: '《致鲁基里乌斯的道德书简》第101封' },
         year: 65,
       },
     ],
@@ -1729,20 +1676,6 @@ export const philosopherData: PersonData[] = [
         comment: {
           en: 'Likely originated with Elbert Hubbard, not Marcus Aurelius. Meditations Book V.1 discusses morning unwillingness to rise but uses very different language.',
           zh: '可能源自埃尔伯特·哈伯德，而非马可·奥勒留。《沉思录》第五卷第1节讨论了清晨不愿起床的话题，但措辞截然不同。',
-        },
-      },
-      {
-        text: {
-          en: 'Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.',
-          zh: '我们听到的一切都是观点，而非事实。我们看到的一切都是视角，而非真相。',
-        },
-        original: 'Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为奥勒留语' },
-        comment: {
-          en: 'Definitively not from the Meditations. Fact-checkers (PolitiFact, Quote Investigator) confirm this is fabricated. The Stoics were not skeptics — Marcus Aurelius believed in objective truth.',
-          zh: '确认并非出自《沉思录》。事实核查机构（PolitiFact、Quote Investigator）证实此引文系伪造。斯多葛派并非怀疑论者——马可·奥勒留相信客观真理。',
         },
       },
       {
@@ -2196,7 +2129,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'The World as Will and Representation', zh: '作为意志和表象的世界' },
-        year: 1818,
+        year: 1844,
       },
       {
         text: {
@@ -2389,8 +2322,8 @@ export const philosopherData: PersonData[] = [
         source: { en: 'First as Tragedy, Then as Farce', zh: '《先是悲剧，再是闹剧》' },
         year: 2009,
         comment: {
-          en: 'Originally from Fredric Jameson (2003); Žižek popularized the formulation.',
-          zh: '原出自弗雷德里克·詹姆逊（2003年）；齐泽克使这一表述广为流传。',
+          en: 'Originally from Fredric Jameson, The Seeds of Time (1994); Žižek popularized the formulation.',
+          zh: '原出自弗雷德里克·詹姆逊《时间的种子》（1994年）；齐泽克使这一表述广为流传。',
         },
       },
       {
@@ -2535,24 +2468,6 @@ export const philosopherData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/吉尔·德勒兹',
     },
     quotes: [
-      {
-        text: {
-          en: 'A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.',
-          zh: '概念是一块砖。它可以用来建造理性的法院，也可以被扔向窗户。',
-        },
-        original: 'A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'A Thousand Plateaus (Translator\'s Foreword)',
-          zh: '千高原（译者前言）',
-        },
-        year: 1987,
-        comment: {
-          en: 'Written by Brian Massumi in his translator\'s foreword to the English edition, not by Deleuze and Guattari themselves. The French "original" widely circulated online is a back-translation.',
-          zh: '出自布莱恩·马苏米为英译本所写的译者前言，并非德勒兹和瓜塔里本人之言。网上广泛流传的法文"原文"实为回译。',
-        },
-      },
       {
         text: {
           en: 'There is no need to fear or hope, but only to look for new weapons.',

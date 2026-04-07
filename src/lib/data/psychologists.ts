@@ -17,49 +17,6 @@ export const psychologistData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'Before you diagnose yourself with depression or low self-esteem, first make sure that you are not, in fact, just surrounded by assholes.',
-          zh: '在你诊断自己患有抑郁症或低自尊之前，先确保你不是只是被混蛋包围了。',
-        },
-        original: 'Before you diagnose yourself with depression or low self-esteem, first make sure that you are not, in fact, just surrounded by assholes.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Attributed (disputed), widely quoted',
-          zh: '广泛引用（出处有争议）',
-        },
-        comment: {
-          en: 'Almost certainly not by Freud. This quote appears to be a modern internet creation, sometimes attributed to William Gibson or the TV show Scrubs. No trace in any of Freud\'s published works.',
-          zh: '几乎可以确定不是弗洛伊德所说。这句话似乎是现代互联网创作，有时被归于威廉·吉布森或电视剧《实习医生风云》。在弗洛伊德的任何出版著作中均无踪迹。',
-        },
-      },
-      {
-        text: {
-          en: 'The mind is like an iceberg, it floats with one-seventh of its bulk above water.',
-          zh: '心灵如同冰山，只有七分之一浮出水面。',
-        },
-        original: 'The mind is like an iceberg, it floats with one-seventh of its bulk above water.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Attributed, widely quoted',
-          zh: '广泛引用',
-        },
-        comment: {
-          en: 'The iceberg metaphor is commonly used to describe Freud\'s model of consciousness, but this exact phrasing is not found in his published works. The metaphor was likely popularized by later interpreters.',
-          zh: '冰山比喻常用于描述弗洛伊德的意识模型，但这一确切措辞未见于其出版著作中。该比喻可能由后来的诠释者所推广。',
-        },
-      },
-      {
-        text: {
-          en: 'Unexpressed emotions will never die. They are buried alive and will come forth later in uglier ways.',
-          zh: '未表达的情感永远不会消亡。它们被活埋，日后会以更丑陋的方式浮出。',
-        },
-        original: 'Unexpressed emotions will never die. They are buried alive and will come forth later in uglier ways.',
-        originalLang: 'en',
-        source: { en: 'Attributed', zh: '名言' },
-      },
-      {
-        text: {
           en: 'Being entirely honest with oneself is a good exercise.',
           zh: '对自己完全诚实是一种好的练习。',
         },
@@ -104,7 +61,7 @@ export const psychologistData: PersonData[] = [
           zh: '在内心深处，除了少数例外，我无法不认为我亲爱的同胞们是毫无价值的。',
         },
         original: 'In the depths of my heart I can\'t help being convinced that my dear fellow men, with a few exceptions, are worthless.',
-        originalLang: 'en',
+        originalLang: 'de',
         source: { en: 'Letter to Lou Andreas-Salomé', zh: '致卢·安德烈亚斯-萨洛梅的信' },
         year: 1929,
       },
@@ -177,7 +134,7 @@ export const psychologistData: PersonData[] = [
         original: 'Everything that irritates us about others can lead us to an understanding of ourselves.',
         originalLang: 'en',
         source: { en: 'Memories, Dreams, Reflections', zh: '《回忆·梦·思考》' },
-        year: 1961,
+        year: 1963,
       },
       {
         text: {
@@ -197,7 +154,7 @@ export const psychologistData: PersonData[] = [
         original: 'Loneliness does not come from having no people about one, but from being unable to communicate the things that seem important to oneself.',
         originalLang: 'en',
         source: { en: 'Memories, Dreams, Reflections', zh: '《回忆·梦·思考》' },
-        year: 1961,
+        year: 1963,
       },
     ],
   },
@@ -215,23 +172,6 @@ export const psychologistData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/維克多·弗蘭克',
     },
     quotes: [
-      {
-        text: {
-          en: 'Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.',
-          zh: '在刺激与反应之间有一个空间。在那个空间里，我们有选择回应方式的力量。在我们的回应中蕴含着我们的成长和自由。',
-        },
-        original: 'Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Attributed, widely quoted',
-          zh: '广泛引用',
-        },
-        comment: {
-          en: 'Not found in Frankl\'s published works. Likely originates from Rollo May or was popularized by Stephen Covey.',
-          zh: '未见于弗兰克尔的出版著作中。可能源自罗洛·梅，或经由史蒂芬·柯维推广。',
-        },
-      },
       {
         text: {
           en: 'When we are no longer able to change a situation, we are challenged to change ourselves.',
@@ -318,10 +258,10 @@ export const psychologistData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'Every act of perception, is to some degree an act of creation, and every act of memory is to some degree an act of imagination.',
+          en: 'Every act of perception is to some degree an act of creation, and every act of memory is to some degree an act of imagination.',
           zh: '每一次感知在某种程度上都是一次创造，每一次记忆在某种程度上都是一次想象。',
         },
-        original: 'Every act of perception, is to some degree an act of creation, and every act of memory is to some degree an act of imagination.',
+        original: 'Every act of perception is to some degree an act of creation, and every act of memory is to some degree an act of imagination.',
         originalLang: 'en',
         originalLocale: 'en',
         source: {
@@ -405,44 +345,6 @@ export const psychologistData: PersonData[] = [
     ],
   },
   {
-    slug: 'william-james',
-    name: { en: 'William James', zh: '威廉·詹姆斯' },
-    years: '1842–1910',
-    nationality: { en: 'American', zh: '美国' },
-    bio: {
-      en: 'Philosopher and psychologist, often called the father of American psychology, who pioneered pragmatism and the study of consciousness.',
-      zh: '哲学家和心理学家，常被称为美国心理学之父，开创了实用主义和意识研究。',
-    },
-    wikipedia: {
-      en: 'https://en.wikipedia.org/wiki/William_James',
-      zh: 'https://zh.wikipedia.org/wiki/威廉·詹姆斯',
-    },
-    quotes: [
-      {
-        text: {
-          en: 'The greatest discovery of my generation is that a human being can alter his life by altering his attitudes.',
-          zh: '我这一代人最伟大的发现是，人可以通过改变态度来改变自己的生活。',
-        },
-        original: 'The greatest discovery of my generation is that a human being can alter his life by altering his attitudes.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Attributed, widely quoted',
-          zh: '广泛引用',
-        },
-      },
-      {
-        text: {
-          en: 'A great many people think they are thinking when they are merely rearranging their prejudices.',
-          zh: '很多人以为自己在思考，其实只是在重新排列偏见。',
-        },
-        original: 'A great many people think they are thinking when they are merely rearranging their prejudices.',
-        originalLang: 'en',
-        source: { en: 'Attributed', zh: '名言' },
-      },
-    ],
-  },
-  {
     slug: 'jacques-lacan',
     name: { en: 'Jacques Lacan', zh: '雅克·拉康' },
     years: '1901–1981',
@@ -461,7 +363,7 @@ export const psychologistData: PersonData[] = [
           en: 'The unconscious is structured like a language.',
           zh: '无意识的结构犹如一种语言。',
         },
-        original: 'The unconscious is structured like a language.',
+        original: 'L\'inconscient est structuré comme un langage.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: {
@@ -475,7 +377,7 @@ export const psychologistData: PersonData[] = [
           en: 'Desire is the desire of the Other.',
           zh: '欲望是他者的欲望。',
         },
-        original: 'Desire is the desire of the Other.',
+        original: 'Le désir de l\'homme est le désir de l\'Autre.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: {
@@ -638,7 +540,7 @@ export const psychologistData: PersonData[] = [
           zh: '学校教育的主要目标应该是培养能做新事情的人，而不是简单地重复前人所做的事。',
         },
         original: 'The principal goal of education in the schools should be creating men and women who are capable of doing new things, not simply repeating what other generations have done.',
-        originalLang: 'fr',
+        originalLang: 'en',
         originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted',
@@ -651,7 +553,7 @@ export const psychologistData: PersonData[] = [
           zh: '智力就是在你不知道该怎么做的时候所运用的东西。',
         },
         original: 'Intelligence is what you use when you don\'t know what to do.',
-        originalLang: 'fr',
+        originalLang: 'en',
         originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted',
@@ -662,7 +564,7 @@ export const psychologistData: PersonData[] = [
   },
   {
     slug: 'daniel-kahneman',
-    name: { en: 'Daniel Kahneman', zh: '丹尼尔·卡尼曼' },
+    name: { en: 'Daniel Kahneman', zh: '丹尼尔·卡内曼' },
     years: '1934–2024',
     nationality: { en: 'Israeli-American', zh: '以色列裔美国人' },
     bio: {

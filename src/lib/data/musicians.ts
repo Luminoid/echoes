@@ -23,7 +23,7 @@ export const musicianData: PersonData[] = [
         original: 'Musik ist höhere Offenbarung als alle Weisheit und Philosophie.',
         originalLang: 'de',
         originalLocale: 'en',
-        source: { en: 'Letter to Bettina von Arnim', zh: '致贝蒂娜·冯·阿尼姆的信' },
+        source: { en: 'Reported by Bettina von Arnim in a letter to Goethe', zh: '贝蒂娜·冯·阿尼姆在致歌德的信中转述' },
         year: 1810,
       },
       {
@@ -43,7 +43,7 @@ export const musicianData: PersonData[] = [
         },
         original: 'Übe nicht nur deine Kunst, sondern dringe auch in ihre Geheimnisse ein.',
         originalLang: 'de',
-        source: { en: 'Letter to Carl Czerny', zh: '致卡尔·车尔尼的信' },
+        source: { en: 'Letter to Emilie M., July 17, 1812', zh: '致艾米莉·M的信，1812年7月17日' },
       },
       {
         text: {
@@ -90,7 +90,7 @@ export const musicianData: PersonData[] = [
         original: 'Nur die Kunst und die Wissenschaft erhöhen den Menschen bis zur Gottheit.',
         originalLang: 'de',
         source: { en: 'Letter to Bettina von Arnim', zh: '致贝蒂娜·冯·阿尼姆的信' },
-        year: 1812,
+        year: 1810,
       },
       {
         text: {
@@ -108,49 +108,8 @@ export const musicianData: PersonData[] = [
         },
         original: 'Empfiehlt Euren Kindern Tugend; sie allein, nicht Geld, kann glücklich machen.',
         originalLang: 'de',
-        source: { en: 'Letter, 1827', zh: '信件，1827年' },
-        year: 1827,
-      },
-    ],
-  },
-  {
-    slug: 'mozart',
-    name: { en: 'Wolfgang Amadeus Mozart', zh: '沃尔夫冈·阿马德乌斯·莫扎特' },
-    years: '1756–1791',
-    nationality: { en: 'Austrian', zh: '奥地利' },
-    bio: {
-      en: 'Prolific and influential composer of the Classical period, whose more than 800 works span virtually every genre of his era.',
-      zh: '古典主义时期多产且影响深远的作曲家，创作了超过八百部作品，涵盖当时几乎所有音乐体裁。',
-    },
-    wikipedia: {
-      en: 'https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart',
-      zh: 'https://zh.wikipedia.org/wiki/沃尔夫冈·阿马德乌斯·莫扎特',
-    },
-    quotes: [
-      {
-        text: {
-          en: 'The music is not in the notes, but in the silence between.',
-          zh: '音乐不在音符之中，而在音符之间的沉默里。',
-        },
-        original: 'The music is not in the notes, but in the silence between.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '名言' },
-        comment: {
-          en: 'No verified source in Mozart\'s writings. Widely misattributed; likely a modern fabrication.',
-          zh: '莫扎特著作中未找到确切出处。广泛误引；可能是现代杜撰。',
-        },
-      },
-      {
-        text: {
-          en: 'Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius.',
-          zh: '高度的智慧、丰富的想象力，或两者兼备，都不能造就天才。爱，爱，爱，才是天才的灵魂。',
-        },
-        original: 'Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Letter to Baron Gottfried von Jacquin', zh: '致雅坎男爵的信' },
-        year: 1787,
+        source: { en: 'Heiligenstadt Testament', zh: '《海利根施塔特遗书》' },
+        year: 1802,
       },
     ],
   },
@@ -184,7 +143,7 @@ export const musicianData: PersonData[] = [
           zh: '我不得不勤奋。同样勤奋的人也会同样成功。',
         },
         original: 'I was obliged to be industrious. Whoever is equally industrious will succeed equally well.',
-        originalLang: 'en',
+        originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Attributed, as told by Johann Nikolaus Forkel', zh: '据福克尔记载' },
       },
@@ -210,7 +169,7 @@ export const musicianData: PersonData[] = [
           zh: '简洁是最终的成就。当你演奏了大量的音符之后，是简洁作为艺术的最高奖赏浮现出来。',
         },
         original: 'Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art.',
-        originalLang: 'en',
+        originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'Attributed', zh: '名言' },
       },
@@ -491,7 +450,7 @@ export const musicianData: PersonData[] = [
   },
   {
     slug: 'nina-simone',
-    name: { en: 'Nina Simone', zh: '尼娜·西蒙' },
+    name: { en: 'Nina Simone', zh: '妮娜·西蒙' },
     years: '1933–2003',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -835,7 +794,7 @@ export const musicianData: PersonData[] = [
   },
   {
     slug: 'thelonious-monk',
-    name: { en: 'Thelonious Monk', zh: '塞隆尼斯·蒙克' },
+    name: { en: 'Thelonious Monk', zh: '塞隆尼斯·孟克' },
     years: '1917–1982',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -986,7 +945,7 @@ export const musicianData: PersonData[] = [
   },
   {
     slug: 'edith-piaf',
-    name: { en: '\u00c9dith Piaf', zh: '伊迪丝·琵雅芙' },
+    name: { en: '\u00c9dith Piaf', zh: '艾迪特·皮雅芙' },
     years: '1915–1963',
     nationality: { en: 'French', zh: '法国' },
     bio: {
@@ -1095,7 +1054,7 @@ export const musicianData: PersonData[] = [
   },
   {
     slug: 'john-coltrane',
-    name: { en: 'John Coltrane', zh: '约翰·科尔特兰' },
+    name: { en: 'John Coltrane', zh: '约翰·柯川' },
     years: '1926–1967',
     nationality: { en: 'American', zh: '美国' },
     bio: {

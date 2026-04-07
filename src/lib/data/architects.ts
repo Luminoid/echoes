@@ -250,7 +250,7 @@ export const architectData: PersonData[] = [
   },
   {
     slug: 'mies-van-der-rohe',
-    name: { en: 'Ludwig Mies van der Rohe', zh: '路德维希·密斯·凡·德·罗' },
+    name: { en: 'Ludwig Mies van der Rohe', zh: '路德维希·密斯·凡德罗' },
     years: '1886\u20131969',
     nationality: { en: 'German-American', zh: '德裔美国' },
     bio: {
@@ -355,10 +355,10 @@ export const architectData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Quoted in The Guardian, 2004',
-          zh: '引自《卫报》，2004年',
+          en: 'Quoted in The Guardian, 2003',
+          zh: '引自《卫报》，2003年',
         },
-        year: 2004,
+        year: 2003,
       },
       {
         text: {
@@ -571,7 +571,7 @@ export const architectData: PersonData[] = [
   {
     slug: 'frank-gehry',
     name: { en: 'Frank Gehry', zh: '弗兰克·盖里' },
-    years: '1929\u2013',
+    years: '1929\u20132025',
     nationality: { en: 'Canadian-American', zh: '加拿大裔美国' },
     bio: {
       en: 'Deconstructivist architect whose sculptural, titanium-clad buildings\u2014especially the Guggenheim Bilbao\u2014transformed cities and the public perception of architecture.',
@@ -762,7 +762,7 @@ export const architectData: PersonData[] = [
           zh: '我不被直角或直线吸引，那是人类创造的僵硬和死板。我被自由流动的、感性的曲线所吸引。',
         },
         original: 'I am not attracted to straight angles or to the straight line, hard and inflexible, created by man. I am attracted to free-flowing, sensual curves.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'The Curves of Time: The Memoirs of Oscar Niemeyer, 2000',
@@ -776,7 +776,7 @@ export const architectData: PersonData[] = [
           zh: '建筑是我表达理想的方式：追求简洁，创造一个人人平等的世界，以乐观的目光看待人们。',
         },
         original: 'Architecture was my way of expressing my ideals: to be simple, to create a world equal to everyone, to look at people with optimism.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'Quoted in The Guardian obituary, 2012',
@@ -806,7 +806,7 @@ export const architectData: PersonData[] = [
           zh: '直线属于人类，曲线属于上帝。',
         },
         original: 'The straight line belongs to men, the curved one to God.',
-        originalLang: 'en',
+        originalLang: 'ca',
         originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted in Gaud\u00ed scholarship',
@@ -819,7 +819,7 @@ export const architectData: PersonData[] = [
           zh: '不源于自然的东西都不是艺术。',
         },
         original: 'Nothing is art if it does not come from nature.',
-        originalLang: 'en',
+        originalLang: 'ca',
         originalLocale: 'en',
         source: {
           en: 'Attributed, quoted in Gaud\u00ed biographies',
@@ -902,7 +902,7 @@ export const architectData: PersonData[] = [
   },
   {
     slug: 'alvar-aalto',
-    name: { en: 'Alvar Aalto', zh: '阿尔瓦·阿尔托' },
+    name: { en: 'Alvar Aalto', zh: '阿尔瓦尔·阿尔托' },
     years: '1898\u20131976',
     nationality: { en: 'Finnish', zh: '芬兰' },
     bio: {
@@ -1093,7 +1093,7 @@ export const architectData: PersonData[] = [
           zh: '我选择了建筑这条艰难的道路，因为我相信它是一种公共服务。',
         },
         original: 'I chose the difficult path of architecture because I believe it is a public service.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'Quoted in Zeuler R. Lima, Lina Bo Bardi, 2013',
@@ -1107,7 +1107,7 @@ export const architectData: PersonData[] = [
           zh: '什么都不应该被丢弃。一切都可以被改造。',
         },
         original: 'Nothing should be thrown away. Everything can be transformed.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'Quoted in exhibition materials, SESC Pomp\u00e9ia',
@@ -1136,7 +1136,7 @@ export const architectData: PersonData[] = [
           zh: '建筑师不发明任何东西，他们转化现实。',
         },
         original: 'Architects don\'t invent anything; they transform reality.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'Quoted in Kenneth Frampton, \u00c1lvaro Siza: Complete Works',
@@ -1149,7 +1149,7 @@ export const architectData: PersonData[] = [
           zh: '现代不是一种时尚，而是一种状态。有必要理解历史，理解历史的人知道如何在过去、现在和未来之间找到延续。',
         },
         original: 'To be modern is not a fashion, it is a state. It is necessary to understand history, and he who understands history knows how to find continuity between that which was, is, and will be.',
-        originalLang: 'en',
+        originalLang: 'pt',
         originalLocale: 'en',
         source: {
           en: 'Quoted in \u00c1lvaro Siza: A Question of Measure, 2009',
@@ -1179,7 +1179,7 @@ export const architectData: PersonData[] = [
           zh: '我相信情感建筑。建筑以其美感打动人心，这对人类至关重要。',
         },
         original: 'I believe in an emotional architecture. It is very important for humankind that architecture should move by its beauty.',
-        originalLang: 'en',
+        originalLang: 'es',
         originalLocale: 'en',
         source: {
           en: 'Acceptance speech, Pritzker Prize, 1980',
@@ -1193,7 +1193,7 @@ export const architectData: PersonData[] = [
           zh: '任何不表达宁静的建筑作品都是一个错误。',
         },
         original: 'Any work of architecture which does not express serenity is a mistake.',
-        originalLang: 'en',
+        originalLang: 'es',
         originalLocale: 'en',
         source: {
           en: 'Quoted in Emilio Ambasz, The Architecture of Luis Barrag\u00e1n',

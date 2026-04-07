@@ -189,8 +189,8 @@ export const filmmakerData: PersonData[] = [
         original: 'No form of art goes beyond ordinary consciousness as film does, straight to our emotions, deep into the twilight room of the soul.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'The Magic Lantern', zh: '《魔灯》' },
-        year: 1987,
+        source: { en: 'Introduction to Four Screenplays of Ingmar Bergman', zh: '《英格玛·伯格曼四部电影剧本》序言' },
+        year: 1960,
       },
       {
         text: {
@@ -201,10 +201,10 @@ export const filmmakerData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Introduction to Four Screenplays of Ingmar Bergman',
-          zh: '《英格玛·伯格曼四部电影剧本》序言',
+          en: 'The Magic Lantern',
+          zh: '《魔灯》',
         },
-        year: 1960,
+        year: 1987,
       },
       {
         text: {
@@ -768,7 +768,7 @@ export const filmmakerData: PersonData[] = [
   },
   {
     slug: 'francois-truffaut',
-    name: { en: 'Francois Truffaut', zh: '弗朗索瓦·特吕弗' },
+    name: { en: 'François Truffaut', zh: '弗朗索瓦·特吕弗' },
     years: '1932–1984',
     nationality: { en: 'French', zh: '法国' },
     bio: {
@@ -1027,7 +1027,7 @@ export const filmmakerData: PersonData[] = [
   },
   {
     slug: 'agnes-varda',
-    name: { en: 'Agnes Varda', zh: '阿涅斯·瓦尔达' },
+    name: { en: 'Agnès Varda', zh: '阿涅斯·瓦尔达' },
     years: '1928–2019',
     nationality: { en: 'French', zh: '法国' },
     bio: {
@@ -1462,7 +1462,7 @@ export const filmmakerData: PersonData[] = [
   },
   {
     slug: 'chloe-zhao',
-    name: { en: 'Chloe Zhao', zh: '赵婷' },
+    name: { en: 'Chloé Zhao', zh: '赵婷' },
     years: '1982–',
     nationality: { en: 'Chinese-American', zh: '华裔美国人' },
     bio: {
@@ -1497,6 +1497,10 @@ export const filmmakerData: PersonData[] = [
         source: {
           en: 'Academy Awards acceptance speech',
           zh: '奥斯卡获奖感言',
+        },
+        comment: {
+          en: 'Zhao was quoting Bob Wells (a real-life nomad from Nomadland) in her 2021 Oscar acceptance speech.',
+          zh: '赵婷在2021年奥斯卡获奖感言中引用了鲍勃·韦尔斯（《无依之地》中的真实游牧者）的话。',
         },
         year: 2021,
       },

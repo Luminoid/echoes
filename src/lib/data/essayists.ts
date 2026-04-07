@@ -39,16 +39,6 @@ export const essayistData: PersonData[] = [
       },
       {
         text: {
-          en: 'I have not been everywhere, but it\'s on my list.',
-          zh: '我还没有去过所有地方，但它们都在我的清单上。',
-        },
-        original: 'I have not been everywhere, but it\'s on my list.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed (likely misattributed)', zh: '传为其语（可能系误引）' },
-      },
-      {
-        text: {
           en: 'To photograph people is to violate them, by seeing them as they never see themselves.',
           zh: '拍摄人就是侵犯他们，因为看到了他们从未看到的自己。',
         },
@@ -247,7 +237,7 @@ export const essayistData: PersonData[] = [
   },
   {
     slug: 'joan-didion',
-    name: { en: 'Joan Didion', zh: '琼·狄迪恩' },
+    name: { en: 'Joan Didion', zh: '琼·迪迪恩' },
     years: '1934–2021',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -391,17 +381,8 @@ export const essayistData: PersonData[] = [
         },
         original: 'Rien n\'est cru si fermement que ce qu\'on sait le moins.',
         originalLang: 'fr',
-        source: { en: 'Essays, Book I', zh: '《随笔集》卷一' },
+        source: { en: 'Essays, Book II, Chapter 12', zh: '《随笔集》卷二第12章' },
         year: 1580,
-      },
-      {
-        text: {
-          en: 'My life has been full of terrible misfortunes, most of which never happened.',
-          zh: '我的生活充满了可怕的不幸，其中大多数从未发生过。',
-        },
-        original: 'My life has been full of terrible misfortunes, most of which never happened.',
-        originalLang: 'en',
-        source: { en: 'Attributed (likely misattributed; also ascribed to Mark Twain)', zh: '传为其语（可能系误引；亦被归于马克·吐温）' },
       },
       {
         text: {
@@ -427,7 +408,7 @@ export const essayistData: PersonData[] = [
   },
   {
     slug: 'umberto-eco',
-    name: { en: 'Umberto Eco', zh: '翁贝托·艾柯' },
+    name: { en: 'Umberto Eco', zh: '翁贝托·埃科' },
     years: '1932–2016',
     nationality: { en: 'Italian', zh: '意大利' },
     bio: {
@@ -436,7 +417,7 @@ export const essayistData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Umberto_Eco',
-      zh: 'https://zh.wikipedia.org/wiki/翁贝托·埃可',
+      zh: 'https://zh.wikipedia.org/wiki/翁贝托·埃科',
     },
     quotes: [
       {
@@ -561,8 +542,8 @@ export const essayistData: PersonData[] = [
         original: 'The moment we choose to love we begin to move against domination, against oppression.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'All About Love: New Visions', zh: '《关于爱：新视角》' },
-        year: 2000,
+        source: { en: 'Outlaw Culture: Resisting Representations', zh: '《法外文化：抵抗的再现》' },
+        year: 1994,
       },
       {
         text: {
@@ -777,15 +758,6 @@ export const essayistData: PersonData[] = [
       },
       {
         text: {
-          en: 'The most effective way to destroy people is to deny and obliterate their own understanding of their history.',
-          zh: '摧毁一个民族最有效的方法是否认和抹杀他们对自身历史的理解。',
-        },
-        original: 'The most effective way to destroy people is to deny and obliterate their own understanding of their history.',
-        originalLang: 'en',
-        source: { en: 'Attributed (not found in Orwell\'s works; paraphrases themes from Nineteen Eighty-Four)', zh: '传为其语（未在奥威尔作品中找到原文；概括了《一九八四》的主题）' },
-      },
-      {
-        text: {
           en: 'War is peace. Freedom is slavery. Ignorance is strength.',
           zh: '战争即和平。自由即奴役。无知即力量。',
         },
@@ -937,7 +909,7 @@ export const essayistData: PersonData[] = [
       },
       {
         text: {
-          en: 'I lived in this world not to make it conform to my will, but I do hope the world does not try to make me conform to its will either.',
+          en: 'I live in this world simply wanting to understand some truths and encounter some interesting things. It\'s not that I want to change the world, but that I don\'t want the world to change me.',
           zh: '我活在世上，无非想要明白些道理，遇见些有趣的事。倒不是想要改变世界，而是不想让世界改变我。',
         },
         original: '我活在世上，无非想要明白些道理，遇见些有趣的事。倒不是想要改变世界，而是不想让世界改变我。',
@@ -1111,14 +1083,14 @@ export const essayistData: PersonData[] = [
         originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'Autumn Leaves', zh: '《秋叶》' },
-        year: 1950,
+        year: 1949,
       },
       {
         text: {
-          en: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.',
+          en: 'One does not discover new lands without consenting to lose sight, for a very long time, of the shore.',
           zh: '人只有鼓起勇气让海岸消失在视野之外，才能发现新的海洋。',
         },
-        original: 'Man cannot discover new oceans unless he has the courage to lose sight of the shore.',
+        original: 'On ne découvre pas de terre nouvelle sans consentir à perdre de vue, d\'abord et longtemps, tout rivage.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'The Counterfeiters', zh: '《伪币制造者》' },
@@ -1299,18 +1271,6 @@ export const essayistData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'Self-Reliance', zh: '《论自助》' },
         year: 1841,
-      },
-      {
-        text: {
-          en: 'The mind, once stretched by a new idea, never returns to its original dimensions.',
-          zh: '心灵一旦被新思想所扩展，就再也回不到原来的尺寸了。',
-        },
-        originalLang: 'en',
-        source: { en: 'Attributed, widely quoted', zh: '广泛引用' },
-        comment: {
-          en: 'Often attributed to Emerson but also to Oliver Wendell Holmes Sr. The exact phrasing does not appear in Emerson\'s published works.',
-          zh: '常归于爱默生名下，但也被归于老奥利弗·温德尔·霍姆斯。确切措辞未出现在爱默生的出版著作中。',
-        },
       },
       {
         text: {

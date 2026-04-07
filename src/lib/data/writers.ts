@@ -370,17 +370,6 @@ export const writerData: PersonData[] = [
       },
       {
         text: {
-          en: 'You cannot find peace by avoiding life.',
-          zh: '你无法通过逃避生活来找到平静。',
-        },
-        original: 'You cannot find peace by avoiding life.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'The Hours (film, 2002; not found in Woolf\'s published works)', zh: '《时时刻刻》（2002年电影；未见于伍尔夫出版作品）' },
-        year: 2002,
-      },
-      {
-        text: {
           en: 'Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.',
           zh: '随便你们把图书馆锁起来吧；但是没有任何大门、锁链或门闩能够封锁我思想的自由。',
         },
@@ -603,8 +592,8 @@ export const writerData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'What matters in life is not what happens to you but what you remember and how you remember it.',
-          zh: '生命中重要的不是你遭遇了什么，而是你记住了什么，以及你如何记住它。',
+          en: 'What matters in life is not what happens to you but what you remember and how you remember it in order to tell it.',
+          zh: '生命中重要的不是你遭遇了什么，而是你记住了什么，以及如何记住它来讲述它。',
         },
         original: 'La vida no es la que uno vivi\u00f3, sino la que uno recuerda y c\u00f3mo la recuerda para contarla.',
         originalLang: 'es',
@@ -839,16 +828,6 @@ export const writerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Brothers Karamazov', zh: '卡拉马佐夫兄弟' },
         year: 1880,
-      },
-      {
-        text: {
-          en: 'The degree of civilization in a society can be judged by entering its prisons.',
-          zh: '一个社会的文明程度可以通过走进它的监狱来判断。',
-        },
-        original: '\u0421\u0442\u0435\u043f\u0435\u043d\u044c \u0446\u0438\u0432\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0438 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u043c\u043e\u0436\u043d\u043e \u0438\u0437\u043c\u0435\u0440\u0438\u0442\u044c, \u0432\u043e\u0439\u0434\u044f \u0432 \u0435\u0433\u043e \u0442\u044e\u0440\u044c\u043c\u044b.',
-        originalLang: 'ru',
-        originalLocale: 'en',
-        source: { en: 'Misattributed to Dostoevsky; not found in his works (popularized in 1960s prison reform literature)', zh: '常被误归于陀思妥耶夫斯基；未见于其作品（1960年代监狱改革文献中流行）' },
       },
       {
         text: {
@@ -1484,7 +1463,7 @@ export const writerData: PersonData[] = [
           en: 'The purpose of the novel is not to pass judgment but to explore the ambiguity of human existence.',
           zh: '小说的目的不是宣判，而是探索人类存在的模糊性。',
         },
-        original: 'L\u2019esprit du roman est l\u2019esprit de complexit\u00e9. Le roman dit au lecteur : les choses sont plus compliqu\u00e9es que tu ne le penses.',
+        original: 'Le but du roman n\'est pas de juger mais d\'explorer l\'ambigu\u00eft\u00e9 de l\'existence humaine.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'The Art of the Novel', zh: '小说的艺术' },
@@ -1920,7 +1899,7 @@ export const writerData: PersonData[] = [
         original: '长的是磨难，短的是人生。',
         originalLang: 'zh',
         originalLocale: 'zh',
-        source: { en: 'Eighteen Springs', zh: '半生缘' },
+        source: { en: 'Eighteen Springs', zh: '《十八春》' },
         year: 1950,
       },
       {
@@ -1931,8 +1910,8 @@ export const writerData: PersonData[] = [
         original: '出名要趁早呀，来得太晚的话，快乐也不那么痛快。',
         originalLang: 'zh',
         originalLocale: 'zh',
-        source: { en: 'Written on Water', zh: '流言' },
-        year: 1945,
+        source: { en: 'Preface to Legend (second edition)', zh: '《传奇》再版的话' },
+        year: 1944,
       },
     ],
   },

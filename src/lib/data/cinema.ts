@@ -60,10 +60,10 @@ export const cinemaData: PersonData[] = [
       },
       {
         text: {
-          en: 'Some birds aren\'t meant to be caged. Their feathers are just too bright.',
-          zh: '有些鸟儿注定不会被关在笼子里。它们的羽毛太耀眼了。',
+          en: 'I have to remind myself that some birds aren\'t meant to be caged. Their feathers are just too bright.',
+          zh: '我必须提醒自己，有些鸟儿注定不会被关在笼子里。它们的羽毛太耀眼了。',
         },
-        original: 'Some birds aren\'t meant to be caged. Their feathers are just too bright.',
+        original: 'I have to remind myself that some birds aren\'t meant to be caged. Their feathers are just too bright.',
         originalLang: 'en',
         source: { en: 'The Shawshank Redemption', zh: '《肖申克的救赎》' },
         year: 1994,
@@ -71,10 +71,10 @@ export const cinemaData: PersonData[] = [
       },
       {
         text: {
-          en: 'It\'s funny. On the outside, I was an honest man. Straight as an arrow. I had to come to prison to be a crook.',
-          zh: '很有趣。在外面，我是个正直的人。笔直如箭。我不得不来监狱才成了骗子。',
+          en: 'The funny thing is — on the outside, I was an honest man, straight as an arrow. I had to come to prison to be a crook.',
+          zh: '有趣的是——在外面，我是个正直的人，笔直如箭。我不得不来监狱才成了骗子。',
         },
-        original: 'It\'s funny. On the outside, I was an honest man. Straight as an arrow. I had to come to prison to be a crook.',
+        original: 'The funny thing is — on the outside, I was an honest man, straight as an arrow. I had to come to prison to be a crook.',
         originalLang: 'en',
         source: { en: 'The Shawshank Redemption', zh: '《肖申克的救赎》' },
         year: 1994,
@@ -323,7 +323,7 @@ export const cinemaData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Interstellar', zh: '《星际穿越》' },
         year: 2014,
-        speaker: { en: 'Brand', zh: '布兰德' },
+        speaker: { en: 'Amelia Brand', zh: '艾米莉亚·布兰德' },
       },
     ],
   },

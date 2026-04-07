@@ -77,7 +77,7 @@ export const activistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Oberlin College commencement address', zh: '奥伯林学院毕业典礼演讲' },
-        year: 1965,
+        year: 1964,
       },
       {
         text: {
@@ -87,6 +87,10 @@ export const activistData: PersonData[] = [
         original: 'Our lives begin to end the day we become silent about things that matter.',
         originalLang: 'en',
         source: { en: 'Attributed', zh: '名言' },
+        comment: {
+          en: 'No verified source for this exact wording in King\'s speeches or writings. Likely a paraphrase of sentiments from a March 8, 1965 Selma sermon.',
+          zh: '在金的演讲或著作中未找到此确切措辞的来源。可能是1965年3月8日塞尔玛布道内容的改述。',
+        },
       },
       {
         text: {
@@ -136,20 +140,6 @@ export const activistData: PersonData[] = [
         comment: {
           en: 'Often misquoted as "Be the change you wish to see in the world." The actual passage is from an article about snakebites.',
           zh: '常被误引为"成为你希望在世界上看到的改变"。原文实际出自一篇关于蛇咬伤的文章。',
-        },
-      },
-      {
-        text: {
-          en: 'First they ignore you, then they laugh at you, then they fight you, then you win.',
-          zh: '首先他们忽视你，然后嘲笑你，接着与你抗争，最后你赢了。',
-        },
-        original: 'First they ignore you, then they laugh at you, then they fight you, then you win.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Misattributed to Gandhi; likely derived from Nicholas Klein (1918)', zh: '误引自甘地；可能源自尼古拉斯·克莱恩（1918）' },
-        comment: {
-          en: 'Not by Gandhi. This passage originates from a 1918 speech by labor leader Nicholas Klein. The misattribution to Gandhi became widespread on the internet in the 2000s.',
-          zh: '并非甘地所说。这段话源于劳工领袖尼古拉斯·克莱因1918年的演讲。将其错误归于甘地的做法在2000年代的互联网上广泛传播。',
         },
       },
       {
@@ -260,19 +250,6 @@ export const activistData: PersonData[] = [
         source: { en: 'Long Walk to Freedom', zh: '《漫漫自由路》' },
         year: 1994,
       },
-      {
-        text: {
-          en: 'Resentment is like drinking poison and then hoping it will kill your enemies.',
-          zh: '怨恨就像喝毒药然后希望它能杀死你的敌人。',
-        },
-        original: 'Resentment is like drinking poison and then hoping it will kill your enemies.',
-        originalLang: 'en',
-        source: { en: 'Attributed (no verified Mandela source; widely misattributed)', zh: '传为其语（未找到曼德拉原始出处；广泛误引）' },
-        comment: {
-          en: 'No verified Mandela source. This metaphor originates from Alcoholics Anonymous / recovery tradition, not Mandela.',
-          zh: '无曼德拉的确切出处。此比喻源自匿名戒酒会/康复传统，而非曼德拉。',
-        },
-      },
     ],
   },
   {
@@ -353,6 +330,10 @@ export const activistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Attributed', zh: '传为其语' },
+        comment: {
+          en: 'Simplified paraphrase. Douglass expressed more nuanced sentiments about literacy in his autobiographies.',
+          zh: '简化改述。道格拉斯在其自传中对识字表达了更加细致的看法。',
+        },
       },
       {
         text: {
@@ -370,20 +351,10 @@ export const activistData: PersonData[] = [
       },
       {
         text: {
-          en: 'I prayed for twenty years but received no answer until I prayed with my legs.',
-          zh: '我祈祷了二十年却没有得到回应，直到我用双腿去祈祷。',
+          en: 'I prayed for three years but received no answer until I prayed with my legs.',
+          zh: '我祈祷了三年却没有得到回应，直到我用双腿去祈祷。',
         },
-        original: 'I prayed for twenty years but received no answer until I prayed with my legs.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '传为其语' },
-      },
-      {
-        text: {
-          en: 'It is easier to build strong children than to repair broken men.',
-          zh: '培养坚强的孩子比修复破碎的成人更容易。',
-        },
-        original: 'It is easier to build strong children than to repair broken men.',
+        original: 'I prayed for three years but received no answer until I prayed with my legs.',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Attributed', zh: '传为其语' },
@@ -531,7 +502,7 @@ export const activistData: PersonData[] = [
     slug: 'emma-goldman',
     name: { en: 'Emma Goldman', zh: '艾玛·戈德曼' },
     years: '1869–1940',
-    nationality: { en: 'Lithuanian-American', zh: '立陶宛裔美国' },
+    nationality: { en: 'Russian-American', zh: '俄裔美国人' },
     bio: {
       en: 'Anarchist political activist and writer whose advocacy for free speech, women\'s rights, and labor made her one of the most radical voices of her era.',
       zh: '无政府主义政治活动家和作家，其对言论自由、妇女权利和劳工权益的倡导使她成为那个时代最激进的声音之一。',
@@ -1021,23 +992,13 @@ export const activistData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'I freed a thousand slaves. I could have freed a thousand more if only they knew they were slaves.',
-          zh: '我解放了一千个奴隶。如果他们知道自己是奴隶，我还能再解放一千人。',
-        },
-        original: 'I freed a thousand slaves. I could have freed a thousand more if only they knew they were slaves.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Apocryphal (no historical record; Tubman rescued ~70 people, not 1,000)', zh: '伪托（无历史记录；塔布曼实际解救约70人，非1,000人）' },
-      },
-      {
-        text: {
           en: 'I was the conductor of the Underground Railroad for eight years, and I can say what most conductors can\'t say — I never ran my train off the track and I never lost a passenger.',
           zh: '我担任地下铁路的指挥长达八年，我可以说大多数指挥都说不出的话——我从未让列车脱轨，也从未失去过一位乘客。',
         },
         original: 'I was the conductor of the Underground Railroad for eight years, and I can say what most conductors can\'t say — I never ran my train off the track and I never lost a passenger.',
         originalLang: 'en',
-        source: { en: 'Speech at the New England Anti-Slavery Conference', zh: '新英格兰反奴隶制会议演讲' },
-        year: 1858,
+        source: { en: 'Speech at a suffrage convention', zh: '妇女选举权大会演讲' },
+        year: 1896,
       },
     ],
   },

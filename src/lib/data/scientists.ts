@@ -129,20 +129,6 @@ export const scientistData: PersonData[] = [
       },
       {
         text: {
-          en: 'I would rather have questions that can\'t be answered than answers that can\'t be questioned.',
-          zh: '我宁愿拥有无法回答的问题，也不要不可质疑的答案。',
-        },
-        original: 'I would rather have questions that can\'t be answered than answers that can\'t be questioned.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'The Pleasure of Finding Things Out',
-          zh: '《发现的乐趣》',
-        },
-        year: 1981,
-      },
-      {
-        text: {
           en: 'What I cannot create, I do not understand.',
           zh: '我不能创造的东西，我就不理解。',
         },
@@ -300,10 +286,10 @@ export const scientistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'A Brief History of Time',
-          zh: '《时间简史》',
+          en: 'Stephen Hawking\'s Universe (by John Boslough)',
+          zh: '《史蒂芬·霍金的宇宙》（约翰·博斯劳夫著）',
         },
-        year: 1988,
+        year: 1985,
       },
       {
         text: {
@@ -790,20 +776,6 @@ export const scientistData: PersonData[] = [
         },
         year: 1958,
       },
-      {
-        text: {
-          en: 'Not only is the Universe stranger than we think, it is stranger than we can think.',
-          zh: '宇宙不仅比我们所想的更奇怪，而且比我们所能想象的更奇怪。',
-        },
-        original: 'Not only is the Universe stranger than we think, it is stranger than we can think.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Across the Frontiers',
-          zh: '《跨越疆界》',
-        },
-        year: 1974,
-      },
     ],
   },
   {
@@ -896,8 +868,8 @@ export const scientistData: PersonData[] = [
           en: 'And yet it moves.',
           zh: '但它确实在动。',
         },
-        original: 'And yet it moves.',
-        originalLang: 'en',
+        original: 'Eppur si muove.',
+        originalLang: 'it',
         originalLocale: 'en',
         source: {
           en: 'Attributed, after his forced recantation before the Inquisition',
@@ -910,9 +882,6 @@ export const scientistData: PersonData[] = [
           en: 'You cannot teach a man anything, you can only help him find it within himself.',
           zh: '你不能教会一个人任何东西，你只能帮助他在自己内心发现它。',
         },
-        original: 'You cannot teach a man anything, you can only help him find it within himself.',
-        originalLang: 'en',
-        originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -923,9 +892,6 @@ export const scientistData: PersonData[] = [
           en: 'The universe cannot be read until we have learnt the language and become familiar with the characters in which it is written. It is written in mathematical language, and the letters are triangles, circles and other geometrical figures.',
           zh: '宇宙在我们学会其语言并熟悉其书写符号之前是无法被理解的。它以数学语言写成，其字母是三角形、圆和其他几何图形。',
         },
-        original: 'The universe cannot be read until we have learnt the language and become familiar with the characters in which it is written. It is written in mathematical language, and the letters are triangles, circles and other geometrical figures.',
-        originalLang: 'en',
-        originalLocale: 'en',
         source: {
           en: 'The Assayer (Il Saggiatore)',
           zh: '《试金者》',
@@ -937,9 +903,6 @@ export const scientistData: PersonData[] = [
           en: 'I have never met a man so ignorant that I couldn\'t learn something from him.',
           zh: '我从未遇到过一个无知到我无法从他身上学到东西的人。',
         },
-        original: 'I have never met a man so ignorant that I couldn\'t learn something from him.',
-        originalLang: 'en',
-        originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -950,9 +913,6 @@ export const scientistData: PersonData[] = [
           en: 'All truths are easy to understand once they are discovered; the point is to discover them.',
           zh: '所有真理一旦被发现就容易理解；关键在于发现它们。',
         },
-        original: 'All truths are easy to understand once they are discovered; the point is to discover them.',
-        originalLang: 'en',
-        originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -983,10 +943,10 @@ export const scientistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Silent Spring',
-          zh: '《寂静的春天》',
+          en: 'Acceptance speech for the John Burroughs Medal',
+          zh: '约翰·巴勒斯奖章获奖演讲',
         },
-        year: 1962,
+        year: 1952,
       },
       {
         text: {
@@ -1073,10 +1033,10 @@ export const scientistData: PersonData[] = [
       },
       {
         text: {
-          en: 'A new scientific truth does not triumph by convincing its opponents, but rather because its opponents eventually die.',
-          zh: '一个新的科学真理不是通过说服反对者而胜利的，而是因为反对者最终都去世了。',
+          en: 'A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.',
+          zh: '一个新的科学真理不是通过说服反对者并让他们看到光明而胜利的，而是因为反对者最终都去世了，而熟悉它的新一代成长了起来。',
         },
-        original: 'A new scientific truth does not triumph by convincing its opponents, but rather because its opponents eventually die.',
+        original: 'A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.',
         originalLang: 'en',
         originalLocale: 'en',
         source: {
@@ -1262,7 +1222,7 @@ export const scientistData: PersonData[] = [
   },
   {
     slug: 'erwin-schrodinger',
-    name: { en: 'Erwin Schrodinger', zh: '埃尔温·薛定谔' },
+    name: { en: 'Erwin Schrödinger', zh: '埃尔温·薛定谔' },
     years: '1887–1961',
     nationality: { en: 'Austrian', zh: '奥地利' },
     bio: {
@@ -1274,20 +1234,6 @@ export const scientistData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/埃尔温·薛定谔',
     },
     quotes: [
-      {
-        text: {
-          en: 'The task is not so much to see what no one has yet seen, but to think what nobody has yet thought, about that which everybody sees.',
-          zh: '任务不在于看到别人还没看到的东西，而在于对每个人都看到的东西，想到别人还没想到的。',
-        },
-        original: 'The task is not so much to see what no one has yet seen, but to think what nobody has yet thought, about that which everybody sees.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: {
-          en: 'Problems of Life',
-          zh: '《生命的问题》',
-        },
-        year: 1948,
-      },
       {
         text: {
           en: 'Consciousness cannot be accounted for in physical terms. For consciousness is absolutely fundamental.',
@@ -1435,7 +1381,7 @@ export const scientistData: PersonData[] = [
   },
   {
     slug: 'santiago-ramon-y-cajal',
-    name: { en: 'Santiago Ramon y Cajal', zh: '圣地亚哥·拉蒙-卡哈尔' },
+    name: { en: 'Santiago Ramón y Cajal', zh: '圣地亚哥·拉蒙-卡哈尔' },
     years: '1852–1934',
     nationality: { en: 'Spanish', zh: '西班牙' },
     bio: {

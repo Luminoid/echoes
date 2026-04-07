@@ -44,10 +44,10 @@ export const photographerData: PersonData[] = [
       },
       {
         text: {
-          en: 'The photograph itself doesn\'t interest me. I want to capture just that one moment\u2014the one that is essential.',
-          zh: '照片本身并不令我感兴趣。我只想捕捉那一个瞬间\u2014\u2014那个本质的瞬间。',
+          en: 'The photograph itself doesn\'t interest me. I want only to capture a minute part of reality.',
+          zh: '照片本身并不让我感兴趣。我只想捕捉现实的一小部分。',
         },
-        original: 'The photograph itself doesn\'t interest me. I want to capture just that one moment\u2014the one that is essential.',
+        original: 'The photograph itself doesn\'t interest me. I want only to capture a minute part of reality.',
         originalLang: 'en',
         originalLocale: 'en',
         source: {
@@ -572,7 +572,7 @@ export const photographerData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Diane_Arbus',
-      zh: 'https://en.wikipedia.org/wiki/Diane_Arbus',
+      zh: 'https://zh.wikipedia.org/wiki/黛安·阿勃丝',
     },
     quotes: [
       {
@@ -925,7 +925,7 @@ export const photographerData: PersonData[] = [
   {
     slug: 'sebastiao-salgado',
     name: { en: 'Sebasti\u00e3o Salgado', zh: '塞巴斯蒂昂·萨尔加多' },
-    years: '1944\u2013',
+    years: '1944\u20132025',
     nationality: { en: 'Brazilian', zh: '巴西' },
     bio: {
       en: 'Documentary photographer whose epic black-and-white images chronicle workers, migrations, and the natural world with monumental compassion.',
@@ -1093,7 +1093,7 @@ export const photographerData: PersonData[] = [
   },
   {
     slug: 'cindy-sherman',
-    name: { en: 'Cindy Sherman', zh: '辛迪·舍曼' },
+    name: { en: 'Cindy Sherman', zh: '辛蒂·雪曼' },
     years: '1954\u2013',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -1114,8 +1114,8 @@ export const photographerData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Interview, ArtForum, 2003',
-          zh: '《艺术论坛》采访，2003年',
+          en: 'Interview with Betsy Berne, Tate, 2003',
+          zh: '贝琪·伯恩采访，泰特美术馆，2003年',
         },
         year: 2003,
       },
@@ -1148,15 +1148,15 @@ export const photographerData: PersonData[] = [
       },
       {
         text: {
-          en: 'The work is what it is and hopefully it\'s seen as feminist work, or feminist-Loss work, or however people see it. I\'m not going to go around espousing theoretical bullshit about it.',
-          zh: '作品就是作品，希望人们把它看作女性主义作品，或女性主义失去的作品，或人们怎么看都行。我不会到处宣扬关于它的理论废话。',
+          en: 'The work is what it is and hopefully it\'s seen as feminist work, or feminist-advised work, or however people see it. I\'m not going to go around espousing theoretical bullshit about it.',
+          zh: '作品就是作品，希望人们把它看作女性主义作品，或受女性主义启发的作品，或人们怎么看都行。我不会到处宣扬关于它的理论废话。',
         },
-        original: 'The work is what it is and hopefully it\'s seen as feminist work, or feminist-Loss work, or however people see it. I\'m not going to go around espousing theoretical bullshit about it.',
+        original: 'The work is what it is and hopefully it\'s seen as feminist work, or feminist-advised work, or however people see it. I\'m not going to go around espousing theoretical bullshit about it.',
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Interview, ArtForum, 2003',
-          zh: '《艺术论坛》采访，2003年',
+          en: 'Interview with Betsy Berne, Tate, 2003',
+          zh: '贝琪·伯恩采访，泰特美术馆，2003年',
         },
         year: 2003,
       },
@@ -1432,7 +1432,7 @@ export const photographerData: PersonData[] = [
   },
   {
     slug: 'sally-mann',
-    name: { en: 'Sally Mann', zh: '萨利·曼' },
+    name: { en: 'Sally Mann', zh: '萨利·曼恩' },
     years: '1951\u2013',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -2001,10 +2001,10 @@ export const photographerData: PersonData[] = [
       },
       {
         text: {
-          en: 'Photography is not cute cats. It is not nudes. It is not commercial art. It is the visual expression of the force of everyday life.',
-          zh: '摄影不是可爱的猫，不是裸体，不是商业艺术。它是日常生活力量的视觉表达。',
+          en: 'Photography is not cute cats, nor nudes, motherhood or arrangements of manufactured products. Under no circumstances it is anything ever anywhere near a beach.',
+          zh: '摄影不是可爱的猫，不是裸体，不是母性，也不是人造产品的摆设。在任何情况下，它都绝不是任何靠近海滩的东西。',
         },
-        original: 'Photography is not cute cats. It is not nudes. It is not commercial art. It is the visual expression of the force of everyday life.',
+        original: 'Photography is not cute cats, nor nudes, motherhood or arrangements of manufactured products. Under no circumstances it is anything ever anywhere near a beach.',
         originalLang: 'en',
         originalLocale: 'en',
         source: {

@@ -272,7 +272,7 @@ export const designerData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Vignelli Canon', zh: '《维涅利准则》' },
-        year: 2009,
+        year: 2010,
       },
       {
         text: {
@@ -283,7 +283,7 @@ export const designerData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Vignelli Canon', zh: '《维涅利准则》' },
-        year: 2009,
+        year: 2010,
       },
     ],
   },
@@ -601,7 +601,7 @@ export const designerData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Charlotte_Perriand',
-      zh: 'https://zh.wikipedia.org/wiki/夏洛特·贝里安',
+      zh: 'https://zh.wikipedia.org/wiki/夏洛特·佩里昂',
     },
     quotes: [
       {
@@ -849,7 +849,7 @@ export const designerData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Bruno_Munari',
-      zh: 'https://zh.wikipedia.org/wiki/布鲁诺·莫那利',
+      zh: 'https://zh.wikipedia.org/wiki/布鲁诺·穆纳里',
     },
     quotes: [
       {
@@ -917,7 +917,7 @@ export const designerData: PersonData[] = [
   },
   {
     slug: 'yves-saint-laurent',
-    name: { en: 'Yves Saint Laurent', zh: '伊夫·圣罗兰' },
+    name: { en: 'Yves Saint Laurent', zh: '伊夫·圣洛朗' },
     years: '1936–2008',
     nationality: { en: 'French', zh: '法国' },
     bio: {
@@ -974,7 +974,7 @@ export const designerData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Neville_Brody',
-      zh: 'https://en.wikipedia.org/wiki/Neville_Brody',
+      zh: 'https://en.wikipedia.org/wiki/Neville_Brody', // No Chinese Wikipedia page exists
     },
     quotes: [
       {

@@ -508,7 +508,7 @@ export const poetData: PersonData[] = [
         original: 'Because I could not stop for Death \u2013 He kindly stopped for me \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Because I could not stop for Death (479)', zh: '《因为我无法停下等候死神》（479）' },
+        source: { en: 'Because I could not stop for Death (F479)', zh: '《因为我无法停下等候死神》（F479）' },
         year: 1863,
       },
       {
@@ -519,7 +519,7 @@ export const poetData: PersonData[] = [
         original: 'I dwell in Possibility \u2013 A fairer House than Prose \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'I dwell in Possibility (466)', zh: '《我栖居在可能性中》（466）' },
+        source: { en: 'I dwell in Possibility (F466)', zh: '《我栖居在可能性中》（F466）' },
         year: 1862,
       },
       {
@@ -530,7 +530,7 @@ export const poetData: PersonData[] = [
         original: 'Tell all the truth but tell it slant \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Tell all the truth but tell it slant (1263)', zh: '《说出全部真相但要斜着说》（1263）' },
+        source: { en: 'Tell all the truth but tell it slant (F1263)', zh: '《说出全部真相但要斜着说》（F1263）' },
         year: 1872,
       },
       {
@@ -541,7 +541,7 @@ export const poetData: PersonData[] = [
         original: '"Hope" is the thing with feathers \u2013 That perches in the soul \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: '"Hope" is the thing with feathers (254)', zh: '《"希望"是长着羽毛的东西》（254）' },
+        source: { en: '"Hope" is the thing with feathers (F314)', zh: '《"希望"是长着羽毛的东西》（F314）' },
         year: 1861,
       },
       {
@@ -552,7 +552,7 @@ export const poetData: PersonData[] = [
         original: 'If I can stop one Heart from breaking, I shall not live in vain.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'If I can stop one Heart from breaking (919)', zh: '《如果我能让一颗心免于破碎》（919）' },
+        source: { en: 'If I can stop one Heart from breaking (F982)', zh: '《如果我能让一颗心免于破碎》（F982）' },
         year: 1864,
       },
       {
@@ -563,7 +563,7 @@ export const poetData: PersonData[] = [
         original: 'I\'m Nobody! Who are you? Are you \u2013 Nobody \u2013 too?',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'I\'m Nobody! Who are you? (260)', zh: '《我是无名小卒！你是谁？》（260）' },
+        source: { en: 'I\'m Nobody! Who are you? (F260)', zh: '《我是无名小卒！你是谁？》（F260）' },
         year: 1861,
       },
       {
@@ -574,7 +574,7 @@ export const poetData: PersonData[] = [
         original: 'Wild Nights \u2013 Wild Nights! Were I with thee Wild Nights should be Our luxury!',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Wild Nights \u2013 Wild Nights! (249)', zh: '《狂野的夜——狂野的夜！》（249）' },
+        source: { en: 'Wild Nights \u2013 Wild Nights! (F269)', zh: '《狂野的夜——狂野的夜！》（F269）' },
         year: 1861,
       },
       {
@@ -585,7 +585,7 @@ export const poetData: PersonData[] = [
         original: 'The Soul selects her own Society \u2013 Then \u2013 shuts the Door \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'The Soul selects her own Society (303)', zh: '《灵魂选择自己的伴侣》（303）' },
+        source: { en: 'The Soul selects her own Society (F409)', zh: '《灵魂选择自己的伴侣》（F409）' },
         year: 1862,
       },
       {
@@ -596,7 +596,7 @@ export const poetData: PersonData[] = [
         original: 'A word is dead When it is said, Some say. I say it just Begins to live That day.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'A word is dead (1212)', zh: '《一个词死了》（1212）' },
+        source: { en: 'A word is dead (F278)', zh: '《一个词死了》（F278）' },
         year: 1872,
       },
       {
@@ -607,7 +607,7 @@ export const poetData: PersonData[] = [
         original: 'That it will never come again Is what makes life so sweet.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'That it will never come again (1741)', zh: '《它永不再来》（1741）' },
+        source: { en: 'That it will never come again (F1741)', zh: '《它永不再来》（F1741）' },
         year: 1870,
       },
       {
@@ -618,7 +618,7 @@ export const poetData: PersonData[] = [
         original: 'Forever \u2013 is composed of Nows \u2013',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Forever \u2013 is composed of Nows (624)', zh: '《永恒由此刻组成》（624）' },
+        source: { en: 'Forever \u2013 is composed of Nows (F690)', zh: '《永恒由此刻组成》（F690）' },
         year: 1863,
       },
     ],
@@ -903,20 +903,6 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Lake Isle of Innisfree', zh: '《茵尼斯弗利岛》' },
         year: 1890,
-      },
-      {
-        text: {
-          en: 'Education is not the filling of a pail, but the lighting of a fire.',
-          zh: '教育不是注满一桶水，而是点燃一把火。',
-        },
-        original: 'Education is not the filling of a pail, but the lighting of a fire.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed / widely quoted', zh: '常见引用' },
-        comment: {
-          en: 'No evidence in Yeats\'s published works, letters, or speeches. Similar sentiment traced to Plutarch\'s "De Auditu." Widely misattributed on the internet.',
-          zh: '在叶芝的出版著作、书信或演讲中均无证据。类似的观点可追溯至普鲁塔克的《论倾听》。在互联网上被广泛错误归属。',
-        },
       },
       {
         text: {
@@ -2248,7 +2234,7 @@ export const poetData: PersonData[] = [
         original: '\u53e4\u4eba\u306e\u8de1\u3092\u6c42\u3081\u305a\u3001\u53e4\u4eba\u306e\u6c42\u3081\u305f\u308b\u3068\u3053\u308d\u3092\u6c42\u3081\u3088',
         originalLang: 'ja',
         originalLocale: 'en',
-        source: { en: 'The Narrow Road to the Deep North', zh: '《奥之细道》' },
+        source: { en: 'Words of Farewell to Kyoriku (quoting Kūkai)', zh: '《送去来的话（引空海）》' },
         year: 1694,
       },
       {
