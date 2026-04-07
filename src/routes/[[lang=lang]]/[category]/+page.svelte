@@ -3,6 +3,7 @@
   import { t, localePath } from '$lib/i18n/translations';
   import { getCategoryInfo } from '$lib/data';
   import type { Person } from '$lib/data/types';
+  import { page } from '$app/state';
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import CategoryNav from '$lib/components/CategoryNav.svelte';
@@ -19,11 +20,28 @@
   let filtered = $derived(
     people.filter((p) => p.name.toLowerCase().includes(filter.toLowerCase())),
   );
+
+  let enUrl = $derived(`${page.url.origin}/${category}/`);
+  let zhUrl = $derived(`${page.url.origin}/zh/${category}/`);
+  let canonicalUrl = $derived(locale === 'en' ? enUrl : zhUrl);
 </script>
 
 <svelte:head>
   <title>{info?.label} — {t(locale, 'site.title')}</title>
   <meta name="description" content={info?.description} />
+  <link rel="canonical" href={canonicalUrl} />
+  <link rel="alternate" hreflang="en" href={enUrl} />
+  <link rel="alternate" hreflang="zh" href={zhUrl} />
+  <link rel="alternate" hreflang="x-default" href={enUrl} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{info?.label} — {t(locale, 'site.title')}" />
+  <meta property="og:description" content={info?.description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content="{page.url.origin}/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{info?.label} — {t(locale, 'site.title')}" />
+  <meta name="twitter:description" content={info?.description} />
+  <meta name="twitter:image" content="{page.url.origin}/og-image.png" />
 </svelte:head>
 
 <Header {locale} />
@@ -39,7 +57,7 @@
     </h1>
     <p class="mt-2 text-text-muted">{info?.description}</p>
     <p class="mt-1 text-sm text-text-muted/60">
-      {people.length} {locale === 'en' ? 'entries' : '位'}
+      {people.length} {t(locale, 'category.entries')}
     </p>
   </div>
 
@@ -53,11 +71,13 @@
     {/each}
   </div>
 
-  {#if filtered.length === 0}
-    <p class="py-12 text-center text-text-muted">
-      {locale === 'en' ? 'No results found.' : '未找到结果。'}
-    </p>
-  {/if}
+  <div role="status" aria-live="polite">
+    {#if filtered.length === 0}
+      <p class="py-12 text-center text-text-muted">
+        {t(locale, 'search.noResults')}
+      </p>
+    {/if}
+  </div>
 </main>
 
 <Footer {locale} />

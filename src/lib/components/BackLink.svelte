@@ -5,7 +5,7 @@
 
   let { category, locale }: { category: Category; locale: Locale } = $props();
 
-  const info = getCategoryInfo(category, locale);
+  let info = $derived(getCategoryInfo(category, locale));
 </script>
 
 <a

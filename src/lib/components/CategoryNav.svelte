@@ -10,6 +10,7 @@
   {#each categoryList as cat}
     <a
       href={localePath(locale, `/${cat.key}`)}
+      aria-current={cat.key === active ? 'page' : undefined}
       class="rounded-full border px-4 py-2 text-sm transition-all duration-200
         {cat.key === active
           ? 'border-accent bg-accent/10 text-accent'

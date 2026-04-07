@@ -21,8 +21,15 @@
     const handleScroll = () => {
       scrolled = window.scrollY > 20;
     };
+    const handleKeydown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && menuOpen) menuOpen = false;
+    };
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('keydown', handleKeydown);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('keydown', handleKeydown);
+    };
   });
 </script>
 
@@ -50,7 +57,7 @@
       <button
         onclick={() => (menuOpen = !menuOpen)}
         class="text-text-muted transition-colors hover:text-accent lg:hidden"
-        aria-label="Toggle menu"
+        aria-label={t(locale, 'nav.toggleMenu')}
       >
         <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           {#if menuOpen}

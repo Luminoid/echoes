@@ -2,7 +2,10 @@
 <html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%sveltekit.assets%/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="%sveltekit.assets%/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,9 +14,10 @@
       rel="stylesheet"
     />
     <script>
-      // Prevent flash of wrong theme
+      // Prevent flash of wrong theme — respect OS preference if no stored choice
       (function () {
-        const theme = localStorage.getItem('echoes-theme') || 'dark';
+        var stored = localStorage.getItem('echoes-theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', theme);
       })();
     </script>

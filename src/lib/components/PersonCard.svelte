@@ -5,7 +5,7 @@
 
   let { person, category, locale }: { person: Person; category: Category; locale: Locale } = $props();
 
-  const firstQuote = person.quotes[0];
+  let firstQuote = $derived(person.quotes[0]);
 </script>
 
 <a

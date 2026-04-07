@@ -19,6 +19,7 @@
     type="text"
     bind:value
     placeholder={t(locale, 'filter.placeholder')}
+    aria-label={t(locale, 'filter.placeholder')}
     class="w-full rounded-lg border border-border bg-bg-card py-2.5 pl-10 pr-4 text-sm text-text transition-colors placeholder:text-text-muted/50 focus:border-accent/50 focus:outline-none"
   />
 </div>

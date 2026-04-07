@@ -3,6 +3,7 @@
   import { categoryList } from '$lib/data/types';
   import { t, localePath } from '$lib/i18n/translations';
   import { getPeopleByCategory, getCategoryInfo, shuffle } from '$lib/data';
+  import { page } from '$app/state';
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import HeroSection from '$lib/components/HeroSection.svelte';
@@ -10,11 +11,28 @@
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);
+
+  let enUrl = $derived(`${page.url.origin}/`);
+  let zhUrl = $derived(`${page.url.origin}/zh/`);
+  let canonicalUrl = $derived(locale === 'en' ? enUrl : zhUrl);
 </script>
 
 <svelte:head>
   <title>{t(locale, 'site.title')} — {t(locale, 'site.subtitle')}</title>
   <meta name="description" content={t(locale, 'site.description')} />
+  <link rel="canonical" href={canonicalUrl} />
+  <link rel="alternate" hreflang="en" href={enUrl} />
+  <link rel="alternate" hreflang="zh" href={zhUrl} />
+  <link rel="alternate" hreflang="x-default" href={enUrl} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{t(locale, 'site.title')} — {t(locale, 'site.subtitle')}" />
+  <meta property="og:description" content={t(locale, 'site.description')} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content="{page.url.origin}/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{t(locale, 'site.title')} — {t(locale, 'site.subtitle')}" />
+  <meta name="twitter:description" content={t(locale, 'site.description')} />
+  <meta name="twitter:image" content="{page.url.origin}/og-image.png" />
 </svelte:head>
 
 <Header {locale} />
