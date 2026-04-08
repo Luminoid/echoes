@@ -957,17 +957,6 @@ export const essayistData: PersonData[] = [
         source: { en: 'The Importance of Living', zh: '《生活的艺术》' },
         year: 1937,
       },
-      {
-        text: {
-          en: 'Hope is like a road in the country; there was never a road, but when many people walk on it, the road comes into existence.',
-          zh: '希望本是无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。',
-        },
-        original: '希望本是无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。',
-        originalLang: 'zh',
-        originalLocale: 'zh',
-        source: { en: 'Originally by Lu Xun ("My Old Home", 1921); paraphrased by Lin Yutang', zh: '原出鲁迅《故乡》（1921），林语堂转述' },
-        year: 1921,
-      },
     ],
   },
   {

@@ -25,14 +25,16 @@
     return match ? parseInt(match[0], 10) : Infinity;
   }
 
+  const localeTag = $derived(locale === 'zh' ? 'zh-Hans' : 'en');
+
   let filtered = $derived(
     people
       .filter((p) => p.name.toLowerCase().includes(filter.toLowerCase()))
       .toSorted((a, b) =>
         sortBy === 'birthYear'
           ? parseBirthYear(a.years) - parseBirthYear(b.years) ||
-            a.name.localeCompare(b.name)
-          : a.name.localeCompare(b.name),
+            a.name.localeCompare(b.name, localeTag)
+          : a.name.localeCompare(b.name, localeTag),
       ),
   );
 

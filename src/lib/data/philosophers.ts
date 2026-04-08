@@ -1416,6 +1416,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第一章' },
+        year: -400,
       },
       {
         text: {
@@ -1426,6 +1427,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第六十四章' },
+        year: -400,
       },
       {
         text: {
@@ -1436,6 +1438,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第八章' },
+        year: -400,
       },
       {
         text: {
@@ -1446,6 +1449,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第二章' },
+        year: -400,
       },
       {
         text: {
@@ -1456,6 +1460,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第七十一章' },
+        year: -400,
       },
       {
         text: {
@@ -1466,6 +1471,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第三十六章' },
+        year: -400,
       },
       {
         text: {
@@ -1476,6 +1482,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第六十章' },
+        year: -400,
       },
       {
         text: {
@@ -1486,6 +1493,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第三十三章' },
+        year: -400,
       },
       {
         text: {
@@ -1496,6 +1504,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第三十七章' },
+        year: -400,
       },
       {
         text: {
@@ -1506,6 +1515,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Tao Te Ching', zh: '道德经·第八十一章' },
+        year: -400,
       },
     ],
   },
@@ -3413,15 +3423,6 @@ export const philosopherData: PersonData[] = [
         },
         originalLang: 'en',
         source: { en: 'The Crooked Timber of Humanity', zh: '《人性的曲木》' },
-        year: 1990,
-      },
-      {
-        text: {
-          en: 'Out of the crooked timber of humanity, no straight thing was ever made.',
-          zh: '用人性这根曲木，绝然造不出任何笔直之物。',
-        },
-        originalLang: 'en',
-        source: { en: 'The Crooked Timber of Humanity (quoting Kant)', zh: '《人性的曲木》（引康德语）' },
         year: 1990,
       },
       {

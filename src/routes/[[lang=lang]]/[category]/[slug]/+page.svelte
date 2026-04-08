@@ -62,7 +62,7 @@
 
   <div class="flex flex-col gap-6">
     {#each person.quotes as quote, i}
-      <QuoteBlock {quote} {locale} />
+      <QuoteBlock {quote} {locale} personName={person.name} />
     {/each}
   </div>
 </main>

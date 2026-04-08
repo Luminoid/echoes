@@ -1471,6 +1471,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Quiet Night Thought', zh: '《静夜思》' },
+        year: 726,
       },
       {
         text: {
@@ -1481,6 +1482,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Drinking Alone Beneath the Moon', zh: '《月下独酌》' },
+        year: 744,
       },
       {
         text: {
@@ -1491,6 +1493,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Bring in the Wine', zh: '《将进酒》' },
+        year: 752,
       },
       {
         text: {
@@ -1501,6 +1504,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Bring in the Wine', zh: '《将进酒》' },
+        year: 752,
       },
       {
         text: {
@@ -1511,6 +1515,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'A Farewell Banquet at Xie Tiao Pavilion in Xuanzhou', zh: '《宣州谢朓楼饯别校书叔云》' },
+        year: 753,
       },
       {
         text: {
@@ -1521,6 +1526,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Sitting Alone on Jingting Mountain', zh: '《独坐敬亭山》' },
+        year: 753,
       },
       {
         text: {
@@ -1531,6 +1537,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'The Hard Road', zh: '《行路难》' },
+        year: 744,
       },
       {
         text: {
@@ -1541,6 +1548,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'The Hard Road', zh: '《行路难》' },
+        year: 744,
       },
       {
         text: {
@@ -1551,6 +1559,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'The Moon over the Frontier Pass', zh: '《关山月》' },
+        year: 735,
       },
       {
         text: {
@@ -1561,6 +1570,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Gazing at the Waterfall on Mount Lu', zh: '《望庐山瀑布》' },
+        year: 726,
       },
       {
         text: {
@@ -1571,6 +1581,7 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'Bring in the Wine', zh: '《将进酒》' },
+        year: 752,
       },
     ],
   },

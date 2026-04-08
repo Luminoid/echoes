@@ -333,17 +333,6 @@ export const filmmakerData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'If memories could be canned, would they also have expiry dates? If so, I hope they last for centuries.',
-          zh: '如果记忆也是一个罐头的话，我希望它的有效期是一万年。',
-        },
-        original: '如果记忆也是一个罐头的话，我希望它的有效期是一万年。',
-        originalLang: 'zh',
-        originalLocale: 'zh',
-        source: { en: 'Chungking Express', zh: '《重庆森林》' },
-        year: 1994,
-      },
-      {
-        text: {
           en: 'Feelings can creep up just like that. I thought I was in control.',
           zh: '感情的事情，你不想它来的时候，它偏偏来了。我以为我能控制。',
         },

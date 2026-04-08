@@ -3,8 +3,19 @@
   import type { Quote } from '$lib/data/types';
   import { langNames } from '$lib/data/types';
   import { t } from '$lib/i18n/translations';
+  import { shareQuote, formatYearForShare } from '$lib/shareQuote';
 
-  let { quote, locale }: { quote: Quote; locale: Locale } = $props();
+  let { quote, locale, personName }: { quote: Quote; locale: Locale; personName?: string } = $props();
+
+  let sharing = $state(false);
+
+  function formatYear(year: number, loc: Locale): string {
+    if (year < 0) {
+      const absYear = Math.abs(year);
+      return loc === 'zh' ? `约公元前${absYear}年` : `c. ${absYear} BC`;
+    }
+    return String(year);
+  }
 
   const sourceLink = $derived(
     quote.sourceUrl ||
@@ -15,9 +26,42 @@
   const showSourceTranslation = $derived(
     quote.source !== quote.sourceOriginal && quote.source && quote.sourceOriginal,
   );
+
+  async function handleShare() {
+    if (sharing || !personName) return;
+    sharing = true;
+    try {
+      await shareQuote({
+        quoteText: quote.original,
+        translation: quote.translation,
+        source: quote.sourceOriginal,
+        year: formatYearForShare(quote.year, locale),
+        personName,
+        locale,
+      });
+    } finally {
+      sharing = false;
+    }
+  }
 </script>
 
-<div class="rounded-xl border border-border-subtle bg-quote-bg p-6 sm:p-8">
+<div class="group relative rounded-xl border border-border-subtle bg-quote-bg p-6 sm:p-8">
+  {#if personName}
+    <button
+      onclick={handleShare}
+      disabled={sharing}
+      class="absolute top-4 right-4 rounded-lg p-2 text-text-muted/40 transition-colors hover:bg-accent/10 hover:text-accent focus:text-accent opacity-0 group-hover:opacity-100 focus:opacity-100 disabled:opacity-50"
+      aria-label={t(locale, 'quote.share')}
+      title={t(locale, 'quote.share')}
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+        <polyline points="16 6 12 2 8 6" />
+        <line x1="12" y1="2" x2="12" y2="15" />
+      </svg>
+    </button>
+  {/if}
+
   {#if quote.speaker}
     <p class="mb-3 text-xs font-medium tracking-wide text-text-muted uppercase">
       {quote.speaker}
@@ -53,7 +97,7 @@
         {quote.sourceOriginal} ↗
       </a>
       {#if quote.year}
-        <span class="text-text-muted">({quote.year})</span>
+        <span class="text-text-muted">({formatYear(quote.year, locale)})</span>
       {/if}
     </div>
     {#if showSourceTranslation}
