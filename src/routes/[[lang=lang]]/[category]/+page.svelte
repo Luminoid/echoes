@@ -16,9 +16,24 @@
   let people = $derived(data.people as Person[]);
   let info = $derived(getCategoryInfo(category, locale));
 
+  type SortKey = 'name' | 'birthYear';
   let filter = $state('');
+  let sortBy = $state<SortKey>('name');
+
+  function parseBirthYear(years: string): number {
+    const match = years.match(/\d+/);
+    return match ? parseInt(match[0], 10) : Infinity;
+  }
+
   let filtered = $derived(
-    people.filter((p) => p.name.toLowerCase().includes(filter.toLowerCase())),
+    people
+      .filter((p) => p.name.toLowerCase().includes(filter.toLowerCase()))
+      .toSorted((a, b) =>
+        sortBy === 'birthYear'
+          ? parseBirthYear(a.years) - parseBirthYear(b.years) ||
+            a.name.localeCompare(b.name)
+          : a.name.localeCompare(b.name),
+      ),
   );
 
   let enUrl = $derived(`${page.url.origin}/${category}/`);
@@ -61,8 +76,22 @@
     </p>
   </div>
 
-  <div class="mb-8 max-w-sm">
-    <FilterInput {locale} bind:value={filter} />
+  <div class="mb-8 flex flex-wrap items-center gap-4">
+    <div class="w-full max-w-sm">
+      <FilterInput {locale} bind:value={filter} />
+    </div>
+    <div class="flex items-center gap-1 rounded-lg border border-border p-0.5">
+      {#each ['name', 'birthYear'] as key (key)}
+        <button
+          class="rounded-md px-3 py-1.5 text-sm transition-colors {sortBy === key
+            ? 'bg-accent text-white'
+            : 'text-text-muted hover:text-text'}"
+          onclick={() => (sortBy = key as SortKey)}
+        >
+          {t(locale, `sort.${key}`)}
+        </button>
+      {/each}
+    </div>
   </div>
 
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
