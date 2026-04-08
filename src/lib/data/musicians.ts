@@ -111,6 +111,26 @@ export const musicianData: PersonData[] = [
         source: { en: 'Heiligenstadt Testament', zh: '《海利根施塔特遗书》' },
         year: 1802,
       },
+      {
+        text: {
+          en: 'I would have ended my life — it was only my art that held me back. Ah, it seemed to me impossible to leave the world until I had brought forth all that I felt was within me.',
+          zh: '我本想结束自己的生命——唯有艺术将我挽留。啊，在我将内心感受到的一切倾诉殆尽之前，离开这个世界于我是不可能的。',
+        },
+        original: 'Ich hätte meinem Leben ein Ende gemacht — nur sie, die Kunst, sie hielt mich zurück. Ach, es dünkte mir unmöglich, die Welt eher zu verlassen, bis ich das alles hervorgebracht, wozu ich mich aufgelegt fühlte.',
+        originalLang: 'de',
+        source: { en: 'Heiligenstadt Testament', zh: '《海利根施塔特遗书》' },
+        year: 1802,
+      },
+      {
+        text: {
+          en: 'Patience, they say, is what I must now choose for my guide, and I have done so — I hope my determination will remain firm to endure until it pleases the inexorable Parcae to break the thread.',
+          zh: '他们说，我现在必须以忍耐为引路人，我已如此做了——我希望我的决心能坚定不移地忍耐下去，直到那不可抗拒的命运女神愿意切断这根线为止。',
+        },
+        original: 'Geduld — so heißt es, sie muß ich nun zur Führerin wählen, ich habe es — Dauernd hoffe ich, mein Entschluß soll dauern auszuharren, bis es den unerbittlichen Parzen gefällt, den Faden zu brechen.',
+        originalLang: 'de',
+        source: { en: 'Heiligenstadt Testament', zh: '《海利根施塔特遗书》' },
+        year: 1802,
+      },
     ],
   },
   {
@@ -142,8 +162,6 @@ export const musicianData: PersonData[] = [
           en: 'I was obliged to be industrious. Whoever is equally industrious will succeed equally well.',
           zh: '我不得不勤奋。同样勤奋的人也会同样成功。',
         },
-        original: 'I was obliged to be industrious. Whoever is equally industrious will succeed equally well.',
-        originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Attributed, as told by Johann Nikolaus Forkel', zh: '据福克尔记载' },
       },
@@ -168,8 +186,6 @@ export const musicianData: PersonData[] = [
           en: 'Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art.',
           zh: '简洁是最终的成就。当你演奏了大量的音符之后，是简洁作为艺术的最高奖赏浮现出来。',
         },
-        original: 'Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art.',
-        originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'Attributed', zh: '名言' },
       },
@@ -284,6 +300,23 @@ export const musicianData: PersonData[] = [
         original: 'Act the way you\'d like to be and soon you\'ll be the way you act.',
         originalLang: 'en',
         source: { en: 'Attributed', zh: '名言' },
+      },
+      {
+        text: {
+          en: 'One is distracted by this notion that there is such a thing as inspiration, that it comes fast and easy. And some people are graced by that style. I\'m not. So I have to work as hard as any stiff, to come up with my payload.',
+          zh: '人们被这种观念所干扰：以为存在所谓的灵感，以为它来得快速而轻松。有些人确实蒙受了那种恩赐。我不是。所以我必须像任何苦工一样卖力，才能交出我的成果。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview with NPR', zh: 'NPR采访' },
+        year: 2016,
+      },
+      {
+        text: {
+          en: 'I always felt that I was scraping the bottom of the barrel trying to get a song together. Other writers have said the same thing — that the process is not an agreeable one.',
+          zh: '我总觉得自己在搜刮桶底，试图拼凑出一首歌。其他作者也说过同样的话——创作过程并不愉快。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview with Brick magazine', zh: '《砖》杂志采访' },
       },
     ],
   },
@@ -564,6 +597,15 @@ export const musicianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Interview with The Guardian', zh: '《卫报》采访' },
       },
+      {
+        text: {
+          en: 'I found a piano that had been drowned in the tsunami, totally out of tune. I thought it was beautiful. Nature tuned it.',
+          zh: '我找到了一架被海啸淹没过的钢琴，完全走了音。我觉得它很美。是大自然为它调了音。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview about async, 2017', zh: '关于《async》的采访，2017年' },
+        year: 2017,
+      },
     ],
   },
   {
@@ -589,6 +631,24 @@ export const musicianData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Interview', zh: '采访' },
+      },
+      {
+        text: {
+          en: 'The justification of art is the internal combustion it ignites in the hearts of men and not its shallow, externalized, public manifestations. The purpose of art is not the release of a momentary ejection of adrenaline but is, rather, the gradual, lifelong construction of a state of wonder and serenity.',
+          zh: '艺术的正当性在于它在人心中点燃的内在燃烧，而非其浅薄的、外在化的公共表现。艺术的目的不是释放一时的肾上腺素喷涌，而是逐步建构一种终身的惊奇与宁静状态。',
+        },
+        originalLang: 'en',
+        source: { en: '"Let\'s Ban Applause!" High Fidelity, 1962', zh: '《让我们禁止鼓掌！》，《高保真》杂志，1962年' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'If there\'s any excuse at all for making a record, it\'s to do it differently — to approach the work from a totally recreative point of view, to perform this particular work as it has never been heard before. And if one can\'t do that, I would say, abandon it, forget about it, move on to something else.',
+          zh: '如果录制唱片有什么理由的话，那就是要做得不一样——以一种完全再创造的视角来诠释作品，以从未被听过的方式来演绎它。如果做不到这一点，我会说，放弃它，忘了它，去做别的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview on recording philosophy', zh: '关于录音理念的采访' },
+        year: 1964,
       },
     ],
   },
@@ -627,6 +687,15 @@ export const musicianData: PersonData[] = [
         source: { en: 'Miles: The Autobiography', zh: '《迈尔斯自传》' },
         year: 1989,
       },
+      {
+        text: {
+          en: 'I think a movement in jazz is beginning away from the conventional string of chords, and a return to emphasis on melodic rather than harmonic variation. There will be fewer chords but infinite possibilities as to what to do with them.',
+          zh: '我认为爵士乐正开始一场运动，远离传统的和弦串联，回归对旋律变化而非和声变化的强调。和弦会更少，但如何处理它们的可能性将是无限的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Liner notes for Kind of Blue', zh: '《泛蓝调调》内页文字' },
+        year: 1959,
+      },
     ],
   },
   {
@@ -653,6 +722,15 @@ export const musicianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Early Work: 1970-1979', zh: '《早期作品：1970-1979》' },
         year: 1994,
+      },
+      {
+        text: {
+          en: 'The artist seeks contact with his intuitive sense of the gods, but in order to create his work, he cannot stay in this seductive arena. He must return to the material world in order to do his work. It\'s the responsibility of the artist to balance mystical communication and the labor of creation.',
+          zh: '艺术家寻求与神灵的直觉感应建立联系，但为了创作，他不能停留在这个诱人的领域。他必须回到物质世界来完成自己的工作。平衡神秘的交流与创作的劳动，是艺术家的责任。',
+        },
+        originalLang: 'en',
+        source: { en: 'Just Kids', zh: '《只是孩子》' },
+        year: 2010,
       },
     ],
   },
@@ -726,6 +804,23 @@ export const musicianData: PersonData[] = [
         original: 'Getting older doesn\'t mean you know more. It just means you have less to lose.',
         originalLang: 'en',
         originalLocale: 'en',
+        source: { en: 'The Red Hand Files', zh: '《红手档案》' },
+      },
+      {
+        text: {
+          en: 'Grief and love are forever intertwined. Grief is the terrible reminder of the depths of our love and, like love, grief is non-negotiable. There is a vastness to grief that overwhelms our minuscule selves. We are tiny, trembling clusters of atoms subsumed within grief\'s awesome presence.',
+          zh: '悲伤与爱永远交织在一起。悲伤是对我们爱之深度的可怕提醒，如同爱一样，悲伤不可商量。悲伤有一种浩瀚，淹没了我们渺小的自我。我们是微小的、颤抖的原子团簇，被悲伤磅礴的存在所吞没。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Red Hand Files, Issue #6', zh: '《红手档案》第6期' },
+        year: 2018,
+      },
+      {
+        text: {
+          en: 'To be truly vulnerable is to exist adjacent to collapse or obliteration. In that place we can feel extraordinarily alive and receptive to all sorts of things, creatively and spiritually.',
+          zh: '真正的脆弱是存在于崩溃或湮灭的边缘。在那个境地，我们能感受到异常的鲜活，并在创造和精神上对各种事物敞开接纳。',
+        },
+        originalLang: 'en',
         source: { en: 'The Red Hand Files', zh: '《红手档案》' },
       },
     ],
@@ -837,9 +932,7 @@ export const musicianData: PersonData[] = [
           en: 'Before I compose a piece, I walk around it several times, accompanied by myself.',
           zh: '在创作一首曲子之前，我会围着它走几圈，独自一人。',
         },
-        original: 'Before I compose a piece, I walk around it several times, accompanied by myself.',
-        originalLang: 'en',
-        originalLocale: 'en',
+        originalLang: 'fr',
         source: { en: 'Attributed', zh: '名言' },
       },
     ],
@@ -863,9 +956,7 @@ export const musicianData: PersonData[] = [
           en: 'Music is the space between the notes.',
           zh: '音乐是音符之间的空间。',
         },
-        original: 'Music is the space between the notes.',
-        originalLang: 'en',
-        originalLocale: 'en',
+        originalLang: 'fr',
         source: { en: 'Attributed', zh: '名言' },
       },
       {
@@ -873,9 +964,7 @@ export const musicianData: PersonData[] = [
           en: 'Works of art make rules; rules do not make works of art.',
           zh: '艺术作品创造规则；规则不能创造艺术作品。',
         },
-        original: 'Works of art make rules; rules do not make works of art.',
-        originalLang: 'en',
-        originalLocale: 'en',
+        originalLang: 'fr',
         source: { en: 'Monsieur Croche, the Dilettante Hater', zh: '《反业余爱好者克罗什先生》' },
         year: 1901,
       },
@@ -962,9 +1051,7 @@ export const musicianData: PersonData[] = [
           en: 'Use your faults, use your defects; then you\'re going to be a star.',
           zh: '利用你的缺点，利用你的不足；那样你才会成为一颗明星。',
         },
-        original: 'Use your faults, use your defects; then you\'re going to be a star.',
-        originalLang: 'en',
-        originalLocale: 'en',
+        originalLang: 'fr',
         source: { en: 'Attributed', zh: '名言' },
       },
     ],
@@ -1050,6 +1137,26 @@ export const musicianData: PersonData[] = [
           zh: '常归于马勒名下，但也被归于其他人物。在马勒的著作中无可证实的原始来源。',
         },
       },
+      {
+        text: {
+          en: 'If a composer could say what he had to say in words he would not bother trying to say it in music.',
+          zh: '如果作曲家能用语言说出他想说的，他就不会费心用音乐来表达了。',
+        },
+        original: 'Wenn ein Komponist das, was er zu sagen hat, in Worte fassen könnte, würde er sich nicht die Mühe machen, es in Musik zu sagen.',
+        originalLang: 'de',
+        source: { en: 'Letter to Max Marschalk, March 26, 1896', zh: '致马克斯·马尔沙克的信，1896年3月26日' },
+        year: 1896,
+      },
+      {
+        text: {
+          en: 'The real art of conducting consists in transitions.',
+          zh: '指挥的真正艺术在于过渡。',
+        },
+        original: 'Die eigentliche Kunst des Dirigierens besteht in den Übergängen.',
+        originalLang: 'de',
+        source: { en: 'Quoted by Natalie Bauer-Lechner in Recollections of Gustav Mahler', zh: '引自娜塔莉·鲍尔-莱希纳《回忆古斯塔夫·马勒》' },
+        year: 1901,
+      },
     ],
   },
   {
@@ -1092,6 +1199,226 @@ export const musicianData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'A Love Supreme liner notes', zh: '《至高之爱》内页文字' },
         year: 1965,
+      },
+      {
+        text: {
+          en: 'During the year 1957, I experienced, by the grace of God, a spiritual awakening which was to lead me to a richer, fuller, more productive life. At that time, in gratitude, I humbly asked to be given the means and privilege to make others happy through music.',
+          zh: '1957年，承蒙上帝的恩典，我经历了一次精神上的觉醒，引领我走向更丰富、更充实、更有创造力的生活。那时，怀着感恩之心，我谦卑地祈求获得通过音乐使他人幸福的方式和特权。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Love Supreme liner notes', zh: '《至高之爱》内页文字' },
+        year: 1965,
+      },
+    ],
+  },
+  {
+    slug: 'arnold-schoenberg',
+    name: { en: 'Arnold Schoenberg', zh: '阿诺德·勋伯格' },
+    years: '1874–1951',
+    nationality: { en: 'Austrian-American', zh: '奥地利裔美国' },
+    bio: {
+      en: 'Composer and music theorist who revolutionized Western music through atonality and the twelve-tone technique. His theoretical writings in Harmonielehre and Style and Idea remain foundational texts for understanding modern composition.',
+      zh: '作曲家与音乐理论家，通过无调性与十二音技法彻底变革了西方音乐。其理论著作《和声学》与《风格与观念》至今仍是理解现代作曲的基础文献。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Arnold_Schoenberg',
+      zh: 'https://zh.wikipedia.org/wiki/阿诺德·勋伯格',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'My works are twelve-tone compositions, not twelve-tone compositions. The emphasis is on composition. The method is the tool, not the essence. A bad composer with twelve tones is no better than a bad composer with seven.',
+          zh: '我的作品是十二音的作品，而非十二音作品。重点在于作品本身。方法是工具，不是本质。一个用十二个音的坏作曲家，并不比用七个音的坏作曲家好到哪里去。',
+        },
+        original: 'Meine Werke sind Zwölftonkompositionen, nicht Zwölftonkompositionen. Die Betonung liegt auf Komposition.',
+        originalLang: 'de',
+        source: { en: 'Style and Idea', zh: '《风格与观念》' },
+        year: 1950,
+      },
+      {
+        text: {
+          en: 'If it is art, it is not for all, and if it is for all, it is not art.',
+          zh: '如果它是艺术，它就不是为所有人的；如果它是为所有人的，它就不是艺术。',
+        },
+        original: 'Wenn es Kunst ist, ist es nicht für alle, und wenn es für alle ist, ist es nicht Kunst.',
+        originalLang: 'de',
+        source: { en: 'Style and Idea', zh: '《风格与观念》' },
+        year: 1950,
+      },
+      {
+        text: {
+          en: 'The emancipation of the dissonance means that dissonances are no longer treated as requiring resolution. They are free to exist on their own terms, as consonances always have been. This is not chaos — it is a broader understanding of harmony.',
+          zh: '不协和音的解放意味着不协和音不再被视为需要解决的东西。它们可以像协和音一直以来那样自由地以自身的条件存在。这不是混乱——而是对和声更广阔的理解。',
+        },
+        original: 'Die Emanzipation der Dissonanz bedeutet, dass Dissonanzen nicht mehr als auflösungsbedürftig behandelt werden.',
+        originalLang: 'de',
+        source: { en: 'Theory of Harmony (Harmonielehre)', zh: '《和声学》' },
+        year: 1911,
+      },
+      {
+        text: {
+          en: 'I was never revolutionary. The only revolutionary is the one who can do without. I simply followed an inner compulsion which was stronger than any education, and I composed as my blood demanded.',
+          zh: '我从未是革命者。唯一的革命者是那些能够割舍的人。我只是遵循了一种比任何教育都更强大的内在驱力，我按照我血液的要求去作曲。',
+        },
+        original: 'Ich war nie revolutionär. Der einzige Revolutionär ist, wer verzichten kann.',
+        originalLang: 'de',
+        source: { en: 'Style and Idea', zh: '《风格与观念》' },
+        year: 1950,
+      },
+      {
+        text: {
+          en: 'Once, in the army, I was asked if I was really the composer Arnold Schoenberg. I said: Somebody had to be, and nobody else wanted to, so I took it on myself.',
+          zh: '有一次在军队里，有人问我是否就是作曲家阿诺德·勋伯格。我说：总得有人是，别人都不愿意，所以我就承担了。',
+        },
+        original: 'Einmal, in der Armee, wurde ich gefragt, ob ich wirklich der Komponist Arnold Schönberg sei. Ich sagte: Irgendjemand musste es sein, und niemand sonst wollte, also habe ich es auf mich genommen.',
+        originalLang: 'de',
+        source: { en: 'Letter to Alma Mahler', zh: '致阿尔玛·马勒的信' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'The second half of this century will spoil by overestimation whatever the first half, by underestimation, has left unspoiled of me.',
+          zh: '这个世纪的下半叶将因过度推崇而糟蹋掉上半叶因低估而未曾糟蹋的我。',
+        },
+        original: 'Die zweite Hälfte dieses Jahrhunderts wird durch Überschätzung wieder verderben, was immer die erste Hälfte durch Unterschätzung von mir übrig gelassen hat.',
+        originalLang: 'de',
+        source: { en: 'Style and Idea', zh: '《风格与观念》' },
+        year: 1950,
+      },
+    ],
+  },
+  {
+    slug: 'john-cage',
+    name: { en: 'John Cage', zh: '约翰·凯奇' },
+    years: '1912–1992',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Composer and music theorist who redefined the boundaries of music through chance operations, prepared piano, and the embrace of silence. His work Silence and his piece 4\'33" challenged every assumption about what music is and can be.',
+      zh: '作曲家与音乐理论家，通过偶然操作、加料钢琴和对静默的拥抱重新定义了音乐的边界。其著作《寂静》和作品《4分33秒》挑战了关于音乐是什么、可以是什么的一切假设。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/John_Cage',
+      zh: 'https://zh.wikipedia.org/wiki/约翰·凯奇',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'There is no such thing as an empty space or an empty time. There is always something to see, something to hear. In fact, try as we may to make a silence, we cannot. Sounds occur whether intended or not; the ones not intended are called silence.',
+          zh: '不存在空无的空间或空无的时间。总有什么可看，总有什么可听。事实上，无论我们怎样努力制造静默，都做不到。声音无论有意无意都会发生；那些无意的声音被称为静默。',
+        },
+        originalLang: 'en',
+        source: { en: 'Silence: Lectures and Writings', zh: '《寂静：讲座与文字》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'I have nothing to say and I am saying it and that is poetry as I need it.',
+          zh: '我无话可说，而我正在说它，这就是我所需要的诗。',
+        },
+        originalLang: 'en',
+        source: { en: 'Lecture on Nothing', zh: '《关于虚无的讲座》' },
+        year: 1959,
+      },
+      {
+        text: {
+          en: 'If something is boring after two minutes, try it for four. If still boring, then eight. Then sixteen. Then thirty-two. Eventually one discovers that it is not boring at all.',
+          zh: '如果某事两分钟后令人厌倦，试试四分钟。如果仍然厌倦，那就八分钟。然后十六分钟。然后三十二分钟。最终你会发现它根本不无聊。',
+        },
+        originalLang: 'en',
+        source: { en: 'Silence: Lectures and Writings', zh: '《寂静：讲座与文字》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'The first question I ask myself when something doesn\'t seem to be beautiful is why do I think it\'s not beautiful. And very shortly you discover that there is no reason.',
+          zh: '当某样东西看起来不美时，我问自己的第一个问题是：我为什么觉得它不美。很快你就会发现，根本没有理由。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview with Miroslav Sebestik, Listening', zh: '米罗斯拉夫·塞贝斯蒂克采访，《聆听》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'I can\'t understand why people are frightened of new ideas. I\'m frightened of the old ones.',
+          zh: '我不明白人们为什么害怕新观念。我害怕的是旧观念。',
+        },
+        originalLang: 'en',
+        source: { en: 'Attributed', zh: '名言' },
+      },
+      {
+        text: {
+          en: 'Which is more musical: a truck passing by a factory or a truck passing by a music school? Are the people inside the school musical and the ones outside unmusical? What if the ones inside can\'t hear very well — would that change your answer?',
+          zh: '哪个更具音乐性：一辆卡车经过工厂，还是一辆卡车经过音乐学院？学校里面的人是有音乐性的，外面的人就没有吗？如果里面的人听力不太好呢——这会改变你的答案吗？',
+        },
+        originalLang: 'en',
+        source: { en: 'A Year from Monday', zh: '《从星期一开始的一年》' },
+        year: 1967,
+      },
+    ],
+  },
+  {
+    slug: 'dmitri-shostakovich',
+    name: { en: 'Dmitri Shostakovich', zh: '德米特里·肖斯塔科维奇' },
+    years: '1906–1975',
+    nationality: { en: 'Soviet/Russian', zh: '苏联/俄罗斯' },
+    bio: {
+      en: 'Soviet composer who navigated the impossible space between artistic integrity and political survival under Stalin. His symphonies and string quartets encode layers of irony, grief, and resistance beneath surfaces of apparent conformity.',
+      zh: '苏联作曲家，在斯大林统治下游走于艺术操守与政治存活之间的不可能空间。其交响曲和弦乐四重奏在表面的顺从之下编码着层层反讽、悲痛与抵抗。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Dmitri_Shostakovich',
+      zh: 'https://zh.wikipedia.org/wiki/德米特里·肖斯塔科维奇',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'When a man is in despair, it means that he still believes in something. If he believed in nothing, he would not despair.',
+          zh: '当一个人绝望时，说明他仍然相信着什么。如果他什么都不信，他就不会绝望。',
+        },
+        original: 'Когда человек в отчаянии, это значит, что он всё ещё во что-то верит. Если бы он ни во что не верил, он бы не отчаивался.',
+        originalLang: 'ru',
+        source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'A creative artist works on his next composition because he is not satisfied with his previous one. When he loses a critical attitude toward his own work, he ceases to be an artist.',
+          zh: '一个有创造力的艺术家之所以投入下一部作品，是因为他对上一部不满意。当他失去对自己作品的批判态度时，他就不再是艺术家了。',
+        },
+        original: 'Творческий художник работает над следующим сочинением, потому что он не удовлетворён предыдущим. Когда он теряет критическое отношение к собственному творчеству, он перестаёт быть художником.',
+        originalLang: 'ru',
+        source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'I think that it is clear to everyone that I am a coward and that I am afraid. But my music — they will not be able to destroy that, and in it they will find what I really thought.',
+          zh: '我想每个人都清楚我是个懦夫，我很害怕。但我的音乐——他们无法摧毁它，在其中他们会发现我真正的想法。',
+        },
+        original: 'Я думаю, что всем ясно, что я трус и что я боюсь. Но мою музыку — её они не смогут уничтожить, и в ней они найдут то, что я действительно думал.',
+        originalLang: 'ru',
+        source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'Most of my symphonies are tombstones. I am willing to write a composition for each of the victims, but that is impossible, and so I dedicate my music to them all.',
+          zh: '我的大多数交响曲都是墓碑。我愿意为每一位受害者写一部作品，但那是不可能的，所以我将我的音乐献给他们所有人。',
+        },
+        original: 'Большинство моих симфоний — это надгробия. Я готов написать сочинение для каждой из жертв, но это невозможно, и поэтому я посвящаю свою музыку им всем.',
+        originalLang: 'ru',
+        source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'The power of music is that it can convey something that words cannot. A melody can express what no speech, no painting, no poem can. And in a country where words are dangerous, music becomes the only honest language.',
+          zh: '音乐的力量在于它能传达言语所不能传达的东西。一段旋律能表达任何言辞、绘画、诗歌都无法表达的东西。在一个言语危险的国家，音乐成为唯一诚实的语言。',
+        },
+        original: 'Сила музыки в том, что она может передать то, что не могут слова. Мелодия может выразить то, что не может ни речь, ни живопись, ни поэзия. И в стране, где слова опасны, музыка становится единственным честным языком.',
+        originalLang: 'ru',
+        source: { en: 'Letters to Isaak Glikman', zh: '致伊萨克·格里克曼的信' },
+        year: 1960,
       },
     ],
   },

@@ -16,6 +16,8 @@ export type Category =
   | 'scientists'
   | 'psychologists'
   | 'activists'
+  | 'historians'
+  | 'economists'
   | 'cinema';
 
 export interface QuoteData {
@@ -63,6 +65,10 @@ export const langNames: Record<string, Record<Locale, string>> = {
   fa: { en: '\u0641\u0627\u0631\u0633\u06cc', zh: '波斯语' },
   hi: { en: '\u0939\u093f\u0928\u094d\u0926\u0940', zh: '印地语' },
   bn: { en: '\u09ac\u09be\u0982\u09b2\u09be', zh: '孟加拉语' },
+  he: { en: '\u05e2\u05d1\u05e8\u05d9\u05ea', zh: '希伯来语' },
+  hu: { en: 'Magyar', zh: '匈牙利语' },
+  ro: { en: 'Română', zh: '罗马尼亚语' },
+  af: { en: 'Afrikaans', zh: '南非荷兰语' },
 };
 
 export interface Quote {
@@ -212,6 +218,22 @@ export const categoryList: CategoryInfo[] = [
     description: {
       en: 'Voices that bent the arc of history toward justice.',
       zh: '将历史弧线引向正义的声音。',
+    },
+  },
+  {
+    key: 'historians',
+    label: { en: 'Historians', zh: '历史学家' },
+    description: {
+      en: 'Witnesses to civilization who read the present through the past.',
+      zh: '以过去解读当下的文明见证者。',
+    },
+  },
+  {
+    key: 'economists',
+    label: { en: 'Economists & Political Thinkers', zh: '经济学家与政治思想家' },
+    description: {
+      en: 'Analysts of power, markets, and the structures that shape society.',
+      zh: '剖析权力、市场与社会结构的分析者。',
     },
   },
   {

@@ -47,6 +47,7 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Rebel', zh: '反抗者' },
         year: 1951,
+        comment: { en: 'Widely attributed to Camus but not verified in any of his published works. Listed as unverified on Wikiquote.', zh: '广泛归于加缪名下，但未在其任何出版作品中得到验证。在维基语录中被列为未经核实。' },
       },
       {
         text: {
@@ -278,7 +279,7 @@ export const philosopherData: PersonData[] = [
   },
   {
     slug: 'simone-de-beauvoir',
-    name: { en: 'Simone de Beauvoir', zh: '西蒙娜·德·波伏瓦' },
+    name: { en: 'Simone de Beauvoir', zh: '西蒙娜·德·波伏娃' },
     years: '1908–1986',
     nationality: { en: 'French', zh: '法国' },
     bio: {
@@ -287,7 +288,7 @@ export const philosopherData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Simone_de_Beauvoir',
-      zh: 'https://zh.wikipedia.org/wiki/西蒙·德·波伏娃',
+      zh: 'https://zh.wikipedia.org/wiki/西蒙·德·波娃',
     },
     quotes: [
       {
@@ -690,6 +691,31 @@ export const philosopherData: PersonData[] = [
           zh: '死后出版；反映了阿伦特毕生关于个人道德责任的立场。',
         },
       },
+      {
+        text: {
+          en: 'The ideal subject of totalitarian rule is not the convinced Nazi or the convinced Communist, but people for whom the distinction between fact and fiction — that is, the reality of experience — and the distinction between true and false — that is, the standards of thought — no longer exist.',
+          zh: '极权统治的理想对象不是坚定的纳粹分子或坚定的共产主义者，而是那些对于事实与虚构之间的区分——即经验的现实——以及真与假之间的区分——即思维的标准——已经不复存在的人。',
+        },
+        original: 'The ideal subject of totalitarian rule is not the convinced Nazi or the convinced Communist, but people for whom the distinction between fact and fiction and the distinction between true and false no longer exist.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Origins of Totalitarianism', zh: '极权主义的起源' },
+        year: 1951,
+      },
+      {
+        text: {
+          en: 'The essence of totalitarian government, and perhaps the nature of every bureaucracy, is to make functionaries and mere cogs in the administrative machinery out of men, and thus to dehumanize them.',
+          zh: '极权政府的本质，也许也是一切官僚体制的本性，就是将人变成行政机器中的零件和纯粹的执行者，从而使他们失去人性。',
+        },
+        original: 'The essence of totalitarian government, and perhaps the nature of every bureaucracy, is to make functionaries and mere cogs in the administrative machinery out of men, and thus to dehumanize them.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Eichmann in Jerusalem: A Report on the Banality of Evil',
+          zh: '艾希曼在耶路撒冷：一份关于平庸之恶的报告',
+        },
+        year: 1963,
+      },
     ],
   },
   {
@@ -760,6 +786,32 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Discipline and Punish', zh: '规训与惩罚' },
         year: 1975,
+      },
+      {
+        text: {
+          en: 'There is no power relation without the correlative constitution of a field of knowledge, nor any knowledge that does not presuppose and constitute at the same time power relations.',
+          zh: '没有一种权力关系不伴随着一个知识领域的相关构成，也没有一种知识不同时预设并构成权力关系。',
+        },
+        original: 'Il n\'y a pas de relation de pouvoir sans constitution corrélative d\'un champ de savoir, ni de savoir qui ne suppose et ne constitue en même temps des relations de pouvoir.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Discipline and Punish', zh: '规训与惩罚' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'The soul is the effect and instrument of a political anatomy; the soul is the prison of the body.',
+          zh: '灵魂是政治解剖学的效果和工具；灵魂是身体的监狱。',
+        },
+        original: 'L\'âme, effet et instrument d\'une anatomie politique ; l\'âme, prison du corps.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Discipline and Punish', zh: '规训与惩罚' },
+        year: 1975,
+        comment: {
+          en: 'An inversion of Plato\'s dictum that the body is the prison of the soul.',
+          zh: '对柏拉图"身体是灵魂的监狱"这一格言的颠倒。',
+        },
       },
     ],
   },
@@ -834,6 +886,28 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Need for Roots', zh: '扎根' },
         year: 1949,
+      },
+      {
+        text: {
+          en: 'Imaginary evil is romantic and varied; real evil is gloomy, monotonous, barren, boring. Imaginary good is boring; real good is always new, marvellous, intoxicating.',
+          zh: '想象中的恶是浪漫而多姿的；真实的恶是阴郁、单调、贫瘠、无聊的。想象中的善是无聊的；真实的善则总是崭新的、奇妙的、令人陶醉的。',
+        },
+        original: 'Le mal imaginaire est romantique, varié ; le mal réel est morne, monotone, désertique, ennuyeux. Le bien imaginaire est ennuyeux ; le bien réel est toujours nouveau, merveilleux, enivrant.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Gravity and Grace', zh: '重力与恩典' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'Absolute unmixed attention is prayer.',
+          zh: '绝对纯粹的专注即是祈祷。',
+        },
+        original: 'L\'attention absolument sans mélange est prière.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Gravity and Grace', zh: '重力与恩典' },
+        year: 1947,
       },
     ],
   },
@@ -1522,7 +1596,7 @@ export const philosopherData: PersonData[] = [
   },
   {
     slug: 'seneca',
-    name: { en: 'Seneca', zh: '塞涅卡' },
+    name: { en: 'Seneca', zh: '塞内卡' },
     years: '4 BC–65 AD',
     nationality: { en: 'Roman', zh: '罗马' },
     bio: {
@@ -2296,6 +2370,47 @@ export const philosopherData: PersonData[] = [
         },
         year: 1935,
       },
+      {
+        text: {
+          en: 'His face is turned toward the past. Where we perceive a chain of events, he sees one single catastrophe which keeps piling wreckage upon wreckage and hurls it in front of his feet. The angel would like to stay, awaken the dead, and make whole what has been smashed. But a storm is blowing from Paradise; it has got caught in his wings with such violence that the angel can no longer close them. This storm irresistibly propels him into the future to which his back is turned, while the pile of debris before him grows skyward. This storm is what we call progress.',
+          zh: '他的脸朝向过去。在我们看到一连串事件的地方，他看到的是一场不断将废墟堆叠于废墟之上、并将其抛掷到他脚前的大灾难。天使想要停留，唤醒死者，将破碎之物重新拼合。但一场风暴从天堂吹来，猛烈地卷入他的翅膀，使他再也无法合拢。这场风暴不可抗拒地将他推向他背对着的未来，而他面前的废墟堆却直冲云霄。这场风暴就是我们所说的进步。',
+        },
+        original: 'Sein Antlitz ist der Vergangenheit zugewendet. Wo eine Kette von Begebenheiten vor uns erscheint, da sieht er eine einzige Katastrophe, die unablässig Trümmer auf Trümmer häuft und sie ihm vor die Füße schleudert. Er möchte wohl verweilen, die Toten wecken und das Zerschlagene zusammenfügen. Aber ein Sturm weht vom Paradiese her, der sich in seinen Flügeln verfangen hat und so stark ist, daß der Engel sie nicht mehr schließen kann. Dieser Sturm treibt ihn unaufhaltsam in die Zukunft, der er den Rücken kehrt, während der Trümmerhaufen vor ihm zum Himmel wächst. Das, was wir den Fortschritt nennen, ist dieser Sturm.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'Theses on the Philosophy of History', zh: '历史哲学论纲' },
+        year: 1940,
+        comment: {
+          en: 'Thesis IX, the famous "Angel of History" passage inspired by Paul Klee\'s painting Angelus Novus.',
+          zh: '第九条论纲，著名的"历史天使"段落，灵感来自保罗·克利的画作《新天使》。',
+        },
+      },
+      {
+        text: {
+          en: 'The concept of progress must be grounded in the idea of catastrophe. That things are "status quo" is the catastrophe.',
+          zh: '进步的概念必须建立在灾难的理念之上。事物维持"现状"——这就是灾难。',
+        },
+        original: 'Den Begriff des Fortschritts in der Idee der Katastrophe fundieren. Daß es „so weiter" geht, ist die Katastrophe.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'The Arcades Project', zh: '拱廊街计划' },
+        year: 1940,
+        comment: {
+          en: 'From Convolute N of the unfinished Arcades Project (Passagen-Werk), published posthumously.',
+          zh: '出自未完成的《拱廊街计划》（Passagen-Werk）卷宗N，死后出版。',
+        },
+      },
+      {
+        text: {
+          en: 'In the fields with which we are concerned, knowledge comes only in flashes. The text is the thunder rolling long afterward.',
+          zh: '在我们所关注的领域中，认识唯有在闪电般的一瞬间到来。文本是在那之后久久回荡的雷声。',
+        },
+        original: 'In den Gebieten, mit denen wir es zu tun haben, gibt es Erkenntnis nur blitzhaft. Der Text ist der langnachrollende Donner.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'The Arcades Project', zh: '拱廊街计划' },
+        year: 1940,
+      },
     ],
   },
   {
@@ -2479,6 +2594,28 @@ export const philosopherData: PersonData[] = [
         source: { en: 'Postscript on the Societies of Control', zh: '关于控制社会的后记' },
         year: 1990,
       },
+      {
+        text: {
+          en: 'The fundamental problem of political philosophy is still precisely the one that Spinoza saw so clearly, and that Wilhelm Reich rediscovered: "Why do men fight for their servitude as stubbornly as though it were their salvation?"',
+          zh: '政治哲学的根本问题仍然正是斯宾诺莎如此清晰地看到的、威廉·赖希重新发现的那个问题："为什么人们为自己的奴役而战，如同那是他们的救赎一般顽固？"',
+        },
+        original: 'Le problème fondamental de la philosophie politique reste celui que Spinoza sut poser (et que Wilhelm Reich a redécouvert) : « Pourquoi les hommes combattent-ils pour leur servitude comme s\'il s\'agissait de leur salut ? »',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Anti-Oedipus', zh: '反俄狄浦斯' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'I make, remake and unmake my concepts along a moving horizon, from an always decentered center, from an always displaced periphery which repeats and differentiates them.',
+          zh: '我沿着一条移动的地平线创造、重造和消解我的概念，从一个始终偏移的中心出发，从一个始终错位的边缘出发，在那里概念被重复又被差异化。',
+        },
+        original: 'Je fais, défais et refais mes concepts à partir d\'un horizon mouvant, d\'un centre toujours décentré, d\'une périphérie toujours déplacée qui les répète et les différencie.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Difference and Repetition', zh: '差异与重复' },
+        year: 1968,
+      },
     ],
   },
   {
@@ -2515,6 +2652,39 @@ export const philosopherData: PersonData[] = [
         originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'Dissemination', zh: '播撒' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'Every sign, linguistic or nonlinguistic, spoken or written, can be cited, put between quotation marks; thereby it can break with every given context, and engender infinitely new contexts in an absolutely nonsaturable fashion. This does not suppose that the mark is valid outside its context, but on the contrary that there are only contexts without any center of absolute anchoring.',
+          zh: '每一个符号，无论是语言的还是非语言的，口头的还是书写的，都可以被引用，被放入引号之中；由此它可以与每一个既定语境断裂，并以绝对不可饱和的方式产生无限新的语境。这并不意味着标记在其语境之外有效，恰恰相反，这意味着只有语境，而没有任何绝对锚定的中心。',
+        },
+        original: 'Tout signe, linguistique ou non linguistique, parlé ou écrit, peut être cité, mis entre guillemets; par là il peut rompre avec tout contexte donné, engendrer à l\'infini de nouveaux contextes, de façon absolument non saturable.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Margins of Philosophy', zh: '哲学的边缘' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'Never have violence, inequality, exclusion, famine, and thus economic oppression affected as many human beings in the history of the earth and of humanity. Instead of singing the advent of the ideal of liberal democracy and of the capitalist market in the euphoria of the end of history, instead of celebrating the "end of ideologies" and the end of the great emancipatory discourses, let us never neglect this obvious macroscopic fact, made up of innumerable singular sites of suffering.',
+          zh: '在地球和人类的历史上，暴力、不平等、排斥、饥荒，以及由此而来的经济压迫，从未影响过如此之多的人。与其在历史终结的狂喜中歌颂自由民主和资本主义市场的理想来临，与其庆祝"意识形态的终结"和伟大解放话语的终结，我们永远不应忽视这一由无数个体苦难场所构成的显而易见的宏观事实。',
+        },
+        original: 'Jamais la violence, l\'inégalité, l\'exclusion, la famine et donc l\'oppression économique n\'ont affecté autant d\'êtres humains, dans l\'histoire de la terre et de l\'humanité.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Specters of Marx', zh: '马克思的幽灵' },
+        year: 1993,
+      },
+      {
+        text: {
+          en: 'For the same reason there is nowhere to begin to trace the sheaf or the graphics of differance. For what is put into question is precisely the quest for a rightful beginning, an absolute point of departure, a principal responsibility. The problematic of writing is opened by putting into question the value of the arkhe.',
+          zh: '出于同样的原因，无处可以开始描画延异的束或图形。因为被质疑的恰恰是对合法起点、绝对出发点、首要责任的追求。书写的问题域正是通过质疑"原初"（arkhe）的价值而开启的。',
+        },
+        original: 'Pour la même raison, il n\'y a nulle part où commencer à tracer le faisceau ou le graphique de la différance. Car ce qui est mis en question, c\'est justement la quête d\'un commencement de droit, d\'un point de départ absolu, d\'une responsabilité principielle.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: { en: 'Margins of Philosophy', zh: '哲学的边缘' },
         year: 1972,
       },
     ],
@@ -2585,6 +2755,30 @@ export const philosopherData: PersonData[] = [
         source: { en: 'Treatise on the Emendation of the Intellect', zh: '《知性改进论》' },
         year: 1677,
       },
+      {
+        text: {
+          en: 'Blessedness is not the reward of virtue, but virtue itself; nor do we delight in blessedness because we restrain our lusts; but, on the contrary, because we delight in it, therefore we are able to restrain them.',
+          zh: '幸福不是德性的报酬，而是德性本身；我们并非因为克制了欲望而享有幸福，恰恰相反，因为我们享有幸福，所以才能够克制欲望。',
+        },
+        original: 'Beatitudo non est virtutis praemium, sed ipsa virtus; nec eadem gaudemus, quia libidines coercemus; sed contra, quia eadem gaudemus, ideo libidines coercere possumus.',
+        originalLang: 'la',
+        source: { en: 'Ethics, Part V, Proposition 42', zh: '《伦理学》第五部分命题四十二' },
+        year: 1677,
+        comment: {
+          en: 'The concluding proposition of the Ethics — Spinoza\'s final word on the relationship between virtue, knowledge, and human flourishing.',
+          zh: '《伦理学》的最后一个命题——斯宾诺莎对德性、知识与人类幸福之关系的终极论断。',
+        },
+      },
+      {
+        text: {
+          en: 'The mind\'s intellectual love of God is the very love of God by which God loves himself, not insofar as he is infinite, but insofar as he can be explained through the essence of the human mind considered under the aspect of eternity; that is, the mind\'s intellectual love of God is part of the infinite love by which God loves himself.',
+          zh: '心灵对神的理智之爱正是神借以爱自身的那种爱，不是就神之无限而言，而是就神能通过在永恒相下被考察的人类心灵之本质来解释而言；也就是说，心灵对神的理智之爱是神借以爱自身的那种无限之爱的一部分。',
+        },
+        original: 'Mentis amor intellectualis erga Deum est ipse Dei amor, quo Deus se ipsum amat, non quatenus infinitus est, sed quatenus per essentiam humanae mentis, sub specie aeternitatis consideratam, explicari potest; hoc est, mentis erga Deum amor intellectualis pars est infiniti amoris, quo Deus se ipsum amat.',
+        originalLang: 'la',
+        source: { en: 'Ethics, Part V, Proposition 36', zh: '《伦理学》第五部分命题三十六' },
+        year: 1677,
+      },
     ],
   },
   {
@@ -2645,6 +2839,874 @@ export const philosopherData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'An Enquiry Concerning Human Understanding', zh: '《人类理解研究》' },
         year: 1748,
+      },
+    ],
+  },
+  {
+    slug: 'adorno',
+    name: { en: 'Theodor W. Adorno', zh: '西奥多·阿多诺' },
+    years: '1903–1969',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German philosopher, sociologist, and composer of the Frankfurt School, whose critical theory dissected the culture industry, the dialectics of enlightenment, and the possibility of thought after catastrophe.',
+      zh: '德国哲学家、社会学家、作曲家，法兰克福学派核心人物，其批判理论深刻剖析了文化工业、启蒙辩证法以及灾难之后思想的可能性。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Theodor_W._Adorno',
+      zh: 'https://zh.wikipedia.org/wiki/西奥多·阿多诺',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'To write poetry after Auschwitz is barbaric. And this corrodes even the knowledge of why it has become impossible to write poetry today.',
+          zh: '奥斯维辛之后写诗是野蛮的。这甚至侵蚀了认识为何今天写诗已变得不可能的知识本身。',
+        },
+        original: 'Nach Auschwitz ein Gedicht zu schreiben, ist barbarisch, und das frisst auch die Erkenntnis an, die ausspricht, warum es unmöglich ward, heute Gedichte zu schreiben.',
+        originalLang: 'de',
+        source: { en: 'Prisms', zh: '《棱镜》' },
+        year: 1955,
+      },
+      {
+        text: {
+          en: 'The splinter in your eye is the best magnifying glass.',
+          zh: '你眼中的碎片是最好的放大镜。',
+        },
+        original: 'Der Splitter in deinem Auge ist das beste Vergrößerungsglas.',
+        originalLang: 'de',
+        source: { en: 'Minima Moralia', zh: '《最低限度的道德》' },
+        year: 1951,
+      },
+      {
+        text: {
+          en: 'Wrong life cannot be lived rightly.',
+          zh: '在错误的生活中，无法正确地生活。',
+        },
+        original: 'Es gibt kein richtiges Leben im falschen.',
+        originalLang: 'de',
+        source: { en: 'Minima Moralia', zh: '《最低限度的道德》' },
+        year: 1951,
+      },
+      {
+        text: {
+          en: 'The culture industry not so much adapts to the reactions of its customers as it counterfeits them. It drills them by behaving as though it were itself the customer.',
+          zh: '文化工业与其说是适应顾客的反应，不如说是伪造这些反应。它通过假装自己就是顾客来训练他们。',
+        },
+        original: 'Die Kulturindustrie geht weniger auf die Reaktionen ihrer Kunden ein, als daß sie diese fälscht. Sie drillt sie, indem sie sich aufführt, als sei sie selbst der Kunde.',
+        originalLang: 'de',
+        source: { en: 'Dialectic of Enlightenment', zh: '《启蒙辩证法》' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'The need to let suffering speak is a condition of all truth. For suffering is objectivity that weighs upon the subject.',
+          zh: '让苦难发声的需要是一切真理的前提。因为苦难就是压在主体之上的客观性。',
+        },
+        original: 'Das Bedürfnis, Leiden beredt werden zu lassen, ist Bedingung aller Wahrheit. Denn Leiden ist Objektivität, die auf dem Subjekt lastet.',
+        originalLang: 'de',
+        source: { en: 'Negative Dialectics', zh: '《否定辩证法》' },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'In psychoanalysis nothing is true except the exaggerations.',
+          zh: '在精神分析中，除了夸张之外，没有什么是真实的。',
+        },
+        original: 'In der Psychoanalyse ist nichts wahr als die Übertreibungen.',
+        originalLang: 'de',
+        source: { en: 'Minima Moralia', zh: '《最低限度的道德》' },
+        year: 1951,
+      },
+      {
+        text: {
+          en: 'Freedom would be not to choose between black and white but to abjure such prescribed choices.',
+          zh: '自由不是在黑与白之间做选择，而是拒绝这种预设的选择本身。',
+        },
+        original: 'Freiheit wäre, nicht zwischen Schwarz und Weiß zu wählen, sondern aus solcher vorgeschriebenen Wahl herauszutreten.',
+        originalLang: 'de',
+        source: { en: 'Negative Dialectics', zh: '《否定辩证法》' },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'The almost insoluble task is to let neither the power of others, nor our own powerlessness, stupefy us.',
+          zh: '这个几乎无法解决的任务是：既不让他人的权力，也不让我们自身的无力，使我们变得麻木。',
+        },
+        original: 'Die fast unlösbare Aufgabe besteht darin, weder von der Macht der anderen, noch von der eigenen Ohnmacht sich dumm machen zu lassen.',
+        originalLang: 'de',
+        source: { en: 'Minima Moralia', zh: '《最低限度的道德》' },
+        year: 1951,
+      },
+    ],
+  },
+  {
+    slug: 'habermas',
+    name: { en: 'Jürgen Habermas', zh: '尤尔根·哈贝马斯' },
+    years: '1929–2026',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German philosopher and sociologist, the most prominent second-generation Frankfurt School thinker, whose theories of communicative action, the public sphere, and discourse ethics have profoundly shaped democratic theory and social philosophy.',
+      zh: '德国哲学家、社会学家，法兰克福学派第二代最杰出的思想家，其交往行为理论、公共领域理论和话语伦理学深刻影响了民主理论与社会哲学。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Jürgen_Habermas',
+      zh: 'https://zh.wikipedia.org/wiki/尤尔根·哈贝马斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The public sphere is a realm of our social life in which something approaching public opinion can be formed. Access is guaranteed to all citizens.',
+          zh: '公共领域是我们社会生活中的一个领域，在其中可以形成接近公共舆论的东西。所有公民都被保证可以进入。',
+        },
+        original: 'Öffentlichkeit läßt sich am ehesten als ein Netzwerk für die Kommunikation von Inhalten und Stellungnahmen beschreiben.',
+        originalLang: 'de',
+        source: { en: 'The Structural Transformation of the Public Sphere', zh: '《公共领域的结构转型》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'The task of universal pragmatics is to identify and reconstruct universal conditions of possible understanding. In everyday communication, actors raise validity claims to truth, rightness, and sincerity.',
+          zh: '普遍语用学的任务是识别和重建可能理解的普遍条件。在日常交往中，行动者提出关于真理、正当性和真诚性的有效性要求。',
+        },
+        original: 'Die Aufgabe der Universalpragmatik besteht darin, universale Bedingungen möglicher Verständigung zu identifizieren und zu rekonstruieren.',
+        originalLang: 'de',
+        source: { en: 'The Theory of Communicative Action', zh: '《交往行为理论》' },
+        year: 1981,
+      },
+      {
+        text: {
+          en: 'Only those norms can claim to be valid that meet, or could meet, with the approval of all affected in their capacity as participants in a practical discourse.',
+          zh: '只有那些能够得到或可能得到所有受影响者以实践话语参与者身份批准的规范，才能主张其有效性。',
+        },
+        original: 'Gültig sind genau die Handlungsnormen, denen alle möglicherweise Betroffenen als Teilnehmer an rationalen Diskursen zustimmen könnten.',
+        originalLang: 'de',
+        source: { en: 'Between Facts and Norms', zh: '《在事实与规范之间》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'Modernity is an incomplete project. The project of modernity formulated in the eighteenth century by the philosophers of the Enlightenment consisted in their efforts to develop objective science, universal morality and law, and autonomous art.',
+          zh: '现代性是一项未完成的方案。十八世纪启蒙哲学家们所提出的现代性方案，在于他们努力发展客观科学、普遍道德和法律，以及自律的艺术。',
+        },
+        original: 'Die Moderne — ein unvollendetes Projekt.',
+        originalLang: 'de',
+        source: { en: 'Modernity — An Incomplete Project', zh: '《现代性——一项未完成的方案》' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'In a process of enlightenment, there can only be participants.',
+          zh: '在一个启蒙的过程中，只能有参与者。',
+        },
+        original: 'In einem Aufklärungsprozeß gibt es nur Beteiligte.',
+        originalLang: 'de',
+        source: { en: 'Theory and Practice', zh: '《理论与实践》' },
+        year: 1963,
+      },
+      {
+        text: {
+          en: 'The speaker must choose a comprehensible expression so that speaker and hearer can understand one another. The speaker must have the intention of communicating a true proposition so that the hearer can share the knowledge of the speaker.',
+          zh: '说话者必须选择可理解的表达，使说话者与听话者能够相互理解。说话者必须有意传达一个真实的命题，使听话者能够分享说话者的知识。',
+        },
+        original: 'Der Sprecher muß einen verständlichen Ausdruck wählen, damit sich Sprecher und Hörer untereinander verstehen können.',
+        originalLang: 'de',
+        source: { en: 'The Theory of Communicative Action', zh: '《交往行为理论》' },
+        year: 1981,
+      },
+      {
+        text: {
+          en: 'The liberal state depends on the solidarity of its citizens, but it cannot guarantee that solidarity through legal compulsion without undermining the very rights it seeks to protect.',
+          zh: '自由主义国家依赖其公民的团结，但它不能通过法律强制来保证这种团结，否则就会破坏它所要保护的权利本身。',
+        },
+        original: 'Der liberale Staat ist auf die Solidarität seiner Bürger angewiesen, kann diese aber durch rechtlichen Zwang nicht garantieren.',
+        originalLang: 'de',
+        source: { en: 'Between Naturalism and Religion', zh: '《在自然主义与宗教之间》' },
+        year: 2005,
+      },
+    ],
+  },
+  {
+    slug: 'levinas',
+    name: { en: 'Emmanuel Levinas', zh: '伊曼纽尔·列维纳斯' },
+    years: '1906–1995',
+    nationality: { en: 'French', zh: '法国' },
+    bio: {
+      en: 'Lithuanian-born French philosopher whose radical rethinking of ethics as first philosophy, grounded in the encounter with the face of the Other, challenged the primacy of ontology and offered an ethics of infinite responsibility.',
+      zh: '立陶宛裔法国哲学家，其以与他者面容的相遇为基础、将伦理学激进地重构为第一哲学的思想，挑战了存在论的首要地位，提出了无限责任的伦理学。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Emmanuel_Levinas',
+      zh: 'https://zh.wikipedia.org/wiki/伊曼纽尔·列维纳斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The face of the Other at each moment destroys and overflows the plastic image it leaves me, the idea existing to my own measure and to the measure of its ideatum — the adequate idea.',
+          zh: '他者的面容在每一刻都摧毁并溢出它留给我的可塑形象，即按照我自身的尺度和按照其所表象之物的尺度而存在的观念——那充分的观念。',
+        },
+        original: 'Le visage d\'autrui détruit à tout moment et déborde l\'image plastique qu\'il me laisse.',
+        originalLang: 'fr',
+        source: { en: 'Totality and Infinity', zh: '《总体与无限》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'Ethics is not a branch of philosophy, but first philosophy itself.',
+          zh: '伦理学不是哲学的一个分支，而是第一哲学本身。',
+        },
+        original: 'L\'éthique n\'est pas une branche de la philosophie, mais la philosophie première.',
+        originalLang: 'fr',
+        source: { en: 'Totality and Infinity', zh: '《总体与无限》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'The Other precisely reveals himself in his alterity not in a shock negating the I, but as the primordial phenomenon of gentleness.',
+          zh: '他者恰恰是在其他异性中揭示自身的，不是作为否定"我"的冲击，而是作为温柔的原初现象。',
+        },
+        original: 'Autrui se révèle précisément dans son altérité, non pas dans un choc niant le moi, mais comme le phénomène originel de la douceur.',
+        originalLang: 'fr',
+        source: { en: 'Totality and Infinity', zh: '《总体与无限》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'The relationship with the Other is not produced outside of the world, but puts in question the world possessed. The relationship with the Other, transcendence, consists in speaking the world to the Other.',
+          zh: '与他者的关系并非产生于世界之外，而是使被占有的世界受到质疑。与他者的关系、超越性，在于向他者言说这个世界。',
+        },
+        original: 'La relation avec Autrui ne se produit pas en dehors du monde, mais met en question le monde possédé. La relation avec Autrui, la transcendance, consiste à dire le monde à Autrui.',
+        originalLang: 'fr',
+        source: { en: 'Totality and Infinity', zh: '《总体与无限》' },
+        year: 1961,
+      },
+      {
+        text: {
+          en: 'To be or not to be — is that the question? Is it not the first and foremost question whether being is not inseparable from a concern about the other than oneself?',
+          zh: '存在还是不存在——这就是问题所在吗？最首要的问题难道不是：存在是否与对自身之外的他者的关切不可分离？',
+        },
+        original: 'Être ou ne pas être, est-ce bien là la question? La question première n\'est-elle pas de savoir si l\'être est inséparable du souci pour l\'autre que soi?',
+        originalLang: 'fr',
+        source: { en: 'Otherwise than Being', zh: '《别于存在或超越本质》' },
+        year: 1974,
+      },
+      {
+        text: {
+          en: 'Responsibility for the Other is not an accident that happens to a subject, but precedes essence in it, has not awaited freedom — in which a commitment to another would have been made.',
+          zh: '对他者的责任不是发生在主体身上的偶然事件，而是先于主体的本质，它并未等待自由——在自由中对他者的承诺才得以做出。',
+        },
+        original: 'La responsabilité pour autrui n\'est pas un accident arrivant à un sujet, mais précède en lui l\'essence, n\'a pas attendu la liberté.',
+        originalLang: 'fr',
+        source: { en: 'Otherwise than Being', zh: '《别于存在或超越本质》' },
+        year: 1974,
+      },
+      {
+        text: {
+          en: 'The face resists possession, resists my powers. In its epiphany, in expression, the sensible, still graspable, turns into total resistance to the grasp.',
+          zh: '面容抵抗占有，抵抗我的权力。在其显现中，在表达中，仍可被把握的感性之物转变为对把握的彻底抵抗。',
+        },
+        original: 'Le visage résiste à la possession, résiste à mes pouvoirs. Dans son épiphanie, dans l\'expression, le sensible encore saisissable se mue en résistance totale à la prise.',
+        originalLang: 'fr',
+        source: { en: 'Totality and Infinity', zh: '《总体与无限》' },
+        year: 1961,
+      },
+    ],
+  },
+  {
+    slug: 'hegel',
+    name: { en: 'G.W.F. Hegel', zh: '黑格尔' },
+    years: '1770–1831',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German idealist philosopher whose dialectical method and sweeping system — encompassing logic, nature, and spirit — established the framework for much of subsequent Western philosophy, from Marx to existentialism to critical theory.',
+      zh: '德国唯心主义哲学家，其辩证法和涵盖逻辑、自然与精神的宏大体系，为此后西方哲学的大部分发展——从马克思到存在主义再到批判理论——奠定了框架。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel',
+      zh: 'https://zh.wikipedia.org/wiki/格奥尔格·威廉·弗里德里希·黑格尔',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The owl of Minerva spreads its wings only with the falling of the dusk.',
+          zh: '密涅瓦的猫头鹰要等到黄昏降临才会展翅飞翔。',
+        },
+        original: 'Die Eule der Minerva beginnt erst mit der einbrechenden Dämmerung ihren Flug.',
+        originalLang: 'de',
+        source: { en: 'Elements of the Philosophy of Right', zh: '《法哲学原理》' },
+        year: 1820,
+      },
+      {
+        text: {
+          en: 'The truth is the whole. But the whole is nothing other than the essence consummating itself through its development.',
+          zh: '真理是整体。但整体不过是通过自身发展而自我完成的本质。',
+        },
+        original: 'Das Wahre ist das Ganze. Das Ganze aber ist nur das durch seine Entwicklung sich vollendende Wesen.',
+        originalLang: 'de',
+        source: { en: 'Phenomenology of Spirit', zh: '《精神现象学》' },
+        year: 1807,
+      },
+      {
+        text: {
+          en: 'The history of the world is none other than the progress of the consciousness of freedom.',
+          zh: '世界历史不过是自由意识的进步。',
+        },
+        original: 'Die Weltgeschichte ist der Fortschritt im Bewußtsein der Freiheit.',
+        originalLang: 'de',
+        source: { en: 'Lectures on the Philosophy of History', zh: '《历史哲学讲演录》' },
+        year: 1837,
+      },
+      {
+        text: {
+          en: 'Self-consciousness exists in and for itself when, and by the fact that, it so exists for another; that is, it exists only in being acknowledged. Each is for the other the middle term, through which each mediates itself with itself and unites with itself.',
+          zh: '自我意识是自在自为地存在的，由于并且由于它为另一个自在自为的存在而存在；也就是说，它只有在被承认中才存在。每一方都是另一方的中介，每一方通过另一方来自我中介并与自身统一。',
+        },
+        original: 'Das Selbstbewußtsein ist an und für sich, indem und dadurch, daß es für ein anderes an und für sich ist; d. h. es ist nur als ein Anerkanntes.',
+        originalLang: 'de',
+        source: { en: 'Phenomenology of Spirit', zh: '《精神现象学》' },
+        year: 1807,
+      },
+      {
+        text: {
+          en: 'What is rational is actual and what is actual is rational.',
+          zh: '凡是合理的都是现实的，凡是现实的都是合理的。',
+        },
+        original: 'Was vernünftig ist, das ist wirklich; und was wirklich ist, das ist vernünftig.',
+        originalLang: 'de',
+        source: { en: 'Elements of the Philosophy of Right', zh: '《法哲学原理》' },
+        year: 1820,
+      },
+      {
+        text: {
+          en: 'Nothing great in the world has been accomplished without passion.',
+          zh: '世界上没有任何伟大的事业是没有激情就能完成的。',
+        },
+        original: 'Nichts Großes in der Welt ist ohne Leidenschaft vollbracht worden.',
+        originalLang: 'de',
+        source: { en: 'Lectures on the Philosophy of History', zh: '《历史哲学讲演录》' },
+        year: 1837,
+      },
+      {
+        text: {
+          en: 'Education is the art of making man ethical. It regards man as natural and shows him the way to a second birth, transforming his original nature into a second, spiritual nature, so that this spiritual becomes habitual to him.',
+          zh: '教育是使人成为伦理存在的艺术。它把人视为自然存在，并向他展示第二次诞生之路，将他原初的自然本性转化为第二种精神本性，使这种精神本性成为他的习惯。',
+        },
+        original: 'Die Pädagogik ist die Kunst, den Menschen sittlich zu machen.',
+        originalLang: 'de',
+        source: { en: 'Elements of the Philosophy of Right', zh: '《法哲学原理》' },
+        year: 1820,
+      },
+    ],
+  },
+  {
+    slug: 'rawls',
+    name: { en: 'John Rawls', zh: '约翰·罗尔斯' },
+    years: '1921–2002',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American political philosopher whose magnum opus A Theory of Justice revived social contract theory and established the framework of justice as fairness, becoming the most influential work of political philosophy in the twentieth century.',
+      zh: '美国政治哲学家，其巨著《正义论》复兴了社会契约论，建立了作为公平的正义框架，成为二十世纪最具影响力的政治哲学著作。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/John_Rawls',
+      zh: 'https://zh.wikipedia.org/wiki/约翰·罗尔斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Justice is the first virtue of social institutions, as truth is of systems of thought. A theory however elegant and economical must be rejected or revised if it is untrue; likewise laws and institutions no matter how efficient and well-arranged must be reformed or abolished if they are unjust.',
+          zh: '正义是社会制度的首要德性，正如真理是思想体系的首要德性。一个理论，无论多么精致和简洁，如果不真实，就必须被拒绝或修正；同样，法律和制度，无论多么高效和井然有序，如果不正义，就必须被改革或废除。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'No one deserves his greater natural capacity nor merits a more favorable starting place in society. But it does not follow that one should eliminate these distinctions. Instead, the basic structure can be arranged so that these contingencies work for the good of the least fortunate.',
+          zh: '没有人配得上他更优越的天赋能力，也没有人有资格享有社会中更有利的起点。但这并不意味着应当消除这些差异。相反，基本结构可以被安排为使这些偶然因素有利于最不幸者。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'The veil of ignorance ensures that no one is advantaged or disadvantaged in the choice of principles by the outcome of natural chance or the contingency of social circumstances. Since all are similarly situated and no one is able to design principles to favor his particular condition, the principles of justice are the result of a fair agreement.',
+          zh: '无知之幕确保没有人在原则的选择中因自然机遇的结果或社会境遇的偶然性而处于有利或不利地位。由于所有人处境相似，没有人能设计出偏袒自身特定处境的原则，正义原则就是公平协议的结果。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'Each person possesses an inviolability founded on justice that even the welfare of society as a whole cannot override. For this reason justice denies that the loss of freedom for some is made right by a greater good shared by others.',
+          zh: '每个人都拥有一种建基于正义之上的不可侵犯性，即使是整个社会的福利也不能凌驾其上。因此，正义否认一些人失去自由可以因他人分享更大利益而变得正当。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'In a well-ordered society, citizens know and accept the same principles of justice, and the basic social institutions satisfy and are known to satisfy these principles.',
+          zh: '在一个秩序良好的社会中，公民知道并接受相同的正义原则，而基本社会制度满足且被公认满足这些原则。',
+        },
+        originalLang: 'en',
+        source: { en: 'Political Liberalism', zh: '《政治自由主义》' },
+        year: 1993,
+      },
+      {
+        text: {
+          en: 'The most reasonable political conception of justice for a democratic regime will be, broadly speaking, liberal. This means that it protects the familiar basic rights and assigns them a special priority.',
+          zh: '对于一个民主政体而言，最合理的政治正义观念将大致而言是自由主义的。这意味着它保护人所熟知的基本权利，并赋予它们特殊的优先性。',
+        },
+        originalLang: 'en',
+        source: { en: 'Political Liberalism', zh: '《政治自由主义》' },
+        year: 1993,
+      },
+      {
+        text: {
+          en: 'Social and economic inequalities are to be arranged so that they are both reasonably expected to be to everyone\'s advantage, and attached to positions and offices open to all.',
+          zh: '社会和经济不平等应被如此安排，以使它们既可以合理地预期对每个人都有利，又与向所有人开放的职位和职务联系在一起。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'A just society is a society that if you knew everything about it, you\'d be willing to enter it in a random place.',
+          zh: '一个正义的社会是这样的社会：如果你了解关于它的一切，你会愿意在一个随机的位置进入它。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Theory of Justice', zh: '《正义论》' },
+        year: 1971,
+      },
+    ],
+  },
+  {
+    slug: 'agamben',
+    name: { en: 'Giorgio Agamben', zh: '乔治·阿甘本' },
+    years: '1942–',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian philosopher whose investigations into sovereignty, bare life, and the state of exception have fundamentally reshaped political philosophy, drawing on Walter Benjamin, Carl Schmitt, Hannah Arendt, and Michel Foucault.',
+      zh: '意大利哲学家，其对主权、赤裸生命和例外状态的研究从根本上重塑了政治哲学，思想根源涉及瓦尔特·本雅明、卡尔·施密特、汉娜·阿伦特和米歇尔·福柯。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Giorgio_Agamben',
+      zh: 'https://zh.wikipedia.org/wiki/乔治·阿甘本',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The camp is the space that is opened when the state of exception begins to become the rule. In the camp, the state of exception, which was essentially a temporary suspension of the rule of law on the basis of a factual state of danger, is now given a permanent spatial arrangement.',
+          zh: '当例外状态开始成为常规时，营地就是被开辟出来的空间。在营地中，例外状态——本质上是基于事实上的危险状态而对法治的临时悬置——如今获得了一种永久的空间安排。',
+        },
+        original: 'Il campo è lo spazio che si apre quando lo stato di eccezione comincia a diventare la regola.',
+        originalLang: 'it',
+        source: { en: 'Homo Sacer: Sovereign Power and Bare Life', zh: '《神圣人：主权权力与赤裸生命》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'In Western politics, bare life has the peculiar privilege of being that whose exclusion founds the city of men.',
+          zh: '在西方政治中，赤裸生命享有一种奇特的特权：它的被排斥恰恰奠定了人类城邦的基础。',
+        },
+        original: 'La nuda vita ha, nella politica occidentale, il singolare privilegio di essere ciò la cui esclusione fonda la città degli uomini.',
+        originalLang: 'it',
+        source: { en: 'Homo Sacer: Sovereign Power and Bare Life', zh: '《神圣人：主权权力与赤裸生命》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'The sovereign is the point of indistinction between violence and law, the threshold on which violence passes over into law and law passes over into violence.',
+          zh: '主权者是暴力与法律的无区分点，是暴力转化为法律、法律转化为暴力的门槛。',
+        },
+        original: 'Il sovrano è il punto di indistinzione tra violenza e diritto, la soglia in cui la violenza trapassa in diritto e il diritto in violenza.',
+        originalLang: 'it',
+        source: { en: 'Homo Sacer: Sovereign Power and Bare Life', zh: '《神圣人：主权权力与赤裸生命》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'The state of exception is not a special kind of law; rather, insofar as it is a suspension of the juridical order itself, it defines law\'s threshold or limit concept.',
+          zh: '例外状态不是一种特殊的法律；不如说，作为对法律秩序本身的悬置，它界定了法律的门槛或极限概念。',
+        },
+        original: 'Lo stato di eccezione non è un diritto speciale, ma, in quanto sospensione dello stesso ordine giuridico, ne definisce la soglia o il concetto limite.',
+        originalLang: 'it',
+        source: { en: 'State of Exception', zh: '《例外状态》' },
+        year: 2003,
+      },
+      {
+        text: {
+          en: 'Today it is not the city but rather the camp that is the fundamental biopolitical paradigm of the West.',
+          zh: '今天，不是城邦而是营地才是西方的基本生命政治范式。',
+        },
+        original: 'È piuttosto il campo e non la città il paradigma biopolitico fondamentale dell\'Occidente.',
+        originalLang: 'it',
+        source: { en: 'Homo Sacer: Sovereign Power and Bare Life', zh: '《神圣人：主权权力与赤裸生命》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'The refugee must be considered for what he is: nothing less than a limit concept that radically calls into question the fundamental categories of the nation-state.',
+          zh: '难民必须被视为他之所是：一个从根本上质疑民族国家基本范畴的极限概念。',
+        },
+        original: 'Il rifugiato va considerato per quello che è, cioè nient\'altro che un concetto-limite che mette in crisi radicale le categorie fondamentali dello Stato-nazione.',
+        originalLang: 'it',
+        source: { en: 'Means Without End', zh: '《无目的的手段》' },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'What the ark of power contains at its center is the state of exception — but this is essentially an empty space, in which a human action with no relation to law stands before a norm with no relation to life.',
+          zh: '权力之柜的中心所容纳的是例外状态——但这本质上是一个空的空间，在其中一个与法律无关的人类行为面对着一个与生命无关的规范。',
+        },
+        original: 'Ciò che l\'arca del potere contiene al suo centro è lo stato di eccezione — ma questo è essenzialmente uno spazio vuoto.',
+        originalLang: 'it',
+        source: { en: 'State of Exception', zh: '《例外状态》' },
+        year: 2003,
+      },
+    ],
+  },
+  {
+    slug: 'berlin',
+    name: { en: 'Isaiah Berlin', zh: '以赛亚·伯林' },
+    years: '1909–1997',
+    nationality: { en: 'British', zh: '英国' },
+    bio: {
+      en: 'Latvian-born British philosopher and historian of ideas, renowned for his distinction between positive and negative liberty, his defense of value pluralism against monism, and his vivid intellectual portraits of Russian thinkers.',
+      zh: '拉脱维亚裔英国哲学家和思想史家，以其对积极自由与消极自由的区分、以多元价值论反对一元论的辩护，以及对俄国思想家的生动思想肖像而闻名。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Isaiah_Berlin',
+      zh: 'https://zh.wikipedia.org/wiki/以赛亚·伯林',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The fox knows many things, but the hedgehog knows one big thing. There exists a great chasm between those, on one side, who relate everything to a single central vision and those who pursue many ends, often unrelated and even contradictory.',
+          zh: '狐狸知道很多事情，但刺猬知道一件大事。在那些将一切与某个单一核心愿景联系起来的人和那些追求许多目标、这些目标往往互不相关甚至相互矛盾的人之间，存在着巨大的鸿沟。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Hedgehog and the Fox', zh: '《刺猬与狐狸》' },
+        year: 1953,
+      },
+      {
+        text: {
+          en: 'Liberty in the negative sense involves an answer to the question: "What is the area within which the subject — a person or group of persons — is or should be left to do or be what he is able to do or be, without interference by other persons?"',
+          zh: '消极意义上的自由涉及对这个问题的回答："在什么范围内，主体——一个人或一群人——被允许或应当被允许去做或成为他能做或能成为的，而不受他人干涉？"',
+        },
+        originalLang: 'en',
+        source: { en: 'Two Concepts of Liberty', zh: '《两种自由概念》' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'To coerce a man is to deprive him of freedom — freedom from what? Almost every moralist in human history has praised freedom. Like happiness and goodness, like nature and reality, the meaning of this term is so porous that there is little interpretation that it seems able to resist.',
+          zh: '强制一个人就是剥夺他的自由——免于什么的自由？人类历史上几乎每一位道德哲学家都赞美过自由。就像幸福和善、自然和实在一样，这个词的含义是如此多孔，以至于似乎没有什么解释是它能够抵挡的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Two Concepts of Liberty', zh: '《两种自由概念》' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'The notion that there must exist final objective answers to normative questions, truths that can be demonstrated or directly intuited, that it is in principle possible to discover a harmonious pattern in which all values are reconciled — this is what I shall call the Platonic ideal.',
+          zh: '认为规范问题必定存在最终的客观答案，存在可以被证明或直接直觉到的真理，认为原则上有可能发现一种所有价值都得到调和的和谐模式——这就是我所说的柏拉图式理想。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Crooked Timber of Humanity', zh: '《人性的曲木》' },
+        year: 1990,
+      },
+      {
+        text: {
+          en: 'Out of the crooked timber of humanity, no straight thing was ever made.',
+          zh: '用人性这根曲木，绝然造不出任何笔直之物。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Crooked Timber of Humanity (quoting Kant)', zh: '《人性的曲木》（引康德语）' },
+        year: 1990,
+      },
+      {
+        text: {
+          en: 'Few new truths have ever won their way against the resistance of established ideas save by being overstated.',
+          zh: '很少有新的真理能够在既有观念的抵抗下赢得一席之地，除非它们被过度陈述。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Proper Study of Mankind', zh: '《人类的正当研究》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'The fundamental sense of freedom is freedom from chains, from imprisonment, from enslavement by others. The rest is extension of this sense, or else metaphor.',
+          zh: '自由的根本意义是免于枷锁、免于囚禁、免于被他人奴役。其余的都是这个意义的延伸，否则就是隐喻。',
+        },
+        originalLang: 'en',
+        source: { en: 'Two Concepts of Liberty', zh: '《两种自由概念》' },
+        year: 1958,
+      },
+    ],
+  },
+  {
+    slug: 'gramsci',
+    name: { en: 'Antonio Gramsci', zh: '安东尼奥·葛兰西' },
+    years: '1891–1937',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian Marxist philosopher and politician who, imprisoned by Mussolini\'s fascist regime, produced the Prison Notebooks — a profound analysis of cultural hegemony, organic intellectuals, and the war of position that transformed political theory.',
+      zh: '意大利马克思主义哲学家和政治家，被墨索里尼的法西斯政权囚禁期间写下了《狱中札记》——对文化霸权、有机知识分子和阵地战的深刻分析，彻底改变了政治理论。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Antonio_Gramsci',
+      zh: 'https://zh.wikipedia.org/wiki/安东尼奥·葛兰西',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The old world is dying, and the new world struggles to be born: now is the time of monsters.',
+          zh: '旧世界正在消亡，新世界还在艰难诞生之中：现在是怪物横行的时代。',
+        },
+        original: 'Il vecchio mondo sta morendo. Quello nuovo tarda a comparire. E in questo chiaroscuro nascono i mostri.',
+        originalLang: 'it',
+        source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
+        year: 1930,
+        comment: { en: 'Popular paraphrase. Gramsci\'s actual words use "morbid symptoms" (sintomi morbosi), not "monsters." The "monsters" version was popularized by Slavoj Žižek.', zh: '流行的意译。葛兰西原文使用的是"病态症状"(sintomi morbosi)而非"怪物"。"怪物"版本由齐泽克推广。' },
+      },
+      {
+        text: {
+          en: 'I\'m a pessimist because of intelligence, but an optimist because of will.',
+          zh: '因为理智，我是悲观主义者；因为意志，我是乐观主义者。',
+        },
+        original: 'Sono pessimista con l\'intelligenza, ma ottimista per la volontà.',
+        originalLang: 'it',
+        source: { en: 'Letter from Prison', zh: '《狱中书信》' },
+        year: 1929,
+      },
+      {
+        text: {
+          en: 'Every relationship of hegemony is necessarily a pedagogic relationship. The supremacy of a social group manifests itself in two ways: as domination and as intellectual and moral leadership.',
+          zh: '每一种霸权关系都必然是一种教育关系。一个社会群体的至上地位以两种方式表现出来：作为统治，以及作为智识和道德领导。',
+        },
+        original: 'Ogni rapporto di egemonia è necessariamente un rapporto pedagogico. La supremazia di un gruppo sociale si manifesta in due modi: come dominio e come direzione intellettuale e morale.',
+        originalLang: 'it',
+        source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
+        year: 1935,
+      },
+      {
+        text: {
+          en: 'The traditional intellectual is one who thinks of himself as autonomous and independent of the dominant social group, while in reality performing a function in maintaining the existing hegemony.',
+          zh: '传统知识分子自认为独立于统治社会群体之外，然而实际上，他在维护现存霸权中发挥着功能。',
+        },
+        original: 'L\'intellettuale tradizionale è colui che si pensa come autonomo e indipendente dal gruppo sociale dominante.',
+        originalLang: 'it',
+        source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
+        year: 1935,
+      },
+      {
+        text: {
+          en: 'To tell the truth is revolutionary.',
+          zh: '说出真相就是革命。',
+        },
+        original: 'Dire la verità è rivoluzionario.',
+        originalLang: 'it',
+        source: { en: 'L\'Ordine Nuovo', zh: '《新秩序》' },
+        year: 1919,
+      },
+      {
+        text: {
+          en: 'All men are intellectuals, but not all men have in society the function of intellectuals. There is no human activity from which every form of intellectual participation can be excluded.',
+          zh: '所有人都是知识分子，但并非所有人在社会中都承担知识分子的功能。没有任何人类活动可以排除一切形式的智识参与。',
+        },
+        original: 'Tutti gli uomini sono intellettuali, ma non tutti gli uomini hanno nella società la funzione di intellettuali.',
+        originalLang: 'it',
+        source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
+        year: 1935,
+      },
+      {
+        text: {
+          en: 'The crisis consists precisely in the fact that the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear.',
+          zh: '危机恰恰在于旧事物正在消亡而新事物无法诞生；在这一空位期间，各种病态症状纷纷出现。',
+        },
+        original: 'La crisi consiste appunto nel fatto che il vecchio muore e il nuovo non può nascere: in questo interregno si verificano i fenomeni morbosi più svariati.',
+        originalLang: 'it',
+        source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
+        year: 1930,
+      },
+    ],
+  },
+  {
+    slug: 'jonas',
+    name: { en: 'Hans Jonas', zh: '汉斯·约纳斯' },
+    years: '1903–1993',
+    nationality: { en: 'German-American', zh: '德裔美国' },
+    bio: {
+      en: 'German-American philosopher who, drawing on phenomenology and existentialism, developed an ethics of responsibility for the technological age, arguing that humanity\'s unprecedented power over nature demands an entirely new framework of moral obligation toward future generations.',
+      zh: '德裔美国哲学家，在现象学和存在主义基础上为技术时代发展了一种责任伦理学，主张人类对自然前所未有的力量要求一种全新的、面向未来世代的道德义务框架。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Hans_Jonas',
+      zh: 'https://zh.wikipedia.org/wiki/汉斯·约纳斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Act so that the effects of your action are compatible with the permanence of genuine human life on earth.',
+          zh: '如此行动，使你行为的效果与地球上真正人类生活的永续相容。',
+        },
+        original: 'Handle so, daß die Wirkungen deiner Handlung verträglich sind mit der Permanenz echten menschlichen Lebens auf Erden.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'The prophecy of doom is to be given greater heed than the prophecy of bliss. The heuristics of fear is more useful than the heuristics of hope.',
+          zh: '末日预言应比幸福预言得到更多重视。恐惧的启发法比希望的启发法更为有用。',
+        },
+        original: 'Der Unheilsprophezei ist mehr Gehör zu schenken als der Heilsprophezei. Die Heuristik der Furcht ist nützlicher als die Heuristik der Hoffnung.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'Modern technology has introduced actions of such novel scale, objects, and consequences that the framework of former ethics can no longer contain them.',
+          zh: '现代技术引入了规模、对象和后果如此新颖的行动，以至于旧有伦理学的框架已无法容纳它们。',
+        },
+        original: 'Die moderne Technik hat Handlungen von so neuartiger Größenordnung, mit so neuartigen Gegenständen und so neuartigen Folgen eingeführt, daß der Rahmen der früheren Ethik sie nicht mehr fassen kann.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'The existence of mankind is the first commandment. The possibility that there be such a thing as responsibility in the world — this is what we must preserve at any cost.',
+          zh: '人类的存在是第一诫命。世界上可能存在责任这回事——这才是我们必须不惜一切代价加以保存的。',
+        },
+        original: 'Das Dasein der Menschheit ist das erste Gebot. Die Möglichkeit, daß es so etwas wie Verantwortung in der Welt gibt — dies ist es, was wir um jeden Preis erhalten müssen.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'We do not have the right to choose, or even to risk, non-existence for future generations on account of a better life for the present one.',
+          zh: '我们没有权利为了当代人更好的生活而为未来世代选择、甚至冒非存在的风险。',
+        },
+        original: 'Wir haben nicht das Recht, das Nichtsein künftiger Generationen um des Seins der gegenwärtigen willen zu wählen oder auch nur zu riskieren.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'Nature, by harboring in itself the possibility of the mind, reveals a teleological tendency with which the merely causal explanations of natural science cannot do justice.',
+          zh: '自然界因在自身中蕴藏着心灵的可能性，便显露出一种目的论倾向，自然科学的纯因果解释无法公正地对待这种倾向。',
+        },
+        original: 'Die Natur, die die Möglichkeit des Geistes in sich birgt, offenbart eine teleologische Tendenz, der die bloß kausalen Erklärungen der Naturwissenschaft nicht gerecht werden können.',
+        originalLang: 'de',
+        source: { en: 'The Phenomenon of Life', zh: '《生命现象》' },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'Only a ethics grounded in the breadth of being, not merely in the singularity or oddness of man, can have significance in the scheme of things.',
+          zh: '只有植根于存在之广度——而非仅仅植根于人的独特性或偶然性——的伦理学，才能在万物秩序中具有意义。',
+        },
+        original: 'Nur eine in der Breite des Seins, nicht bloß in der Eigenart oder Sonderlichkeit des Menschen gegründete Ethik kann im Ganzen der Dinge Bedeutung haben.',
+        originalLang: 'de',
+        source: { en: 'The Imperative of Responsibility', zh: '《责任原理》' },
+        year: 1979,
+      },
+    ],
+  },
+  {
+    slug: 'murdoch',
+    name: { en: 'Iris Murdoch', zh: '艾丽丝·默多克' },
+    years: '1919–1999',
+    nationality: { en: 'British-Irish', zh: '英国-爱尔兰' },
+    bio: {
+      en: 'British-Irish philosopher and novelist who argued that moral life centers on the quality of attention we pay to the world, that love is the perception of individuals in all their particularity, and that the Good is sovereign, demanding a disciplined unselfing of the ego.',
+      zh: '英国-爱尔兰哲学家和小说家，主张道德生活的核心在于我们对世界所付出的关注的品质，爱是对个体全部特殊性的感知，而善是至高无上的，要求一种对自我的有纪律的去除。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Iris_Murdoch',
+      zh: 'https://zh.wikipedia.org/wiki/艾瑞斯·梅铎',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Love is the extremely difficult realization that something other than oneself is real. Love, and so art and morals, is the discovery of reality.',
+          zh: '爱是极其困难的认识到自身之外的事物是真实的。爱，以及艺术和道德，是对实在的发现。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sublime and the Good', zh: '《崇高与善》' },
+        year: 1959,
+      },
+      {
+        text: {
+          en: 'Attention is the natural prayer of the soul. I have used the word attention, which I borrow from Simone Weil, to express the idea of a just and loving gaze directed upon an individual reality.',
+          zh: '注意力是灵魂的自然祈祷。我使用"注意力"一词——借自西蒙娜·韦伊——来表达一种公正而充满爱的目光，投向个体的实在。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sovereignty of Good', zh: '《善的主权》' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'We live in a fantasy world, a world of illusion. The great task in life is to find reality. And the chief instrument for this is unselfing — a disciplined suppression of the greedy ego.',
+          zh: '我们生活在一个幻想的世界里，一个幻觉的世界。生活中的伟大任务是发现实在。而主要的工具就是去自我化——对贪婪自我的有纪律的抑制。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sovereignty of Good', zh: '《善的主权》' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'The Good has nothing to do with purpose, indeed it excludes the idea of purpose. All is vanity is the beginning and the end of ethics. The only genuine way to be good is to be good for nothing.',
+          zh: '善与目的无关，实际上它排斥目的的观念。一切皆虚空，是伦理学的起点和终点。唯一真正善良的方式，就是无所为而为善。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sovereignty of Good', zh: '《善的主权》' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'Man is a creature who makes pictures of himself and then comes to resemble the picture. This is the process which moral philosophy must attempt to describe and analyse.',
+          zh: '人是这样一种存在：他为自己制造图像，然后变得与图像相似。道德哲学必须试图描述和分析的，正是这个过程。',
+        },
+        originalLang: 'en',
+        source: { en: 'Metaphysics as a Guide to Morals', zh: '《形而上学作为道德指南》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'In the moral life the enemy is the fat relentless ego. Moral philosophy is properly, and target of its analysis is properly, not the good man — since we can scarcely imagine him — but the confused man, the man in the cave.',
+          zh: '在道德生活中，敌人是臃肿而无情的自我。道德哲学的恰当对象，其分析的恰当目标，不是善人——因为我们几乎无法想象他——而是困惑的人，洞穴中的人。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sovereignty of Good', zh: '《善的主权》' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'Art and morals are one. Their essence is the same. The essence of both of them is love. Love is the perception of individuals. Love is the extremely difficult realization that something other than oneself is real.',
+          zh: '艺术与道德是一体的。它们的本质相同。它们的本质都是爱。爱是对个体的感知。爱是极其困难的认识到自身之外的事物是真实的。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sublime and the Good', zh: '《崇高与善》' },
+        year: 1959,
+      },
+      {
+        text: {
+          en: 'Anything which alters consciousness in the direction of unselfishness, objectivity and realism is to be connected with virtue. Virtue is au fond the same in the artist as in the good man in that it is a selfless attention to nature.',
+          zh: '任何使意识向无私、客观和现实主义方向转变的事物，都与德性相关联。德性在艺术家和善人那里本质上是相同的，因为它是对自然的无私关注。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sovereignty of Good', zh: '《善的主权》' },
+        year: 1970,
       },
     ],
   },

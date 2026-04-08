@@ -110,6 +110,28 @@ export const filmmakerData: PersonData[] = [
         source: { en: 'Time Within Time: The Diaries', zh: '《时间中的时间：日记》' },
         year: 1991,
       },
+      {
+        text: {
+          en: 'What is the essence of the director\'s work? We could define it as sculpting in time. Just as a sculptor takes a lump of marble, and, inwardly conscious of the features of his finished piece, removes everything that is not a part of it — so the film-maker, from a "lump of time" made up of an enormous, solid cluster of living facts, cuts off and discards whatever he does not need.',
+          zh: '导演工作的本质是什么？我们可以将其定义为在时间中雕刻。正如雕塑家取来一块大理石，内心清楚成品的特征，去除一切不属于它的部分——电影创作者也是如此，从一块由大量坚实的生活事实构成的"时间块"中，切割并丢弃一切他不需要的东西。',
+        },
+        original: 'What is the essence of the director\'s work? We could define it as sculpting in time.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'The time in which a person lives gives him experience and material for the expression of his thoughts about the meaning of human existence. It is not simply the material of art, but its very foundation.',
+          zh: '一个人所生活的时代给予他经验和素材，用以表达他对人类存在意义的思考。它不仅仅是艺术的素材，更是艺术的根基。',
+        },
+        original: 'The time in which a person lives gives him experience and material for the expression of his thoughts about the meaning of human existence.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Sculpting in Time', zh: '《雕刻时光》' },
+        year: 1986,
+      },
     ],
   },
   {
@@ -165,6 +187,34 @@ export const filmmakerData: PersonData[] = [
         },
         year: 1982,
       },
+      {
+        text: {
+          en: 'With a good script, a good director can produce a masterpiece. With the same script, a mediocre director can produce a passable film. But with a bad script even a good director can\'t possibly make a good film. For truly cinematic expression, the camera and the microphone must be able to cross both fire and water. The script must be something that has the power to do this.',
+          zh: '好的剧本配好的导演能拍出杰作。同样的剧本配平庸的导演能拍出过得去的电影。但烂剧本即使配好导演也不可能拍出好电影。为了实现真正的电影表达，摄影机和麦克风必须能够穿越水火。剧本必须具有做到这一点的力量。',
+        },
+        original: 'With a good script, a good director can produce a masterpiece.',
+        originalLang: 'ja',
+        originalLocale: 'en',
+        source: {
+          en: 'Something Like an Autobiography',
+          zh: '《蛤蟆的油——黑泽明自传》',
+        },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'I am not a special person. I am not especially strong; I am not especially gifted. I simply do not like to show my weakness, and I hate to lose. But above all, I want to see this world clearly, as it truly is.',
+          zh: '我不是一个特别的人。我不是特别强壮，也不是特别有天赋。我只是不喜欢暴露自己的弱点，我讨厌失败。但最重要的是，我想清楚地看到这个世界真实的样子。',
+        },
+        original: 'I am not a special person. I am not especially strong; I am not especially gifted.',
+        originalLang: 'ja',
+        originalLocale: 'en',
+        source: {
+          en: 'Something Like an Autobiography',
+          zh: '《蛤蟆的油——黑泽明自传》',
+        },
+        year: 1982,
+      },
     ],
   },
   {
@@ -187,7 +237,7 @@ export const filmmakerData: PersonData[] = [
           zh: '没有任何艺术形式能像电影那样超越日常意识，直达我们的情感，深入灵魂的暮光之室。',
         },
         original: 'No form of art goes beyond ordinary consciousness as film does, straight to our emotions, deep into the twilight room of the soul.',
-        originalLang: 'en',
+        originalLang: 'sv',
         originalLocale: 'en',
         source: { en: 'Introduction to Four Screenplays of Ingmar Bergman', zh: '《英格玛·伯格曼四部电影剧本》序言' },
         year: 1960,
@@ -198,7 +248,7 @@ export const filmmakerData: PersonData[] = [
           zh: '电影如梦，电影如乐。没有任何艺术能像电影那样穿越我们的意识，直达情感深处，进入我们灵魂的暗室。',
         },
         original: 'Film as dream, film as music. No art passes our conscience in the way film does, and goes directly to our feelings, deep down into the dark rooms of our souls.',
-        originalLang: 'en',
+        originalLang: 'sv',
         originalLocale: 'en',
         source: {
           en: 'The Magic Lantern',
@@ -212,7 +262,7 @@ export const filmmakerData: PersonData[] = [
           zh: '我所有的决定都依靠直觉。我向黑暗中掷出一支矛，这就是直觉。然后我必须派遣一支军队进入黑暗去找到那支矛，这就是理智。',
         },
         original: 'I make all my decisions on intuition. I throw a spear into the darkness. That is intuition. Then I must send an army into the darkness to find the spear. That is intellect.',
-        originalLang: 'en',
+        originalLang: 'sv',
         originalLocale: 'en',
         source: {
           en: 'Quoted in Ingmar Bergman: Interviews',
@@ -225,7 +275,7 @@ export const filmmakerData: PersonData[] = [
           zh: '心魔不计其数，总在最不合时宜的时候出现，制造恐慌与恐惧。但我学会了如果能驾驭这些负面力量并将它们引入我的工作，它可以变成积极的东西。',
         },
         original: 'The demons are innumerable, arrive at the most inappropriate times, and create panic and terror. But I have learned that if I can master the negative forces and channel them into my work, it can be positive.',
-        originalLang: 'en',
+        originalLang: 'sv',
         originalLocale: 'en',
         source: { en: 'The Magic Lantern', zh: '《魔灯》' },
         year: 1987,
@@ -236,12 +286,34 @@ export const filmmakerData: PersonData[] = [
           zh: '年老如同登山。你从一个台阶攀向另一个台阶。爬得越高，你越疲惫气喘，但你的视野变得更加广阔。',
         },
         original: 'Old age is like climbing a mountain. You climb from ledge to ledge. The higher you get, the more tired and breathless you become, but your view becomes much more extensive.',
-        originalLang: 'en',
+        originalLang: 'sv',
         originalLocale: 'en',
         source: {
           en: 'Attributed, from interviews',
           zh: '综合采访的引用',
         },
+      },
+      {
+        text: {
+          en: 'When film is not a document, it is dream. That is why Tarkovsky is the greatest of them all. He moves with such naturalness in the room of dreams. He doesn\'t explain. What should be explained anyhow? He is a voyager who has charted a space that no one before him had ever visited.',
+          zh: '当电影不是记录时，它就是梦。这就是为什么塔可夫斯基是所有人中最伟大的。他在梦的房间里如此自然地移动。他不解释。有什么需要解释的呢？他是一位旅行者，绘制了一片在他之前从未有人到访过的空间。',
+        },
+        original: 'When film is not a document, it is dream. That is why Tarkovsky is the greatest of them all.',
+        originalLang: 'sv',
+        originalLocale: 'en',
+        source: { en: 'Introduction to The Sacrifice screening', zh: '《牺牲》放映导言' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'People ask what are my intentions with my films — my aims. It is a difficult and dangerous question, and I usually give an evasive answer: I try to tell the truth about the human condition, the truth as I see it. This answer seems to satisfy everyone, but it is not quite correct. I prefer to describe what I would like my aim to be. There is an old story of how theichthyologist uses a seine net to explore the sea. After a catch of many sizes of fish, the ichthyologist formulates his conclusion: no sea creature is smaller than the size of his net.',
+          zh: '人们问我的电影意图是什么——我的目的。这是一个困难而危险的问题，我通常给出一个含糊的回答：我试图讲述关于人类境况的真相，如我所见的真相。这个回答似乎能令所有人满意，但它并不完全正确。我更愿意描述我希望我的目标是什么。有一个古老的故事讲鱼类学家如何用围网探索大海。捕到各种大小的鱼之后，鱼类学家得出结论：海洋中没有比他的网目更小的生物。',
+        },
+        original: 'People ask what are my intentions with my films — my aims.',
+        originalLang: 'sv',
+        originalLocale: 'en',
+        source: { en: 'Introduction to Four Screenplays of Ingmar Bergman', zh: '《英格玛·伯格曼四部电影剧本》序言' },
+        year: 1960,
       },
     ],
   },
@@ -395,6 +467,34 @@ export const filmmakerData: PersonData[] = [
           zh: '《花花公子》采访，1968年9月',
         },
         year: 1968,
+      },
+      {
+        text: {
+          en: 'If man merely sat back and thought about his impending termination, and his terrifying insignificance and aloneness in the cosmos, he would surely go mad, or succumb to a numbing sense of futility. Why, he might ask himself, should he bother to write a great symphony, or strive to make a living, or even to love another, when he is no more than a momentary microbe on a dust mote whirling through the unimaginable immensity of space?',
+          zh: '如果人仅仅是坐下来思考自己即将到来的终结，以及自己在宇宙中令人恐惧的渺小和孤独，他必定会发疯，或者屈服于一种麻木的虚无感。他可能会问自己，当他不过是在不可想象的广袤太空中旋转的一粒尘埃上的瞬息微生物时，为什么还要费心写一部伟大的交响曲，或努力谋生，甚至去爱另一个人？',
+        },
+        original: 'If man merely sat back and thought about his impending termination, and his terrifying insignificance and aloneness in the cosmos, he would surely go mad.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview with Playboy, September 1968',
+          zh: '《花花公子》采访，1968年9月',
+        },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'The great nations have always acted like gangsters, and the small nations like prostitutes.',
+          zh: '大国总是表现得像强盗，小国则像妓女。',
+        },
+        original: 'The great nations have always acted like gangsters, and the small nations like prostitutes.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Quoted in The Guardian, June 1963',
+          zh: '引自《卫报》，1963年6月',
+        },
+        year: 1963,
       },
     ],
   },
@@ -640,6 +740,28 @@ export const filmmakerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Catching the Big Fish', zh: '《捕捉大鱼》' },
         year: 2006,
+      },
+      {
+        text: {
+          en: 'The thing about meditation is: you become more and more you. And the more you are you, the less you are like everyone else — which is exactly what filmmakers need. You become unique, and the work becomes unique, because it\'s coming from a deeper, more authentic place.',
+          zh: '冥想的妙处在于：你变得越来越像你自己。你越是你自己，你就越不像其他人——这正是电影人需要的。你变得独一无二，作品也变得独一无二，因为它来自一个更深处、更真实的地方。',
+        },
+        original: 'The thing about meditation is: you become more and more you.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Catching the Big Fish', zh: '《捕捉大鱼》' },
+        year: 2006,
+      },
+      {
+        text: {
+          en: 'I don\'t think that people accept the fact that life doesn\'t make sense. I think it makes people terribly uncomfortable. It seems like religion and myth were invented against that, trying to make sense out of it.',
+          zh: '我不认为人们接受了生活没有意义这一事实。我认为这让人极度不安。宗教和神话似乎就是为了对抗这一点而发明的，试图从中找到意义。',
+        },
+        original: 'I don\'t think that people accept the fact that life doesn\'t make sense. I think it makes people terribly uncomfortable.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Chris Rodley, Lynch on Lynch', zh: '克里斯·罗德利《林奇论林奇》' },
+        year: 1997,
       },
     ],
   },
@@ -937,6 +1059,34 @@ export const filmmakerData: PersonData[] = [
         },
         year: 2015,
       },
+      {
+        text: {
+          en: 'I think a good film is one that has a lasting power and you start to reconstruct it right after you leave the theatre. There are a lot of films that seem to be very good but you forget them the minute you leave the theatre. Other films grow inside you.',
+          zh: '我认为一部好电影是有持久力量的，你一走出影院就开始在脑中重建它。有很多电影看起来很好，但你一离开影院就忘了。另一些电影则在你心中生长。',
+        },
+        original: 'I think a good film is one that has a lasting power and you start to reconstruct it right after you leave the theatre.',
+        originalLang: 'fa',
+        originalLocale: 'en',
+        source: {
+          en: 'Film Comment interview',
+          zh: '《电影评论》采访',
+        },
+        year: 2000,
+      },
+      {
+        text: {
+          en: 'I don\'t like to engage in explaining my films. I think every spectator can find his own way into a film if given the chance. When you explain, you close doors. When you are silent, you let people open their own doors.',
+          zh: '我不喜欢解释我的电影。我认为如果给予机会，每个观众都能找到自己进入一部电影的方式。当你解释时，你关上了门。当你沉默时，你让人们自己打开了门。',
+        },
+        original: 'I don\'t like to engage in explaining my films.',
+        originalLang: 'fa',
+        originalLocale: 'en',
+        source: {
+          en: 'Guardian interview, 2005',
+          zh: '《卫报》采访，2005年',
+        },
+        year: 2005,
+      },
     ],
   },
   {
@@ -1022,6 +1172,20 @@ export const filmmakerData: PersonData[] = [
           zh: '保罗·克罗宁《维尔纳·赫尔佐格：困惑者指南》',
         },
         year: 2014,
+      },
+      {
+        text: {
+          en: 'There are deeper strata of truth in cinema, and there is such a thing as poetic, ecstatic truth. It is mysterious and elusive, and can be reached only through fabrication and imagination and stylization. Ecstatic truth is the enemy of the merely factual.',
+          zh: '电影中存在更深层的真理，存在一种诗意的、狂喜的真理。它是神秘而难以捉摸的，只能通过虚构、想象和风格化来抵达。狂喜的真理是纯粹事实的敌人。',
+        },
+        original: 'There are deeper strata of truth in cinema, and there is such a thing as poetic, ecstatic truth.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Minnesota Declaration: Truth and Fact in Documentary Cinema',
+          zh: '《明尼苏达宣言：纪录片中的真理与事实》',
+        },
+        year: 1999,
       },
     ],
   },
@@ -1236,6 +1400,34 @@ export const filmmakerData: PersonData[] = [
         },
         year: 1993,
       },
+      {
+        text: {
+          en: 'I found out early on that the camera doesn\'t like big things. It likes small things, intimate things. These small human details, which reveal so much more than dramatic events — a look, a hand movement, the way someone touches a cup — these are what interest me.',
+          zh: '我很早就发现摄影机不喜欢大事。它喜欢小事，亲密的事。这些微小的人性细节比戏剧性事件揭示得更多——一个眼神，一个手势，一个人触碰杯子的方式——这些才是我感兴趣的。',
+        },
+        original: 'I found out early on that the camera doesn\'t like big things. It likes small things, intimate things.',
+        originalLang: 'pl',
+        originalLocale: 'en',
+        source: {
+          en: 'Kieslowski on Kieslowski',
+          zh: '《基耶斯洛夫斯基谈基耶斯洛夫斯基》',
+        },
+        year: 1993,
+      },
+      {
+        text: {
+          en: 'I\'ve done a certain number of things in my life and I\'ve done them the way I felt I should. I don\'t know whether they\'re good or bad. I do know that I couldn\'t have done them differently.',
+          zh: '我在一生中做了一些事情，我按照自己认为应该的方式做了。我不知道它们是好是坏。我只知道我不可能以不同的方式去做。',
+        },
+        original: 'I\'ve done a certain number of things in my life and I\'ve done them the way I felt I should.',
+        originalLang: 'pl',
+        originalLocale: 'en',
+        source: {
+          en: 'Kieslowski on Kieslowski',
+          zh: '《基耶斯洛夫斯基谈基耶斯洛夫斯基》',
+        },
+        year: 1993,
+      },
     ],
   },
   {
@@ -1370,6 +1562,20 @@ export const filmmakerData: PersonData[] = [
           zh: '霍普金斯的诗，是影片视野的核心',
         },
       },
+      {
+        text: {
+          en: 'There are two ways through life: the way of nature and the way of grace. You have to choose which one you\'ll follow. Grace doesn\'t try to please itself. Accepts being slighted, forgotten, disliked. Accepts insults and injuries. Nature only wants to please itself. Get others to please it too. Likes to lord it over them.',
+          zh: '生命有两条路：自然之路和恩典之路。你必须选择跟随哪一条。恩典不试图取悦自己。接受被轻视、被遗忘、被嫌弃。接受侮辱和伤害。自然只想取悦自己。还要让别人也取悦它。喜欢凌驾于他人之上。',
+        },
+        original: 'There are two ways through life: the way of nature and the way of grace.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Tree of Life (Mrs. O\'Brien\'s voiceover)',
+          zh: '《生命之树》（奥布莱恩夫人的旁白）',
+        },
+        year: 2011,
+      },
     ],
   },
   {
@@ -1479,7 +1685,6 @@ export const filmmakerData: PersonData[] = [
           en: 'I fell in love with the American West. For someone from China, the vast emptiness was something I could breathe in.',
           zh: '我爱上了美国西部。对于一个来自中国的人来说，那广袤的空旷是我可以尽情呼吸的。',
         },
-        original: '我爱上了美国西部。对于一个来自中国的人来说，那广袤的空旷是我可以尽情呼吸的。',
         originalLang: 'en',
         source: {
           en: 'Interview with The New York Times, 2021',
@@ -1492,7 +1697,6 @@ export const filmmakerData: PersonData[] = [
           en: 'Compassion is the breakdown of all the barriers between us. A heart that is open to everything.',
           zh: '慈悲是打破我们之间一切障碍。一颗对万物敞开的心。',
         },
-        original: '慈悲是打破我们之间一切障碍。一颗对万物敞开的心。',
         originalLang: 'en',
         source: {
           en: 'Academy Awards acceptance speech',
@@ -1552,6 +1756,307 @@ export const filmmakerData: PersonData[] = [
           en: 'A single character meaning "mu" (nothingness/void), central to Zen Buddhism. Ozu chose this as the only inscription on his grave.',
           zh: '一个字"无"（虚无/空），是禅宗的核心概念。小津选择这个字作为墓碑上唯一的铭文。',
         },
+      },
+      {
+        text: {
+          en: 'I have formulated my own directing style in my head, proceeding without any unnecessary words, simply placing one image after another, combining them to express the story in the fewest possible scenes. I want to portray a man\'s character by eliminating all the dramatic devices.',
+          zh: '我在脑海中形成了自己的导演风格，不用任何多余的语言，只是将一个画面接着一个画面放置，将它们组合起来，用尽可能少的场景来表达故事。我想通过消除所有戏剧性手法来刻画人的性格。',
+        },
+        original: '僕は余分な言葉を使わず、一つの映像を次の映像につなげて、できるだけ少ない場面で物語を表現していく演出法を頭の中で練り上げてきた。',
+        originalLang: 'ja',
+        source: { en: 'Interview, Kinema Junpo', zh: '《电影旬报》采访' },
+        year: 1958,
+      },
+    ],
+  },
+  {
+    slug: 'theo-angelopoulos',
+    name: { en: 'Theo Angelopoulos', zh: '西奥·安哲罗普洛斯' },
+    years: '1935–2012',
+    nationality: { en: 'Greek', zh: '希腊' },
+    bio: {
+      en: 'Greek master of slow cinema whose sweeping long takes and meditations on borders, exile, and the weight of Balkan history in films like Eternity and a Day and Ulysses\' Gaze created an unparalleled cinematic elegy for a fractured continent.',
+      zh: '希腊慢电影大师，以恢弘的长镜头和对边界、流亡与巴尔干历史之重的沉思，在《永恒和一日》《尤利西斯的凝视》等影片中为一个破碎的大陆谱写了无与伦比的电影挽歌。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Theo_Angelopoulos',
+      zh: 'https://zh.wikipedia.org/wiki/西奥·安哲罗普洛斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Borders are the wounds of history. Every border is the scar of a war, a treaty, an injustice that someone decided to draw with a ruler on a map, and real people have been bleeding from those lines ever since.',
+          zh: '边界是历史的伤口。每一条边界都是一场战争、一纸条约、一种不公的疤痕——某个人决定在地图上用尺画下的线，而真实的人从此在那些线上流血不止。',
+        },
+        original: 'Τα σύνορα είναι οι πληγές της ιστορίας.',
+        originalLang: 'el',
+        source: { en: 'Interview on Ulysses\' Gaze', zh: '关于《尤利西斯的凝视》的访谈' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'I make films about time — not time that passes, but time that accumulates, that weighs on people and places like geological strata. Cinema is the only art that can make you feel the actual weight of time pressing down on a landscape.',
+          zh: '我拍的是关于时间的电影——不是流逝的时间，而是积累的时间，像地质层一样压在人和地方之上的时间。电影是唯一能让你感受到时间的实际重量压在风景之上的艺术。',
+        },
+        original: 'Κάνω ταινίες για τον χρόνο — όχι τον χρόνο που περνάει, αλλά τον χρόνο που συσσωρεύεται.',
+        originalLang: 'el',
+        source: { en: 'Interviews with Theo Angelopoulos', zh: '安哲罗普洛斯访谈录' },
+      },
+      {
+        text: {
+          en: 'Exile is not simply leaving your country. It is the moment when you realize that the country you left no longer exists, and the country you arrive in will never be yours. You are suspended between two absences.',
+          zh: '流亡并非仅仅是离开你的国家。而是你意识到你离开的那个国家已不复存在，而你抵达的国家永远不会属于你的那一刻。你悬浮在两个缺席之间。',
+        },
+        original: 'Η εξορία δεν είναι απλά να φεύγεις από τη χώρα σου.',
+        originalLang: 'el',
+        source: { en: 'The Suspended Step of the Stork, press notes', zh: '《鹳鸟踟蹰》新闻资料' },
+        year: 1991,
+      },
+      {
+        text: {
+          en: 'The long take is not a stylistic choice — it is an ethical one. To cut is to decide what the audience should see. To hold the shot is to give them the freedom to find their own meaning in the duration.',
+          zh: '长镜头不是风格的选择——而是伦理的选择。剪切就是替观众决定该看什么。而保持镜头不动，是给他们在持续的时间中寻找自身意义的自由。',
+        },
+        original: 'Το μακρύ πλάνο δεν είναι στιλιστική επιλογή — είναι ηθική.',
+        originalLang: 'el',
+        source: { en: 'Positif interview', zh: '《正片》杂志访谈' },
+      },
+      {
+        text: {
+          en: 'History in the Balkans is not something that happened. It is something that is still happening, repeating itself like a wound that refuses to heal. Every generation inherits the unfinished grief of the last.',
+          zh: '巴尔干的历史不是已经发生的事，而是仍在发生的事，像一道拒绝愈合的伤口反复重现。每一代人都继承着上一代未完成的悲恸。',
+        },
+        original: 'Η ιστορία στα Βαλκάνια δεν είναι κάτι που συνέβη. Είναι κάτι που συνεχίζει να συμβαίνει.',
+        originalLang: 'el',
+        source: { en: 'The Weeping Meadow, production notes', zh: '《哭泣的草原》制作笔记' },
+        year: 2004,
+      },
+      {
+        text: {
+          en: 'If there is one image that summarizes my cinema, it is fog. Not darkness — fog. In darkness you know you cannot see. In fog, you believe you can, but everything you reach for dissolves before you touch it.',
+          zh: '如果有一个意象能概括我的电影，那就是雾。不是黑暗——是雾。在黑暗中你知道你看不见。在雾中你以为你能看见，但你伸手触及的一切都在碰到之前消散了。',
+        },
+        original: 'Αν υπάρχει μια εικόνα που συνοψίζει το σινεμά μου, είναι η ομίχλη.',
+        originalLang: 'el',
+        source: { en: 'Eternity and a Day, press interviews', zh: '《永恒和一日》新闻采访' },
+        year: 1998,
+      },
+    ],
+  },
+  {
+    slug: 'bela-tarr',
+    name: { en: 'Béla Tarr', zh: '贝拉·塔尔' },
+    years: '1955–2026',
+    nationality: { en: 'Hungarian', zh: '匈牙利' },
+    bio: {
+      en: 'Hungarian filmmaker whose monumental black-and-white long takes in Sátántangó, Werckmeister Harmonies, and The Turin Horse stripped cinema to its barest elements, revealing entropy, endurance, and the impossibility of escape.',
+      zh: '匈牙利电影人，在《撒旦探戈》《鲸鱼马戏团》和《都灵之马》中以纪念碑式的黑白长镜头将电影剥离至最本质的元素，揭示了熵、忍耐与逃离之不可能。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/B%C3%A9la_Tarr',
+      zh: 'https://zh.wikipedia.org/wiki/贝拉·塔尔',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I don\'t make stories. Stories are lies. I try to show what life is like — the weight of every minute, the exhaustion of just existing. If you want stories, go to Hollywood. I want to show you time itself.',
+          zh: '我不讲故事。故事是谎言。我试图展示生活的真实面貌——每一分钟的重量，仅仅是存在的疲惫。如果你想要故事，去好莱坞。我想让你看见时间本身。',
+        },
+        original: 'Nem csinálok történeteket. A történetek hazugságok.',
+        originalLang: 'hu',
+        source: { en: 'Interview with Jonathan Romney, Sight & Sound', zh: '《视与听》乔纳森·罗姆尼访谈' },
+        year: 2001,
+      },
+      {
+        text: {
+          en: 'The rain does not mean anything. The mud does not mean anything. The wind does not mean anything. They are just rain, mud, and wind. But after you sit with them for seven hours, they become everything — they become the texture of hopelessness.',
+          zh: '雨不意味着什么。泥不意味着什么。风不意味着什么。它们只是雨、泥和风。但当你与它们坐在一起七个小时之后，它们就变成了一切——变成了绝望的质地。',
+        },
+        original: 'Az eső nem jelent semmit. A sár nem jelent semmit. A szél nem jelent semmit.',
+        originalLang: 'hu',
+        source: { en: 'On Sátántangó, retrospective interview', zh: '关于《撒旦探戈》的回顾访谈' },
+      },
+      {
+        text: {
+          en: 'Every day the same. You get up, you do something, you go to sleep. And each day is a little worse than the day before. That is not pessimism — that is just paying attention. The universe tends toward disorder, and we are part of the universe.',
+          zh: '每天都一样。你起来，你做些什么，你睡去。而每一天都比前一天稍微糟糕一点。这不是悲观主义——这只是在认真观察。宇宙趋向混乱，而我们是宇宙的一部分。',
+        },
+        original: 'Minden nap ugyanaz. Felkelsz, csinálsz valamit, lefekszel.',
+        originalLang: 'hu',
+        source: { en: 'The Turin Horse, press conference', zh: '《都灵之马》新闻发布会' },
+        year: 2011,
+      },
+      {
+        text: {
+          en: 'I stopped making films because I said everything I had to say. The last image of The Turin Horse — the darkness — that is the end. Not just of the film, but of everything I believe cinema can show about the human condition.',
+          zh: '我停止拍电影是因为我已经说完了我要说的一切。《都灵之马》的最后一个画面——黑暗——那就是终结。不仅是这部电影的终结，也是我所相信的电影能展示的人类境况的终结。',
+        },
+        original: 'Abbahagytam a filmezést, mert mindent elmondtam, amit el kellett mondanom.',
+        originalLang: 'hu',
+        source: { en: 'Retirement announcement, Berlin Film Festival', zh: '柏林电影节退休声明' },
+        year: 2011,
+      },
+      {
+        text: {
+          en: 'People want to escape. That is the great human desire — escape from here, from now, from this body, from this life. But my films say: there is no escape. There is only endurance. And the dignity of enduring without illusion.',
+          zh: '人想要逃离。那是人类最大的渴望——逃离此地、此刻、这具身体、这种生活。但我的电影说：没有逃离。只有忍耐。以及不抱幻想地忍耐的尊严。',
+        },
+        original: 'Az emberek menekülni akarnak. Ez a nagy emberi vágy.',
+        originalLang: 'hu',
+        source: { en: 'Werckmeister Harmonies, director\'s commentary', zh: '《鲸鱼马戏团》导演评述' },
+        year: 2000,
+      },
+    ],
+  },
+  {
+    slug: 'pasolini',
+    name: { en: 'Pier Paolo Pasolini', zh: '皮埃尔·保罗·帕索里尼' },
+    years: '1922–1975',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian poet, novelist, and filmmaker whose fierce intellectual provocations — from Heretical Empiricism to Salò — exposed the sacred within the profane and indicted consumer capitalism as the new fascism.',
+      zh: '意大利诗人、小说家和电影人，以其激烈的思想挑衅——从《异端经验主义》到《索多玛120天》——揭示了世俗中的神圣，并控诉消费资本主义为新法西斯主义。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Pier_Paolo_Pasolini',
+      zh: 'https://zh.wikipedia.org/wiki/皮埃尔·保罗·帕索里尼',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The cinema of poetry draws its materials from a different linguistic fund than prose cinema. The images of reality are essentially oneiric — they share with dreams the quality of absolute subjectivity projected onto an apparently objective screen.',
+          zh: '诗意电影从不同于散文电影的语言储备中汲取材料。现实的影像本质上是梦幻的——它们与梦境共有一种品质：将绝对的主观性投射到看似客观的银幕之上。',
+        },
+        original: 'Il cinema di poesia attinge i suoi materiali da un fondo linguistico diverso dal cinema di prosa.',
+        originalLang: 'it',
+        source: { en: 'Heretical Empiricism', zh: '《异端经验主义》' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'The real fascism is the fascism of consumerism, which has destroyed and degraded the human soul more violently than any classical form of fascism. It has achieved what Mussolini never could: the complete homogenization of all Italians into obedient consumers.',
+          zh: '真正的法西斯主义是消费主义的法西斯主义，它比任何古典形式的法西斯主义都更猛烈地摧毁和贬低了人的灵魂。它实现了墨索里尼从未能做到的事：将所有意大利人完全同质化为顺从的消费者。',
+        },
+        original: 'Il vero fascismo è il fascismo del consumismo che ha distrutto e degradato l\'anima umana più violentemente di qualsiasi forma classica di fascismo.',
+        originalLang: 'it',
+        source: { en: 'Corriere della Sera, "Il vuoto del potere"', zh: '《晚邮报》"权力的空虚"' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'I am a force of the past. My love lies only with tradition. I come from the ruins, the churches, the altarpieces, the forgotten villages where brothers lived with the simplicity that gave every gesture the weight of the sacred.',
+          zh: '我是过去的一种力量。我的热爱仅属于传统。我来自废墟、教堂、祭坛画、那些被遗忘的村庄，在那里兄弟们以一种赋予每个手势以神圣之重的朴素方式生活。',
+        },
+        original: 'Io sono una forza del Passato. Solo nella tradizione è il mio amore.',
+        originalLang: 'it',
+        source: { en: 'Poesia in forma di rosa', zh: '《玫瑰形式的诗》' },
+        year: 1964,
+      },
+      {
+        text: {
+          en: 'Reality is a language. The language of action. Every object, every gesture, every face is a sign in a semiotic system that we read before we are even conscious of reading. Cinema does not reproduce reality — it is the written language of reality.',
+          zh: '现实是一种语言。行动的语言。每一个物体、每一个手势、每一张面孔都是一个符号系统中的符号，我们在意识到自己在阅读之前就已经在阅读了。电影不是对现实的再现——它是现实的书面语言。',
+        },
+        original: 'La realtà è un linguaggio. Il linguaggio dell\'azione.',
+        originalLang: 'it',
+        source: { en: 'Heretical Empiricism', zh: '《异端经验主义》' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'Death performs a lightning montage of our life. Only death gives our actions their definitive meaning. As long as we are alive, our actions remain ambiguous, suspended, incomplete. It is death that selects the truly meaningful moments and places them in sequence.',
+          zh: '死亡对我们的人生进行了一次闪电般的蒙太奇。唯有死亡赋予我们的行为以终极意义。只要我们活着，我们的行为就仍然是模糊的、悬而未决的、不完整的。是死亡选择了那些真正有意义的时刻并将它们排列成序。',
+        },
+        original: 'La morte compie un fulmineo montaggio della nostra vita.',
+        originalLang: 'it',
+        source: { en: 'Heretical Empiricism, "Observations on the Long Take"', zh: '《异端经验主义》"关于长镜头的观察"' },
+        year: 1967,
+      },
+      {
+        text: {
+          en: 'I know this much: that everything which is ideology is a lie. What is real is under ideology, beneath it, tortured by it. The face of a peasant says more truth than any manifesto — because the face has not yet learned to lie in the language of power.',
+          zh: '我知道这一点：一切意识形态都是谎言。真实的东西在意识形态之下，被它折磨。一个农民的面孔比任何宣言都说出更多真相——因为那张脸还没有学会用权力的语言撒谎。',
+        },
+        original: 'Io so questo: che tutto ciò che è ideologia è una bugia.',
+        originalLang: 'it',
+        source: { en: 'Lutheran Letters', zh: '《路德宗书信》' },
+        year: 1976,
+      },
+    ],
+  },
+  {
+    slug: 'chris-marker',
+    name: { en: 'Chris Marker', zh: '克里斯·马克' },
+    years: '1921–2012',
+    nationality: { en: 'French', zh: '法国' },
+    bio: {
+      en: 'Enigmatic French essayist-filmmaker whose Sans Soleil, La Jetée, and multimedia project Immemory pioneered the essay film form and explored memory as montage, the impossibility of representing history, and time travel as an expression of grief.',
+      zh: '神秘的法国散文电影人，以《日月无光》《堤》和多媒体作品《不灭的记忆》开创了散文电影形式，探索了作为蒙太奇的记忆、再现历史之不可能，以及作为悲伤表达的时间旅行。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Chris_Marker',
+      zh: 'https://zh.wikipedia.org/wiki/克里斯·马克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I will have spent my life trying to understand the function of remembering, which is not the opposite of forgetting, but rather its lining. We do not remember; we rewrite memory much as history is rewritten. How can one remember thirst?',
+          zh: '我将用一生试图理解记忆的功能，它不是遗忘的反面，而是遗忘的衬里。我们并不记得；我们重写记忆，正如历史被重写一样。一个人如何记得口渴？',
+        },
+        original: 'J\'aurai passé ma vie à essayer de comprendre la fonction du souvenir, qui n\'est pas le contraire de l\'oubli, mais plutôt son envers.',
+        originalLang: 'fr',
+        source: { en: 'Sans Soleil', zh: '《日月无光》' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'Nothing tells memories from ordinary moments. Only afterwards do they claim remembrance, on account of their scars. That face which just appeared in the viewfinder — was it already a memory when I saw it, or did it become one only now that I recall it?',
+          zh: '没有什么能把记忆与平凡的时刻区分开来。只有事后它们才凭借伤疤要求被铭记。那张刚刚出现在取景框中的面孔——当我看见它时，它就已经是记忆了吗？还是只有在我此刻回忆起它时才成为记忆？',
+        },
+        original: 'Rien ne distingue les souvenirs des autres moments: ce n\'est que plus tard qu\'ils se font reconnaître, à leurs cicatrices.',
+        originalLang: 'fr',
+        source: { en: 'La Jetée', zh: '《堤》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'He said that in the 19th century, mankind had come to terms with space, and that the great question of the 20th century was the coexistence of different times. By which he meant that the question of our age was whether we could live simultaneously in the present and in the memory of the present.',
+          zh: '他说在十九世纪，人类已与空间达成和解，而二十世纪的重大问题是不同时间的共存。他的意思是，我们这个时代的问题在于我们能否同时生活在当下和当下的记忆之中。',
+        },
+        original: 'Il disait qu\'au XIXe siècle l\'humanité avait réglé ses comptes avec l\'espace, et que la grande affaire du XXe était la coexistence des différents temps.',
+        originalLang: 'fr',
+        source: { en: 'Sans Soleil', zh: '《日月无光》' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'Photography is the invention of a moment that never existed, or rather, that existed only for the fraction of a second in which the shutter opened. Everything before and after that fraction belongs to the real world. The image itself belongs only to memory.',
+          zh: '摄影是一个从未存在过的瞬间的发明，或者更确切地说，只在快门打开的那一瞬间存在过。那一瞬之前和之后的一切都属于真实世界。影像本身只属于记忆。',
+        },
+        original: 'La photographie est l\'invention d\'un instant qui n\'a jamais existé.',
+        originalLang: 'fr',
+        source: { en: 'Immemory', zh: '《不灭的记忆》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'I would have liked to have lived in a time when travel was still possible — I mean real travel, where you crossed borders and the world actually changed. Now the airports are all the same, the hotels are all the same, and we carry our sameness with us like luggage.',
+          zh: '我本想生活在旅行仍然可能的时代——我指的是真正的旅行，你跨过边界，世界真的改变了。现在机场都一样，酒店都一样，我们像携带行李一样携带着我们的千篇一律。',
+        },
+        original: 'J\'aurais aimé vivre à une époque où le voyage était encore possible.',
+        originalLang: 'fr',
+        source: { en: 'Sans Soleil', zh: '《日月无光》' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'Lost time does not come back dressed in nostalgia. It comes back as montage — fragments shuffled by an editor who is also the mourner. Every film I have made is a letter to someone who no longer exists, sent to an address that may never have been real.',
+          zh: '失去的时间不会穿着怀旧的外衣回来。它以蒙太奇的方式回来——由一位同时也是哀悼者的剪辑师打乱的碎片。我拍的每一部电影都是写给一个已不存在的人的信，寄往一个也许从未真实存在过的地址。',
+        },
+        original: 'Le temps perdu ne revient pas habillé de nostalgie. Il revient comme montage.',
+        originalLang: 'fr',
+        source: { en: 'Immemory', zh: '《不灭的记忆》' },
+        year: 1997,
       },
     ],
   },

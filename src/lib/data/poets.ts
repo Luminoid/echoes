@@ -349,6 +349,28 @@ export const poetData: PersonData[] = [
         source: { en: 'The Book of Hours (God Speaks to Each of Us)', zh: '《时辰之书》' },
         year: 1905,
       },
+      {
+        text: {
+          en: 'Being here is glorious.',
+          zh: '在此存在是辉煌的。',
+        },
+        original: 'Hiersein ist herrlich.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'Duino Elegies (Seventh Elegy)', zh: '《杜伊诺哀歌（第七首）》' },
+        year: 1923,
+      },
+      {
+        text: {
+          en: 'Why, if this interval of being can be spent serenely in the form of a laurel, slightly darker than all other green — why then have to be human — and, escaping from fate, keep longing for fate?',
+          zh: '假如这一段存在的时光可以安然度过，化为一棵月桂树的形态，比所有其他的绿更深沉一些——那为什么还要做人——并且，逃离命运，却仍渴望命运？',
+        },
+        original: 'Warum, wenn es angeht, also die Frist des Daseins hinzubringen, als Lorbeer, ein wenig dunkler als alles andere Grün — : warum dann Menschliches müssen — und, Schicksal vermeidend, sich sehnen nach Schicksal?',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'Duino Elegies (Ninth Elegy)', zh: '《杜伊诺哀歌（第九首）》' },
+        year: 1923,
+      },
     ],
   },
   {
@@ -416,7 +438,7 @@ export const poetData: PersonData[] = [
         original: 'En un beso, sabr\u00e1s todo lo que he callado.',
         originalLang: 'es',
         originalLocale: 'en',
-        source: { en: 'Crepusculario (Pelleas and Melisanda)', zh: '《黄昏》（佩利亚斯与梅丽桑德）' },
+        source: { en: 'Crepusculario (Pelleas and Melisanda)', zh: '《霞光集》（佩利亚斯与梅丽桑德）' },
         year: 1923,
       },
       {
@@ -462,16 +484,6 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Memoirs (Confieso que he vivido)', zh: '《我承认我曾历尽沧桑》' },
         year: 1974,
-      },
-      {
-        text: {
-          en: 'I grew up conditioned to love the rain, to seek the coast of the sea as if it were a lighthouse.',
-          zh: '我在爱雨的条件下成长，去寻找海岸，仿佛它是一座灯塔。',
-        },
-        original: 'I grew up conditioned to love the rain, to seek the coast of the sea as if it were a lighthouse.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed / widely quoted', zh: '常见引用' },
       },
       {
         text: {
@@ -597,7 +609,7 @@ export const poetData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'A word is dead (F278)', zh: '《一个词死了》（F278）' },
-        year: 1872,
+        year: 1862,
       },
       {
         text: {
@@ -620,6 +632,28 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Forever \u2013 is composed of Nows (F690)', zh: '《永恒由此刻组成》（F690）' },
         year: 1863,
+      },
+      {
+        text: {
+          en: 'After great pain, a formal feeling comes \u2013 the Nerves sit ceremonious, like Tombs.',
+          zh: '巨大的痛苦之后，一种庄重的感觉降临——神经端坐如墓碑，肃穆而庄严。',
+        },
+        original: 'After great pain, a formal feeling comes \u2013 The Nerves sit ceremonious, like Tombs \u2013',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'After great pain, a formal feeling comes (F372)', zh: '《巨大的痛苦之后》（F372）' },
+        year: 1862,
+      },
+      {
+        text: {
+          en: 'This is my letter to the World, that never wrote to Me \u2013 the simple News that Nature told \u2013 with tender Majesty.',
+          zh: '这是我写给世界的信，世界从未写信给我——自然讲述的简单消息——带着温柔的威严。',
+        },
+        original: 'This is my Letter to the World That never wrote to Me \u2013 The simple News that Nature told \u2013 With tender Majesty',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'This is my letter to the World (F519)', zh: '《这是我写给世界的信》（F519）' },
+        year: 1862,
       },
     ],
   },
@@ -1018,6 +1052,28 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Love Song of J. Alfred Prufrock', zh: '《J\u00b7阿尔弗雷德\u00b7普鲁弗洛克的情歌》' },
         year: 1915,
+      },
+      {
+        text: {
+          en: 'Time present and time past are both perhaps present in time future, and time future contained in time past.',
+          zh: '现在的时间和过去的时间，也许都存在于未来的时间之中，而未来的时间又包含在过去的时间里。',
+        },
+        original: 'Time present and time past Are both perhaps present in time future, And time future contained in time past.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Four Quartets (Burnt Norton)', zh: '《四个四重奏（焚毁的诺顿）》' },
+        year: 1936,
+      },
+      {
+        text: {
+          en: 'Between the idea and the reality, between the motion and the act, falls the Shadow.',
+          zh: '在理念与现实之间，在动机与行为之间，落下了阴影。',
+        },
+        original: 'Between the idea And the reality Between the motion And the act Falls the Shadow.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Hollow Men', zh: '《空心人》' },
+        year: 1925,
       },
     ],
   },
@@ -1497,7 +1553,7 @@ export const poetData: PersonData[] = [
       },
       {
         text: {
-          en: 'The Milky Way falls nine thousand feet, as if the Silver River were falling from the sky.',
+          en: 'The cataract plunges straight down three thousand feet — as if the Milky Way were falling from the ninth heaven.',
           zh: '飞流直下三千尺，疑是银河落九天。',
         },
         original: '飞流直下三千尺，疑是银河落九天。',
@@ -1787,6 +1843,26 @@ export const poetData: PersonData[] = [
         source: { en: 'The Book of Disquiet', zh: '《不安之书》' },
         year: 1982,
       },
+      {
+        text: {
+          en: 'My soul is impatient with itself, as with a bothersome child; its restlessness keeps growing and is forever the same. Everything interests me, but nothing holds me.',
+          zh: '我的灵魂对自己不耐烦，如同对一个烦人的孩子；它的躁动不安持续增长，却永远是同一个样子。一切都使我感兴趣，但没有什么能留住我。',
+        },
+        original: 'A minha alma \u00e9 impaciente consigo, como com uma crian\u00e7a importuna; o seu desassossego vai crescendo e \u00e9 sempre igual. Tudo me interessa e nada me prende.',
+        originalLang: 'pt',
+        source: { en: 'The Book of Disquiet', zh: '《不安之书》' },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'My soul is a hidden orchestra; I know not what instruments, what fiddle-strings and harps, drums and tambours I sound and clash inside myself. All I hear is the symphony.',
+          zh: '我的灵魂是一支隐匿的管弦乐队；我不知道自己内心鸣响和碰撞的是什么乐器，什么琴弦和竖琴，什么鼓和铃鼓。我听到的只是交响乐。',
+        },
+        original: 'A minha alma \u00e9 uma orchestra oculta; n\u00e3o sei que instrumentos tangem e rangem, cordas e harpas, t\u00edmpanos e tambores, dentro de mim. S\u00f3 me conhe\u00e7o como sinfonia.',
+        originalLang: 'pt',
+        source: { en: 'The Book of Disquiet', zh: '《不安之书》' },
+        year: 1982,
+      },
     ],
   },
   {
@@ -1862,6 +1938,28 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'There Was Earth Inside Them', zh: '《他们体内有泥土》' },
         year: 1963,
+      },
+      {
+        text: {
+          en: 'No one kneads us again out of earth and clay, no one incants our dust. No one. Blessed art thou, No One. In thy sight would we bloom.',
+          zh: '无人再用泥土和黏土将我们揉捏，无人对我们的尘埃念咒。无人。赞美你，无人。为了你我们愿意绽放。',
+        },
+        original: 'Niemand knetet uns wieder aus Erde und Lehm, niemand bespricht unseren Staub. Niemand. Gelobt seist du, Niemand. Dir zulieb wollen wir bl\u00fchn.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'Psalm', zh: '《诗篇》' },
+        year: 1963,
+      },
+      {
+        text: {
+          en: 'Speak, you too, speak as the last, have your say. Speak \u2013 but keep yes and no unsplit. And give your say this meaning: give it the shade.',
+          zh: '说吧，你也说吧，作为最后一个说吧，说出你的话。说吧——但不要把是与否分开。赋予你的话以意义：赋予它阴影。',
+        },
+        original: 'Sprich auch du, sprich als letzter, sag deinen Spruch. Sprich \u2013 Doch scheide das Nein nicht vom Ja. Gib deinem Spruch auch den Sinn: gib ihm den Schatten.',
+        originalLang: 'de',
+        originalLocale: 'en',
+        source: { en: 'Speak, You Too', zh: '《你也说吧》' },
+        year: 1955,
       },
     ],
   },
@@ -2244,6 +2342,7 @@ export const poetData: PersonData[] = [
         },
         original: '月日は百代の過客にして、行きかふ年もまた旅人なり。',
         originalLang: 'ja',
+        comment: { en: '"Every day is a journey" is a popular condensed English paraphrase. The Japanese text is the opening line of Oku no Hosomichi, which more literally translates to: "The months and days are travelers of eternity; the years that come and go are also travelers."', zh: '"每一天都是一段旅程"是广泛流传的英文意译。日文原文是《奥之细道》的开篇，更准确的翻译是："日月乃百代之过客，来往之年亦为旅人。"' },
         source: { en: 'The Narrow Road to the Deep North (opening)', zh: '《奥之细道》（开篇）' },
         year: 1689,
       },
@@ -2524,6 +2623,479 @@ export const poetData: PersonData[] = [
         originalLang: 'zh',
         source: { en: 'Farewell (Sending Off Yuan Er on a Mission to Anxi)', zh: '《送元二使安西》' },
         year: 750,
+      },
+    ],
+  },
+  {
+    slug: 'milosz',
+    name: { en: 'Czesław Miłosz', zh: '切斯瓦夫·米沃什' },
+    years: '1911–2004',
+    nationality: { en: 'Polish-American', zh: '波兰裔美国' },
+    bio: {
+      en: 'Nobel laureate poet and essayist whose work bore witness to the catastrophes of twentieth-century Europe, exploring the moral burden of the poet, the seductions of ideology, and the persistence of memory in exile.',
+      zh: '诺贝尔文学奖得主，诗人与散文家，其作品见证了二十世纪欧洲的浩劫，探索诗人的道德重负、意识形态的诱惑以及流亡中记忆的执着。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Czes%C5%82aw_Mi%C5%82osz',
+      zh: 'https://zh.wikipedia.org/wiki/%E5%88%87%E6%96%AF%E7%93%A6%E5%A4%AB%C2%B7%E7%B1%B3%E6%B2%83%E4%BB%80',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The true enemy of man is generalization. The true enemy of man, so-called History, does not know concrete individuals, but only selects a few out of millions.',
+          zh: '人的真正敌人是概括化。人的真正敌人——所谓的历史——不认识具体的个人，而只是从千百万人中选取几个。',
+        },
+        original: 'Prawdziwym wrogiem człowieka jest uogólnienie. Prawdziwy wróg człowieka, tak zwana Historia, nie zna konkretnych jednostek, lecz wybiera tylko kilka z milionów.',
+        originalLang: 'pl',
+        source: { en: 'The Captive Mind', zh: '《被禁锢的头脑》' },
+        year: 1953,
+      },
+      {
+        text: {
+          en: 'In a room where people unanimously maintain a conspiracy of silence, one word of truth sounds like a pistol shot.',
+          zh: '在一间人们一致保持沉默共谋的房间里，一句真话听起来犹如枪声。',
+        },
+        original: 'W pokoju, gdzie ludzie jednomyślnie podtrzymują zmowę milczenia, jedno słowo prawdy brzmi jak wystrzał z pistoletu.',
+        originalLang: 'pl',
+        source: { en: 'The Captive Mind', zh: '《被禁锢的头脑》' },
+        year: 1953,
+      },
+      {
+        text: {
+          en: 'What is poetry which does not save nations or people? A connivance with official lies, a song of drunkards whose throats will be cut in a moment.',
+          zh: '不能拯救民族或人民的诗歌算什么？不过是与官方谎言的共谋，是即将被割断喉咙的醉汉之歌。',
+        },
+        original: 'Czym jest poezja, która nie ocala / Narodów ani ludzi? / Zmową urzędowych kłamstw, / Piosenką pijaków, którym za chwilę poderżną gardła.',
+        originalLang: 'pl',
+        source: { en: 'Dedication (New and Collected Poems)', zh: '《献辞》（《新诗与诗选》）' },
+        year: 1945,
+      },
+      {
+        text: {
+          en: 'I think that I am here on this earth to present a report on it, but to whom I don\'t know. As if I were sent so that whatever takes place has meaning because it changes into memory.',
+          zh: '我想我在这个世上，是为了对它做一份报告，但不知道向谁报告。仿佛我被派来，为了让所发生的一切因为化为记忆而获得意义。',
+        },
+        original: 'Myślę, że jestem tu na tej ziemi, żeby złożyć z niej sprawozdanie, ale nie wiem komu. Jakbym był wysłany po to, żeby cokolwiek się zdarzy miało sens, bo zamienia się w pamięć.',
+        originalLang: 'pl',
+        source: { en: 'Unattainable Earth', zh: '《无法企及的大地》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'Language is the only homeland.',
+          zh: '语言是唯一的祖国。',
+        },
+        original: 'Język jest jedyną ojczyzną.',
+        originalLang: 'pl',
+        source: { en: 'Native Realm: A Search for Self-Definition', zh: '《故土：自我定义的追寻》' },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'Human reason is beautiful and invincible. No bars, no barbed wire, no pulping of books, no sentence of banishment can prevail against it.',
+          zh: '人的理性美丽而不可战胜。没有铁栅、没有铁丝网、没有书籍的销毁、没有流放的判决能够压倒它。',
+        },
+        original: 'Piękny i niezwyciężony jest rozum ludzki. Żadne kraty, druty kolczaste, siekanie książek, żadne wyroki wygnania nie mogą nic przeciw niemu.',
+        originalLang: 'pl',
+        source: { en: 'Incantation (New and Collected Poems)', zh: '《咒语》（《新诗与诗选》）' },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'The purpose of poetry is to remind us how difficult it is to remain just one person, for our house is open, there are no keys in the doors, and invisible guests come in and out at will.',
+          zh: '诗歌的目的是提醒我们，保持为一个人有多困难，因为我们的房屋敞开着，门上没有钥匙，看不见的客人随意进出。',
+        },
+        original: 'Celem poezji jest przypominać nam, jak trudno jest pozostać jedną osobą, bo dom nasz jest otwarty, nie ma kluczy w drzwiach, a niewidoczni goście wchodzą i wychodzą kiedy chcą.',
+        originalLang: 'pl',
+        source: { en: 'Ars Poetica? (New and Collected Poems)', zh: '《诗艺？》（《新诗与诗选》）' },
+        year: 1968,
+      },
+    ],
+  },
+  {
+    slug: 'heaney',
+    name: { en: 'Seamus Heaney', zh: '谢默斯·希尼' },
+    years: '1939–2013',
+    nationality: { en: 'Irish', zh: '爱尔兰' },
+    bio: {
+      en: 'Nobel laureate poet from Northern Ireland whose work unearthed the deep strata of Irish history, language, and landscape, making the act of poetry itself a form of archaeological recovery and moral reckoning.',
+      zh: '北爱尔兰诺贝尔文学奖诗人，其作品挖掘爱尔兰历史、语言与风景的深层地质，使诗歌创作本身成为考古式的恢复与道德的清算。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Seamus_Heaney',
+      zh: 'https://zh.wikipedia.org/wiki/%E8%B0%A2%E9%BB%98%E6%96%AF%C2%B7%E5%B8%8C%E5%B0%BC',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Between my finger and my thumb the squat pen rests; snug as a gun. I\'ll dig with it.',
+          zh: '在我的食指与拇指之间，粗短的笔搁着；像枪一样贴合。我要用它来挖掘。',
+        },
+        originalLang: 'en',
+        source: { en: 'Digging (Death of a Naturalist)', zh: '《挖掘》（《一位自然主义者之死》）' },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'The end of art is peace. In the long run, poetry\'s special task is to offset the world\'s weight — not by avoiding it, but by redressing it, by offering a counterweight.',
+          zh: '艺术的终点是安宁。从长远来看，诗歌的特殊使命是抵消世界的重量——不是通过回避它，而是通过矫正它，通过提供一种对重。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Redress of Poetry', zh: '《诗歌的纠偏》' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'History says, Don\'t hope on this side of the grave. But then, once in a lifetime, the longed-for tidal wave of justice can rise up, and hope and history rhyme.',
+          zh: '历史说，在坟墓的这一边不要抱希望。但偶尔，一生中有那么一次，渴望已久的正义潮汐会升涌而起，希望与历史彼此押韵。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Cure at Troy (after Sophocles)', zh: '《特洛伊的疗愈》（据索福克勒斯）' },
+        year: 1990,
+      },
+      {
+        text: {
+          en: 'If you have the words, there\'s always a chance that you\'ll find the way. The right words in the right order can do everything: console, accuse, record, make you laugh, make you cry, provide understanding.',
+          zh: '如果你拥有语词，就总有找到出路的可能。正确的词语以正确的顺序排列，可以做到一切：安慰、控诉、记录，让你笑，让你哭，给你理解。',
+        },
+        originalLang: 'en',
+        source: { en: 'Stepping Stones: Interviews with Seamus Heaney', zh: '《垫脚石：希尼访谈录》' },
+        year: 2008,
+      },
+      {
+        text: {
+          en: 'I rhyme to see myself, to set the darkness echoing.',
+          zh: '我押韵是为了看见自己，是为了让黑暗回响。',
+        },
+        originalLang: 'en',
+        source: { en: 'Personal Helicon (Death of a Naturalist)', zh: '《个人赫利孔》（《一位自然主义者之死》）' },
+        year: 1966,
+      },
+      {
+        text: {
+          en: 'All I know is a door into the dark. Outside, old axles and iron hoops rusting; inside, the hammered anvil\'s short-pitched ring, the unpredictable fantail of sparks.',
+          zh: '我所知道的全部只是一扇通往黑暗的门。外面，旧车轴和铁箍在生锈；里面，被锤击的铁砧发出短促的鸣响，火花扇尾般不可预测地四散。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Forge (Door into the Dark)', zh: '《铁匠铺》（《通往黑暗之门》）' },
+        year: 1969,
+      },
+      {
+        text: {
+          en: 'The poet is stretched between politics and transcendence, and is often displaced from a confidence in a single position by his disposition to attend to all positions.',
+          zh: '诗人被拉伸在政治与超越之间，其天性使他倾向于关注所有立场，因而常常无法自信地固守单一的立场。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Government of the Tongue', zh: '《舌头的统治》' },
+        year: 1988,
+      },
+    ],
+  },
+  {
+    slug: 'walcott',
+    name: { en: 'Derek Walcott', zh: '德里克·沃尔科特' },
+    years: '1930–2017',
+    nationality: { en: 'Saint Lucian', zh: '圣卢西亚' },
+    bio: {
+      en: 'Nobel laureate poet and playwright from Saint Lucia whose epic verse fused the rhythms of Caribbean speech with the classical traditions of Europe, forging a new language for the postcolonial experience of the sea, memory, and divided identity.',
+      zh: '圣卢西亚诺贝尔文学奖诗人与剧作家，其史诗般的诗歌将加勒比语言的韵律与欧洲古典传统融合，为后殖民的海洋、记忆与分裂身份锻造了一种新的语言。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Derek_Walcott',
+      zh: 'https://zh.wikipedia.org/wiki/%E5%BE%B7%E9%87%8C%E5%85%8B%C2%B7%E6%B2%83%E5%B0%94%E7%A7%91%E7%89%B9',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The time will come when, with elation, you will greet yourself arriving at your own door, in your own mirror, and each will smile at the other\'s welcome.',
+          zh: '终有一天，你会满心欢喜地在自己的门口迎接自己的到来，在自己的镜中，彼此微笑着欢迎对方。',
+        },
+        originalLang: 'en',
+        source: { en: 'Love After Love (Sea Grapes)', zh: '《爱在爱之后》（《海葡萄》）' },
+        year: 1976,
+      },
+      {
+        text: {
+          en: 'Break a vase, and the love that reassembles the fragments is stronger than that love which took its symmetry for granted when it was whole.',
+          zh: '打碎一只花瓶，那重新拼合碎片的爱，比花瓶完好时将其对称视为理所当然的爱更为强大。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Antilles: Fragments of Epic Memory (Nobel Lecture)', zh: '《安的列斯群岛：史诗记忆的碎片》（诺贝尔演讲）' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'The English language is nobody\'s special property. It is the property of the imagination: it is the property of the language itself.',
+          zh: '英语不是任何人的专有财产。它是想象力的财产：它是语言本身的财产。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Antilles: Fragments of Epic Memory (Nobel Lecture)', zh: '《安的列斯群岛：史诗记忆的碎片》（诺贝尔演讲）' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'Visual surprise is natural in the Caribbean; it comes with the landscape, and faced with its beauty, the sigh of History dissolves.',
+          zh: '视觉的惊奇在加勒比海是自然的；它随风景而来，面对它的美，历史的叹息消融了。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Antilles: Fragments of Epic Memory (Nobel Lecture)', zh: '《安的列斯群岛：史诗记忆的碎片》（诺贝尔演讲）' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'I who am poisoned with the blood of both, where shall I turn, divided to the vein?',
+          zh: '我，被两种血液毒染的人，当向何处转身，直到血管里都是分裂？',
+        },
+        originalLang: 'en',
+        source: { en: 'A Far Cry from Africa (In a Green Night)', zh: '《远离非洲的呼号》（《在绿色的夜里》）' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'The sea is History. Where are your monuments, your battles, martyrs? Where is your tribal memory? Sirs, in that grey vault. The sea. The sea has locked them up. The sea is History.',
+          zh: '海洋即历史。你们的纪念碑在哪里，你们的战役、殉道者在哪里？你们的部族记忆在哪里？先生们，就在那灰色的穹窿里。大海。大海已将它们锁起。海洋即历史。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Sea Is History (The Star-Apple Kingdom)', zh: '《海洋即历史》（《星苹果王国》）' },
+        year: 1979,
+      },
+    ],
+  },
+  {
+    slug: 'brodsky',
+    name: { en: 'Joseph Brodsky', zh: '约瑟夫·布罗茨基' },
+    years: '1940–1996',
+    nationality: { en: 'Russian-American', zh: '俄裔美国' },
+    bio: {
+      en: 'Nobel laureate poet exiled from the Soviet Union, whose essays and verse explored language as the supreme instrument of civilization, the metaphysics of time and exile, and the moral authority that poetry derives from its precision.',
+      zh: '被苏联流放的诺贝尔文学奖诗人，其散文与诗歌探索语言作为文明最高工具的地位、时间与流亡的形而上学，以及诗歌从精确性中获得的道德权威。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Joseph_Brodsky',
+      zh: 'https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'For a human being there is no other future save that outlined by his ability to use language. The ability to use language and the gift of speech are two different things. The gift of speech is given to everyone. The ability to use language, however, is an art.',
+          zh: '对人类来说，除了语言运用能力所勾勒的未来之外，别无他途。语言运用的能力和说话的天赋是两码事。说话的天赋人人皆有。然而语言运用的能力，是一门艺术。',
+        },
+        original: 'Для человека нет другого будущего, кроме очерченного его способностью пользоваться языком.',
+        originalLang: 'ru',
+        source: { en: 'Uncommon Visage (Nobel Lecture)', zh: '《不寻常的面容》（诺贝尔演讲）' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'The poet\'s real biography is in the way his vowels and sibilants behave, in his meters, rhymes, and metaphors. In the number of cancelled lines.',
+          zh: '诗人真正的传记，在于他的元音和齿擦音的表现方式，在于他的韵律、押韵和隐喻。在于删去的诗行的数量。',
+        },
+        original: 'Настоящая биография поэта — в том, как ведут себя его гласные и шипящие, в его размерах, рифмах и метафорах.',
+        originalLang: 'ru',
+        source: { en: 'Less Than One', zh: '《小于一》' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'Every writing career starts as a personal quest for sainthood, for self-betterment. Sooner or later, and as a rule quite soon, a man discovers that his pen accomplishes a lot more than his soul.',
+          zh: '每一段写作生涯都始于对圣洁、对自我完善的个人追求。或迟或早，通常很快，人就会发现他的笔所成就的远超过他的灵魂。',
+        },
+        original: 'Каждая писательская карьера начинается как личный поиск святости, самосовершенствования.',
+        originalLang: 'ru',
+        source: { en: 'How to Read a Book (On Grief and Reason)', zh: '《如何读书》（《论悲伤与理性》）' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'Life — the way it really is — is a battle not between bad and good but between bad and worse.',
+          zh: '生活——它真实的样子——不是善与恶的战斗，而是坏与更坏的战斗。',
+        },
+        original: 'Жизнь — какова она на самом деле — это борьба не между плохим и хорошим, а между плохим и худшим.',
+        originalLang: 'ru',
+        source: { en: 'Commencement Address at Williams College', zh: '威廉姆斯学院毕业典礼演讲' },
+        year: 1984,
+      },
+      {
+        text: {
+          en: 'A language is a more ancient and inevitable thing than any state. The revolutions, coups, and wars — all that stuff of political history — are but surface disturbances. Language is what lies beneath.',
+          zh: '语言比任何国家都更古老、更不可避免。革命、政变和战争——所有那些政治史的素材——不过是表层的骚动。语言是深层之物。',
+        },
+        original: 'Язык — вещь более древняя и более неизбежная, чем государство.',
+        originalLang: 'ru',
+        source: { en: 'The Condition We Call Exile (On Grief and Reason)', zh: '《我们称之为流亡的状态》（《论悲伤与理性》）' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'After all, it is the poets and novelists who afford a society its self-awareness, who are to a nation what dreams and nightmares are to a person.',
+          zh: '毕竟，正是诗人和小说家赋予一个社会以自我意识，他们之于一个民族，犹如梦境与噩梦之于一个人。',
+        },
+        original: 'В конце концов, именно поэты и романисты обеспечивают обществу самосознание.',
+        originalLang: 'ru',
+        source: { en: 'Less Than One', zh: '《小于一》' },
+        year: 1986,
+      },
+    ],
+  },
+  {
+    slug: 'amichai',
+    name: { en: 'Yehuda Amichai', zh: '耶胡达·阿米亥' },
+    years: '1924–2000',
+    nationality: { en: 'Israeli', zh: '以色列' },
+    bio: {
+      en: 'Israel\'s most beloved modern poet, who transformed colloquial Hebrew into a medium for exploring love, war, faith, and the intimate textures of life in Jerusalem, making the personal and the political inseparable.',
+      zh: '以色列最受爱戴的现代诗人，将口语希伯来语转化为探索爱情、战争、信仰与耶路撒冷日常生活质地的媒介，使个人与政治密不可分。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Yehuda_Amichai',
+      zh: 'https://zh.wikipedia.org/wiki/%E8%80%B6%E8%83%A1%E8%BE%BE%C2%B7%E9%98%BF%E7%B1%B3%E4%BA%A5',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'From the place where we are right, flowers will never grow in the spring. The place where we are right is hard and trampled like a yard. But doubts and loves dig up the world like a mole, a plow.',
+          zh: '从我们正确的地方，春天永远不会长出花朵。我们正确的地方坚硬而被踩实如庭院。但怀疑和爱像鼹鼠、像犁一样翻掘着世界。',
+        },
+        original: 'מִן הַמָּקוֹם שֶׁבּוֹ אָנוּ צוֹדְקִים לֹא יִצְמְחוּ לְעוֹלָם פְּרָחִים בָּאָבִיב.',
+        originalLang: 'he',
+        source: { en: 'The Place Where We Are Right', zh: '《我们正确的地方》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'I, who use only a small part of the words in the dictionary. I, who must decipher riddles I don\'t want to decipher. I want to live with the way things are spoken, not with the way things are written.',
+          zh: '我，只使用字典中一小部分词语的人。我，必须破解自己不想破解的谜语的人。我想以事物被说出的方式生活，而非以事物被书写的方式。',
+        },
+        original: 'אֲנִי שֶׁמִּשְׁתַּמֵּשׁ רַק בְּחֵלֶק קָטָן מִן הַמִּלִּים שֶׁבַּמִּלּוֹן.',
+        originalLang: 'he',
+        source: { en: 'Open Closed Open', zh: '《开合开》' },
+        year: 1998,
+      },
+      {
+        text: {
+          en: 'The diameter of the bomb was thirty centimeters and the diameter of its effective range about seven meters, with four dead and eleven wounded. And around these, in a larger circle of pain and time, two hospitals are scattered and one graveyard.',
+          zh: '炸弹的直径三十厘米，有效杀伤范围直径约七米，四人死亡，十一人受伤。而围绕他们，在一个更大的痛苦与时间的圆圈中，散落着两座医院和一个墓地。',
+        },
+        original: 'קוֹטֶר הַפְּצָצָה הָיָה שְׁלוֹשִׁים סַנְטִימֶטֶר וְקוֹטֶר טְוָוח הַפְּגִיעָה שֶׁלָּהּ כְּשִׁבְעָה מֶטְרִים.',
+        originalLang: 'he',
+        source: { en: 'The Diameter of the Bomb', zh: '《炸弹的直径》' },
+        year: 1977,
+      },
+      {
+        text: {
+          en: 'A man in his life has no time to have time for everything. He has no room to have room for every desire. Ecclesiastes was wrong to say that. A man has to love and to hate at the same moment.',
+          zh: '一个人在他的一生中没有时间拥有做一切事情的时间。他没有空间拥有容纳每一种欲望的空间。传道书说错了。一个人必须在同一时刻爱和恨。',
+        },
+        original: 'אָדָם בְּחַיָּיו אֵין לוֹ זְמַן שֶׁיִּהְיֶה לוֹ זְמַן לְכָל דָּבָר.',
+        originalLang: 'he',
+        source: { en: 'A Man in His Life (The Selected Poetry)', zh: '《一个人在他的一生中》（《诗选》）' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'Tourists came to see the Old City and I showed them the house where I was born. The guide told them: Third on the right. I said to myself: Sixth row in the cemetery on the Mount of Olives.',
+          zh: '游客来看老城，我给他们指我出生的房子。导游告诉他们：右边第三间。我对自己说：橄榄山墓地第六排。',
+        },
+        original: 'תַּיָּרִים בָּאוּ לִרְאוֹת אֶת הָעִיר הָעַתִּיקָה וַאֲנִי הֶרְאֵיתִי לָהֶם אֶת הַבַּיִת שֶׁבּוֹ נוֹלַדְתִּי.',
+        originalLang: 'he',
+        source: { en: 'Tourists (The Selected Poetry)', zh: '《游客》（《诗选》）' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'God has pity on kindergarten children. He has less pity on school children. And on grownups he has no pity at all. He leaves them alone.',
+          zh: '上帝怜悯幼儿园的孩子。他较少怜悯学龄的孩子。而对成年人他毫无怜悯。他让他们独自面对。',
+        },
+        original: 'אֱלֹהִים מְרַחֵם עַל יַלְדֵי הַגַּן.',
+        originalLang: 'he',
+        source: { en: 'God Has Pity on Kindergarten Children', zh: '《上帝怜悯幼儿园的孩子》' },
+        year: 1955,
+      },
+    ],
+  },
+  {
+    slug: 'char',
+    name: { en: 'René Char', zh: '勒内·夏尔' },
+    years: '1907–1988',
+    nationality: { en: 'French', zh: '法国' },
+    bio: {
+      en: 'French poet and Resistance leader whose aphoristic, lapidary verse distilled the experience of clandestine warfare into a poetics of lucidity, urgency, and ethical revolt against the intolerable.',
+      zh: '法国诗人与抵抗运动领袖，其格言式的凝练诗句将地下战争的经验提炼为一种清醒、紧迫与对不可容忍之事进行伦理反抗的诗学。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Ren%C3%A9_Char',
+      zh: 'https://zh.wikipedia.org/wiki/%E5%8B%92%E5%86%85%C2%B7%E5%A4%8F%E5%B0%94',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Lucidity is the wound closest to the sun.',
+          zh: '清醒是离太阳最近的伤口。',
+        },
+        original: 'La lucidité est la blessure la plus rapprochée du soleil.',
+        originalLang: 'fr',
+        source: { en: 'Leaves of Hypnos', zh: '《许普诺斯的笔记》' },
+        year: 1946,
+      },
+      {
+        text: {
+          en: 'Impose your luck, hold tight to your happiness, and go toward your risk. Gazing at you, they will grow accustomed.',
+          zh: '将你的运气强加于世，紧握你的幸福，朝你的危险走去。注视着你，他们会习惯的。',
+        },
+        original: 'Impose ta chance, serre ton bonheur et va vers ton risque. À te regarder, ils s\'habitueront.',
+        originalLang: 'fr',
+        source: { en: 'The Pulverized Poem (Furor and Mystery)', zh: '《粉碎的诗》（《狂怒与神秘》）' },
+        year: 1948,
+      },
+      {
+        text: {
+          en: 'A poet must leave traces of his passage, not proofs. Only traces make us dream.',
+          zh: '诗人应留下他经过的痕迹，而非证据。唯有痕迹让我们做梦。',
+        },
+        original: 'Le poète doit laisser des traces de son passage, non des preuves. Seules les traces font rêver.',
+        originalLang: 'fr',
+        source: { en: 'Leaves of Hypnos', zh: '《许普诺斯的笔记》' },
+        year: 1946,
+      },
+      {
+        text: {
+          en: 'How can we live without the unknown before us? Man can take up residence only in the tearing apart.',
+          zh: '没有面前的未知，我们怎能活下去？人只能栖居于撕裂之中。',
+        },
+        original: 'Comment vivre sans inconnu devant soi ? L\'homme ne peut se loger que dans le déchirement.',
+        originalLang: 'fr',
+        source: { en: 'The Formal Share (Furor and Mystery)', zh: '《形式的份额》（《狂怒与神秘》）' },
+        year: 1948,
+      },
+      {
+        text: {
+          en: 'No bird has the heart to sing in a thicket of questions.',
+          zh: '没有鸟儿有心在问题的灌木丛中歌唱。',
+        },
+        original: 'Nul oiseau n\'a le cœur de chanter dans un buisson de questions.',
+        originalLang: 'fr',
+        source: { en: 'The Matinals', zh: '《晨光集》' },
+        year: 1950,
+      },
+      {
+        text: {
+          en: 'Develop your legitimate strangeness.',
+          zh: '发展你合法的陌生。',
+        },
+        original: 'Développez votre étrangeté légitime.',
+        originalLang: 'fr',
+        source: { en: 'Leaves of Hypnos', zh: '《许普诺斯的笔记》' },
+        year: 1946,
+      },
+      {
+        text: {
+          en: 'The poem is the realized love of desire that has remained desire.',
+          zh: '诗歌是那仍为欲望的欲望所实现的爱。',
+        },
+        original: 'Le poème est l\'amour réalisé du désir demeuré désir.',
+        originalLang: 'fr',
+        source: { en: 'To a Tensed Serenity (Furor and Mystery)', zh: '《致紧张的宁静》（《狂怒与神秘》）' },
+        year: 1948,
       },
     ],
   },

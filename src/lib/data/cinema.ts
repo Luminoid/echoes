@@ -273,6 +273,30 @@ export const cinemaData: PersonData[] = [
         year: 1982,
         speaker: { en: 'Roy Batty', zh: '罗伊·巴蒂' },
       },
+      {
+        text: {
+          en: 'The light that burns twice as bright burns half as long — and you have burned so very, very brightly, Roy.',
+          zh: '燃烧两倍亮的光，只能持续一半的时间——而你，罗伊，燃烧得如此、如此明亮。',
+        },
+        original: 'The light that burns twice as bright burns half as long — and you have burned so very, very brightly, Roy.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Blade Runner', zh: '《银翼杀手》' },
+        year: 1982,
+        speaker: { en: 'Dr. Eldon Tyrell', zh: '埃尔顿·泰瑞尔博士' },
+      },
+      {
+        text: {
+          en: 'Quite an experience to live in fear, isn\'t it? That\'s what it is to be a slave.',
+          zh: '活在恐惧中的滋味很特别，不是吗？这就是做奴隶的感觉。',
+        },
+        original: 'Quite an experience to live in fear, isn\'t it? That\'s what it is to be a slave.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Blade Runner', zh: '《银翼杀手》' },
+        year: 1982,
+        speaker: { en: 'Roy Batty', zh: '罗伊·巴蒂' },
+      },
     ],
   },
   {
@@ -413,6 +437,38 @@ export const cinemaData: PersonData[] = [
           zh: '原语言为俄语，此处显示英语翻译。',
         },
       },
+      {
+        text: {
+          en: 'When a man thinks of the past, he becomes kinder. What is most important is that which makes you feel, that which makes you tender, that which makes you kind.',
+          zh: '当一个人回想过去时，他变得更加温柔。最重要的是那些让你有所感触的、让你变得柔软的、让你心存善念的东西。',
+        },
+        original: 'When a man thinks of the past, he becomes kinder. What is most important is that which makes you feel, that which makes you tender, that which makes you kind.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Stalker', zh: '《潜行者》' },
+        year: 1979,
+        speaker: { en: 'Stalker', zh: '潜行者' },
+        comment: {
+          en: 'Originally spoken in Russian. English translation shown.',
+          zh: '原语言为俄语，此处显示英语翻译。',
+        },
+      },
+      {
+        text: {
+          en: 'You know, if people don\'t come here anymore, I\'ll... There will be no one to help. My whole life has been about this. And yet, no one needs me.',
+          zh: '你知道，如果人们不再来这里，我就……将没有人可以帮助了。我的一生都是为了这件事。然而，没有人需要我。',
+        },
+        original: 'You know, if people don\'t come here anymore, I\'ll... There will be no one to help. My whole life has been about this. And yet, no one needs me.',
+        originalLang: 'ru',
+        originalLocale: 'en',
+        source: { en: 'Stalker', zh: '《潜行者》' },
+        year: 1979,
+        speaker: { en: 'Stalker', zh: '潜行者' },
+        comment: {
+          en: 'Originally spoken in Russian. English translation shown.',
+          zh: '原语言为俄语，此处显示英语翻译。',
+        },
+      },
     ],
   },
   {
@@ -497,7 +553,7 @@ export const cinemaData: PersonData[] = [
   },
   {
     slug: 'eternal-sunshine-of-the-spotless-mind',
-    name: { en: 'Eternal Sunshine of the Spotless Mind', zh: '美丽心灵的永恒阳光' },
+    name: { en: 'Eternal Sunshine of the Spotless Mind', zh: '暖暖内含光' },
     years: '2004',
     nationality: { en: 'United States', zh: '美国' },
     bio: {
@@ -506,7 +562,7 @@ export const cinemaData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind',
-      zh: 'https://zh.wikipedia.org/wiki/暖暖内含光',
+      zh: 'https://zh.wikipedia.org/wiki/無痛失戀',
     },
     quotes: [
       {
@@ -517,7 +573,7 @@ export const cinemaData: PersonData[] = [
         original: 'How happy is the blameless vestal\'s lot! The world forgetting, by the world forgot. Eternal sunshine of the spotless mind!',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Eternal Sunshine of the Spotless Mind (quoting Alexander Pope)', zh: '《美丽心灵的永恒阳光》（引用亚历山大·蒲柏）' },
+        source: { en: 'Eternal Sunshine of the Spotless Mind (quoting Alexander Pope)', zh: '《暖暖内含光》（引用亚历山大·蒲柏）' },
         year: 2004,
         speaker: { en: 'Mary Svevo', zh: '玛丽·斯韦沃' },
       },
@@ -529,7 +585,7 @@ export const cinemaData: PersonData[] = [
         original: 'I could die right now, Clem. I\'m just... happy. I\'ve never felt that before.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Eternal Sunshine of the Spotless Mind', zh: '《美丽心灵的永恒阳光》' },
+        source: { en: 'Eternal Sunshine of the Spotless Mind', zh: '《暖暖内含光》' },
         year: 2004,
         speaker: { en: 'Joel Barish', zh: '乔尔·巴里什' },
       },
@@ -743,6 +799,30 @@ export const cinemaData: PersonData[] = [
           zh: '我们接受我们所呈现的世界的现实。',
         },
         original: 'We accept the reality of the world with which we\'re presented.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Truman Show', zh: '《楚门的世界》' },
+        year: 1998,
+        speaker: { en: 'Christof', zh: '克里斯托弗' },
+      },
+      {
+        text: {
+          en: 'You never had a camera in my head!',
+          zh: '你从没在我脑子里装过摄像机！',
+        },
+        original: 'You never had a camera in my head!',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Truman Show', zh: '《楚门的世界》' },
+        year: 1998,
+        speaker: { en: 'Truman Burbank', zh: '楚门·伯班克' },
+      },
+      {
+        text: {
+          en: 'I have given Truman the chance to lead a normal life. The world, the place you live in, is the sick place. Seahaven is the way the world should be.',
+          zh: '我给了楚门过正常生活的机会。这个世界，你们生活的地方，才是病态的。海景镇才是世界应有的样子。',
+        },
+        original: 'I have given Truman the chance to lead a normal life. The world, the place you live in, is the sick place. Seahaven is the way the world should be.',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Truman Show', zh: '《楚门的世界》' },
@@ -1168,6 +1248,161 @@ export const cinemaData: PersonData[] = [
         source: { en: 'The Grand Budapest Hotel', zh: '《布达佩斯大饭店》' },
         year: 2014,
         speaker: { en: 'M. Gustave', zh: '古斯塔夫先生' },
+      },
+    ],
+  },
+  {
+    slug: 'the-seventh-seal',
+    name: { en: 'The Seventh Seal', zh: '第七封印' },
+    years: '1957',
+    nationality: { en: 'Swedish', zh: '瑞典' },
+    bio: {
+      en: 'Directed by Ingmar Bergman. A medieval knight returning from the Crusades plays chess with Death while searching for meaning in a plague-ravaged land. A landmark of existential cinema.',
+      zh: '英格玛·伯格曼执导。一位从十字军东征归来的中世纪骑士与死神下棋，在瘟疫肆虐的土地上追寻生命的意义。存在主义电影的里程碑。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/The_Seventh_Seal',
+      zh: 'https://zh.wikipedia.org/wiki/第七封印',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Is it so cruelly inconceivable to grasp God with the senses? Why should He hide Himself in a mist of half-spoken promises and unseen miracles? How can we have faith in those who believe when we can\'t have faith in ourselves? What is going to happen to those of us who want to believe but aren\'t able to?',
+          zh: '用感官去把握上帝，真的如此残忍地不可思议吗？他为什么要藏身于半吐半露的承诺和看不见的奇迹的迷雾之中？当我们连自己都无法信任时，怎么能信任那些相信的人？那些想要相信却无能为力的人，将何去何从？',
+        },
+        original: 'Är det så grymt otänkbart att fatta Gud med sina sinnen? Varför ska han gömma sig i ett dis av halvkvädna löften och osedda under?',
+        originalLang: 'sv',
+        source: { en: 'The Seventh Seal', zh: '《第七封印》' },
+        year: 1957,
+        speaker: { en: 'Antonius Block', zh: '安东尼乌斯·布洛克' },
+      },
+      {
+        text: {
+          en: 'I want knowledge, not faith, not suppositions, but knowledge. I want God to stretch out His hand toward me, reveal Himself, and speak to me.',
+          zh: '我要的是知识，不是信仰，不是假设，而是知识。我要上帝向我伸出他的手，显现他自己，对我说话。',
+        },
+        original: 'Jag vill ha kunskap, inte tro, inte antaganden, utan kunskap. Jag vill att Gud ska sträcka ut sin hand mot mig, uppenbara sig och tala till mig.',
+        originalLang: 'sv',
+        source: { en: 'The Seventh Seal', zh: '《第七封印》' },
+        year: 1957,
+        speaker: { en: 'Antonius Block', zh: '安东尼乌斯·布洛克' },
+      },
+      {
+        text: {
+          en: 'No one can escape me. No one can cheat me. You play chess with me, knight, but I never lose. It is only a matter of time.',
+          zh: '没有人能逃脱我。没有人能欺骗我。你和我下棋，骑士，但我从不输。这只是时间问题。',
+        },
+        original: 'Ingen kan fly mig. Ingen kan lura mig.',
+        originalLang: 'sv',
+        source: { en: 'The Seventh Seal', zh: '《第七封印》' },
+        year: 1957,
+        speaker: { en: 'Death', zh: '死神' },
+      },
+      {
+        text: {
+          en: 'Faith is a torment. It is like loving someone who is out there in the darkness but never appears, no matter how loudly you call.',
+          zh: '信仰是一种折磨。就像爱着一个身处黑暗中的人，无论你多大声地呼唤，他永远不会出现。',
+        },
+        original: 'Tron är ett plågsamt ting. Det är som att älska någon som finns därute i mörkret men aldrig visar sig, hur högt man än ropar.',
+        originalLang: 'sv',
+        source: { en: 'The Seventh Seal', zh: '《第七封印》' },
+        year: 1957,
+        speaker: { en: 'Antonius Block', zh: '安东尼乌斯·布洛克' },
+      },
+      {
+        text: {
+          en: 'I shall remember this moment. The silence, the twilight, the bowls of strawberries and milk, your faces in the evening light. I\'ll try to remember what we have talked about. I\'ll carry this memory between my hands as carefully as if it were a bowl filled to the brim with fresh milk. And it will be an adequate sign — it will be enough for me.',
+          zh: '我会记住这一刻。这寂静，这暮色，这几碗草莓和牛奶，你们在晚光中的面庞。我会试着记住我们谈论的一切。我会把这段记忆捧在双手之间，小心翼翼，仿佛它是一碗盛满了的新鲜牛奶。它将是一个充分的征兆——对我来说，这就够了。',
+        },
+        original: 'Jag ska minnas det här ögonblicket. Tystnaden, skymningen, skålarna med jordgubbar och mjölk, era ansikten i kvällsljuset.',
+        originalLang: 'sv',
+        source: { en: 'The Seventh Seal', zh: '《第七封印》' },
+        year: 1957,
+        speaker: { en: 'Antonius Block', zh: '安东尼乌斯·布洛克' },
+      },
+    ],
+  },
+  {
+    slug: 'solaris',
+    name: { en: 'Solaris', zh: '飞向太空' },
+    years: '1972',
+    nationality: { en: 'Soviet Union', zh: '苏联' },
+    bio: {
+      en: 'Directed by Andrei Tarkovsky, based on the novel by Stanislaw Lem. A psychologist is sent to a space station orbiting a mysterious ocean planet that materializes visitors\' deepest memories. A meditation on consciousness, love, and the limits of human understanding.',
+      zh: '安德烈·塔可夫斯基执导，改编自斯坦尼斯瓦夫·莱姆的小说。一名心理学家被派往环绕一颗神秘海洋星球运行的空间站，那里会将访客最深处的记忆物质化。一部关于意识、爱与人类理解之极限的沉思之作。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Solaris_(1972_film)',
+      zh: 'https://zh.wikipedia.org/wiki/飞向太空_(1972年电影)',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'We don\'t want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos. We don\'t need other worlds. We need mirrors.',
+          zh: '我们不想征服宇宙，我们只是想把地球的边界延伸到宇宙的尽头。我们不需要其他世界。我们需要的是镜子。',
+        },
+        original: 'Мы не хотим завоёвывать космос, мы просто хотим расширить границы Земли до пределов космоса. Нам не нужны другие миры. Нам нужны зеркала.',
+        originalLang: 'ru',
+        source: { en: 'Solaris', zh: '《飞向太空》' },
+        year: 1972,
+        speaker: { en: 'Snaut', zh: '斯诺特' },
+      },
+      {
+        text: {
+          en: 'Man needs man. You don\'t love her. You love the idea of her. You love your need for her. You love yourself through her.',
+          zh: '人需要人。你不爱她。你爱的是关于她的观念。你爱的是你对她的需要。你透过她来爱自己。',
+        },
+        original: 'Человеку нужен человек. Ты не её любишь. Ты любишь идею о ней. Ты любишь свою потребность в ней.',
+        originalLang: 'ru',
+        source: { en: 'Solaris', zh: '《飞向太空》' },
+        year: 1972,
+        speaker: { en: 'Snaut', zh: '斯诺特' },
+      },
+    ],
+  },
+  {
+    slug: 'blade-runner-2049',
+    name: { en: 'Blade Runner 2049', zh: '银翼杀手2049' },
+    years: '2017',
+    nationality: { en: 'United States', zh: '美国' },
+    bio: {
+      en: 'Directed by Denis Villeneuve. A replicant blade runner discovers a long-buried secret that could plunge what remains of society into chaos, leading him on a quest to find a former blade runner who has been missing for thirty years. A meditation on identity, memory, and what constitutes a real life.',
+      zh: '丹尼斯·维伦纽瓦执导。一名复制人银翼杀手发现了一个深埋已久的秘密，可能将残存的社会推入混乱，由此踏上寻找一位失踪三十年的前银翼杀手的旅程。一部关于身份、记忆与何为真实人生的沉思之作。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Blade_Runner_2049',
+      zh: 'https://zh.wikipedia.org/wiki/银翼杀手2049',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Every civilization was built off the back of a disposable workforce. We lost our stomach for slaves unless engineered. But I can only make so many.',
+          zh: '每一个文明都建立在一次性劳动力的脊背上。我们不再有奴隶的胃口了，除非是被制造出来的。但我能造的也就这么多。',
+        },
+        originalLang: 'en',
+        source: { en: 'Blade Runner 2049', zh: '《银翼杀手2049》' },
+        year: 2017,
+        speaker: { en: 'Niander Wallace', zh: '尼安德·华莱士' },
+      },
+      {
+        text: {
+          en: 'All the best memories are hers. Do you know why I keep coming back here? Because being with you makes me feel like I have a soul. But I know I don\'t.',
+          zh: '所有最美好的记忆都是她的。你知道我为什么一直回到这里吗？因为和你在一起让我觉得自己有灵魂。但我知道我没有。',
+        },
+        originalLang: 'en',
+        source: { en: 'Blade Runner 2049', zh: '《银翼杀手2049》' },
+        year: 2017,
+        speaker: { en: 'K', zh: 'K' },
+      },
+      {
+        text: {
+          en: 'Dying for the right cause is the most human thing we can do.',
+          zh: '为正确的事业而死，是我们所能做的最具人性的事。',
+        },
+        originalLang: 'en',
+        source: { en: 'Blade Runner 2049', zh: '《银翼杀手2049》' },
+        year: 2017,
+        speaker: { en: 'Freysa', zh: '弗蕾莎' },
       },
     ],
   },

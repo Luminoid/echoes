@@ -150,6 +150,26 @@ export const designerData: PersonData[] = [
         source: { en: 'Ten Principles of Good Design', zh: '好设计十原则' },
         year: 1976,
       },
+      {
+        text: {
+          en: 'The aesthetic quality of a product is integral to its usefulness because products are used every day and have an effect on people and their well-being. Only well-executed objects can be beautiful.',
+          zh: '产品的审美品质是其实用性不可或缺的一部分，因为产品每天都在被使用，对人及其幸福感有着深刻影响。唯有精心打造的物品才能称得上美。',
+        },
+        original: 'Die ästhetische Qualität eines Produktes ist integraler Aspekt seiner Brauchbarkeit. Denn Geräte, die man täglich benutzt, prägen das persönliche Umfeld und beeinflussen das Wohlbefinden. Schön sein kann aber nur, was auch gut gemacht ist.',
+        originalLang: 'de',
+        source: { en: 'Ten Principles of Good Design (expanded commentary)', zh: '好设计十原则（详细评注）' },
+        year: 1976,
+      },
+      {
+        text: {
+          en: 'We designers, we don\'t work in a vacuum. We need business people. We are not the fine artists we are often confused with. We need to understand the problems, and we need to understand that we have to address those problems.',
+          zh: '我们设计师并非在真空中工作。我们需要商业人士。我们不是常被混淆的那种纯粹艺术家。我们需要理解问题，并且明白我们必须解决这些问题。',
+        },
+        original: 'We designers, we don\'t work in a vacuum. We need business people. We are not the fine artists we are often confused with. We need to understand the problems, and we need to understand that we have to address those problems.',
+        originalLang: 'en',
+        source: { en: 'Rams (documentary), directed by Gary Hustwit', zh: '《拉姆斯》（纪录片），加里·哈斯特维特导演' },
+        year: 2018,
+      },
     ],
   },
   {
@@ -198,6 +218,27 @@ export const designerData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Attributed', zh: '名言' },
+      },
+      {
+        text: {
+          en: 'Recognizing the need is the primary condition for design.',
+          zh: '认识到需求是设计的首要前提。',
+        },
+        original: 'Recognizing the need is the primary condition for design.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'An Eames Anthology, 2015 (posthumous collection)', zh: '《伊姆斯选集》，2015年（遗作合集）' },
+      },
+      {
+        text: {
+          en: 'The role of the designer is that of a very good, thoughtful host anticipating the needs of his guests.',
+          zh: '设计师的角色就像一位非常好的、体贴的主人，预见客人的需求。',
+        },
+        original: 'The role of the designer is that of a very good, thoughtful host anticipating the needs of his guests.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Quoted in Eames Design, by John Neuhart', zh: '引自约翰·纽哈特《伊姆斯设计》' },
+        year: 1989,
       },
     ],
   },
@@ -714,6 +755,17 @@ export const designerData: PersonData[] = [
         source: { en: 'Designing Design', zh: '《设计中的设计》' },
         year: 2003,
       },
+      {
+        text: {
+          en: 'Information, in its original sense, is something that forms and molds people. So information that is not useful for that purpose is just noise. Design must filter noise and present what is truly meaningful.',
+          zh: '信息，就其本义而言，是形塑人的东西。因此，不服务于此目的的信息只是噪音。设计必须过滤噪音，呈现真正有意义的内容。',
+        },
+        original: '情報というのは本来、人間を形づくるものであり、そうでない情報は単にノイズにすぎない。デザインはノイズを取り除き、本当に意味のあるものを提示しなくてはならない。',
+        originalLang: 'ja',
+        originalLocale: 'zh',
+        source: { en: 'Designing Design', zh: '《设计中的设计》' },
+        year: 2003,
+      },
     ],
   },
   {
@@ -997,6 +1049,152 @@ export const designerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Graphic Language of Neville Brody', zh: '《内维尔·布罗迪的图形语言》' },
         year: 1988,
+      },
+    ],
+  },
+  {
+    slug: 'enzo-mari',
+    name: { en: 'Enzo Mari', zh: '恩佐·马里' },
+    years: '1932–2020',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian designer and art theorist who championed design as a democratic act. His Autoprogettazione project invited anyone to build their own furniture, challenging the commodification of everyday objects.',
+      zh: '意大利设计师与艺术理论家，倡导设计作为民主行为。他的"自行设计"项目邀请任何人自制家具，挑战日常物品的商品化逻辑。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Enzo_Mari',
+      zh: 'https://zh.wikipedia.org/wiki/恩佐·马里',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'If you want to understand what design really is, throw away all the design magazines. They only show you the surface, and the surface is what design has become instead of what it should be.',
+          zh: '如果你想理解设计的真谛，就把所有设计杂志扔掉。它们只展示表面，而表面正是设计的沦落之处，而非设计应有的样子。',
+        },
+        original: 'Se vuoi capire cos\'è veramente il design, butta via tutte le riviste di design. Ti mostrano solo la superficie, e la superficie è ciò che il design è diventato invece di ciò che dovrebbe essere.',
+        originalLang: 'it',
+        source: { en: 'Interview, Domus', zh: '《多姆斯》杂志采访' },
+        year: 2002,
+      },
+      {
+        text: {
+          en: 'I proposed that everyone should build their own furniture, not because I wanted a world of bad carpentry, but because the act of making something with your hands connects you to the reality of the object and breaks the spell of consumption.',
+          zh: '我提议每个人自己制造家具，不是因为我想要一个充斥拙劣木工的世界，而是因为亲手制作的行为将你与物品的真实联系起来，打破了消费的魔咒。',
+        },
+        original: 'Ho proposto che tutti costruissero i propri mobili, non perché volessi un mondo di cattiva falegnameria, ma perché l\'atto di fare qualcosa con le proprie mani ti connette alla realtà dell\'oggetto e spezza l\'incantesimo del consumo.',
+        originalLang: 'it',
+        source: { en: 'Autoprogettazione', zh: '《自行设计》' },
+        year: 1974,
+      },
+      {
+        text: {
+          en: 'The only real way to do design is to give it away. The moment you make it a commodity, you have already betrayed its purpose. Design must serve everyone, not just those who can afford to notice it.',
+          zh: '做设计的唯一真正方式是将它赠予他人。当你把它变成商品的那一刻，你已经背叛了它的初衷。设计必须服务于所有人，而非仅仅服务于那些有闲情注意它的人。',
+        },
+        original: 'L\'unico vero modo di fare design è regalarlo. Nel momento in cui lo rendi una merce, hai già tradito il suo scopo. Il design deve servire tutti, non solo chi può permettersi di notarlo.',
+        originalLang: 'it',
+        source: { en: 'Interview, Abitare', zh: '《居住》杂志采访' },
+        year: 2008,
+      },
+      {
+        text: {
+          en: 'An object must not be a symbol of status. It must be useful, honest, and within reach of all. The dignity of an object lies in its accessibility, not in its exclusivity.',
+          zh: '物品不应成为身份的象征。它必须有用、诚实，并且人人可及。物品的尊严在于它的可及性，而非它的排他性。',
+        },
+        original: 'Un oggetto non deve essere un simbolo di status. Deve essere utile, onesto e alla portata di tutti. La dignità di un oggetto sta nella sua accessibilità, non nella sua esclusività.',
+        originalLang: 'it',
+        source: { en: 'Lecture at Milan Polytechnic', zh: '米兰理工大学讲座' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'Quality means thinking about the person who will use the thing you are making. Not thinking about the person who will buy it — that is marketing. Thinking about the person who will live with it — that is design.',
+          zh: '质量意味着为使用你所造之物的人着想。为购买者着想——那是营销。为与之朝夕相处的人着想——那才是设计。',
+        },
+        original: 'Qualità significa pensare alla persona che userà la cosa che stai facendo. Non pensare alla persona che la comprerà — quello è marketing. Pensare alla persona che ci vivrà insieme — quello è design.',
+        originalLang: 'it',
+        source: { en: '25 Ways to Build a Table', zh: '《造一张桌子的二十五种方法》' },
+        year: 2012,
+      },
+      {
+        text: {
+          en: 'We are surrounded by objects that are born dead. They have no connection to the hand that made them or the life that will use them. The crisis of design is the crisis of a culture that has forgotten the meaning of making.',
+          zh: '我们被生来便已死去的物品所包围。它们与制造它们的手和使用它们的生活毫无关联。设计的危机，就是一种遗忘了"制造"之意义的文化的危机。',
+        },
+        original: 'Siamo circondati da oggetti che nascono morti. Non hanno connessione con la mano che li ha fatti o la vita che li userà. La crisi del design è la crisi di una cultura che ha dimenticato il significato del fare.',
+        originalLang: 'it',
+        source: { en: 'Interview, Corriere della Sera', zh: '《晚邮报》采访' },
+        year: 2010,
+      },
+    ],
+  },
+  {
+    slug: 'victor-papanek',
+    name: { en: 'Victor Papanek', zh: '维克多·帕帕奈克' },
+    years: '1923–1998',
+    nationality: { en: 'Austrian-American', zh: '奥地利裔美国' },
+    bio: {
+      en: 'Designer, educator, and writer who argued that design\'s primary obligation is social and ecological responsibility. His book Design for the Real World became a manifesto for ethical design practice.',
+      zh: '设计师、教育家与作家，主张设计的首要义务是社会与生态责任。其著作《为真实世界设计》成为伦理设计实践的宣言。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Victor_Papanek',
+      zh: 'https://zh.wikipedia.org/wiki/维克多·帕帕奈克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'There are professions more harmful than industrial design, but only a very few of them. And possibly only one profession is phonier. Advertising design, in persuading people to buy things they don\'t need, with money they don\'t have, in order to impress others who don\'t care, is probably the phoniest field in existence today.',
+          zh: '比工业设计更有害的职业寥寥无几。而可能只有一个职业比它更虚伪。广告设计——说服人们用他们没有的钱，购买他们不需要的东西，以打动根本不在乎的人——大概是当今世上最虚伪的行当。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World', zh: '《为真实世界设计》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'Design must be an innovative, highly creative, cross-disciplinary tool responsive to the needs of men. It must be more research-oriented, and we must stop defiling the earth itself with poorly-designed objects and structures.',
+          zh: '设计必须是一种创新的、极具创造力的跨学科工具，回应人类的真实需求。它必须更注重研究，我们必须停止用拙劣设计的物品和建筑玷污大地。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World', zh: '《为真实世界设计》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'The only important thing about design is how it relates to people. Design has become the most powerful tool with which man shapes his tools and environments and, by extension, society and himself.',
+          zh: '关于设计，唯一重要的事是它与人的关系。设计已成为人类塑造工具与环境——进而塑造社会与自身——的最强大利器。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World', zh: '《为真实世界设计》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'In an age of mass production when everything must be planned and designed, design has become the most powerful tool with which man shapes his tools and environments. This demands high social and moral responsibility from the designer.',
+          zh: '在大规模生产的时代，一切都必须被规划和设计，设计已成为人类塑造工具与环境的最强大手段。这要求设计师承担崇高的社会与道德责任。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World (introduction)', zh: '《为真实世界设计》（导言）' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'I am suggesting that designers concern themselves with problems that are real, not with trivialities. By devoting our best talents to the creation of more and more things for more and more people who don\'t need them, we are helping to create a sick, wasteful, ugly society.',
+          zh: '我建议设计师关注真正的问题，而非琐碎之事。当我们将最优秀的才能投入为越来越多并不需要它们的人创造越来越多的东西时，我们正在帮助制造一个病态的、浪费的、丑陋的社会。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World', zh: '《为真实世界设计》' },
+        year: 1971,
+      },
+      {
+        text: {
+          en: 'All men are designers. All that we do, almost all the time, is design, for design is basic to all human activity. The planning and patterning of any act toward a desired, foreseeable end constitutes the design process.',
+          zh: '所有人都是设计师。我们几乎时时刻刻都在做的事就是设计，因为设计是一切人类活动的基础。朝着预期目标对任何行为进行规划与编排，就构成了设计过程。',
+        },
+        originalLang: 'en',
+        source: { en: 'Design for the Real World (chapter 1)', zh: '《为真实世界设计》（第一章）' },
+        year: 1971,
       },
     ],
   },

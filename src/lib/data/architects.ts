@@ -143,7 +143,7 @@ export const architectData: PersonData[] = [
       },
       {
         text: {
-          en: 'Architecture is the learned game, correct and magnificent, of forms assembled in the light.',
+          en: 'Architecture is the learned game, correct and magnificent, of volumes assembled in the light.',
           zh: '建筑是光线下形体组合的精妙游戏，正确而壮丽。',
         },
         original: "L'architecture est le jeu savant, correct et magnifique des volumes assemblés sous la lumière.",
@@ -330,6 +330,18 @@ export const architectData: PersonData[] = [
           zh: '引自建筑讲座与访谈',
         },
       },
+      {
+        text: {
+          en: 'Wherever technology reaches its real fulfillment, it transcends into architecture.',
+          zh: '技术在真正达到完满之处，便升华为建筑。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Technology and Architecture, lecture at IIT, 1950',
+          zh: '《技术与建筑》，伊利诺伊理工学院讲座，1950年',
+        },
+        year: 1950,
+      },
     ],
   },
   {
@@ -473,6 +485,29 @@ export const architectData: PersonData[] = [
         },
         year: 2000,
       },
+      {
+        text: {
+          en: 'I don\'t believe architecture has to speak too much. It should remain silent and let nature in the guise of sunlight and wind speak.',
+          zh: '我不认为建筑需要说太多。它应该保持沉默，让以阳光和风为化身的自然来发言。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Quoted in Tadao Ando: Complete Works, 1995',
+          zh: '引自《安藤忠雄全集》，1995年',
+        },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'If you give people nothingness, they can ponder what can be achieved from that nothingness.',
+          zh: '如果你给予人们虚无，他们便能思考从那虚无中可以成就什么。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Quoted in architectural interviews',
+          zh: '引自建筑访谈',
+        },
+      },
     ],
   },
   {
@@ -566,6 +601,23 @@ export const architectData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'Lecture at the University of Pennsylvania', zh: '宾夕法尼亚大学讲座' },
       },
+      {
+        text: {
+          en: 'I sense Light as the giver of all presences, and material as spent Light. What is made by Light casts a shadow, and the shadow belongs to Light.',
+          zh: '我感知光是一切存在的赋予者，材料则是耗尽的光。光所造之物投下阴影，而阴影属于光。',
+        },
+        originalLang: 'en',
+        source: { en: 'Quoted in John Lobell, Between Silence and Light, 1979', zh: '引自约翰·洛贝尔《在沉默与光之间》，1979年' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'I asked the brick what it liked, and the brick said, "I like an arch." And I said, "Look, arches are expensive. I can use a concrete lintel over you." But the brick said, "I know you\'re right, but if you ask me what I like, I like an arch."',
+          zh: '我问砖它喜欢什么，砖说："我喜欢拱。"我说："听着，拱很昂贵。我可以用混凝土过梁架在你上面。"但砖说："我知道你说得对，但你问我喜欢什么，我喜欢拱。"',
+        },
+        originalLang: 'en',
+        source: { en: 'Master class at University of Pennsylvania, widely quoted', zh: '宾夕法尼亚大学大师课，广泛引用' },
+      },
     ],
   },
   {
@@ -647,6 +699,18 @@ export const architectData: PersonData[] = [
         original: 'The city is an addictive machine from which there is no escape.',
         originalLang: 'en',
         originalLocale: 'en',
+        source: {
+          en: 'Delirious New York, 1978',
+          zh: '《癫狂的纽约》，1978年',
+        },
+        year: 1978,
+      },
+      {
+        text: {
+          en: 'The Grid\'s two-dimensional discipline creates undreamt-of freedom for three-dimensional anarchy. The Grid defines a new balance between control and de-control in which the city can be at the same time ordered and fluid, a metropolis of rigid chaos.',
+          zh: '网格的二维规训为三维的无序创造了难以想象的自由。网格界定了控制与失控之间的新平衡，在其中城市可以同时是有序与流动的——一座刚性混沌的都市。',
+        },
+        originalLang: 'en',
         source: {
           en: 'Delirious New York, 1978',
           zh: '《癫狂的纽约》，1978年',
@@ -897,6 +961,30 @@ export const architectData: PersonData[] = [
           zh: '引自《彼得·卒姆托：建筑与项目》，2014年',
         },
         year: 2014,
+      },
+      {
+        text: {
+          en: 'Architecture has its own realm. It has a special physical relationship with life. I do not think of it primarily as either a message or a symbol, but as an envelope and background for life which goes on in and around it, a sensitive container for the rhythm of footsteps on the floor, for the concentration of work, for the silence of sleep.',
+          zh: '建筑有其独特的领域。它与生活有着特殊的物质关系。我并不首先将它视为某种讯息或符号，而是视为生活的包裹与背景——生活在其中及周围发生——一个敏感的容器，容纳着地板上脚步的节奏、工作的专注、睡眠的静谧。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Thinking Architecture, 1998',
+          zh: '《建筑思考》，1998年',
+        },
+        year: 1998,
+      },
+      {
+        text: {
+          en: 'Perhaps poetry is unexpected truth. It lives in stillness. Architecture\'s artistic task is to give this still expectancy a form.',
+          zh: '也许诗是意想不到的真相。它栖居于寂静之中。建筑的艺术任务就是赋予这种寂静的期待以形式。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Thinking Architecture, 1998',
+          zh: '《建筑思考》，1998年',
+        },
+        year: 1998,
       },
     ],
   },
@@ -1199,6 +1287,144 @@ export const architectData: PersonData[] = [
           en: 'Quoted in Emilio Ambasz, The Architecture of Luis Barrag\u00e1n',
           zh: '引自埃米利奥·安巴斯《路易斯·巴拉甘的建筑》',
         },
+      },
+    ],
+  },
+  {
+    slug: 'carlo-scarpa',
+    name: { en: 'Carlo Scarpa', zh: '卡洛·斯卡帕' },
+    years: '1906–1978',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian architect and master of the detail whose meticulous joints, material dialogues, and poetic interventions in historic buildings — from the Castelvecchio Museum to the Brion Cemetery — elevated the connection between old and new into a philosophy of making.',
+      zh: '意大利建筑师和细部大师，以其精密的接缝、材料对话和对历史建筑的诗意介入——从维罗纳古堡博物馆到布里翁墓园——将新旧之间的连接提升为一种制作的哲学。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Carlo_Scarpa',
+      zh: 'https://zh.wikipedia.org/wiki/卡洛·斯卡帕',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I want to see things. That is the only reason I draw. I draw so that I can see, and in seeing I discover what I think. The drawing is not a plan — it is a conversation between the hand and the material that does not yet exist.',
+          zh: '我想看见事物。那是我画图的唯一原因。我画图是为了看见，而在看见中我发现了我所想的。图纸不是平面图——它是手与尚未存在的材料之间的对话。',
+        },
+        original: 'Voglio vedere le cose. Questa è l\'unica ragione per cui disegno.',
+        originalLang: 'it',
+        source: { en: 'Lecture notes, IUAV Venice', zh: '威尼斯建筑大学讲义' },
+      },
+      {
+        text: {
+          en: 'The detail is the adoration of the joint — the place where two materials meet, where one thing ends and another begins. If you cannot solve the joint, you have not designed the building. Architecture lives or dies in the gap between two surfaces.',
+          zh: '细部是对接缝的崇拜——两种材料相遇的地方，一种事物终结而另一种事物开始的地方。如果你解决不了接缝，你就没有设计出建筑。建筑的生死存亡就在两个表面之间的间隙中。',
+        },
+        original: 'Il dettaglio è l\'adorazione del nodo — il punto in cui due materiali si incontrano.',
+        originalLang: 'it',
+        source: { en: 'Attributed, documented by Franca Semi', zh: '弗朗卡·塞米记录的归属语录' },
+      },
+      {
+        text: {
+          en: 'I place old and new in dialogue, not in contrast. The new must not overpower the old, nor the old suppress the new. They must speak to each other across time, the way a son speaks to his father — with respect, but also with the courage to say something different.',
+          zh: '我让新与旧进行对话，而非对比。新不应压倒旧，旧也不应压制新。它们必须跨越时间彼此交谈，就像儿子对父亲说话一样——带着敬意，但也带着说出不同之言的勇气。',
+        },
+        original: 'Metto il vecchio e il nuovo in dialogo, non in contrasto.',
+        originalLang: 'it',
+        source: { en: 'On the Castelvecchio Museum restoration', zh: '关于维罗纳古堡博物馆修复' },
+        year: 1964,
+      },
+      {
+        text: {
+          en: 'Water is not a decorative element. Water is a material — it reflects, it moves, it ages surfaces, it teaches you about time. Every pool I design is a mirror and a clock. It shows you the sky and the years simultaneously.',
+          zh: '水不是装饰元素。水是一种材料——它反射、它流动、它使表面老化、它教你关于时间。我设计的每一个水池都是一面镜子和一座时钟。它同时向你展示天空与岁月。',
+        },
+        original: 'L\'acqua non è un elemento decorativo. L\'acqua è un materiale.',
+        originalLang: 'it',
+        source: { en: 'Notes on the Brion Cemetery design', zh: '布里翁墓园设计笔记' },
+        year: 1972,
+      },
+      {
+        text: {
+          en: 'I have always been attracted to the way the Japanese understand the relationship between material and time. A stone that has been touched by water for a hundred years says more about architecture than any drawing. The best buildings are those that look as if they have always been there.',
+          zh: '我一直被日本人理解材料与时间关系的方式所吸引。一块被水触碰了一百年的石头比任何图纸都更能说明建筑。最好的建筑是那些看起来好像一直都在那里的建筑。',
+        },
+        original: 'Sono sempre stato attratto dal modo in cui i giapponesi comprendono il rapporto tra materiale e tempo.',
+        originalLang: 'it',
+        source: { en: 'Conversations with Sergio Los', zh: '与塞尔吉奥·洛斯的对话' },
+      },
+      {
+        text: {
+          en: 'Concrete is a liquid stone. You can make it do what stone never could — float, cantilever, become a membrane of light. But you must never forget that it wants to crack. Every great concrete surface is a negotiation between the architect\'s ambition and the material\'s desire to return to rubble.',
+          zh: '混凝土是液态的石头。你可以让它做石头从来做不到的事——漂浮、悬挑、成为光的薄膜。但你决不能忘记它想要开裂。每一个伟大的混凝土表面都是建筑师的雄心与材料回归瓦砾之渴望之间的谈判。',
+        },
+        original: 'Il calcestruzzo è una pietra liquida.',
+        originalLang: 'it',
+        source: { en: 'Lecture, Faculty of Architecture, Venice', zh: '威尼斯建筑学院讲座' },
+      },
+    ],
+  },
+  {
+    slug: 'jorn-utzon',
+    name: { en: 'Jørn Utzon', zh: '约恩·乌松' },
+    years: '1918–2008',
+    nationality: { en: 'Danish', zh: '丹麦' },
+    bio: {
+      en: 'Danish architect whose Sydney Opera House became one of the most iconic buildings of the twentieth century, and whose philosophy of additive architecture — drawing from clouds, waves, and the growth patterns of nature — sought a universal language of form rooted in landscape.',
+      zh: '丹麦建筑师，其悉尼歌剧院成为二十世纪最具标志性的建筑之一，其叠加建筑哲学——取法于云、波浪和自然的生长规律——追寻一种植根于风景的普遍形式语言。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/J%C3%B8rn_Utzon',
+      zh: 'https://zh.wikipedia.org/wiki/约恩·乌松',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'If you think of a Gothic church, you are close to what I mean. The roof sails up, and where you expect walls you find light. The platform is the earth, the roof is the sky, and between them is the space where human life takes place — open, luminous, free.',
+          zh: '如果你想象一座哥特式教堂，你就接近我的意思了。屋顶如帆般升起，你期待看到墙壁的地方却找到了光。平台是大地，屋顶是天空，而在它们之间是人类生活发生的空间——开放的、明亮的、自由的。',
+        },
+        original: 'Hvis du tænker på en gotisk kirke, er du tæt på, hvad jeg mener.',
+        originalLang: 'da',
+        source: { en: 'Descriptive notes on the Sydney Opera House', zh: '悉尼歌剧院设计说明' },
+        year: 1956,
+      },
+      {
+        text: {
+          en: 'Additive architecture is the principle that a building grows like a living thing — not designed all at once from above, but assembled piece by piece, each element complete in itself, the way clouds form or branches extend. The whole emerges from the repetition of the parts.',
+          zh: '叠加建筑是这样一个原则：建筑像生命体一样生长——不是从上方一次性设计完成，而是一件一件地组装，每个元素本身是完整的，就像云的形成或枝条的延伸。整体从部分的重复中涌现。',
+        },
+        original: 'Additiv arkitektur er princippet om, at en bygning vokser som et levende væsen.',
+        originalLang: 'da',
+        source: { en: 'Additive Architecture, essay', zh: '《叠加建筑》论文' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'I was sitting on a beach in Hawaii and I saw the waves coming in, one after another, each one different but all obeying the same law. And I thought: this is architecture. Not the individual wave, but the principle that generates all the waves. That is what I try to find — the generating principle.',
+          zh: '我坐在夏威夷的海滩上看到波浪一个接一个涌来，每一个都不同但都遵循同一法则。我想：这就是建筑。不是单个的波浪，而是生成所有波浪的原理。那就是我试图找到的——生成原理。',
+        },
+        original: 'Jeg sad på en strand på Hawaii, og jeg så bølgerne komme ind, den ene efter den anden.',
+        originalLang: 'da',
+        source: { en: 'Interview, Louisiana Museum of Modern Art', zh: '路易斯安那现代艺术博物馆访谈' },
+        year: 2004,
+      },
+      {
+        text: {
+          en: 'The platform is the great architectural instrument. The Mayan temples, the Japanese temple platforms, the great squares of Islam — all understand that to elevate the ground is to create a new world. You step up, and you leave the ordinary behind. The platform says: here, something different begins.',
+          zh: '平台是伟大的建筑工具。玛雅神庙、日本寺庙的台基、伊斯兰的大广场——都理解抬高地面就是创造一个新世界。你踏上台阶，就把日常抛在身后。平台说：在这里，不同的事物开始了。',
+        },
+        original: 'Platformen er det store arkitektoniske instrument.',
+        originalLang: 'da',
+        source: { en: 'Platforms and Plateaus: Ideas of a Danish Architect', zh: '《平台与高原：一位丹麦建筑师的理念》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'I have never been interested in what a building looks like from the outside. I am interested in what it feels like to be inside it — the quality of the light, the sound of your footsteps, the way the ceiling floats above you. Architecture is experienced from within, like music.',
+          zh: '我从不对建筑从外面看起来是什么样感兴趣。我感兴趣的是身处其中的感受——光的品质、你脚步的声音、天花板在你头顶漂浮的方式。建筑从内部被体验，如同音乐。',
+        },
+        original: 'Jeg har aldrig været interesseret i, hvordan en bygning ser ud udefra.',
+        originalLang: 'da',
+        source: { en: 'Pritzker Prize acceptance speech', zh: '普利兹克奖获奖感言' },
+        year: 2003,
       },
     ],
   },

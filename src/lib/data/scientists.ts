@@ -97,6 +97,32 @@ export const scientistData: PersonData[] = [
         },
         year: 1940,
       },
+      {
+        text: {
+          en: 'A theory is the more impressive the greater the simplicity of its premises, the more different kinds of things it relates, and the more extended its area of applicability. Therefore the deep impression that classical thermodynamics made upon me. It is the only physical theory of universal content which I am convinced will never be overthrown.',
+          zh: '一个理论的前提越简洁、它所关联的事物种类越多、适用范围越广，就越令人印象深刻。因此经典热力学给我留下了深刻的印象。它是我确信永远不会被推翻的唯一具有普适性内容的物理理论。',
+        },
+        original: 'A theory is the more impressive the greater the simplicity of its premises, the more different kinds of things it relates, and the more extended its area of applicability. Therefore the deep impression that classical thermodynamics made upon me. It is the only physical theory of universal content which I am convinced will never be overthrown.',
+        originalLang: 'en',
+        source: {
+          en: 'Autobiographical Notes',
+          zh: '《自传性笔记》',
+        },
+        year: 1949,
+      },
+      {
+        text: {
+          en: 'The state of mind which enables a man to do work of this kind is akin to that of the religious worshipper or the lover; the daily effort comes from no deliberate intention or program, but straight from the heart.',
+          zh: '使一个人能够从事这类工作的心灵状态，类似于宗教信徒或恋爱中的人；日复一日的努力并非来自刻意的计划，而是直接发自内心。',
+        },
+        original: 'Der Gemütszustand, der zu solcher Arbeit befähigt, ist dem des Religiösen oder Verliebten ähnlich; das tägliche Streben entspringt keinem Vorsatz oder Programm, sondern unmittelbar dem Herzen.',
+        originalLang: 'de',
+        source: {
+          en: 'Principles of Research, address to the Physical Society in Berlin',
+          zh: '《研究的原则》，柏林物理学会演讲',
+        },
+        year: 1918,
+      },
     ],
   },
   {
@@ -177,6 +203,25 @@ export const scientistData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'The Character of Physical Law', zh: '《物理定律的本性》' },
         year: 1965,
+      },
+      {
+        text: {
+          en: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.',
+          zh: '你的理论多么优美并不重要，你多么聪明也不重要。如果它与实验不符，它就是错的。',
+        },
+        original: 'It doesn\'t matter how beautiful your theory is, it doesn\'t matter how smart you are. If it doesn\'t agree with experiment, it\'s wrong.',
+        originalLang: 'en',
+        source: { en: 'The Character of Physical Law', zh: '《物理定律的本性》' },
+        year: 1965,
+      },
+      {
+        text: {
+          en: 'I would rather have questions that can\'t be answered than answers that can\'t be questioned.',
+          zh: '我宁愿拥有无法解答的问题，也不要不能被质疑的答案。',
+        },
+        original: 'I would rather have questions that can\'t be answered than answers that can\'t be questioned.',
+        originalLang: 'en',
+        source: { en: 'Attributed, widely quoted from lectures', zh: '讲座，广泛引用' },
       },
     ],
   },
@@ -575,6 +620,19 @@ export const scientistData: PersonData[] = [
         },
         year: 1980,
       },
+      {
+        text: {
+          en: 'If we are not able to ask skeptical questions, to interrogate those who tell us that something is true, to be skeptical of those in authority, then we\'re up for grabs for the next charlatan, political or religious, who comes ambling along.',
+          zh: '如果我们不能提出怀疑性的问题，不能质问那些告诉我们某事为真的人，不能对权威持怀疑态度，那么我们就会成为下一个江湖骗子——无论是政治的还是宗教的——的猎物。',
+        },
+        original: 'If we are not able to ask skeptical questions, to interrogate those who tell us that something is true, to be skeptical of those in authority, then we\'re up for grabs for the next charlatan, political or religious, who comes ambling along.',
+        originalLang: 'en',
+        source: {
+          en: 'The Burden of Skepticism, Pasadena lecture',
+          zh: '《怀疑的负担》，帕萨迪纳演讲',
+        },
+        year: 1987,
+      },
     ],
   },
   {
@@ -704,6 +762,32 @@ export const scientistData: PersonData[] = [
           zh: '罗宾·甘迪在回忆录中引述',
         },
       },
+      {
+        text: {
+          en: 'The original question, "Can machines think?" I believe to be too meaningless to deserve discussion. Nevertheless I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.',
+          zh: '最初的问题"机器能思考吗？"我认为太无意义，不值得讨论。尽管如此，我相信到本世纪末，词语的使用和一般的受教育者的观点将发生很大变化，以至于人们能够谈论机器思考而不会被反驳。',
+        },
+        original: 'The original question, "Can machines think?" I believe to be too meaningless to deserve discussion. Nevertheless I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.',
+        originalLang: 'en',
+        source: {
+          en: 'Computing Machinery and Intelligence, Mind',
+          zh: '《计算机器与智能》，《心灵》期刊',
+        },
+        year: 1950,
+      },
+      {
+        text: {
+          en: 'Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity.',
+          zh: '数学推理可以被简略地视为两种能力的结合运用，我们可以称之为直觉与巧思。',
+        },
+        original: 'Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity.',
+        originalLang: 'en',
+        source: {
+          en: 'Systems of Logic Based on Ordinals',
+          zh: '《基于序数的逻辑系统》',
+        },
+        year: 1939,
+      },
     ],
   },
   {
@@ -746,6 +830,30 @@ export const scientistData: PersonData[] = [
           zh: '广泛引用',
         },
       },
+      {
+        text: {
+          en: 'If quantum mechanics hasn\'t profoundly shocked you, you haven\'t understood it yet.',
+          zh: '如果量子力学没有深深震撼你，那说明你还没有理解它。',
+        },
+        original: 'If quantum mechanics hasn\'t profoundly shocked you, you haven\'t understood it yet.',
+        originalLang: 'en',
+        source: {
+          en: 'Attributed, widely quoted',
+          zh: '广泛引用',
+        },
+      },
+      {
+        text: {
+          en: 'Every great and deep difficulty bears in itself its own solution. It forces us to change our thinking in order to find it.',
+          zh: '每一个重大而深刻的困难本身都蕴含着自己的解答。它迫使我们改变思维方式去找到它。',
+        },
+        original: 'Every great and deep difficulty bears in itself its own solution. It forces us to change our thinking in order to find it.',
+        originalLang: 'en',
+        source: {
+          en: 'Attributed, quoted in discussions with Heisenberg',
+          zh: '与海森堡讨论时引述',
+        },
+      },
     ],
   },
   {
@@ -775,6 +883,33 @@ export const scientistData: PersonData[] = [
           zh: '《物理学与哲学》',
         },
         year: 1958,
+      },
+      {
+        text: {
+          en: 'The atoms or elementary particles themselves are not real; they form a world of potentialities or possibilities rather than one of things or facts.',
+          zh: '原子或基本粒子本身不是实在的；它们构成的是一个可能性或潜在性的世界，而不是事物或事实的世界。',
+        },
+        original: 'Die Atome oder Elementarteilchen selbst sind nicht real; sie bilden eine Welt von Möglichkeiten oder Potentialitäten und nicht eine Welt von Dingen oder Tatsachen.',
+        originalLang: 'de',
+        source: {
+          en: 'Physics and Philosophy',
+          zh: '《物理学与哲学》',
+        },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'Not only is the universe stranger than we think, it is stranger than we can think.',
+          zh: '宇宙不仅比我们所想的更奇异，它比我们所能想象的更奇异。',
+        },
+        original: 'Nicht nur ist das Universum seltsamer, als wir denken, es ist seltsamer, als wir denken können.',
+        originalLang: 'de',
+        comment: { en: 'The original version is by J.B.S. Haldane in Possible Worlds (1927): "The universe is not only queerer than we suppose, but queerer than we can suppose." Attribution to Heisenberg is disputed.', zh: '原始版本出自霍尔丹《可能的世界》(1927)："宇宙不仅比我们想象的更奇异，而且比我们所能想象的更奇异。"归于海森堡名下存在争议。' },
+        source: {
+          en: 'Across the Frontiers',
+          zh: '《跨越前沿》',
+        },
+        year: 1974,
       },
     ],
   },
@@ -962,6 +1097,32 @@ export const scientistData: PersonData[] = [
         },
         year: 1962,
       },
+      {
+        text: {
+          en: 'Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts. There is something infinitely healing in the repeated refrains of nature — the assurance that dawn comes after night, and spring after winter.',
+          zh: '那些凝视大地之美的人，能找到与生命等长的力量源泉。自然反复吟唱的旋律中有一种无限的疗愈——那是黎明必在黑夜之后、春天必在冬天之后到来的确信。',
+        },
+        original: 'Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts. There is something infinitely healing in the repeated refrains of nature — the assurance that dawn comes after night, and spring after winter.',
+        originalLang: 'en',
+        source: {
+          en: 'The Sense of Wonder',
+          zh: '《惊奇之心》',
+        },
+        year: 1965,
+      },
+      {
+        text: {
+          en: 'The human race is challenged more than ever before to demonstrate our mastery, not over nature but of ourselves.',
+          zh: '人类比以往任何时候都更需要证明我们的驾驭力——不是驾驭自然，而是驾驭我们自己。',
+        },
+        original: 'The human race is challenged more than ever before to demonstrate our mastery, not over nature but of ourselves.',
+        originalLang: 'en',
+        source: {
+          en: 'Silent Spring',
+          zh: '《寂静的春天》',
+        },
+        year: 1962,
+      },
     ],
   },
   {
@@ -1044,6 +1205,19 @@ export const scientistData: PersonData[] = [
           zh: '《科学自传及其他论文》',
         },
         year: 1949,
+      },
+      {
+        text: {
+          en: 'Anybody who has been seriously engaged in scientific work of any kind realizes that over the entrance to the gates of the temple of science are written the words: Ye must have faith. It is a quality which the scientist cannot dispense with.',
+          zh: '任何认真从事过科学工作的人都意识到，在科学殿堂的入口处写着这样的话：你必须有信仰。这是科学家不可或缺的品质。',
+        },
+        original: 'Wer es in der Wissenschaft zu etwas bringen will, muss über den Pforten des Tempels der Wissenschaft die Worte lesen: Du musst glauben. Es ist eine Eigenschaft, auf die der Forscher nicht verzichten kann.',
+        originalLang: 'de',
+        source: {
+          en: 'Where Is Science Going?',
+          zh: '《科学往何处去？》',
+        },
+        year: 1932,
       },
     ],
   },
@@ -1243,10 +1417,10 @@ export const scientistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'What Is Life?',
-          zh: '《生命是什么？》',
+          en: 'The Observer',
+          zh: '《观察家报》',
         },
-        year: 1944,
+        year: 1931,
       },
     ],
   },
@@ -1295,7 +1469,7 @@ export const scientistData: PersonData[] = [
   },
   {
     slug: 'john-von-neumann',
-    name: { en: 'John von Neumann', zh: '约翰·冯·诺依曼' },
+    name: { en: 'John von Neumann', zh: '约翰·冯·诺伊曼' },
     years: '1903–1957',
     nationality: { en: 'Hungarian-American', zh: '匈牙利裔美国人' },
     bio: {
@@ -1476,6 +1650,599 @@ export const scientistData: PersonData[] = [
         originalLang: 'fr',
         source: { en: 'Science and Method', zh: '\u300a\u79d1\u5b66\u4e0e\u65b9\u6cd5\u300b' },
         year: 1908,
+      },
+    ],
+  },
+  {
+    slug: 'eo-wilson',
+    name: { en: 'E.O. Wilson', zh: '爱德华·威尔逊' },
+    years: '1929–2021',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Biologist and naturalist who founded sociobiology, championed biodiversity conservation, and argued for the consilience of all knowledge — from the sciences to the humanities.',
+      zh: '生物学家与博物学家，创立了社会生物学，倡导生物多样性保护，并主张从自然科学到人文学科的知识大统一。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/E._O._Wilson',
+      zh: 'https://zh.wikipedia.org/wiki/爱德华·威尔逊',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions, and godlike technology. And it is terrifically dangerous, and it is now approaching a point of crisis overall.',
+          zh: '人类真正的问题是：我们拥有旧石器时代的情感、中世纪的制度和神一般的技术。这极其危险，而现在正逼近一个全面危机的临界点。',
+        },
+        originalLang: 'en',
+        source: { en: 'Debate at Harvard Museum of Natural History', zh: '哈佛自然历史博物馆辩论' },
+        year: 2009,
+      },
+      {
+        text: {
+          en: 'Destroying rainforest for economic gain is like burning a Renaissance painting to cook a meal.',
+          zh: '为了经济利益而毁灭雨林，就像烧掉一幅文艺复兴画作来做一顿饭。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Diversity of Life', zh: '《生命的多样性》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'The one process now going on that will take millions of years to correct is the loss of genetic and species diversity by the destruction of natural habitats. This is the folly our descendants are least likely to forgive us.',
+          zh: '当下正在发生的、需要数百万年才能纠正的唯一过程，是因自然栖息地遭到破坏而导致的基因和物种多样性的丧失。这是我们的后代最不可能原谅我们的愚行。',
+        },
+        originalLang: 'en',
+        source: { en: 'Biophilia', zh: '《亲生命性》' },
+        year: 1984,
+      },
+      {
+        text: {
+          en: 'The love of complexity without reductionism makes art; the love of complexity with reductionism makes science.',
+          zh: '对复杂性的热爱而不求还原，造就了艺术；对复杂性的热爱加上还原论，造就了科学。',
+        },
+        originalLang: 'en',
+        source: { en: 'Consilience: The Unity of Knowledge', zh: '《论契合：知识的统一》' },
+        year: 1998,
+      },
+      {
+        text: {
+          en: 'We are drowning in information, while starving for wisdom. The world henceforth will be run by synthesizers, people able to put together the right information at the right time, think critically about it, and make important choices wisely.',
+          zh: '我们淹没在信息中，却饥渴于智慧。从今往后，这个世界将由综合者来运转——那些能在正确的时间汇集正确的信息、批判性地思考并明智地做出重要选择的人。',
+        },
+        originalLang: 'en',
+        source: { en: 'Consilience: The Unity of Knowledge', zh: '《论契合：知识的统一》' },
+        year: 1998,
+      },
+      {
+        text: {
+          en: 'If all mankind were to disappear, the world would regenerate back to the rich state of equilibrium that existed ten thousand years ago. If insects were to vanish, the environment would collapse into chaos.',
+          zh: '如果全人类消失了，世界将恢复到一万年前丰富的平衡状态。但如果昆虫消失了，环境将陷入混乱。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Diversity of Life', zh: '《生命的多样性》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'You are capable of more than you know. Choose a goal that seems right for you and strive to be the best, however hard the path. Aim high. Behave honorably. Prepare to be alone at times, and to endure failure. The world needs all you can give.',
+          zh: '你的能力超乎你所知。选择一个你认为正确的目标，无论道路多么艰难，都要努力做到最好。志存高远。行为端正。准备好有时孤独前行，并承受失败。这个世界需要你所能给予的一切。',
+        },
+        originalLang: 'en',
+        source: { en: 'Letters to a Young Scientist', zh: '《致年轻科学家的信》' },
+        year: 2013,
+      },
+    ],
+  },
+  {
+    slug: 'freeman-dyson',
+    name: { en: 'Freeman Dyson', zh: '弗里曼·戴森' },
+    years: '1923–2020',
+    nationality: { en: 'British-American', zh: '英裔美国人' },
+    bio: {
+      en: 'Theoretical physicist and public intellectual who championed the diversity of life and ideas, questioned scientific orthodoxy, and envisioned the long-term future of intelligence in the cosmos.',
+      zh: '理论物理学家与公共知识分子，倡导生命与思想的多样性，质疑科学正统观念，构想了智能在宇宙中的长远未来。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Freeman_Dyson',
+      zh: 'https://zh.wikipedia.org/wiki/弗里曼·戴森',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The more I examine the universe and study the details of its architecture, the more evidence I find that the universe in some sense must have known we were coming.',
+          zh: '我越是审视宇宙、研究其结构的细节，就越是发现证据表明：宇宙在某种意义上一定知道我们要来。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disturbing the Universe', zh: '宇宙波澜' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'It is better to be wrong than to be vague. A theory that is precise enough to be wrong is far more useful than one so flexible it can accommodate any result.',
+          zh: '宁可犯错，也不要含糊。一个精确到可以被证伪的理论，远比一个灵活到能容纳任何结果的理论有用得多。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'The glory of science is to imagine more than we can prove. The glory of art is to feel more than we can understand.',
+          zh: '科学的荣耀在于想象超越我们所能证明的。艺术的荣耀在于感受超越我们所能理解的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Infinite in All Directions', zh: '《无限的各个方向》' },
+        year: 1988,
+      },
+      {
+        text: {
+          en: 'You ask: what is the meaning or purpose of life? I can only answer with another question: do you think we are wise enough to read God\'s mind?',
+          zh: '你问：生命的意义或目的是什么？我只能以另一个问题来回答：你认为我们足够智慧去读懂上帝的心意吗？',
+        },
+        originalLang: 'en',
+        source: { en: 'Infinite in All Directions', zh: '《无限的各个方向》' },
+        year: 1988,
+      },
+      {
+        text: {
+          en: 'A good scientist is a person with original ideas. A good engineer is a person who makes a design that works with as few original ideas as possible. There are no prima donnas in engineering.',
+          zh: '好的科学家是有原创想法的人。好的工程师是能用尽可能少的原创想法做出可行设计的人。工程领域没有自命不凡的主角。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'Technology is a gift of God. After the gift of life it is perhaps the greatest of God\'s gifts. It is the mother of civilizations, of arts and of sciences.',
+          zh: '技术是上帝的恩赐。继生命之恩之后，它也许是上帝最伟大的恩赐。它是文明、艺术和科学之母。',
+        },
+        originalLang: 'en',
+        source: { en: 'Infinite in All Directions', zh: '《无限的各个方向》' },
+        year: 1988,
+      },
+      {
+        text: {
+          en: 'The bottom line for mathematicians is that the architecture has to be right. In all the mathematics that I did, the richness of discovery and the beauty of the solution depended on finding the right structure. Finding it is like finding a key that opens a door — suddenly everything falls into place.',
+          zh: '对数学家来说，底线是结构必须正确。在我所做的全部数学中，发现的丰富性和解法的优美都取决于找到正确的结构。找到它就像找到一把开门的钥匙——一切突然各就其位。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        year: 1979,
+      },
+    ],
+  },
+  {
+    slug: 'roger-penrose',
+    name: { en: 'Roger Penrose', zh: '罗杰·彭罗斯' },
+    years: '1931–',
+    nationality: { en: 'British', zh: '英国' },
+    bio: {
+      en: 'Mathematical physicist and Nobel laureate who explored the deepest connections between consciousness, computation, and the structure of physical reality, arguing that human understanding transcends algorithmic processes.',
+      zh: '数学物理学家与诺贝尔奖得主，探索意识、计算与物理现实结构之间最深层的联系，主张人类理解力超越算法过程。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Roger_Penrose',
+      zh: 'https://zh.wikipedia.org/wiki/罗杰·彭罗斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Intelligence cannot be present without understanding. No computer has any awareness of what it does.',
+          zh: '没有理解就不可能有智能。没有任何计算机对自己所做之事有任何觉察。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Emperor\'s New Mind', zh: '《皇帝新脑》' },
+        year: 1989,
+      },
+      {
+        text: {
+          en: 'There is something in the conscious act of understanding that eludes computation. Mathematical insight, the "Aha!" moment, is not the output of an algorithm — it is the recognition of truth that no formal system, by itself, can achieve.',
+          zh: '意识中的理解行为有某种东西是计算所无法捕捉的。数学洞察力——那个"顿悟"时刻——不是算法的输出，而是对真理的识别，这是任何形式系统本身都无法做到的。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Emperor\'s New Mind', zh: '《皇帝新脑》' },
+        year: 1989,
+      },
+      {
+        text: {
+          en: 'The world of mathematics is a Platonic reality every bit as genuine as the physical world we inhabit. Mathematical truths are not invented; they are discovered. They exist timelessly, whether or not anyone finds them.',
+          zh: '数学世界是一个柏拉图式的实在，与我们栖居的物理世界一样真实。数学真理不是发明的，而是发现的。它们超越时间地存在着，无论是否有人找到它们。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Road to Reality', zh: '《通往实在之路》' },
+        year: 2004,
+      },
+      {
+        text: {
+          en: 'It seems to me that we must make a distinction between what is computable and what is merely computational. The brain may use quantum-level processes that are not algorithmic, and consciousness may depend on physics that we do not yet understand.',
+          zh: '在我看来，我们必须区分可计算的和仅仅是计算性的。大脑可能使用非算法的量子层级过程，而意识可能依赖于我们尚未理解的物理学。',
+        },
+        originalLang: 'en',
+        source: { en: 'Shadows of the Mind', zh: '《心灵的阴影》' },
+        year: 1994,
+      },
+      {
+        text: {
+          en: 'Do I dare to say that there are three worlds — physical, mental, and Platonic-mathematical — and that each seems to emerge mysteriously from one of the others?',
+          zh: '我敢说存在三个世界——物理的、心灵的、柏拉图数学的——而每一个似乎都神秘地从另一个中涌现出来？',
+        },
+        originalLang: 'en',
+        source: { en: 'The Road to Reality', zh: '《通往实在之路》' },
+        year: 2004,
+      },
+    ],
+  },
+  {
+    slug: 'david-bohm',
+    name: { en: 'David Bohm', zh: '戴维·玻姆' },
+    years: '1917–1992',
+    nationality: { en: 'American-British', zh: '美裔英国人' },
+    bio: {
+      en: 'Theoretical physicist and philosopher who proposed the implicate order as the deep structure of reality, and argued that thought itself is a systemic process whose fragmentation is the root of human conflict.',
+      zh: '理论物理学家与哲学家，提出隐序作为实在的深层结构，认为思维本身是一种系统性过程，其碎片化是人类冲突的根源。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/David_Bohm',
+      zh: 'https://zh.wikipedia.org/wiki/戴维·玻姆',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'In some sense man is a microcosm of the universe; therefore what man is, is a clue to the universe. We are enfolded in the universe.',
+          zh: '在某种意义上，人是宇宙的缩影；因此人之所是，就是通向宇宙的线索。我们被卷入宇宙之中。',
+        },
+        originalLang: 'en',
+        source: { en: 'Wholeness and the Implicate Order', zh: '《整体性与隐缠序》' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'Thought is a system. That system not only includes thoughts, feelings, and the state of the body; it includes the state of the entire society. It is essential for human beings to perceive this, because the fragmentation of thought is the root of our incoherence.',
+          zh: '思维是一个系统。这个系统不仅包括思想、感受和身体状态，也包括整个社会的状态。人类必须认识到这一点，因为思维的碎片化是我们不连贯性的根源。',
+        },
+        originalLang: 'en',
+        source: { en: 'Thought as a System', zh: '《作为系统的思维》' },
+        year: 1992,
+      },
+      {
+        text: {
+          en: 'The ability to perceive or think differently is more important than the knowledge gained.',
+          zh: '以不同方式感知或思考的能力，比获得的知识更重要。',
+        },
+        originalLang: 'en',
+        source: { en: 'On Dialogue', zh: '《论对话》' },
+        year: 1996,
+      },
+      {
+        text: {
+          en: 'In the implicate order, everything is enfolded into everything. The entire universe is in some way enfolded in each part, and each part is enfolded in the whole. This is the fundamental new feature of the implicate order.',
+          zh: '在隐缠序中，一切都卷入一切之中。整个宇宙以某种方式卷入每一部分，而每一部分也卷入整体。这是隐缠序根本性的新特征。',
+        },
+        originalLang: 'en',
+        source: { en: 'Wholeness and the Implicate Order', zh: '《整体性与隐缠序》' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'We must learn to view the world as an undivided whole. The notion that all these fragments are separately existent is evidently an illusion, and this illusion cannot do other than lead to endless conflict and confusion.',
+          zh: '我们必须学会把世界视为一个不可分割的整体。认为所有这些碎片各自独立存在的观念显然是一种幻觉，而这种幻觉只能导致无尽的冲突与混乱。',
+        },
+        originalLang: 'en',
+        source: { en: 'Wholeness and the Implicate Order', zh: '《整体性与隐缠序》' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'Dialogue is really aimed at going into the whole thought process, and changing the way the thought process occurs collectively. We haven\'t really paid much attention to thought as a process. We have engaged in thoughts, but we have only paid attention to the content, not to the process.',
+          zh: '对话的真正目标是深入整个思维过程，改变思维过程在集体中发生的方式。我们并未真正关注作为过程的思维。我们一直在从事思考，但只关注了内容，而非过程本身。',
+        },
+        originalLang: 'en',
+        source: { en: 'On Dialogue', zh: '《论对话》' },
+        year: 1996,
+      },
+      {
+        text: {
+          en: 'If we can really understand the problem, the answer will come out of it, because the answer is not separate from the problem.',
+          zh: '如果我们能真正理解问题，答案就会从中浮现，因为答案并不独立于问题之外。',
+        },
+        originalLang: 'en',
+        source: { en: 'Thought as a System', zh: '《作为系统的思维》' },
+        year: 1992,
+      },
+    ],
+  },
+  {
+    slug: 'barbara-mcclintock',
+    name: { en: 'Barbara McClintock', zh: '巴巴拉·麦克林托克' },
+    years: '1902–1992',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Cytogeneticist and Nobel laureate who discovered genetic transposition, vindicated decades later after persistent resistance from the scientific establishment, exemplifying the virtues of patience and deep attention in scientific inquiry.',
+      zh: '细胞遗传学家与诺贝尔奖得主，发现了基因转座现象，在科学界的持久抵制数十年后终获承认，体现了科学探究中耐心与深度专注的美德。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Barbara_McClintock',
+      zh: 'https://zh.wikipedia.org/wiki/巴巴拉·麦克林托克',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'If you know you are on the right track, if you have this inner knowledge, then nobody can turn you off. No matter what they say.',
+          zh: '如果你知道自己走在正确的路上，如果你拥有这种内在的确信，那么没有人能让你偏离。无论他们说什么。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'I was just so interested in what I was doing I could hardly wait to get up in the morning and get at it. One of my friends, a geneticist, said I was a child, because only children can\'t wait to get up in the morning to get at what they want to do.',
+          zh: '我对自己正在做的事情如此感兴趣，几乎迫不及待地想每天早晨起来继续。我的一位遗传学家朋友说我像个孩子，因为只有孩子才会迫不及待地早起去做他们想做的事。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'You have to have a feeling for the organism. You have to understand how it grows, understand its parts, understand when something is going wrong with it. You need to have a feeling for every individual plant.',
+          zh: '你必须对有机体有一种感觉。你必须理解它如何生长，理解它的各个部分，理解何时出了问题。你需要对每一株植物都有一种感觉。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'When you suddenly see the problem, something happens that you have the answer — before you are able to put it into words. It is all done subconsciously. This has happened too many times to me, and I know when to trust it.',
+          zh: '当你突然看到问题时，某些事情发生了——你有了答案，在你能用语言表述之前。这一切都在潜意识中完成。这种情况在我身上发生了太多次，我知道何时该信任它。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'I found that the more I worked with the chromosomes, the bigger and bigger they got, and when I was really working with them I wasn\'t outside, I was down there. I was part of the system.',
+          zh: '我发现和染色体打交道越多，它们在我眼中就变得越来越大，当我真正投入其中时，我不是在外面，我在里面。我是系统的一部分。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+      {
+        text: {
+          en: 'No two plants are exactly alike. They aren\'t, they just aren\'t, and I know every one of them. I start with the seedling, and I don\'t want to leave it. I don\'t feel I really know the story if I don\'t watch the plant all the way along.',
+          zh: '没有两株植物是完全一样的。它们不是，它们就是不一样，而我认识其中的每一株。我从幼苗开始，就不想离开它。如果不一路看着这株植物，我就不觉得自己真正了解了故事。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Feeling for the Organism (Evelyn Fox Keller)', zh: '《对有机体的感觉》（伊芙琳·福克斯·凯勒著）' },
+        year: 1983,
+      },
+    ],
+  },
+  {
+    slug: 'j-robert-oppenheimer',
+    name: { en: 'J. Robert Oppenheimer', zh: 'J·罗伯特·奥本海默' },
+    years: '1904–1967',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Theoretical physicist who led the Manhattan Project and spent the rest of his life grappling with the moral consequences of scientific knowledge and the physicist\'s responsibility to humanity.',
+      zh: '理论物理学家，领导了曼哈顿计划，余生都在与科学知识的道德后果以及物理学家对人类的责任作斗争。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/J._Robert_Oppenheimer',
+      zh: 'https://zh.wikipedia.org/wiki/罗伯特·奥本海默',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Now I am become Death, the destroyer of worlds.',
+          zh: '现在我成了死神，世界的毁灭者。',
+        },
+        originalLang: 'en',
+        source: { en: 'Recalling the Bhagavad Gita after the Trinity test', zh: '三位一体核试验后引用《薄伽梵歌》' },
+        year: 1945,
+      },
+      {
+        text: {
+          en: 'The physicists have known sin; and this is a knowledge which they cannot lose.',
+          zh: '物理学家们已经知道了罪；这是他们无法失去的知识。',
+        },
+        originalLang: 'en',
+        source: { en: 'Lecture at MIT', zh: '麻省理工学院演讲' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'In some sort of crude sense, which no vulgarity, no humor, no overstatement can quite extinguish, the physicists have known sin; and this is a knowledge which they cannot lose.',
+          zh: '在某种粗略的意义上——任何粗俗、幽默或夸张都无法完全消除——物理学家们已经知道了罪；这是他们无法失去的知识。',
+        },
+        originalLang: 'en',
+        source: { en: 'Physics in the Contemporary World, MIT lecture', zh: '《当代世界的物理学》，麻省理工学院演讲' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'There must be no barriers to freedom of inquiry. There is no place for dogma in science. The scientist is free, and must be free to ask any question, to doubt any assertion, to seek for any evidence, to correct any errors.',
+          zh: '探究自由不应有任何障碍。科学中没有教条的位置。科学家是自由的，也必须自由地提出任何问题，质疑任何断言，寻求任何证据，纠正任何错误。',
+        },
+        originalLang: 'en',
+        source: { en: 'Science and the Common Understanding', zh: '《科学与共识》' },
+        year: 1954,
+      },
+      {
+        text: {
+          en: 'The open society, the unrestricted access to knowledge, the unplanned and uninhibited association of men for its furtherance — these are what may make a vast, complex, ever growing, ever changing, ever more specialized and expert technological world, nevertheless a world of human community.',
+          zh: '开放的社会、不受限制的知识获取、人们为推进知识而进行的自发而无拘束的结合——这些可以使一个庞大、复杂、不断增长、不断变化、日益专业化的技术世界，仍然是一个人类共同体的世界。',
+        },
+        originalLang: 'en',
+        source: { en: 'Science and the Common Understanding', zh: '《科学与共识》' },
+        year: 1954,
+      },
+      {
+        text: {
+          en: 'Both the man of science and the man of action live always at the edge of mystery, surrounded by it. Both always must have the sense of being lost, in order to find.',
+          zh: '科学之人和行动之人都永远生活在神秘的边缘，被神秘所包围。为了发现，两者都必须始终保持迷失感。',
+        },
+        originalLang: 'en',
+        source: { en: 'Quoted in Bulletin of the Atomic Scientists', zh: '引自《原子科学家公报》' },
+        year: 1955,
+      },
+    ],
+  },
+  {
+    slug: 'thomas-kuhn',
+    name: { en: 'Thomas Kuhn', zh: '托马斯·库恩' },
+    years: '1922–1996',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'Philosopher and historian of science whose theory of paradigm shifts revolutionized our understanding of how scientific knowledge advances — not by smooth accumulation, but through revolutionary ruptures.',
+      zh: '科学哲学家与科学史学家，其范式转换理论彻底改变了人们对科学知识如何进步的理解——不是通过平滑的积累，而是通过革命性的断裂。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Thomas_Kuhn',
+      zh: 'https://zh.wikipedia.org/wiki/托马斯·库恩',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Normal science, the activity in which most scientists inevitably spend almost all their time, is predicated on the assumption that the scientific community knows what the world is like. Normal science often suppresses fundamental novelties because they are necessarily subversive of its basic commitments.',
+          zh: '常规科学——大多数科学家不可避免地把几乎全部时间花在上面的活动——建立在一个假设之上：科学共同体知道世界是什么样的。常规科学常常压制根本性的新发现，因为它们必然颠覆其基本承诺。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'The transfer of allegiance from paradigm to paradigm is a conversion experience that cannot be forced. Lifelong resistance, particularly from those whose productive careers have committed them to an older tradition, is not a violation of scientific standards but an index to the nature of scientific research itself.',
+          zh: '从一个范式到另一个范式的效忠转移是一种无法强迫的皈依体验。终身的抵抗——尤其来自那些生产性的职业已将他们绑定在旧传统上的人——并非违反科学标准，而是科学研究本质的一个指标。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'Under normal conditions the research scientist is not an innovator but a solver of puzzles, and the puzzles upon which he concentrates are just those which he believes can be both stated and solved within the existing scientific tradition.',
+          zh: '在正常条件下，研究科学家不是创新者，而是解谜者，而他集中精力的谜题恰恰是那些他相信可以在现有科学传统内被提出和解决的谜题。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'The historian of science may be tempted to exclaim that when paradigms change, the world itself changes with them. Led by a new paradigm, scientists adopt new instruments and look in new places. Even more important, during revolutions scientists see new and different things when looking with familiar instruments in places they have looked before.',
+          zh: '科学史家可能忍不住要说：当范式改变时，世界本身也随之改变。在新范式的引领下，科学家采用新的工具，去新的地方探索。更重要的是，在革命期间，科学家用熟悉的工具在曾经探索过的地方看到了新的、不同的东西。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'In learning a paradigm the scientist acquires theory, methods, and standards together, usually in an inextricable mixture. Therefore, when paradigms change, there are usually significant shifts in the criteria determining the legitimacy both of problems and of proposed solutions.',
+          zh: '在学习一个范式时，科学家同时获得理论、方法和标准，通常以不可分割的混合形式。因此，当范式改变时，决定问题和拟议解决方案合法性的标准通常也会发生重大转变。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'Successive transition from one paradigm to another via revolution is the usual developmental pattern of mature science.',
+          zh: '通过革命从一个范式向另一个范式的逐次转换，是成熟科学通常的发展模式。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'Novelty emerges only with difficulty, manifested by resistance, against a background provided by expectation. Initially, only the anticipated and usual are experienced even under circumstances where the anomalous will later be observed.',
+          zh: '新颖之物只有在困难中才能涌现，表现为抵抗，以预期为背景。最初，即使在后来会被观察到异常的情况下，人们所经历的也只有预期中的和寻常的。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Structure of Scientific Revolutions', zh: '《科学革命的结构》' },
+        year: 1962,
+      },
+    ],
+  },
+  {
+    slug: 'ilya-prigogine',
+    name: { en: 'Ilya Prigogine', zh: '伊利亚·普里戈金' },
+    years: '1917–2003',
+    nationality: { en: 'Belgian', zh: '比利时' },
+    bio: {
+      en: 'Physical chemist and Nobel laureate who discovered dissipative structures and argued that irreversibility and chance are not defects of classical science but fundamental features of nature that give rise to order, complexity, and life.',
+      zh: '物理化学家与诺贝尔奖得主，发现了耗散结构，认为不可逆性和偶然性不是经典科学的缺陷，而是自然界产生秩序、复杂性和生命的根本特征。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Ilya_Prigogine',
+      zh: 'https://zh.wikipedia.org/wiki/伊利亚·普里高津',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The future is uncertain — but this uncertainty is at the very heart of human creativity. The possible is richer than the real.',
+          zh: '未来是不确定的——但这种不确定性正是人类创造力的核心。可能性比现实更丰富。',
+        },
+        original: 'Le possible est plus riche que le réel.',
+        originalLang: 'fr',
+        source: { en: 'The End of Certainty', zh: '《确定性的终结》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'We are living in a world of self-organization. Far from equilibrium, matter acquires new properties — properties that are not contained in the laws governing individual particles. Organization, complexity, and life itself emerge from disorder through irreversible processes.',
+          zh: '我们生活在一个自组织的世界中。在远离平衡态的条件下，物质获得了新的性质——这些性质并不包含在支配个体粒子的定律中。组织、复杂性和生命本身通过不可逆过程从无序中涌现。',
+        },
+        original: 'Loin de l\'équilibre, la matière acquiert des propriétés nouvelles.',
+        originalLang: 'fr',
+        source: { en: 'Order Out of Chaos', zh: '《从混沌到有序》' },
+        year: 1984,
+      },
+      {
+        text: {
+          en: 'The arrow of time is the manifestation of the fact that the future is not given, that — as the French poet Paul Valéry emphasized — "time is construction."',
+          zh: '时间之箭是这一事实的表现：未来并非给定的——正如法国诗人保罗·瓦莱里所强调的，"时间就是建造。"',
+        },
+        original: 'La flèche du temps est la manifestation du fait que l\'avenir n\'est pas donné.',
+        originalLang: 'fr',
+        source: { en: 'The End of Certainty', zh: '《确定性的终结》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'Classical science emphasized order and stability; now we see fluctuations, instability, multiple choices, and limited predictability at all levels of observation. Ideas of disorder, of instability, once felt to be the negation of science, now form the very backbone of our understanding.',
+          zh: '经典科学强调秩序与稳定；现在我们在所有观测层面看到涨落、不稳定、多重选择和有限可预测性。曾被认为是科学之否定的无序和不稳定观念，如今构成了我们理解的核心骨架。',
+        },
+        original: 'La science classique mettait l\'accent sur l\'ordre et la stabilité ; nous voyons maintenant les fluctuations et l\'instabilité à tous les niveaux.',
+        originalLang: 'fr',
+        source: { en: 'Order Out of Chaos', zh: '《从混沌到有序》' },
+        year: 1984,
+      },
+      {
+        text: {
+          en: 'Entropy is not merely a quantity describing loss — it is the driving force of structure and creativity in the universe. Without irreversibility, there would be no life, no evolution, no history.',
+          zh: '熵不仅仅是描述损失的量——它是宇宙中结构和创造力的驱动力。没有不可逆性，就没有生命，没有进化，没有历史。',
+        },
+        original: 'L\'entropie n\'est pas seulement une perte — elle est le moteur de la créativité.',
+        originalLang: 'fr',
+        source: { en: 'The End of Certainty', zh: '《确定性的终结》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'We can no longer accept the old a priori distinction between scientific and ethical values. The scientific picture of the world that takes shape in our understanding can no longer be detached from the question of what it means to be human.',
+          zh: '我们不能再接受科学价值与伦理价值之间旧有的先验区分。在我们理解中成形的科学世界图景，再也不能与"何为人"这一问题相分离。',
+        },
+        original: 'Nous ne pouvons plus accepter la vieille distinction a priori entre valeurs scientifiques et valeurs éthiques.',
+        originalLang: 'fr',
+        source: { en: 'Order Out of Chaos', zh: '《从混沌到有序》' },
+        year: 1984,
       },
     ],
   },

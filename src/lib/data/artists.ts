@@ -134,6 +134,25 @@ export const artistData: PersonData[] = [
         source: { en: 'Letter to Theo van Gogh, 1888', zh: '致提奥·梵高的信，1888年' },
         year: 1888,
       },
+      {
+        text: {
+          en: 'Instead of trying to reproduce exactly what I see before me, I make more arbitrary use of color to express myself more forcefully.',
+          zh: '我不再试图精确地再现眼前所见，而是更随意地运用色彩来更有力地表达自我。',
+        },
+        originalLang: 'en',
+        source: { en: 'Letter to Theo van Gogh, August 1888', zh: '致提奥·梵高的信，1888年8月' },
+        year: 1888,
+      },
+      {
+        text: {
+          en: 'I long so much to make beautiful things. But beautiful things require effort — and disappointment and perseverance.',
+          zh: '我如此渴望创造美好的事物。然而美好的事物需要付出努力——以及失望和坚持。',
+        },
+        original: 'Ik verlang er zo naar mooie dingen te maken. Maar mooie dingen vragen inspanning — en teleurstelling en volharding.',
+        originalLang: 'nl',
+        source: { en: 'Letter to Theo van Gogh, 1882', zh: '致提奥·梵高的信，1882年' },
+        year: 1882,
+      },
     ],
   },
   {
@@ -550,6 +569,29 @@ export const artistData: PersonData[] = [
           zh: '引自现代艺术博物馆展览资料',
         },
       },
+      {
+        text: {
+          en: 'In my sculpture, it\'s not an image I am seeking, it\'s not an idea. My goal is to re-live a past emotion. My art is an exorcism, and beauty is something I never talk about.',
+          zh: '在我的雕塑中，我寻求的不是图像，也不是观念。我的目标是重新经历过去的情感。我的艺术是一种驱魔仪式，而美是我从不谈论的东西。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Destruction of the Father / Reconstruction of the Father: Writings and Interviews 1923–1997',
+          zh: '《父亲的毁灭 / 父亲的重建：文集与访谈 1923–1997》',
+        },
+        year: 1998,
+      },
+      {
+        text: {
+          en: 'You are born alone. You die alone. The value of the space in between is trust and love.',
+          zh: '你孤独地出生。你孤独地死去。中间那段空间的价值在于信任与爱。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Quoted in Louise Bourgeois: The Fabric Works',
+          zh: '引自《路易丝·布尔乔亚：织物作品》',
+        },
+      },
     ],
   },
   {
@@ -589,7 +631,7 @@ export const artistData: PersonData[] = [
         originalLocale: 'en',
         source: {
           en: 'Edward Hopper, "Statements by Four Artists," Reality, Spring 1953',
-          zh: '爱德华·霍珀，《四位艺术家的声明》，《现实》杂志，1953年春',
+          zh: '爱德华·霍普，《四位艺术家的声明》，《现实》杂志，1953年春',
         },
         year: 1953,
       },
@@ -619,7 +661,7 @@ export const artistData: PersonData[] = [
         originalLocale: 'en',
         source: {
           en: 'Attributed, quoted in Klimt scholarship',
-          zh: '广泛引用于克里姆特研究文献',
+          zh: '广泛引用于克林姆研究文献',
         },
       },
       {
@@ -903,7 +945,7 @@ export const artistData: PersonData[] = [
         originalLocale: 'en',
         source: {
           en: 'Keith Haring Journals, 1996 (posthumous)',
-          zh: '《基思·哈林日记》，1996年（遗著）',
+          zh: '《凯斯·哈林日记》，1996年（遗著）',
         },
       },
       {
@@ -916,7 +958,7 @@ export const artistData: PersonData[] = [
         originalLocale: 'en',
         source: {
           en: 'Keith Haring Journals',
-          zh: '《基思·哈林日记》',
+          zh: '《凯斯·哈林日记》',
         },
       },
     ],
@@ -957,6 +999,29 @@ export const artistData: PersonData[] = [
         original: 'Art is the concrete representation of our most subtle feelings.',
         originalLang: 'en',
         originalLocale: 'en',
+        source: {
+          en: 'Writings / Schriften',
+          zh: '《文集》',
+        },
+      },
+      {
+        text: {
+          en: 'When I think of art I think of beauty. Beauty is the mystery of life. It is not in the eye it is in the mind. In our minds there is awareness of perfection.',
+          zh: '当我想到艺术时，我想到的是美。美是生命的奥秘。它不在眼中，而在心中。在我们的心灵里，有对完美的觉知。',
+        },
+        originalLang: 'en',
+        source: {
+          en: '"Beauty Is the Mystery of Life," lecture, 1989',
+          zh: '《美是生命的奥秘》，演讲，1989年',
+        },
+        year: 1989,
+      },
+      {
+        text: {
+          en: 'My paintings are not about what is seen. They are about what is known forever in the mind.',
+          zh: '我的画不是关于所见之物。它们关于的是心灵中永恒所知之物。',
+        },
+        originalLang: 'en',
         source: {
           en: 'Writings / Schriften',
           zh: '《文集》',
@@ -1004,6 +1069,17 @@ export const artistData: PersonData[] = [
           zh: '《穿越墙壁：回忆录》，2016年',
         },
         year: 2016,
+      },
+      {
+        text: {
+          en: 'Danger is important because it brings time to the point of the here and now, to the present. To stop time, to just be in the present, you have to be in an extreme, dangerous situation. That\'s why I stage situations where I have to do some dangerous things — so that the public and I are in the space at the same time.',
+          zh: '危险之所以重要，是因为它将时间凝聚到此时此地，凝聚到当下。要停止时间，要仅仅处于当下，你必须处于一种极端的、危险的情境中。这就是为什么我设置必须做危险之事的情境——这样公众和我同时处于同一空间中。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'Interview, quoted in Tate exhibition materials',
+          zh: '采访，引自泰特美术馆展览资料',
+        },
       },
     ],
   },
@@ -1291,6 +1367,16 @@ export const artistData: PersonData[] = [
         },
         year: 1920,
       },
+      {
+        text: {
+          en: 'Colour has taken hold of me; no longer do I have to chase after it. I know that it has hold of me for ever. That is the significance of this happy moment: colour and I are one. I am a painter.',
+          zh: '色彩已经攫住了我；我不必再追逐它。我知道它已经永远地攫住了我。这就是这个幸福时刻的意义：色彩与我合一。我是画家。',
+        },
+        original: 'Die Farbe hat mich. Ich brauche nicht nach ihr zu haschen. Sie hat mich für immer. Das ist der glücklichen Stunde Sinn: ich und die Farbe sind eins. Ich bin Maler.',
+        originalLang: 'de',
+        source: { en: 'Diary entry, Tunis, April 1914', zh: '日记，突尼斯，1914年4月' },
+        year: 1914,
+      },
     ],
   },
   {
@@ -1360,6 +1446,18 @@ export const artistData: PersonData[] = [
           en: 'Quoted in Mark Rothko, Writings on Art, edited by Miguel López-Remiro',
           zh: '引自米格尔·洛佩斯-雷米罗编《马克·罗斯科论艺术》',
         },
+      },
+      {
+        text: {
+          en: 'It is the poet and philosopher who provide the community of objectives in which the artist participates. Their chief preoccupation, like the artist, is the expression in concrete form of their notions of reality. Like him, they deal with the verities of time and space, life and death, and the heights of exaltation as well as the depths of despair.',
+          zh: '是诗人和哲学家提供了艺术家所参与的目标共同体。他们的主要关切，如同艺术家一样，是将各自对现实的观念以具体形式表达出来。和艺术家一样，他们处理的是时间与空间、生与死的真理，以及狂喜的高峰与绝望的深渊。',
+        },
+        originalLang: 'en',
+        source: {
+          en: 'The Artist\'s Reality: Philosophies of Art',
+          zh: '《艺术家的现实：艺术哲学》',
+        },
+        year: 1940,
       },
     ],
   },
@@ -1504,6 +1602,16 @@ export const artistData: PersonData[] = [
         source: { en: 'Notebooks', zh: '《笔记》' },
         year: 1510,
       },
+      {
+        text: {
+          en: 'The painter has the universe in his mind and hands.',
+          zh: '画家的心与手中拥有整个宇宙。',
+        },
+        original: 'Il pittore ha l\'universo nella sua mente e nelle sue mani.',
+        originalLang: 'it',
+        source: { en: 'Treatise on Painting', zh: '《论绘画》' },
+        year: 1651,
+      },
     ],
   },
   {
@@ -1548,6 +1656,202 @@ export const artistData: PersonData[] = [
         originalLang: 'ja',
         source: { en: 'Postscript to One Hundred Views of Mount Fuji', zh: '《富岳百景》跋' },
         year: 1834,
+      },
+    ],
+  },
+  {
+    slug: 'anselm-kiefer',
+    name: { en: 'Anselm Kiefer', zh: '安塞尔姆·基弗' },
+    years: '1945–',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German painter and sculptor whose monumental, material-encrusted canvases confront the ruins of German history, the weight of mythology, and art as a means of confrontation with catastrophe rather than consolation.',
+      zh: '德国画家与雕塑家，以纪念碑式的、材料堆叠的画布直面德国历史的废墟、神话的重量，将艺术视为面对灾难的手段而非慰藉。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Anselm_Kiefer',
+      zh: 'https://zh.wikipedia.org/wiki/安塞尔姆·基弗',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Art does not reproduce the visible. It makes visible the wound. Every painting I make is an excavation — I dig through layers of ash, lead, and straw to reach something that Germany buried but that refuses to stay underground.',
+          zh: '艺术不是再现可见之物。它使伤口可见。我的每一幅画都是一次发掘——我穿过灰烬、铅和稻草的层层堆积，去触及德国埋葬了却拒绝安眠于地下的东西。',
+        },
+        original: 'Kunst reproduziert nicht das Sichtbare. Sie macht die Wunde sichtbar.',
+        originalLang: 'de',
+        source: { en: 'Interview with art critic Werner Spies', zh: '与艺术评论家维尔纳·施皮斯的访谈' },
+      },
+      {
+        text: {
+          en: 'I use lead because lead is the material of melancholy, of Saturn, of the alchemists who tried to turn base matter into gold. My work reverses the process: I turn the gold of history into its true substance — ashes, rubble, the residue of what was burned.',
+          zh: '我使用铅，因为铅是忧郁的材料、土星的材料、试图将贱金属炼成黄金的炼金术士的材料。我的作品逆转了这个过程：我把历史的黄金变回其真正的物质——灰烬、瓦砾、被焚烧后的残余。',
+        },
+        original: 'Ich benutze Blei, weil Blei das Material der Melancholie ist, des Saturns, der Alchemisten.',
+        originalLang: 'de',
+        source: { en: 'Exhibition catalog, Royal Academy of Arts', zh: '皇家艺术学院展览图录' },
+        year: 2014,
+      },
+      {
+        text: {
+          en: 'Ruins are not the end of culture. They are its most honest form. A ruin tells the truth that a monument conceals: that everything built by human hands will be reclaimed by time, and that the grandest ambitions leave behind only rubble and silence.',
+          zh: '废墟不是文化的终点。它们是文化最诚实的形式。废墟说出了纪念碑所掩盖的真相：人手建造的一切终将被时间收回，最宏大的野心最终只留下瓦砾与沉默。',
+        },
+        original: 'Ruinen sind nicht das Ende der Kultur. Sie sind ihre ehrlichste Form.',
+        originalLang: 'de',
+        source: { en: 'Interview, Louisiana Museum of Modern Art', zh: '路易斯安那现代艺术博物馆访谈' },
+      },
+      {
+        text: {
+          en: 'You cannot paint a beautiful landscape in Germany. Every field is a graveyard, every forest a hiding place, every railway line a route to the camps. The landscape is contaminated — and it is this contamination that I paint.',
+          zh: '你不可能在德国画一幅美丽的风景。每一片田野都是坟场，每一座森林都是藏身之所，每一条铁路线都是通往集中营的路线。风景被污染了——而我画的正是这种污染。',
+        },
+        original: 'Man kann in Deutschland keine schöne Landschaft malen. Jedes Feld ist ein Friedhof.',
+        originalLang: 'de',
+        source: { en: 'Conversation with Daniel Arasse', zh: '与丹尼尔·阿拉斯的对话' },
+        year: 2001,
+      },
+      {
+        text: {
+          en: 'The book is the most important form in my work, more than painting. A book has layers — you turn a page and something is hidden, something is revealed. History works the same way. You think you have reached the truth, then you turn another page.',
+          zh: '书是我作品中最重要的形式，比绘画更重要。书有层次——你翻一页，有什么被隐藏，有什么被揭示。历史以同样的方式运作。你以为你已抵达真相，然后你又翻了一页。',
+        },
+        original: 'Das Buch ist die wichtigste Form in meinem Werk, wichtiger als die Malerei.',
+        originalLang: 'de',
+        source: { en: 'Artist\'s lecture, Collège de France', zh: '法兰西公学院艺术家讲座' },
+        year: 2010,
+      },
+    ],
+  },
+  {
+    slug: 'joseph-beuys',
+    name: { en: 'Joseph Beuys', zh: '约瑟夫·博伊斯' },
+    years: '1921–1986',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German artist and provocateur who expanded the definition of art to encompass social transformation, declaring that everyone is an artist and that creativity itself — "social sculpture" — is the fundamental force for reshaping society.',
+      zh: '德国艺术家与挑衅者，将艺术的定义扩展到社会变革领域，宣称人人都是艺术家，创造力本身——"社会雕塑"——是重塑社会的根本力量。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Joseph_Beuys',
+      zh: 'https://zh.wikipedia.org/wiki/约瑟夫·博伊斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Every human being is an artist. I don\'t mean that everyone should paint or sculpt — I mean that the creativity residing in every person is the real capital of society. When we recognize this, we transform not only art but the entire social organism.',
+          zh: '每个人都是艺术家。我不是说每个人都应该画画或雕刻——我是说存在于每个人身上的创造力才是社会真正的资本。当我们认识到这一点，我们改变的不仅是艺术，而是整个社会有机体。',
+        },
+        original: 'Jeder Mensch ist ein Künstler. Damit sage ich nicht, dass jeder malen oder bildhauern soll.',
+        originalLang: 'de',
+        source: { en: 'Energy Plan for the Western Man, lecture tour', zh: '《西方人的能量计划》巡回讲座' },
+        year: 1974,
+      },
+      {
+        text: {
+          en: 'The concept of social sculpture means that every decision, every conversation, every way of organizing work and distributing resources is an act of sculpting. Politics is sculpture. Economics is sculpture. Education is the highest form of art.',
+          zh: '社会雕塑的概念意味着每一个决定、每一次对话、每一种组织劳动和分配资源的方式都是一种雕塑行为。政治是雕塑。经济是雕塑。教育是艺术的最高形式。',
+        },
+        original: 'Der Begriff der sozialen Plastik bedeutet, dass jede Entscheidung, jedes Gespräch ein Akt des Gestaltens ist.',
+        originalLang: 'de',
+        source: { en: 'Documenta 6 speech', zh: '第六届卡塞尔文献展演讲' },
+        year: 1977,
+      },
+      {
+        text: {
+          en: 'I think the tree is an element of regeneration which in itself is a concept of time. The oak is especially so because it is a slowly growing tree with a kind of really solid heartwood. It has always been a form of sculpture, a symbol of this planet.',
+          zh: '我认为树是一种再生的元素，其本身就是一个时间的概念。橡树尤其如此，因为它是一种生长缓慢的树，有着一种真正坚实的心材。它一直是一种雕塑形式，是这颗星球的象征。',
+        },
+        original: 'Ich denke, der Baum ist ein Element der Regeneration, das in sich selbst ein Zeitbegriff ist.',
+        originalLang: 'de',
+        source: { en: '7000 Oaks project statement, Documenta 7', zh: '《7000棵橡树》项目说明，第七届卡塞尔文献展' },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'Fat and felt are not chosen for their aesthetic qualities. Fat stores energy and can be shaped when warm but holds its form when cold — it is a metaphor for human potential. Felt insulates and protects. These are the materials of survival, not of beauty.',
+          zh: '油脂和毛毡不是因其美学品质而被选择的。油脂储存能量，温热时可以塑形，冷却后保持形态——它是人类潜能的隐喻。毛毡隔热和保护。这些是生存的材料，不是美的材料。',
+        },
+        original: 'Fett und Filz sind nicht wegen ihrer ästhetischen Qualitäten gewählt.',
+        originalLang: 'de',
+        source: { en: 'Interview with Caroline Tisdall', zh: '与卡罗琳·蒂斯达尔的访谈' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'The silence of Marcel Duchamp is overrated. Duchamp\'s gesture of withdrawal was aristocratic — a refusal to engage with the world. I propose the opposite: total engagement. Art must enter the street, the factory, the parliament, the school.',
+          zh: '马塞尔·杜尚的沉默被过度评价了。杜尚退出的姿态是贵族式的——拒绝与世界打交道。我提出相反的主张：全面参与。艺术必须进入街道、工厂、议会、学校。',
+        },
+        original: 'Das Schweigen von Marcel Duchamp wird überbewertet.',
+        originalLang: 'de',
+        source: { en: 'Action piece and statement, Düsseldorf Academy', zh: '杜塞尔多夫学院行为作品与声明' },
+        year: 1964,
+      },
+    ],
+  },
+  {
+    slug: 'gerhard-richter',
+    name: { en: 'Gerhard Richter', zh: '格哈德·里希特' },
+    years: '1932–',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German painter whose restless oscillation between photorealism and abstraction, chronicled in The Daily Practice of Painting, embodies doubt as method — a lifelong interrogation of what painting can and cannot show.',
+      zh: '德国画家，在照相写实主义与抽象之间不安地摆荡，在《绘画的日常实践》中记录下来，将怀疑体现为方法——对绘画能与不能展示之物的终身追问。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Gerhard_Richter',
+      zh: 'https://zh.wikipedia.org/wiki/格哈德·里希特',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'I blur things to make everything equally important and equally unimportant. I blur things so that they do not look artistic or craftsmanlike but technological, smooth, and perfect. I blur things to make all the parts a closer fit. Perhaps I also blur out the excess of unimportant information.',
+          zh: '我模糊事物，使一切同等重要又同等不重要。我模糊事物，使它们看起来不是艺术的或手工的，而是技术的、光滑的、完美的。我模糊事物，使所有部分更紧密地契合。也许我也模糊掉了过多的无关紧要的信息。',
+        },
+        original: 'Ich verwische, um alles gleich zu machen, alles gleich wichtig und gleich unwichtig.',
+        originalLang: 'de',
+        source: { en: 'The Daily Practice of Painting: Writings and Interviews', zh: '《绘画的日常实践：著作与访谈》' },
+        year: 1964,
+      },
+      {
+        text: {
+          en: 'I have no motif, only motivation. I have no idea what my paintings are about — I only know what they are not about. They are not about anything that can be said in words, which is precisely why I paint them instead of writing them.',
+          zh: '我没有母题，只有动机。我不知道我的画是关于什么的——我只知道它们不是关于什么的。它们不关乎任何可以用言语说出的东西，这恰恰是我画它们而不是写它们的原因。',
+        },
+        original: 'Ich habe kein Motiv, nur Motivation.',
+        originalLang: 'de',
+        source: { en: 'The Daily Practice of Painting: Writings and Interviews', zh: '《绘画的日常实践：著作与访谈》' },
+        year: 1985,
+      },
+      {
+        text: {
+          en: 'Painting is the making of an analogy for something non-visual and incomprehensible: giving it form and bringing it within reach. And that is why good paintings are incomprehensible. The moment you can explain a painting, it has failed — it has become illustration.',
+          zh: '绘画是为某种非视觉的、不可理解的事物制作类比：赋予它形式，使它触手可及。这就是为什么好的画是不可理解的。你能解释一幅画的那一刻，它就失败了——它变成了插图。',
+        },
+        original: 'Malerei ist das Herstellen einer Analogie für etwas Nicht-Visuelles und Unbegreifliches.',
+        originalLang: 'de',
+        source: { en: 'Notes, 1982', zh: '笔记，1982年' },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'Art is the highest form of hope. I know this sounds sentimental, but I mean it in the most precise way: it is the evidence that human beings can create something that has no function, no purpose, no utility — and yet it matters more than almost anything that does.',
+          zh: '艺术是希望的最高形式。我知道这听起来感伤，但我以最精确的方式说这句话：它是人类能够创造出没有功能、没有目的、没有用处的东西的证据——然而它比几乎所有有用之物都更重要。',
+        },
+        original: 'Kunst ist die höchste Form der Hoffnung.',
+        originalLang: 'de',
+        source: { en: 'The Daily Practice of Painting: Writings and Interviews', zh: '《绘画的日常实践：著作与访谈》' },
+        year: 1982,
+      },
+      {
+        text: {
+          en: 'I pursue no objectives, no system, no tendency; I have no programme, no style, no direction. I have no time for specialized concerns, working themes, or variations that lead to mastery. I steer clear of definitions. I don\'t know what I want. I am inconsistent, non-committal, passive. I like the indefinite, the boundless.',
+          zh: '我不追求目标、体系或倾向；我没有纲领、风格或方向。我没有时间去研究专门的问题、创作主题或通向精通的变奏。我远离定义。我不知道我想要什么。我是不一致的、不承诺的、被动的。我喜欢不确定的、无边界的。',
+        },
+        original: 'Ich verfolge keine Absichten, kein System, keine Tendenz; ich habe kein Programm, keinen Stil, kein Anliegen.',
+        originalLang: 'de',
+        source: { en: 'The Daily Practice of Painting: Writings and Interviews', zh: '《绘画的日常实践：著作与访谈》' },
+        year: 1973,
       },
     ],
   },

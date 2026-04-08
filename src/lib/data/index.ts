@@ -15,6 +15,8 @@ import { filmmakerData } from './filmmakers';
 import { scientistData } from './scientists';
 import { psychologistData } from './psychologists';
 import { activistData } from './activists';
+import { historianData } from './historians';
+import { economistData } from './economists';
 import { cinemaData } from './cinema';
 
 export { categoryList, categories };
@@ -36,6 +38,8 @@ const categoryMap: Record<Category, PersonData[]> = {
   scientists: scientistData,
   psychologists: psychologistData,
   activists: activistData,
+  historians: historianData,
+  economists: economistData,
   cinema: cinemaData,
 };
 

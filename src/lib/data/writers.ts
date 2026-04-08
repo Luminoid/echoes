@@ -23,7 +23,7 @@ export const writerData: PersonData[] = [
         original: '우리가 책을 읽는 이유는 우리가 혼자가 아니라는 것을 알기 위해서다.',
         originalLang: 'ko',
         originalLocale: 'en',
-        source: { en: 'Run, Father', zh: '爸爸，快跑' },
+        source: { en: 'Run, Dad!', zh: '《奔跑吧，爸爸》' },
         year: 2005,
         comment: {
           en: 'This quote originates from the play/film Shadowlands (William Nicholson, 1985/1993), spoken by the character of C.S. Lewis. Its attribution to Kim Ae-ran is unverified.',
@@ -37,7 +37,7 @@ export const writerData: PersonData[] = [
         },
         original: '가난은 낭만적이지 않다. 그것은 지치고, 부끄럽고, 고립되는 것이다.',
         originalLang: 'ko',
-        source: { en: 'Run, Father', zh: '《奔跑吧，爸爸》' },
+        source: { en: 'Run, Dad!', zh: '《奔跑吧，爸爸》' },
         year: 2005,
       },
     ],
@@ -327,8 +327,8 @@ export const writerData: PersonData[] = [
         original: 'Nada se edifica sobre la piedra, todo sobre la arena, pero nuestro deber es edificar como si fuera piedra la arena.',
         originalLang: 'es',
         originalLocale: 'en',
-        source: { en: 'Fragments of an Apocryphal Gospel', zh: '伪经福音书残篇' },
-        year: 1960,
+        source: { en: 'In Praise of Darkness', zh: '《暗影颂》' },
+        year: 1969,
       },
       {
         text: {
@@ -340,6 +340,26 @@ export const writerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Interview, 1980', zh: '1980年访谈' },
         year: 1980,
+      },
+      {
+        text: {
+          en: 'A book is more than a verbal structure or series of verbal structures; it is the dialogue it establishes with its reader and the intonation it imposes upon his voice and the changing and durable images it leaves in his memory.',
+          zh: '一本书不只是一个语词结构或一系列语词结构；它是与读者建立的对话，是它赋予读者声音的语调，以及它留在读者记忆中那些变化而持久的意象。',
+        },
+        original: 'Un libro es m\u00e1s que una estructura verbal, o que una serie de estructuras verbales; es el di\u00e1logo que entabla con su lector y la entonaci\u00f3n que impone a su voz y las cambiantes y durables im\u00e1genes que deja en su memoria.',
+        originalLang: 'es',
+        source: { en: 'Prologues, with a Prologue of Prologues', zh: '序言集及序言的序言' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'To fall in love is to create a religion that has a fallible god.',
+          zh: '坠入爱河就是创造一种宗教，而其神灵是会犯错的。',
+        },
+        original: 'Enamorarse es crear una religi\u00f3n cuyo dios es falible.',
+        originalLang: 'es',
+        source: { en: 'The Meeting in a Dream', zh: '梦中相会' },
+        year: 1952,
       },
     ],
   },
@@ -467,6 +487,24 @@ export const writerData: PersonData[] = [
         source: { en: 'Modern Fiction', zh: '现代小说' },
         year: 1919,
       },
+      {
+        text: {
+          en: 'Let us not take it for granted that life exists more fully in what is commonly thought big than in what is commonly thought small.',
+          zh: '不要想当然地认为，生活在通常被认为重大的事物中比在通常被认为渺小的事物中更为充实。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Common Reader', zh: '普通读者' },
+        year: 1925,
+      },
+      {
+        text: {
+          en: 'The mind receives a myriad impressions \u2014 trivial, fantastic, evanescent, or engraved with the sharpness of steel. From all sides they come, an incessant shower of innumerable atoms.',
+          zh: '心灵接收到无数的印象\u2014\u2014琐碎的、奇异的、转瞬即逝的，或是以钢铁般的锐利镌刻的。它们从四面八方涌来，是无数原子的不断倾泻。',
+        },
+        originalLang: 'en',
+        source: { en: 'Modern Fiction', zh: '现代小说' },
+        year: 1919,
+      },
     ],
   },
   {
@@ -573,6 +611,26 @@ export const writerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Diaries', zh: '日记' },
         year: 1914,
+      },
+      {
+        text: {
+          en: 'You do not need to leave your room. Remain sitting at your table and listen. Do not even listen, simply wait. Do not even wait, be quite still and solitary. The world will freely offer itself to you to be unmasked; it has no choice; it will roll in ecstasy at your feet.',
+          zh: '你不必离开房间。留在桌前倾听。甚至不必倾听，只需等待。甚至不必等待，只需安静而孤独。世界会自行向你敞开面目；它别无选择；它会在你脚下狂喜地滚动。',
+        },
+        original: 'Du brauchst aus deinem Zimmer nicht zu gehen. Bleib an deinem Tisch und horche. Horche nicht einmal, warte nur. Warte nicht einmal, sei ganz still und allein. Die Welt wird sich dir zur Entlarvung anbieten, sie kann nicht anders, verz\u00fcckt wird sie sich vor dir winden.',
+        originalLang: 'de',
+        source: { en: 'The Zurau Aphorisms', zh: '策劳箴言' },
+        year: 1917,
+      },
+      {
+        text: {
+          en: 'The Messiah will come only when he is no longer necessary; he will come only on the day after his arrival; he will come, not on the last day, but on the very last.',
+          zh: '弥赛亚只有在不再被需要的时候才会到来；他只会在到达的次日来临；他来的不是最后一天，而是最最后的那天。',
+        },
+        original: 'Der Messias wird erst kommen, wenn er nicht mehr n\u00f6tig sein wird; er wird erst einen Tag nach seiner Ankunft kommen; er wird nicht am letzten Tag kommen, sondern am allerletzten.',
+        originalLang: 'de',
+        source: { en: 'The Zurau Aphorisms', zh: '策劳箴言' },
+        year: 1917,
       },
     ],
   },
@@ -734,7 +792,7 @@ export const writerData: PersonData[] = [
           en: 'Why Read the Classics?',
           zh: '为什么读经典',
         },
-        year: 1986,
+        year: 1991,
       },
       {
         text: {
@@ -872,6 +930,26 @@ export const writerData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Demons', zh: '群魔' },
         year: 1872,
+      },
+      {
+        text: {
+          en: 'Nothing in this world is harder than speaking the truth, nothing easier than flattery.',
+          zh: '在这个世界上，没有什么比说真话更难，也没有什么比奉承更容易。',
+        },
+        original: 'Ничего нет в мире труднее прямодушия, и ничего нет легче лести.',
+        originalLang: 'ru',
+        source: { en: 'Crime and Punishment', zh: '罪与罚' },
+        year: 1866,
+      },
+      {
+        text: {
+          en: 'Beauty is a terrible and awful thing. It is terrible because it has never been fathomed, for God sets us nothing but riddles.',
+          zh: '美是一件可怕而令人敬畏的事物。它之所以可怕，是因为它从未被看透，因为上帝给我们的只是谜。',
+        },
+        original: 'Красота — это страшная и ужасная вещь. Страшная, потому что неопределимая, а определить нельзя, потому что Бог задал одни загадки.',
+        originalLang: 'ru',
+        source: { en: 'The Brothers Karamazov', zh: '《卡拉马佐夫兄弟》' },
+        year: 1880,
       },
     ],
   },
@@ -1146,6 +1224,32 @@ export const writerData: PersonData[] = [
         },
         year: 1919,
       },
+      {
+        text: {
+          en: 'Every reader, as he reads, is actually the reader of himself. The writer\u2019s work is only a kind of optical instrument he provides the reader so he can discern what he might never have seen in himself without this book.',
+          zh: '每个读者在阅读时，其实是在阅读自己。作家的作品不过是一种光学仪器，他提供给读者，使读者得以辨识出没有这本书就可能永远无法在自身发现的东西。',
+        },
+        original: 'Chaque lecteur est, quand il lit, le propre lecteur de soi-m\u00eame. L\u2019ouvrage de l\u2019\u00e9crivain n\u2019est qu\u2019une esp\u00e8ce d\u2019instrument optique qu\u2019il offre au lecteur afin de lui permettre de discerner ce que sans ce livre il n\u2019e\u00fbt peut-\u00eatre pas vu en soi-m\u00eame.',
+        originalLang: 'fr',
+        source: {
+          en: 'In Search of Lost Time: Time Regained',
+          zh: '追忆似水年华：重现的时光',
+        },
+        year: 1927,
+      },
+      {
+        text: {
+          en: 'We do not receive wisdom; we must discover it for ourselves after a journey that no one can take for us or spare us.',
+          zh: '我们不是被赋予智慧的；我们必须在一段无人能替代也无人能免除的旅途之后，自己去发现它。',
+        },
+        original: 'On ne re\u00e7oit pas la sagesse, il faut la d\u00e9couvrir soi-m\u00eame apr\u00e8s un trajet que personne ne peut faire pour nous, ne peut nous \u00e9pargner.',
+        originalLang: 'fr',
+        source: {
+          en: 'In Search of Lost Time: Within a Budding Grove',
+          zh: '追忆似水年华：在少女们身旁',
+        },
+        year: 1919,
+      },
     ],
   },
   {
@@ -1287,6 +1391,33 @@ export const writerData: PersonData[] = [
           zh: '《卫报》访谈',
         },
         year: 1992,
+      },
+      {
+        text: {
+          en: 'The function of freedom is to free someone else.',
+          zh: '自由的功能就是去解放他人。',
+        },
+        originalLang: 'en',
+        source: { en: 'Barnard College Commencement Address', zh: '巴纳德学院毕业典礼演讲' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'There is no time for despair, no place for self-pity, no need for silence, no room for fear. We speak, we write, we do language. That is how civilizations heal.',
+          zh: '没有时间绝望，没有地方自怜，不需要沉默，没有空间恐惧。我们说，我们写，我们运用语言。文明就是这样愈合的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Tribute to Chinua Achebe', zh: '致钦努阿·阿契贝的悼词' },
+        year: 2015,
+      },
+      {
+        text: {
+          en: 'All water has a perfect memory and is forever trying to get back to where it was.',
+          zh: '所有的水都有完美的记忆，永远试图回到它曾经所在的地方。',
+        },
+        originalLang: 'en',
+        source: { en: '"The Site of Memory"', zh: '《记忆之所》' },
+        year: 1987,
       },
     ],
   },
@@ -1828,6 +1959,28 @@ export const writerData: PersonData[] = [
         originalLocale: 'zh',
         source: { en: 'In Memory of Miss Liu Hezhen', zh: '记念刘和珍君' },
         year: 1926,
+      },
+      {
+        text: {
+          en: 'I felt I must have changed a great deal. Of old when I saw moonlight of this quality, or the sea, I would have been moved to write; but all I feel now is that they are merely fine moonlight and a fine sea.',
+          zh: '我自己也觉得确乎是变了。以前看到好月光或者海，便要写；如今觉得不过是好月色和好海罢了。',
+        },
+        original: '我自己也觉得确乎是变了。以前看到好月光或者海，便要写；如今觉得不过是好月色和好海罢了。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Preface to Call to Arms', zh: '《呐喊》自序' },
+        year: 1922,
+      },
+      {
+        text: {
+          en: 'What is a road? It is trampled out from where there was no road, it is hacked out from where there were only brambles.',
+          zh: '什么是路？就是从没路的地方践踏出来的，从只有荆棘的地方开辟出来的。',
+        },
+        original: '什么是路？就是从没路的地方践踏出来的，从只有荆棘的地方开辟出来的。',
+        originalLang: 'zh',
+        originalLocale: 'zh',
+        source: { en: 'Random Thoughts (No. 66)', zh: '随感录六十六' },
+        year: 1919,
       },
     ],
   },
@@ -2565,6 +2718,790 @@ export const writerData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'Strong Opinions', zh: '《固执己见》' },
         year: 1973,
+      },
+    ],
+  },
+  {
+    slug: 'thomas-mann',
+    name: { en: 'Thomas Mann', zh: '托马斯·曼' },
+    years: '1875–1955',
+    nationality: { en: 'German', zh: '德国' },
+    bio: {
+      en: 'German novelist and Nobel laureate whose vast, ironic novels charted the crisis of European bourgeois civilization. His work fuses philosophical inquiry with musical structure, probing the tension between art and life, sickness and health, spirit and nature.',
+      zh: '德国小说家、诺贝尔文学奖得主，以宏大而充满反讽的小说描绘欧洲资产阶级文明的危机。他的作品将哲学探索与音乐结构融为一体，深入剖析艺术与生活、疾病与健康、精神与自然之间的张力。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Thomas_Mann',
+      zh: 'https://zh.wikipedia.org/wiki/托马斯·曼',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'A man lives not only his personal life, as an individual, but also, consciously or unconsciously, the life of his epoch and his contemporaries.',
+          zh: '一个人不仅过着他个人的生活，而且有意无意地也过着他的时代和同代人的生活。',
+        },
+        original: 'Ein Mensch lebt nicht nur sein persönliches Leben als Einzelwesen, sondern, bewußt oder unbewußt, auch das seiner Epoche und seiner Zeitgenossen.',
+        originalLang: 'de',
+        source: { en: 'The Magic Mountain', zh: '魔山' },
+        year: 1924,
+      },
+      {
+        text: {
+          en: 'What we call mourning for our dead is perhaps not so much grief at not being able to call them back as it is grief at not being able to want to do so.',
+          zh: '我们所谓对逝者的哀悼，或许与其说是因为无法将他们唤回而悲伤，不如说是因为无法想要唤回他们而悲伤。',
+        },
+        original: 'Was wir Trauer um unsere Toten nennen, ist vielleicht gar nicht so sehr der Schmerz darüber, daß wir sie nicht zurückrufen können, als der Schmerz darüber, daß wir es nicht wollen können.',
+        originalLang: 'de',
+        source: { en: 'The Magic Mountain', zh: '魔山' },
+        year: 1924,
+      },
+      {
+        text: {
+          en: 'Solitude gives birth to the original in us, to beauty unfamiliar and perilous — to poetry. But also, it gives birth to the opposite: to the perverse, the illicit, the absurd.',
+          zh: '孤独在我们内心孕育出独创之物，孕育出陌生而危险的美——孕育出诗歌。但同样，它也孕育出相反的东西：变态的、违禁的、荒谬的。',
+        },
+        original: 'Die Einsamkeit zeitigt das Originale, das gewagt und befremdend Schöne, das Gedicht. Die Einsamkeit zeitigt aber auch das Verkehrte, das Unverhältnismäßige, das Absurde und das Unerlaubte.',
+        originalLang: 'de',
+        source: { en: 'Death in Venice', zh: '威尼斯之死' },
+        year: 1912,
+      },
+      {
+        text: {
+          en: 'For the sake of goodness and love, man shall let death have no sovereignty over his thoughts.',
+          zh: '为了善与爱的缘故，人不应让死亡统治自己的思想。',
+        },
+        original: 'Der Mensch soll um der Güte und Liebe willen dem Tode keine Herrschaft einräumen über seine Gedanken.',
+        originalLang: 'de',
+        source: { en: 'The Magic Mountain', zh: '魔山' },
+        year: 1924,
+      },
+      {
+        text: {
+          en: 'A writer is someone for whom writing is more difficult than it is for other people.',
+          zh: '作家就是那种写作比别人更困难的人。',
+        },
+        original: 'Ein Schriftsteller ist jemand, dem das Schreiben schwerer fällt als allen anderen Leuten.',
+        originalLang: 'de',
+        source: { en: 'Essays of Three Decades', zh: '三十年文集' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'Order and simplification are the first steps toward the mastery of a subject — the actual enemy is the unknown.',
+          zh: '条理和简化是掌握一门学问的第一步——真正的敌人是未知。',
+        },
+        original: 'Ordnung und Vereinfachung sind die ersten Schritte zur Bewältigung eines Gegenstandes — der eigentliche Feind ist das Unbekannte.',
+        originalLang: 'de',
+        source: { en: 'The Magic Mountain', zh: '魔山' },
+        year: 1924,
+      },
+      {
+        text: {
+          en: 'It is love, not reason, that is stronger than death.',
+          zh: '比死亡更强大的是爱，而非理性。',
+        },
+        original: 'Es ist die Liebe, nicht die Vernunft, die stärker ist als der Tod.',
+        originalLang: 'de',
+        source: { en: 'The Magic Mountain', zh: '魔山' },
+        year: 1924,
+      },
+      {
+        text: {
+          en: 'Every reasonable human being should be a moderate Socialist.',
+          zh: '每一个有理性的人都应该是一个温和的社会主义者。',
+        },
+        original: 'Jeder vernünftige Mensch sollte ein gemäßigter Sozialist sein.',
+        originalLang: 'de',
+        source: { en: 'The New York Times (interview)', zh: '《纽约时报》（采访）' },
+        year: 1950,
+      },
+    ],
+  },
+  {
+    slug: 'chinua-achebe',
+    name: { en: 'Chinua Achebe', zh: '钦努阿·阿契贝' },
+    years: '1930–2013',
+    nationality: { en: 'Nigerian', zh: '尼日利亚' },
+    bio: {
+      en: 'Nigerian novelist, poet, and critic widely regarded as the father of modern African literature. His fiction restored dignity and complexity to African culture by telling its stories from within, challenging the distortions of colonial narrative.',
+      zh: '尼日利亚小说家、诗人和批评家，被广泛视为现代非洲文学之父。他的小说从内部讲述非洲故事，恢复了非洲文化的尊严与复杂性，挑战了殖民叙事的扭曲。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Chinua_Achebe',
+      zh: 'https://zh.wikipedia.org/wiki/钦努阿·阿契贝',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Until the lions have their own historians, the history of the hunt will always glorify the hunter.',
+          zh: '在狮子拥有自己的历史学家之前，狩猎的历史将永远美化猎人。',
+        },
+        originalLang: 'en',
+        source: { en: 'Things Fall Apart', zh: '瓦解' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'The world has no end, and what is good among one people is an abomination with others.',
+          zh: '世界没有尽头，在一群人中被视为美好的事物，在另一群人中可能是令人憎恶的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Things Fall Apart', zh: '瓦解' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'There is no story that is not true. The world has no end, and what is good among one people is an abomination with others.',
+          zh: '没有一个故事是不真实的。世界没有尽头，在一群人中被视为美好的事物，在另一群人中可能是令人憎恶的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Things Fall Apart', zh: '瓦解' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'Art is, and always was, at the service of man. Our ancestors created their myths and told their stories for a human purpose. Any good story, any good novel, should have a message, should have a purpose.',
+          zh: '艺术始终是为人服务的。我们的祖先创造神话、讲述故事都是出于人的目的。任何好的故事、好的小说都应该有信息，都应该有目的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Morning Yet on Creation Day', zh: '创世日的黎明' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'The novelist teaches the reader that the past was not as simple as it might appear. He reveals that the world is complex and that there is no single perspective that contains the whole truth.',
+          zh: '小说家教会读者，过去并不像看上去那样简单。他揭示出世界是复杂的，没有任何单一视角能包含全部真相。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Education of a British-Protected Child', zh: '一个受英国保护的孩子的教育' },
+        year: 2009,
+      },
+      {
+        text: {
+          en: 'When suffering knocks at your door and you say there is no seat for him, he tells you not to worry because he has brought his own stool.',
+          zh: '当苦难敲响你的门，你说没有座位给他，他告诉你不必担心，因为他自带了凳子。',
+        },
+        originalLang: 'en',
+        source: { en: 'Things Fall Apart', zh: '瓦解' },
+        year: 1958,
+      },
+      {
+        text: {
+          en: 'People say that if you find water rising up to your ankle, that is the time to do something about it, not when it is up to your neck.',
+          zh: '人们说，当你发现水涨到脚踝时，那才是你该有所行动的时候，而不是等到水漫到脖子。',
+        },
+        originalLang: 'en',
+        source: { en: 'Anthills of the Savannah', zh: '草原蚁丘' },
+        year: 1987,
+      },
+    ],
+  },
+  {
+    slug: 'wg-sebald',
+    name: { en: 'W.G. Sebald', zh: 'W.G.泽巴尔德' },
+    years: '1944–2001',
+    nationality: { en: 'German-British', zh: '德裔英国' },
+    bio: {
+      en: 'German-born British writer whose haunting, genre-defying prose meditations on memory, destruction, and the weight of European history are interwoven with uncaptioned photographs. His work explores how the past persists as ruin, echo, and unresolved grief.',
+      zh: '德裔英国作家，其令人难忘的、超越文类的散文式冥想探索记忆、毁灭和欧洲历史的重压，文中穿插无标注的照片。他的作品探索过去如何以废墟、回声和未消解的悲伤持续存在。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/W._G._Sebald',
+      zh: 'https://zh.wikipedia.org/wiki/温弗里德·塞巴尔德',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'It does not seem to me that we understand the laws governing the return of the past, but I feel more and more as if time did not exist at all, only various spaces interlocking according to the rules of a higher form of stereometry, between which the living and the dead can move back and forth as they like.',
+          zh: '在我看来，我们并不理解支配往事回返的法则，但我越来越感到时间根本不存在，有的只是各种空间按照某种更高级的立体几何法则彼此嵌套，生者与死者可以在其间随意往来。',
+        },
+        original: 'Es scheint mir nicht, daß wir die Gesetze verstehen, die die Rückkehr der Vergangenheit regieren, aber ich fühle immer mehr, als gäbe es die Zeit überhaupt nicht, nur verschiedene Räume, die sich nach einer höheren Stereometrie ineinanderschachteln, zwischen denen die Lebendigen und die Toten hin und her gehen können, wie es ihnen beliebt.',
+        originalLang: 'de',
+        source: { en: 'Austerlitz', zh: '奥斯特利茨' },
+        year: 2001,
+      },
+      {
+        text: {
+          en: 'Our spread over the earth was fuelled by reducing the higher species of vegetation to charcoal, by incessantly burning whatever was combustible. From the earliest times, human civilization has been no more than a strange luminescence growing more intense by the hour, of which no one can say when it will begin to wane and when it will fade away.',
+          zh: '我们向地球的蔓延是靠将高等植物化为木炭来推动的，靠不停地焚烧一切可燃之物。自最早的时代以来，人类文明不过是一种奇异的微光，一小时比一小时更强烈，没有人能说它何时开始减弱，何时将消散。',
+        },
+        original: 'Unsere Ausbreitung über die Erde war befeuert durch die Reduktion der höheren Vegetationsformen zu Holzkohle, durch das unablässige Verbrennen alles Brennbaren. Die menschliche Zivilisation war von jeher nichts als ein von Stunde zu Stunde intensiver werdendes seltsames Leuchten, von dem keiner sagen kann, wann es schwächer werden und wann es verlöschen wird.',
+        originalLang: 'de',
+        source: { en: 'The Rings of Saturn', zh: '土星之环' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'I have always kept things at arm\'s length, and have never settled anywhere, and that I am now, at the age of fifty-seven, obliged to think about the nature of my melancholy.',
+          zh: '我始终与一切事物保持一臂之距，从未在任何地方安顿下来，而如今，在五十七岁的年纪，我不得不思考自己忧郁的本质。',
+        },
+        original: 'Ich habe die Dinge immer auf Distanz gehalten und habe mich nirgends je niedergelassen, und nun bin ich, im Alter von siebenundfünfzig Jahren, gezwungen, über das Wesen meiner Melancholie nachzudenken.',
+        originalLang: 'de',
+        source: { en: 'The Rings of Saturn', zh: '土星之环' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'The marks of pain that trace countless fine lines through history are not recorded in the annals of the victors. They persist instead in the obscure reports of the nameless.',
+          zh: '在历史中刻下无数细纹的痛苦痕迹并未被记入胜利者的史册。它们反而留存于无名者的晦涩记述中。',
+        },
+        original: 'Die Zeichen des Schmerzes, die ungezählte feine Linien durch die Geschichte ziehen, sind nicht in den Annalen der Sieger aufgezeichnet. Sie bleiben in den obskuren Berichten der Namenlosen.',
+        originalLang: 'de',
+        source: { en: 'On the Natural History of Destruction', zh: '论毁灭的自然史' },
+        year: 1999,
+      },
+      {
+        text: {
+          en: 'Strange to say, I had the impression that the darkness was thronged with an invisible multitude, and I could almost hear the low murmur of many voices, as if I had arrived at some point where all the stories in the world originated.',
+          zh: '说来奇怪，我有一种印象，黑暗中挤满了看不见的人群，我几乎能听见许多声音的低声细语，仿佛我来到了世界上所有故事的起源之处。',
+        },
+        original: 'Seltsam zu sagen, hatte ich den Eindruck, die Finsternis sei durchdrungen von einer unsichtbaren Menge, und ich konnte das leise Gemurmel vieler Stimmen fast hören, als sei ich an einen Ort gekommen, wo alle Geschichten der Welt ihren Ursprung hatten.',
+        originalLang: 'de',
+        source: { en: 'The Rings of Saturn', zh: '土星之环' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'In the second half of the 1960s I traveled from England to Belgium on several occasions, and made visits to Waterloo and other Belgian sites. And it was these journeys which first awoke in me a sense of how everything is continuously lapsing into oblivion with every extinguished life.',
+          zh: '二十世纪六十年代后半叶，我多次从英国前往比利时，造访了滑铁卢和其他比利时遗址。正是这些旅行最初唤醒了我的一种感觉：随着每一个生命的熄灭，一切都在不断坠入遗忘。',
+        },
+        original: 'In der zweiten Hälfte der sechziger Jahre bin ich von England aus mehrmals nach Belgien gefahren und habe Waterloo und andere belgische Orte besucht. Und es waren diese Reisen, die in mir zuerst ein Gefühl dafür weckten, wie alles mit jedem erloschenen Leben unaufhörlich ins Vergessen hinabsinkt.',
+        originalLang: 'de',
+        source: { en: 'The Rings of Saturn', zh: '土星之环' },
+        year: 1995,
+      },
+      {
+        text: {
+          en: 'We learn from history as much as a rabbit learns from the experiment that is performed upon it.',
+          zh: '我们从历史中学到的东西，就像一只兔子从对它进行的实验中学到的一样多。',
+        },
+        original: 'Wir lernen aus der Geschichte so viel wie das Kaninchen aus dem Experiment, das an ihm durchgeführt wird.',
+        originalLang: 'de',
+        source: { en: 'On the Natural History of Destruction', zh: '论毁灭的自然史' },
+        year: 1999,
+      },
+    ],
+  },
+  {
+    slug: 'jm-coetzee',
+    name: { en: 'J.M. Coetzee', zh: 'J.M.库切' },
+    years: '1940–',
+    nationality: { en: 'South African-Australian', zh: '南非裔澳大利亚' },
+    bio: {
+      en: 'South African-Australian novelist and Nobel laureate whose spare, unsettling fiction confronts the structures of power, humiliation, and moral complicity. His work probes the limits of reason and empathy with an unflinching philosophical rigor.',
+      zh: '南非裔澳大利亚小说家、诺贝尔文学奖得主，以简洁而令人不安的小说直面权力、羞辱与道德共谋的结构。他的作品以毫不退缩的哲学严谨探索理性与共情的极限。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/J._M._Coetzee',
+      zh: 'https://zh.wikipedia.org/wiki/约翰·马克斯韦尔·库切',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'One can punish a dog, it seems to me, for an offence like chewing a slipper. A dog will accept the justice of that. But desire is another story. No animal will accept the justice of being punished for following its instincts.',
+          zh: '在我看来，你可以因为狗咬了拖鞋这样的过错而惩罚它。狗会接受这种公正。但欲望是另一回事。没有动物会接受因追随本能而被惩罚的公正性。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disgrace', zh: '耻' },
+        year: 1999,
+      },
+      {
+        text: {
+          en: 'The barbarians come out at night. Before nightfall the last goatherd must be brought in and the gate barred. At dawn we go out to face the new day. That is how we live.',
+          zh: '野蛮人在夜间出没。天黑之前，最后一个牧羊人必须被带进来，大门必须闩上。黎明时分我们出去迎接新的一天。我们就是这样生活的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Waiting for the Barbarians', zh: '等待野蛮人' },
+        year: 1980,
+      },
+      {
+        text: {
+          en: 'There is a great deal that I am not saying. I choose what I say. What I do not say I withhold because I judge it to be of no significance, or because I judge it to be the kind of thing that needs no saying.',
+          zh: '有很多东西我没有说。我选择我说的话。我不说的东西，是因为我判断它无关紧要，或者因为我判断它是那种不需要说的东西。',
+        },
+        originalLang: 'en',
+        source: { en: 'Elizabeth Costello', zh: '伊丽莎白·科斯特洛' },
+        year: 2003,
+      },
+      {
+        text: {
+          en: 'If we are going to be kind, let it be out of simple generosity, not out of fear — not out of a desire to look good in the eyes of the world.',
+          zh: '如果我们要善良，那就让它出于单纯的慷慨，而不是出于恐惧——不是出于想在世人眼中显得体面的欲望。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disgrace', zh: '耻' },
+        year: 1999,
+      },
+      {
+        text: {
+          en: 'The question is not, Can they reason? nor, Can they talk? but, Can they suffer? That remains the test. That has always been the test.',
+          zh: '问题不在于它们能否推理，也不在于它们能否说话，而在于它们能否感受痛苦。这始终是检验的标准。这一直都是标准。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Lives of Animals', zh: '动物的生命' },
+        year: 1999,
+      },
+      {
+        text: {
+          en: 'I was not, not any longer, parsing sounds into words, words into sentences, sentences into meanings. On the contrary, the entire rigmarole of language seemed to be falling away, and what I was hearing were simply sounds, sounds with no inherent sense.',
+          zh: '我不再将声音解析为词语，将词语解析为句子，将句子解析为意义。恰恰相反，语言的全部繁文缛节似乎正在脱落，而我听到的不过是声音，没有任何内在意义的声音。',
+        },
+        originalLang: 'en',
+        source: { en: 'Elizabeth Costello', zh: '伊丽莎白·科斯特洛' },
+        year: 2003,
+      },
+      {
+        text: {
+          en: 'His whole inclination is to turn his face to the wall and forget about it. But it is not possible to forget, not possible to do nothing. He is in the grip of something that does not let go.',
+          zh: '他全部的倾向是把脸转向墙壁，忘掉这一切。但遗忘是不可能的，无所作为也是不可能的。他被某种不肯放手的东西攫住了。',
+        },
+        originalLang: 'en',
+        source: { en: 'Disgrace', zh: '耻' },
+        year: 1999,
+      },
+    ],
+  },
+  {
+    slug: 'doris-lessing',
+    name: { en: 'Doris Lessing', zh: '多丽丝·莱辛' },
+    years: '1919–2013',
+    nationality: { en: 'British-Zimbabwean', zh: '英籍津巴布韦' },
+    bio: {
+      en: 'British-Zimbabwean novelist and Nobel laureate whose restless intelligence ranged from realist explorations of women\'s inner lives and political disillusionment to speculative fiction. Her work dissects the prisons of ideology, gender, and the self with unsparing honesty.',
+      zh: '英籍津巴布韦裔小说家、诺贝尔文学奖得主，其不安分的智识从对女性内心生活与政治幻灭的现实主义探索延伸到推想小说。她的作品以毫不留情的坦诚剖析意识形态、性别和自我的牢笼。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Doris_Lessing',
+      zh: 'https://zh.wikipedia.org/wiki/多丽丝·莱辛',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Think wrongly, if you please, but in all cases think for yourself.',
+          zh: '你尽可以想错，但无论如何，要自己去想。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Golden Notebook', zh: '金色笔记' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'Whatever you\'re meant to do, do it now. The conditions are always impossible.',
+          zh: '无论你注定要做什么，现在就做。条件永远不会成熟。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Golden Notebook', zh: '金色笔记' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'In the writing process, the more the story cooks, the better. The brain works for you even when you are at rest. I find dreams particularly useful. I myself think a great deal before I go to sleep and the details sometimes unfold in the dream.',
+          zh: '在写作过程中，故事酝酿得越久越好。大脑在你休息时也在为你工作。我发现梦特别有用。我自己在入睡前会想很多，细节有时会在梦中展开。',
+        },
+        originalLang: 'en',
+        source: { en: 'Interview, The Paris Review', zh: '《巴黎评论》访谈' },
+        year: 1988,
+      },
+      {
+        text: {
+          en: 'It is the mark of great people that they hand the world on a little better than they found it. And the mark of the mediocre is to keep things as they are.',
+          zh: '伟大之人的标志是他们把世界交出去时比得到时好了一点。而平庸之人的标志是维持一切如旧。',
+        },
+        originalLang: 'en',
+        source: { en: 'Prisons We Choose to Live Inside', zh: '我们选择居住的监狱' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'We spend our lives fighting to get people very slightly more stupid than ourselves to accept truths that the great men have always known. They have known for thousands of years that to lock a human being into solitary confinement can make a madman of him or an animal.',
+          zh: '我们一生都在努力让那些比我们稍微愚钝一点的人接受伟人们早已知晓的真理。他们几千年前就知道，把一个人关进单独监禁室会把他变成疯子或畜生。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Golden Notebook', zh: '金色笔记' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'What is terrible is to pretend that the second-rate is first-rate. To pretend that you don\'t need love when you do; or you like your work when you know quite well you\'re capable of better.',
+          zh: '可怕的是假装二流是一流。假装你不需要爱，其实你需要；假装你喜欢你的工作，其实你完全清楚自己能做得更好。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Golden Notebook', zh: '金色笔记' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'With a library you are free, not confined by temporary political climates. It is the most democratic of institutions, because no one — but no one at all — can tell you what to read and when and how.',
+          zh: '有了图书馆你就是自由的，不受临时政治气候的束缚。它是最民主的机构，因为没有人——绝对没有人——能告诉你该读什么、何时读、怎么读。',
+        },
+        originalLang: 'en',
+        source: { en: 'Prisons We Choose to Live Inside', zh: '我们选择居住的监狱' },
+        year: 1987,
+      },
+      {
+        text: {
+          en: 'Ideally, what should be said to every child, repeatedly, throughout his or her school life is something like this: You are in the process of being indoctrinated. We have not yet evolved a system of education that is not a system of indoctrination.',
+          zh: '理想情况下，在一个孩子的整个学校生涯中，应该反复对他或她说这样的话：你正在被灌输。我们尚未发展出一种不是灌输系统的教育系统。',
+        },
+        originalLang: 'en',
+        source: { en: 'Prisons We Choose to Live Inside', zh: '我们选择居住的监狱' },
+        year: 1987,
+      },
+    ],
+  },
+  {
+    slug: 'yukio-mishima',
+    name: { en: 'Yukio Mishima', zh: '三岛由纪夫' },
+    years: '1925–1970',
+    nationality: { en: 'Japanese', zh: '日本' },
+    bio: {
+      en: 'Japanese novelist, playwright, and essayist whose extravagant literary vision fused classical Japanese aesthetics with modernist intensity. Obsessed with beauty, death, and the body, his work charts Japan\'s spiritual crisis in the wake of tradition\'s collapse.',
+      zh: '日本小说家、剧作家和散文家，其华丽的文学想象将日本古典美学与现代主义的强度融为一体。他痴迷于美、死亡和肉体，作品描绘了传统崩塌后日本的精神危机。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Yukio_Mishima',
+      zh: 'https://zh.wikipedia.org/wiki/三岛由纪夫',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'What transforms this world is knowledge. Do you see what I mean? Nothing else can change anything in this world. Knowledge alone is capable of transforming the world, while at the same time leaving it exactly as it is.',
+          zh: '改变这个世界的是知识。你明白我的意思吗？没有别的东西能改变这个世界上的任何事物。唯有知识能够改变世界，同时又使它完全保持原样。',
+        },
+        original: 'この世界を変えるのは認識だ。わかるかね。この世界のどんなことも変えることのできるのは認識だけだ。認識だけが、世界を変えると同時に、そのままにしておくことができるのだ。',
+        originalLang: 'ja',
+        source: { en: 'The Temple of the Golden Pavilion', zh: '金阁寺' },
+        year: 1956,
+      },
+      {
+        text: {
+          en: 'The highest point at which human life and art meet is in the form of action. And the most exquisite of all forms of action is the beauty of the body in movement — the beauty of the running, fighting, or dancing body.',
+          zh: '人生与艺术交汇的最高点在于行动。而一切行动形式中最精美的，是运动中的肉体之美——奔跑的、格斗的、舞蹈的肉体之美。',
+        },
+        original: '人間の生と芸術との最高の接点は行動の形をとる。そしてあらゆる行動の形式のうちで最も精妙なのは、運動する肉体の美——走り、闘い、踊る肉体の美である。',
+        originalLang: 'ja',
+        source: { en: 'Sun and Steel', zh: '太阳与铁' },
+        year: 1968,
+      },
+      {
+        text: {
+          en: 'Perfect purity is possible if you turn your life into a line of poetry written with a splash of blood.',
+          zh: '完美的纯洁是可能的，只要你把自己的生命变成一行以鲜血挥洒而成的诗。',
+        },
+        original: '完全な純粋さは、人生を一滴の血で書かれた一行の詩に変えるなら可能である。',
+        originalLang: 'ja',
+        source: { en: 'Runaway Horses', zh: '奔马' },
+        year: 1969,
+      },
+      {
+        text: {
+          en: 'I still have no way to survive but to keep writing one line, one more line, one more line...',
+          zh: '我仍然没有别的生存之道，只有不断写下一行、再一行、再一行……',
+        },
+        original: '私にはまだ一行、もう一行、もう一行と書きつづけてゆく以外に生きのびる方法がない。',
+        originalLang: 'ja',
+        source: { en: 'Confessions of a Mask', zh: '假面的告白' },
+        year: 1949,
+      },
+      {
+        text: {
+          en: 'True beauty is something that attacks, overpowers, robs, and finally destroys.',
+          zh: '真正的美是攻击、征服、掠夺，最终毁灭的东西。',
+        },
+        original: '真の美とは、人を襲い、圧倒し、奪い、ついには滅ぼすものである。',
+        originalLang: 'ja',
+        source: { en: 'The Temple of the Golden Pavilion', zh: '金阁寺' },
+        year: 1956,
+      },
+      {
+        text: {
+          en: 'The cynicism that regards hero worship as comical is always shadowed by a sense of physical inferiority.',
+          zh: '将英雄崇拜视为可笑的犬儒主义，其背后总有一种肉体自卑感的阴影。',
+        },
+        original: '英雄崇拝を滑稽と見るシニシズムには、常に肉体的劣等感の影がさしている。',
+        originalLang: 'ja',
+        source: { en: 'Sun and Steel', zh: '太阳与铁' },
+        year: 1968,
+      },
+    ],
+  },
+  {
+    slug: 'cormac-mccarthy',
+    name: { en: 'Cormac McCarthy', zh: '科马克·麦卡锡' },
+    years: '1933–2023',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American novelist whose biblical prose and unsparing vision of violence, landscape, and human extremity made him one of the supreme voices in American literature. His work moves at the border of language and silence, where moral certainty dissolves into the indifference of nature.',
+      zh: '美国小说家，其圣经般的散文和对暴力、景观与人类极端状态的毫不留情的描绘使他成为美国文学中最卓越的声音之一。他的作品行走在语言与沉默的边界，道德确定性在自然的冷漠中消解。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Cormac_McCarthy',
+      zh: 'https://zh.wikipedia.org/wiki/科马克·麦卡锡',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Whatever in creation exists without my knowledge exists without my consent.',
+          zh: '造物中凡不在我认知之内的，都不在我同意之内。',
+        },
+        originalLang: 'en',
+        source: { en: 'Blood Meridian', zh: '血色子午线' },
+        year: 1985,
+      },
+      {
+        text: {
+          en: 'He turned and looked back at the steps he had come down. Where you\'ve been is not important. Where you are is not important. The only thing that\'s important is where you\'re going.',
+          zh: '他转身回望自己走下的台阶。你去过哪里并不重要。你在哪里也不重要。唯一重要的是你要去哪里。',
+        },
+        originalLang: 'en',
+        source: { en: 'Suttree', zh: '萨特里' },
+        year: 1979,
+      },
+      {
+        text: {
+          en: 'You never know what worse luck your bad luck has saved you from.',
+          zh: '你永远不知道你的厄运使你免于遭受什么更大的厄运。',
+        },
+        originalLang: 'en',
+        source: { en: 'No Country for Old Men', zh: '老无所依' },
+        year: 2005,
+      },
+      {
+        text: {
+          en: 'If the rule you followed brought you to this, of what use was the rule?',
+          zh: '如果你遵循的规则将你引到了这里，那规则还有什么用？',
+        },
+        originalLang: 'en',
+        source: { en: 'No Country for Old Men', zh: '老无所依' },
+        year: 2005,
+      },
+      {
+        text: {
+          en: 'He walked out in the gray light and stood and he saw for a brief moment the absolute truth of the world. The cold relentless circling of the intestate earth. Darkness implacable. The blind dogs of the sun in their running. The crushing black vacuum of the universe.',
+          zh: '他走出去站在灰蒙蒙的光线中，在短暂的一瞬间看到了世界的绝对真相。无遗嘱之地球冷酷无情的运转。不可安抚的黑暗。太阳的盲目猎犬在奔跑。宇宙压碎一切的黑色真空。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Road', zh: '路' },
+        year: 2006,
+      },
+      {
+        text: {
+          en: 'You forget what you want to remember, and you remember what you want to forget.',
+          zh: '你忘记了你想记住的，你记住了你想忘记的。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Road', zh: '路' },
+        year: 2006,
+      },
+      {
+        text: {
+          en: 'War was always here. Before man was, war waited for him. The ultimate trade awaiting its ultimate practitioner.',
+          zh: '战争一直在这里。在人出现之前，战争就在等他了。终极的行当等待着它终极的从业者。',
+        },
+        originalLang: 'en',
+        source: { en: 'Blood Meridian', zh: '血色子午线' },
+        year: 1985,
+      },
+      {
+        text: {
+          en: 'Between the wish and the thing the world lies waiting.',
+          zh: '在愿望与事物之间，世界静候着。',
+        },
+        originalLang: 'en',
+        source: { en: 'All the Pretty Horses', zh: '骏马' },
+        year: 1992,
+      },
+    ],
+  },
+  {
+    slug: 'primo-levi',
+    name: { en: 'Primo Levi', zh: '普里莫·莱维' },
+    years: '1919–1987',
+    nationality: { en: 'Italian', zh: '意大利' },
+    bio: {
+      en: 'Italian chemist, writer, and Holocaust survivor whose testimony from Auschwitz became one of the essential moral documents of the twentieth century. His lucid, precise prose explores the gray zone of human behavior under extreme duress, insisting that memory is both obligation and resistance.',
+      zh: '意大利化学家、作家、大屠杀幸存者，其来自奥斯维辛的证词成为二十世纪最重要的道德文献之一。他清晰精确的散文探索了极端胁迫下人类行为的灰色地带，坚持认为记忆既是义务也是抵抗。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Primo_Levi',
+      zh: 'https://zh.wikipedia.org/wiki/普里莫·莱维',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'It happened, therefore it can happen again: this is the core of what we have to say. It can happen, and it can happen everywhere.',
+          zh: '它发生过，因此它可能再次发生：这就是我们要说的核心。它可能发生，而且可能发生在任何地方。',
+        },
+        original: 'È avvenuto, quindi può accadere di nuovo: questo è il nocciolo di quanto abbiamo da dire. Può accadere, e può accadere dappertutto.',
+        originalLang: 'it',
+        source: { en: 'The Drowned and the Saved', zh: '被淹没和被拯救的' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'Monsters exist, but they are too few in number to be truly dangerous. More dangerous are the common men, the functionaries ready to believe and to act without asking questions.',
+          zh: '怪物是存在的，但它们数量太少，不足以真正构成危险。更危险的是普通人，那些随时准备相信并不加质疑地行动的公务人员。',
+        },
+        original: 'I mostri esistono, ma sono troppo pochi per essere veramente pericolosi. Sono più pericolosi gli uomini comuni, i funzionari pronti a credere e ad obbedire senza discutere.',
+        originalLang: 'it',
+        source: { en: 'If This Is a Man', zh: '这是不是一个人' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'The sea\'s only gifts are harsh blows and, occasionally, the chance to feel strong. Now, I don\'t know much about the sea, but I do know that that\'s the way it is here. And I also know how important it is in life not necessarily to be strong but to feel strong.',
+          zh: '大海赐予的唯一礼物是猛烈的打击，偶尔是感到强大的机会。我对大海了解不多，但我知道这里就是这样。我也知道，在生活中重要的不一定是真的强大，而是感到强大。',
+        },
+        original: 'I doni del mare non sono che colpi violenti e, di tanto in tanto, la possibilità di sentirsi forti. Ora, non so molto del mare, ma so che qui è così. E so anche quanto sia importante nella vita non necessariamente essere forti, ma sentirsi forti.',
+        originalLang: 'it',
+        source: { en: 'The Periodic Table', zh: '元素周期表' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'We who survived the Camps are not true witnesses. We are those who, through prevarication, skill or luck, never touched bottom. Those who have, and who have seen the face of the Gorgon, did not return, or returned wordless.',
+          zh: '我们这些从集中营幸存下来的人并非真正的见证者。我们是那些通过搪塞、技巧或运气从未触及底部的人。那些触及底部、看到了戈尔贡面孔的人，没有回来，或者哑然而归。',
+        },
+        original: 'Noi, toccati dalla sorte, abbiamo cercato di raccontare, con maggiore o minore saggezza, non solo il nostro destino, ma anche quello degli altri, dei sommersi appunto; ma è stato un discorso per conto di terzi, il racconto di cose viste da vicino, non sperimentate in proprio.',
+        originalLang: 'it',
+        source: { en: 'The Drowned and the Saved', zh: '被淹没和被拯救的' },
+        year: 1986,
+      },
+      {
+        text: {
+          en: 'The bond between a man and his profession is similar to that which ties him to his country; it is just as complex, often ambivalent, and in general it is understood completely only when it is broken.',
+          zh: '一个人与其职业之间的纽带类似于将他与祖国联系在一起的纽带；同样复杂，常常矛盾，通常只有在断裂时才被完全理解。',
+        },
+        original: 'Il legame fra un uomo e la sua professione è simile a quello che lo lega al suo paese; è altrettanto complesso, spesso ambivalente, e viene compreso appieno, in generale, solo quando si spezza.',
+        originalLang: 'it',
+        source: { en: 'The Periodic Table', zh: '元素周期表' },
+        year: 1975,
+      },
+      {
+        text: {
+          en: 'Sooner or later in life everyone discovers that perfect happiness is unrealizable, but there are few who pause to consider the antithesis: that perfect unhappiness is equally unattainable.',
+          zh: '人生中每个人迟早都会发现完美的幸福是不可实现的，但很少有人停下来思考其反题：完美的不幸同样不可企及。',
+        },
+        original: 'Prima o poi nella vita ognuno scopre che la felicità perfetta non è realizzabile, ma pochi si soffermano a considerare l\'antitesi: che anche l\'infelicità perfetta non lo è.',
+        originalLang: 'it',
+        source: { en: 'If This Is a Man', zh: '这是不是一个人' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'I am constantly amazed by man\'s inhumanity to man.',
+          zh: '人对人的残忍不断地令我震惊。',
+        },
+        original: 'Non cesso di stupirmi dell\'inumanità dell\'uomo verso l\'uomo.',
+        originalLang: 'it',
+        source: { en: 'If This Is a Man', zh: '这是不是一个人' },
+        year: 1947,
+      },
+      {
+        text: {
+          en: 'To destroy a man is difficult, almost as difficult as to create one: it has not been easy, nor quick, but you Germans have succeeded. Here we are, docile under your gaze; from our side you have nothing more to fear; no acts of violence, no words of defiance, not even a look of judgment.',
+          zh: '摧毁一个人是困难的，几乎和创造一个人一样困难：这不容易，也不迅速，但你们德国人做到了。我们在这里，在你们的注视下驯服；从我们这边你们没有什么可怕的了——没有暴力行为，没有挑衅的话语，甚至没有审判的目光。',
+        },
+        original: 'Distruggere un uomo è difficile, quasi quanto crearlo: non è stato agevole, non è stato breve, ma ci siete riusciti, Tedeschi. Eccoci docili sotto i vostri sguardi: da parte nostra nulla più avete a temere: non atti di rivolta, non parole di sfida, neppure uno sguardo giudicante.',
+        originalLang: 'it',
+        source: { en: 'If This Is a Man', zh: '这是不是一个人' },
+        year: 1947,
+      },
+    ],
+  },
+  {
+    slug: 'aleksandr-solzhenitsyn',
+    name: { en: 'Aleksandr Solzhenitsyn', zh: '亚历山大·索尔仁尼琴' },
+    years: '1918–2008',
+    nationality: { en: 'Russian', zh: '俄罗斯' },
+    bio: {
+      en: 'Russian novelist, historian, and Nobel laureate who documented the Soviet labor camp system with monumental moral force. His work stands as testimony against totalitarianism, insisting that the line between good and evil runs through every human heart.',
+      zh: '俄罗斯小说家、历史学家、诺贝尔文学奖得主，以巨大的道德力量记录了苏联劳改营体系。他的作品是对极权主义的见证，坚持善与恶的界线穿过每一颗人心。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn',
+      zh: 'https://zh.wikipedia.org/wiki/亚历山大·索尔仁尼琴',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'The line separating good and evil passes not through states, nor between classes, nor between political parties either — but right through every human heart — and through all human hearts.',
+          zh: '善与恶的分界线不是穿过国家之间，不是穿过阶级之间，也不是穿过政党之间——而是正好穿过每一颗人心——穿过所有人的心。',
+        },
+        original: 'Линия, разделяющая добро и зло, проходит не между государствами, не между классами, не между партиями — она проходит через каждое человеческое сердце — и через все человеческие сердца.',
+        originalLang: 'ru',
+        source: { en: 'The Gulag Archipelago', zh: '古拉格群岛' },
+        year: 1973,
+      },
+      {
+        text: {
+          en: 'You can resolve to live your life with integrity. Let your credo be this: Let the lie come into the world, let it even triumph. But not through me.',
+          zh: '你可以决心正直地生活。让你的信条是这样的：让谎言来到这个世界，让它甚至获胜。但不要通过我。',
+        },
+        original: 'Ты можешь решить жить с достоинством. Пусть твоё кредо будет таким: пусть ложь приходит в мир, пусть даже торжествует. Но не через меня.',
+        originalLang: 'ru',
+        source: { en: 'The Gulag Archipelago', zh: '古拉格群岛' },
+        year: 1973,
+      },
+      {
+        text: {
+          en: 'If only it were all so simple! If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?',
+          zh: '要是一切都这么简单就好了！要是在某处有坏人在阴险地做坏事，只需把他们与我们其余的人分开并消灭就行了。但善与恶的分界线穿过每一个人的心。谁又愿意毁掉自己心灵的一部分呢？',
+        },
+        original: 'Если бы это было так просто! — что где-то есть чёрные люди, злокозненно творящие чёрные дела, и надо только отличить их от остальных и уничтожить. Но линия, разделяющая добро и зло, пересекает сердце каждого человека. И кто уничтожит кусок своего собственного сердца?',
+        originalLang: 'ru',
+        source: { en: 'The Gulag Archipelago', zh: '古拉格群岛' },
+        year: 1973,
+      },
+      {
+        text: {
+          en: 'One word of truth shall outweigh the whole world.',
+          zh: '一句真话比整个世界的分量都重。',
+        },
+        original: 'Одно слово правды весь мир перетянет.',
+        originalLang: 'ru',
+        source: { en: 'Nobel Lecture', zh: '诺贝尔文学奖演讲' },
+        year: 1970,
+      },
+      {
+        text: {
+          en: 'Gradually it was disclosed to me that the line separating good and evil passes not through states, nor between classes, nor between political parties either — but right through every human heart. This line shifts. Inside us, it oscillates with the years. And even within hearts overwhelmed by evil, one small bridgehead of good is retained.',
+          zh: '渐渐地我领悟到，善与恶的分界线不是穿过国家之间，不是穿过阶级之间，也不是穿过政党之间——而是正好穿过每一颗人心。这条线在移动。在我们内心，它随着岁月而摆动。即使在被恶所淹没的心中，也保留着善的一小块桥头堡。',
+        },
+        original: 'Постепенно открылось мне, что линия, разделяющая добро и зло, проходит не между государствами, не между классами, не между партиями — она проходит через каждое человеческое сердце. Линия эта подвижна. Она колеблется в нас с годами. И даже в сердце, объятом злом, она удерживает маленький плацдарм добра.',
+        originalLang: 'ru',
+        source: { en: 'The Gulag Archipelago', zh: '古拉格群岛' },
+        year: 1973,
+      },
+      {
+        text: {
+          en: 'How can you expect a man who\'s warm to understand one who\'s cold?',
+          zh: '你怎能指望一个温暖的人理解一个寒冷的人？',
+        },
+        original: 'Как тёплому понять холодного?',
+        originalLang: 'ru',
+        source: { en: 'One Day in the Life of Ivan Denisovich', zh: '伊凡·杰尼索维奇的一天' },
+        year: 1962,
+      },
+      {
+        text: {
+          en: 'Own only what you can always carry with you: know languages, know countries, know people. Let your memory be your travel bag.',
+          zh: '只拥有你随时能随身携带的东西：懂得语言，了解国家，认识人。让你的记忆成为你的旅行包。',
+        },
+        original: 'Владей только тем, что можешь всегда унести с собой: знай языки, знай страны, знай людей. Пусть память будет твоей дорожной сумкой.',
+        originalLang: 'ru',
+        source: { en: 'The Gulag Archipelago', zh: '古拉格群岛' },
+        year: 1973,
+      },
+      {
+        text: {
+          en: 'It is not the level of prosperity that makes for happiness but the kinship of heart to heart and the way we look at the world. Both determination and contentment come from within.',
+          zh: '带来幸福的不是富裕的程度，而是心与心的亲近以及我们看待世界的方式。决心与满足都来自内心。',
+        },
+        original: 'Счастье не в уровне благополучия, а в родстве сердец и в том, как мы смотрим на мир. И решимость, и довольство идут изнутри.',
+        originalLang: 'ru',
+        source: { en: 'Cancer Ward', zh: '癌症楼' },
+        year: 1968,
       },
     ],
   },

@@ -12,7 +12,7 @@ export const photographerData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Henri_Cartier-Bresson',
-      zh: 'https://zh.wikipedia.org/wiki/亨利·卡蒂尔-布雷松',
+      zh: 'https://zh.wikipedia.org/wiki/亨利·卡蒂埃-布列松',
     },
     quotes: [
       {
@@ -141,6 +141,34 @@ export const photographerData: PersonData[] = [
           zh: '《决定性瞬间》，1952年',
         },
         year: 1952,
+      },
+      {
+        text: {
+          en: 'In photography, the smallest thing can be a great subject. The little, human detail can become a leitmotiv.',
+          zh: '在摄影中，最微小的事物可以成为伟大的主题。细小的人性细节可以成为一个主旋律。',
+        },
+        original: 'En photographie, la plus petite chose peut être un grand sujet. Le petit détail humain peut devenir un leitmotiv.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: {
+          en: 'The Decisive Moment (Images à la sauvette), 1952',
+          zh: '《决定性瞬间》，1952年',
+        },
+        year: 1952,
+      },
+      {
+        text: {
+          en: 'Photography has not changed since its origin except in its technical aspects, which for me are not a major concern.',
+          zh: '摄影自诞生以来除了技术层面之外并未改变，而技术对我来说并非主要关切。',
+        },
+        original: 'La photographie n\'a pas changé depuis son origine, si ce n\'est dans ses aspects techniques, ce qui pour moi n\'est pas une préoccupation majeure.',
+        originalLang: 'fr',
+        originalLocale: 'en',
+        source: {
+          en: 'Interview, American Photo, 1997',
+          zh: '《美国摄影》采访，1997年',
+        },
+        year: 1997,
       },
     ],
   },
@@ -563,7 +591,7 @@ export const photographerData: PersonData[] = [
   },
   {
     slug: 'diane-arbus',
-    name: { en: 'Diane Arbus', zh: '戴安·阿勃丝' },
+    name: { en: 'Diane Arbus', zh: '黛安·阿勃丝' },
     years: '1923\u20131971',
     nationality: { en: 'American', zh: '美国' },
     bio: {
@@ -697,6 +725,20 @@ export const photographerData: PersonData[] = [
           en: 'Letter to a friend, quoted in Diane Arbus: A Biography',
           zh: '致友人信，引自《戴安·阿勃丝传》',
         },
+      },
+      {
+        text: {
+          en: 'The thing that\'s important to know is that you never know. You\'re always sort of feeling your way.',
+          zh: '重要的是要知道你永远不知道。你始终在摸索着前进。',
+        },
+        original: 'The thing that\'s important to know is that you never know. You\'re always sort of feeling your way.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'Class lecture, 1971, quoted in Diane Arbus: An Aperture Monograph',
+          zh: '课堂讲座，1971年，引自《戴安·阿勃丝：光圈专论》',
+        },
+        year: 1971,
       },
     ],
   },
@@ -1005,6 +1047,34 @@ export const photographerData: PersonData[] = [
           zh: '《卫报》采访，2014年',
         },
         year: 2014,
+      },
+      {
+        text: {
+          en: 'I saw the final stage of a long and terrible story. I was so shocked that I didn\'t want to take pictures anymore. I didn\'t want to live anymore. My soul was sick.',
+          zh: '我看到了一个漫长而可怕的故事的最终阶段。我震惊到不想再拍照了。不想再活了。我的灵魂病了。',
+        },
+        original: 'I saw the final stage of a long and terrible story. I was so shocked that I didn\'t want to take pictures anymore. I didn\'t want to live anymore. My soul was sick.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'The Salt of the Earth (documentary), on photographing the Rwandan genocide',
+          zh: '《地球之盐》（纪录片），关于拍摄卢旺达大屠杀',
+        },
+        year: 2014,
+      },
+      {
+        text: {
+          en: 'My wife and I decided to plant trees. We planted more than two million trees, and the forest came back. And with the forest, all the insects, birds, and fish returned, and thanks to this increase of the trees I was reborn. That was the most important moment.',
+          zh: '我和妻子决定种树。我们种了两百多万棵树，森林回来了。随着森林归来，所有的昆虫、鸟类和鱼也回来了，而正是因为这些树木的增长，我获得了重生。那是最重要的时刻。',
+        },
+        original: 'My wife and I decided to plant trees. We planted more than two million trees, and the forest came back. And with the forest, all the insects, birds, and fish returned, and thanks to this increase of the trees I was reborn. That was the most important moment.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: {
+          en: 'TED Talk: The Silent Drama of Photography',
+          zh: 'TED演讲：摄影的无声戏剧',
+        },
+        year: 2013,
       },
     ],
   },
@@ -2054,6 +2124,128 @@ export const photographerData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'Voices in the Mirror', zh: '《镜中之声》' },
         year: 1990,
+      },
+    ],
+  },
+  {
+    slug: 'edward-weston',
+    name: { en: 'Edward Weston', zh: '爱德华·韦斯顿' },
+    years: '1886–1958',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American photographer whose precisely rendered studies of peppers, shells, nudes, and Point Lobos landscapes — recorded in his celebrated Daybooks — championed "the thing itself" and redefined photography as an art of direct, unmanipulated seeing.',
+      zh: '美国摄影师，以对辣椒、贝壳、人体和洛伯斯角风景的精确呈现——记录在其著名的《日记》中——倡导"事物本身"，将摄影重新定义为直接的、不加操控的观看艺术。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Edward_Weston',
+      zh: 'https://zh.wikipedia.org/wiki/爱德华·韦斯顿',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'To consult the rules of composition before making a picture is a little like consulting the law of gravitation before going for a walk. The greatest photographs are made when the photographer forgets everything he has learned and simply sees.',
+          zh: '在拍照之前查阅构图规则，就像散步之前查阅万有引力定律一样。最伟大的照片是在摄影师忘记他所学的一切、单纯地去看的时候拍出来的。',
+        },
+        originalLang: 'en',
+        source: { en: 'Daybooks, Volume II', zh: '《日记》第二卷' },
+        year: 1932,
+      },
+      {
+        text: {
+          en: 'The camera should be used for a recording of life, for rendering the very substance and quintessence of the thing itself, whether it be polished steel or palpitating flesh. I am not trying to interpret — I am trying to present. The pepper is more than a pepper when you truly see it.',
+          zh: '相机应该用于记录生命，用于呈现事物本身的实质与精髓，无论它是抛光的钢铁还是跳动的肌肤。我不是在试图解读——我是在试图呈现。当你真正看见一个辣椒时，它就不仅仅是一个辣椒了。',
+        },
+        originalLang: 'en',
+        source: { en: 'Daybooks, Volume II', zh: '《日记》第二卷' },
+        year: 1930,
+      },
+      {
+        text: {
+          en: 'Anything that excites me for any reason, I will photograph; not searching for unusual subject matter, but making the commonplace unusual. A rock, a bit of kelp, a weathered board — these are not humble subjects. Seen with enough intensity, they contain the entire visible world.',
+          zh: '任何以任何理由令我兴奋的事物，我都会拍摄；不是寻找不寻常的题材，而是让寻常之物变得不寻常。一块岩石、一片海带、一块风化的木板——这些不是卑微的题材。以足够的强度去观看，它们包含了整个可见世界。',
+        },
+        originalLang: 'en',
+        source: { en: 'Daybooks, Volume I', zh: '《日记》第一卷' },
+        year: 1927,
+      },
+      {
+        text: {
+          en: 'The print is the end product of the photographer\'s vision. The negative is the score, but the print is the performance. You can have a perfect negative and ruin it in the printing, or you can take a flawed negative and, through the alchemy of the darkroom, reveal what was latent in the seeing.',
+          zh: '照片是摄影师视觉的最终产品。底片是乐谱，但照片是演奏。你可以有一张完美的底片却在冲印中毁掉它，或者你可以拿一张有瑕疵的底片，通过暗房的炼金术，揭示观看中潜藏的东西。',
+        },
+        originalLang: 'en',
+        source: { en: 'Daybooks, Volume II', zh: '《日记》第二卷' },
+        year: 1931,
+      },
+      {
+        text: {
+          en: 'Good composition is only the strongest way of seeing. It cannot be taught, because it is not a set of rules but a state of heightened awareness. When you are fully present before your subject, the composition reveals itself — the frame finds its own edges.',
+          zh: '好的构图不过是最强烈的观看方式。它无法被教授，因为它不是一套规则而是一种高度觉知的状态。当你在拍摄对象前完全在场时，构图会自行显现——画框会找到自己的边界。',
+        },
+        originalLang: 'en',
+        source: { en: 'Daybooks, Volume I', zh: '《日记》第一卷' },
+        year: 1926,
+      },
+    ],
+  },
+  {
+    slug: 'minor-white',
+    name: { en: 'Minor White', zh: '迈纳·怀特' },
+    years: '1908–1976',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American photographer, editor, and teacher whose theory of equivalence — that a photograph can function as a mirror of the viewer\'s inner state — merged the contemplative traditions of Zen Buddhism with the formal rigor of Stieglitz and Weston, making Aperture magazine the intellectual center of American art photography.',
+      zh: '美国摄影师、编辑和教师，其"等价"理论——照片可以充当观者内心状态之镜——将禅宗的冥想传统与斯蒂格利茨和韦斯顿的形式严谨相融合，使《光圈》杂志成为美国艺术摄影的思想中心。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Minor_White',
+      zh: 'https://zh.wikipedia.org/wiki/迈纳·怀特',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'One should not only photograph things for what they are but for what else they are. The photograph of a rock becomes something other than a rock when the viewer brings their own longing to it. This is equivalence: the image as a mirror, not a window.',
+          zh: '人不应只因事物之所是而拍摄它们，还应因它们之所可能是而拍摄。当观者将自己的渴望带入其中时，一块岩石的照片就变成了岩石以外的东西。这就是等价：影像是一面镜子，而非一扇窗户。',
+        },
+        originalLang: 'en',
+        source: { en: 'Equivalence: The Perennial Trend, Aperture', zh: '《等价：永恒的趋势》，《光圈》杂志' },
+        year: 1963,
+      },
+      {
+        text: {
+          en: 'Be still with yourself until the object of your attention affirms your presence. Do not photograph until you feel the subject looking back at you — until the distance between seer and seen collapses into a single act of attention.',
+          zh: '与自己安静相处，直到你注意力的对象确认了你的存在。不要拍摄，直到你感觉到拍摄对象在回望你——直到观者与被观之间的距离坍缩为一个单一的注意力行为。',
+        },
+        originalLang: 'en',
+        source: { en: 'Mirrors Messages Manifestations', zh: '《镜像·讯息·显现》' },
+        year: 1969,
+      },
+      {
+        text: {
+          en: 'No matter how slow the film, Spirit always stands still long enough for the photographer It has chosen. The question is never whether there is enough light — the question is whether you are quiet enough inside to receive it.',
+          zh: '无论胶片多慢，精神总会为它选择的摄影师静止足够长的时间。问题从来不在于是否有足够的光——问题在于你内心是否足够安静来接收它。',
+        },
+        originalLang: 'en',
+        source: { en: 'Mirrors Messages Manifestations', zh: '《镜像·讯息·显现》' },
+        year: 1969,
+      },
+      {
+        text: {
+          en: 'The state of mind of the photographer while creating is a blank. It is a state of mind that precedes thinking, a state where the familiar becomes strange and the strange becomes familiar. In that blankness, the photograph makes itself — the photographer merely holds the camera steady.',
+          zh: '摄影师在创作时的心境是空白的。那是一种先于思考的心境，一种熟悉变为陌生、陌生变为熟悉的状态。在那片空白中，照片自己完成了自己——摄影师只是稳稳地握住相机。',
+        },
+        originalLang: 'en',
+        source: { en: 'Aperture editorial', zh: '《光圈》杂志社论' },
+        year: 1957,
+      },
+      {
+        text: {
+          en: 'All photographs are self-portraits. Not because they show the photographer\'s face, but because they reveal the photographer\'s way of seeing — which is the deepest portrait of all. When I photograph a frosted window, I am photographing my own capacity for wonder.',
+          zh: '所有照片都是自画像。不是因为它们展示了摄影师的面孔，而是因为它们揭示了摄影师的观看方式——那是最深刻的肖像。当我拍摄一扇结霜的窗户时，我拍摄的是自己感受惊奇的能力。',
+        },
+        originalLang: 'en',
+        source: { en: 'Mirrors Messages Manifestations', zh: '《镜像·讯息·显现》' },
+        year: 1969,
       },
     ],
   },

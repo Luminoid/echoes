@@ -56,6 +56,7 @@ export const comedianData: PersonData[] = [
         original: 'Never argue with an idiot. They will only bring you down to their level and beat you with experience.',
         originalLang: 'en',
         originalLocale: 'en',
+        comment: { en: 'Widely misattributed to both Carlin and Mark Twain. The sentiment dates back to Proverbs 26:4 and similar proverbs. No substantive evidence links it to Carlin.', zh: '广泛误归于卡林和马克·吐温名下。这一思想可追溯至《箴言》26:4及类似谚语，没有实质证据将其与卡林联系起来。' },
         source: { en: 'Attributed', zh: '传为其语' },
       },
       {
@@ -107,6 +108,28 @@ export const comedianData: PersonData[] = [
           zh: '如果你试图失败，但成功了，那你到底做了什么？',
         },
         original: 'If you try to fail, and succeed, which have you done?',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Brain Droppings', zh: '《脑汁》' },
+        year: 1997,
+      },
+      {
+        text: {
+          en: 'But there\'s a reason. There\'s a reason. There\'s a reason for this, there\'s a reason education sucks, and it\'s the same reason it will never, ever, ever be fixed. It\'s never going to get any better. Don\'t look for it. Be happy with what you\'ve got. Because the owners of this country don\'t want that. They don\'t want a population of citizens capable of critical thinking.',
+          zh: '但这是有原因的。有原因的。教育如此糟糕是有原因的，而同样的原因决定了它永远、永远、永远不会被修好。它不会变得更好。别指望了。满足于你已有的东西吧。因为这个国家的主人不想要那样。他们不想要一群具有批判性思维能力的公民。',
+        },
+        original: 'But there\'s a reason. There\'s a reason. There\'s a reason for this, there\'s a reason education sucks, and it\'s the same reason it will never, ever, ever be fixed. It\'s never going to get any better. Don\'t look for it. Be happy with what you\'ve got. Because the owners of this country don\'t want that. They don\'t want a population of citizens capable of critical thinking.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Life Is Worth Losing', zh: '《生命值得失去》' },
+        year: 2005,
+      },
+      {
+        text: {
+          en: 'I have as much authority as the Pope. I just don\'t have as many people who believe it.',
+          zh: '我拥有和教皇一样大的权力。只是没有那么多人相信罢了。',
+        },
+        original: 'I have as much authority as the Pope. I just don\'t have as many people who believe it.',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Brain Droppings', zh: '《脑汁》' },
@@ -202,6 +225,28 @@ export const comedianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Pudd\'nhead Wilson', zh: '《傻瓜威尔逊》' },
         year: 1894,
+      },
+      {
+        text: {
+          en: 'In the first place, God made idiots. That was for practice. Then he made school boards.',
+          zh: '首先，上帝造出了白痴。那是练手。然后他造出了学校董事会。',
+        },
+        original: 'In the first place, God made idiots. That was for practice. Then he made school boards.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Following the Equator', zh: '《赤道环游记》' },
+        year: 1897,
+      },
+      {
+        text: {
+          en: 'Loyalty to the country always. Loyalty to the government when it deserves it.',
+          zh: '永远忠于国家。忠于政府——当它配得上时。',
+        },
+        original: 'Loyalty to the country always. Loyalty to the government when it deserves it.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'The Czar\'s Soliloquy', zh: '《沙皇的独白》' },
+        year: 1905,
       },
     ],
   },
@@ -557,6 +602,21 @@ export const comedianData: PersonData[] = [
         source: { en: 'Revelations', zh: '《启示》' },
         year: 1993,
       },
+      {
+        text: {
+          en: 'All governments are lying cocksuckers. I hope you know that. The news is just another show, with theme music and good-looking people. They\'re there to pacify you, to lull you into a false sense of security, to keep you right where they want you.',
+          zh: '所有政府都是满口谎言的混蛋。我希望你们知道这一点。新闻不过是另一场秀，有主题音乐和漂亮面孔。他们的存在是为了安抚你，将你引入虚假的安全感，让你乖乖待在他们想让你待的位置。',
+        },
+        original: 'All governments are lying cocksuckers. I hope you know that. The news is just another show, with theme music and good-looking people. They\'re there to pacify you, to lull you into a false sense of security, to keep you right where they want you.',
+        originalLang: 'en',
+        originalLocale: 'en',
+        source: { en: 'Rant in E-Minor', zh: '《E小调咆哮》' },
+        year: 1997,
+        comment: {
+          en: 'Released posthumously in 1997 from recordings made in 1993.',
+          zh: '1997年从1993年录音中遗作发行。',
+        },
+      },
     ],
   },
   {
@@ -786,6 +846,145 @@ export const comedianData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The Colbert Report', zh: '《科尔伯特报告》' },
         year: 2005,
+      },
+    ],
+  },
+  {
+    slug: 'ambrose-bierce',
+    name: { en: 'Ambrose Bierce', zh: '安布罗斯·比尔斯' },
+    years: '1842–c.1914',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American journalist, short story writer, and satirist whose caustic wit earned him the nickname "Bitter Bierce." His Devil\'s Dictionary redefined the English language through cynicism, and his war stories remain among the most unflinching in American literature.',
+      zh: '美国记者、短篇小说家与讽刺作家，因尖刻的机智而被称为"苦涩的比尔斯"。其《魔鬼辞典》以犬儒主义重新定义了英语，其战争小说至今仍是美国文学中最无情的篇章。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/Ambrose_Bierce',
+      zh: 'https://zh.wikipedia.org/wiki/安布罗斯·比尔斯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'War is God\'s way of teaching Americans geography.',
+          zh: '战争是上帝教美国人学地理的方式。',
+        },
+        originalLang: 'en',
+        source: { en: 'Attributed', zh: '名言' },
+      },
+      {
+        text: {
+          en: 'Cynic: a blackguard whose faulty vision sees things as they are, not as they ought to be. Hence the custom among the Scythians of plucking out a cynic\'s eyes to improve his vision.',
+          zh: '愤世嫉俗者：一个视觉有缺陷的恶棍，看到的是事物的本来面目，而非其应有的样子。因此斯基泰人有挖去愤世嫉俗者双眼以改善其视力的习俗。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Devil\'s Dictionary', zh: '《魔鬼辞典》' },
+        year: 1911,
+      },
+      {
+        text: {
+          en: 'Painting: the art of protecting flat surfaces from the weather and exposing them to the critic.',
+          zh: '绘画：一门保护平面不受天气侵蚀、却将其暴露给评论家的艺术。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Devil\'s Dictionary', zh: '《魔鬼辞典》' },
+        year: 1911,
+      },
+      {
+        text: {
+          en: 'Corporation: an ingenious device for obtaining individual profit without individual responsibility.',
+          zh: '公司：一种巧妙的装置，用于获取个人利润而无需承担个人责任。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Devil\'s Dictionary', zh: '《魔鬼辞典》' },
+        year: 1911,
+      },
+      {
+        text: {
+          en: 'History: an account mostly false, of events mostly unimportant, which are brought about by rulers mostly knaves, and soldiers mostly fools.',
+          zh: '历史：一份大部分虚假的记录，记载着大部分无关紧要的事件，由大部分无赖的统治者和大部分愚蠢的士兵所造就。',
+        },
+        originalLang: 'en',
+        source: { en: 'The Devil\'s Dictionary', zh: '《魔鬼辞典》' },
+        year: 1911,
+      },
+      {
+        text: {
+          en: 'What this country needs — what every country needs occasionally — is a good hard bloody war to revive the vice of patriotism on which its existence as a nation depends.',
+          zh: '这个国家所需要的——每个国家偶尔都需要的——是一场残酷的血腥战争，以复兴爱国主义这一国家赖以存在的恶德。',
+        },
+        originalLang: 'en',
+        source: { en: 'Letters of Ambrose Bierce', zh: '《安布罗斯·比尔斯书信集》' },
+        year: 1900,
+      },
+    ],
+  },
+  {
+    slug: 'hl-mencken',
+    name: { en: 'H.L. Mencken', zh: 'H·L·门肯' },
+    years: '1880–1956',
+    nationality: { en: 'American', zh: '美国' },
+    bio: {
+      en: 'American journalist, essayist, and cultural critic known as "The Sage of Baltimore." His savage commentary on American democracy, religion, and cultural pretension made him the most influential American literary critic of the early twentieth century.',
+      zh: '美国记者、散文家与文化批评家，被称为"巴尔的摩圣人"。他对美国民主、宗教和文化矫饰的犀利评论使他成为二十世纪初最具影响力的美国文学评论家。',
+    },
+    wikipedia: {
+      en: 'https://en.wikipedia.org/wiki/H._L._Mencken',
+      zh: 'https://zh.wikipedia.org/wiki/亨利·路易斯·门肯',
+    },
+    quotes: [
+      {
+        text: {
+          en: 'Democracy is the theory that the common people know what they want, and deserve to get it good and hard.',
+          zh: '民主是这样一种理论：普通人知道自己想要什么，并且活该如愿以偿地承受其后果。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Little Book in C Major', zh: '《C大调小书》' },
+        year: 1916,
+      },
+      {
+        text: {
+          en: 'The whole aim of practical politics is to keep the populace alarmed — and hence clamorous to be led to safety — by menacing it with an endless series of hobgoblins, all of them imaginary.',
+          zh: '实际政治的全部目的是让民众保持恐慌——从而吵着要人领他们走向安全——方法是用一连串无穷无尽的妖怪来威胁他们，而这些妖怪全是虚构的。',
+        },
+        originalLang: 'en',
+        source: { en: 'In Defense of Women', zh: '《为女性辩护》' },
+        year: 1918,
+      },
+      {
+        text: {
+          en: 'For every complex problem there is an answer that is clear, simple, and wrong.',
+          zh: '对于每一个复杂的问题，都有一个清晰、简单且错误的答案。',
+        },
+        originalLang: 'en',
+        source: { en: 'Prejudices: Second Series', zh: '《偏见：第二辑》' },
+        year: 1920,
+      },
+      {
+        text: {
+          en: 'The most dangerous man to any government is the man who is able to think things out for himself, without regard to the prevailing superstitions and taboos. Almost inevitably he comes to the conclusion that the government he lives under is dishonest, insane, and intolerable.',
+          zh: '对任何政府而言，最危险的人是那些能够独立思考的人，不受流行迷信和禁忌的束缚。他几乎不可避免地会得出结论：他所生活其下的政府是不诚实的、疯狂的、不可容忍的。',
+        },
+        originalLang: 'en',
+        source: { en: 'A Mencken Chrestomathy', zh: '《门肯文选》' },
+        year: 1949,
+      },
+      {
+        text: {
+          en: 'Nobody ever went broke underestimating the intelligence of the American public.',
+          zh: '低估美国公众的智力，从来没有人因此破产。',
+        },
+        originalLang: 'en',
+        source: { en: 'Chicago Tribune', zh: '《芝加哥论坛报》' },
+        year: 1926,
+      },
+      {
+        text: {
+          en: 'The urge to save humanity is almost always a false front for the urge to rule it. Power is what all messiahs really seek: not the chance to serve.',
+          zh: '拯救人类的冲动几乎总是统治人类之欲望的伪装。权力才是所有救世主真正追求的东西：而非服务的机会。',
+        },
+        originalLang: 'en',
+        source: { en: 'Minority Report: H.L. Mencken\'s Notebooks', zh: '《少数派报告：门肯笔记》' },
+        year: 1956,
       },
     ],
   },
