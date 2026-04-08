@@ -93,28 +93,28 @@ function renderQuoteImage(options: ShareQuoteOptions): HTMLCanvasElement {
   h += 60;
 
   // Quote text
-  const quoteFont = getFont(isCJK(quoteText) ? 38 : 36, 'normal', quoteText);
+  const quoteFont = getFont(isCJK(quoteText) ? 48 : 46, 'normal', quoteText);
   const quoteLines = wrapText(mCtx, quoteText, CONTENT_WIDTH, quoteFont);
-  const quoteLineHeight = isCJK(quoteText) ? 62 : 56;
+  const quoteLineHeight = isCJK(quoteText) ? 76 : 72;
   h += quoteLines.length * quoteLineHeight;
-  h += 20; // gap after quote
+  h += 24; // gap after quote
 
   // Translation
   const hasTranslation = translation && translation !== quoteText;
   let transLines: string[] = [];
-  const transLineHeight = isCJK(translation) ? 46 : 42;
+  const transLineHeight = isCJK(translation) ? 58 : 54;
   if (hasTranslation) {
-    const transFont = getFont(isCJK(translation) ? 28 : 26, 'normal', translation);
+    const transFont = getFont(isCJK(translation) ? 36 : 34, 'normal', translation);
     transLines = wrapText(mCtx, translation, CONTENT_WIDTH, transFont);
     h += transLines.length * transLineHeight;
-    h += 16; // gap after translation
+    h += 20; // gap after translation
   }
 
   // Source line
-  h += 10 + 28; // gap + source text height
+  h += 12 + 36; // gap + source text height
 
   // Bottom section: person name + branding
-  h += 48 + 36 + 28; // gap before name + name height + branding height
+  h += 56 + 44 + 34; // gap before name + name height + branding height
 
   h += PADDING; // bottom padding
 
@@ -148,34 +148,34 @@ function renderQuoteImage(options: ShareQuoteOptions): HTMLCanvasElement {
     ctx.fillText(line, CONTENT_LEFT, y);
     y += quoteLineHeight;
   }
-  y += 20;
+  y += 24;
 
   // Translation
   if (hasTranslation) {
-    const transFont = getFont(isCJK(translation) ? 28 : 26, 'normal', translation);
+    const transFont = getFont(isCJK(translation) ? 36 : 34, 'normal', translation);
     ctx.fillStyle = MUTED_COLOR;
     ctx.font = transFont;
     for (const line of transLines) {
       ctx.fillText(line, CONTENT_LEFT, y);
       y += transLineHeight;
     }
-    y += 16;
+    y += 20;
   }
 
   // Source and year
   const sourceLine = year ? `${source} (${year})` : source;
   ctx.fillStyle = MUTED_COLOR;
-  ctx.font = getFont(22, 'normal', sourceLine);
-  ctx.fillText(`\u2014 ${sourceLine}`, CONTENT_LEFT, y + 10);
+  ctx.font = getFont(28, 'normal', sourceLine);
+  ctx.fillText(`\u2014 ${sourceLine}`, CONTENT_LEFT, y + 12);
 
   // Person name (anchored from bottom)
   ctx.fillStyle = TEXT_COLOR;
-  ctx.font = getFont(isCJK(personName) ? 32 : 30, 'bold', personName);
-  ctx.fillText(personName, CONTENT_LEFT, HEIGHT - PADDING - 36);
+  ctx.font = getFont(isCJK(personName) ? 40 : 38, 'bold', personName);
+  ctx.fillText(personName, CONTENT_LEFT, HEIGHT - PADDING - 44);
 
   // Branding (right-aligned)
   ctx.fillStyle = MUTED_COLOR;
-  ctx.font = '18px "Inter", system-ui, sans-serif';
+  ctx.font = '24px "Inter", system-ui, sans-serif';
   const brandText = 'echoes.luminoid.dev';
   const brandWidth = ctx.measureText(brandText).width;
   ctx.fillText(brandText, WIDTH - PADDING - brandWidth, HEIGHT - PADDING);
