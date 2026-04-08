@@ -1407,7 +1407,7 @@ export const writerData: PersonData[] = [
           zh: '没有时间绝望，没有地方自怜，不需要沉默，没有空间恐惧。我们说，我们写，我们运用语言。文明就是这样愈合的。',
         },
         originalLang: 'en',
-        source: { en: 'Tribute to Chinua Achebe', zh: '致钦努阿·阿契贝的悼词' },
+        source: { en: 'No Place for Self-Pity, No Room for Fear (The Nation)', zh: '《无暇自怜，无处恐惧》（《国家》杂志）' },
         year: 2015,
       },
       {
@@ -2024,14 +2024,14 @@ export const writerData: PersonData[] = [
       },
       {
         text: {
-          en: 'Life is a gorgeous robe, crawling with lice.',
+          en: 'Life is a gorgeous robe, crawling with fleas.',
           zh: '生命是一袭华美的袍，爬满了蚤子。',
         },
         original: '生命是一袭华美的袍，爬满了蚤子。',
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'My Genius Dream', zh: '天才梦' },
-        year: 1940,
+        year: 1939,
       },
       {
         text: {
@@ -2837,8 +2837,9 @@ export const writerData: PersonData[] = [
           zh: '在狮子拥有自己的历史学家之前，狩猎的历史将永远美化猎人。',
         },
         originalLang: 'en',
-        source: { en: 'Things Fall Apart', zh: '瓦解' },
-        year: 1958,
+        source: { en: 'The Art of Fiction No. 139 (The Paris Review)', zh: '《小说的艺术》第139期（《巴黎评论》）' },
+        year: 1994,
+        comment: { en: 'An African proverb cited by Achebe in his 1994 Paris Review interview, not from Things Fall Apart.', zh: '这是一句非洲谚语，阿切贝在1994年《巴黎评论》访谈中引用，并非出自《瓦解》。' },
       },
       {
         text: {
@@ -3034,15 +3035,6 @@ export const writerData: PersonData[] = [
       },
       {
         text: {
-          en: 'The question is not, Can they reason? nor, Can they talk? but, Can they suffer? That remains the test. That has always been the test.',
-          zh: '问题不在于它们能否推理，也不在于它们能否说话，而在于它们能否感受痛苦。这始终是检验的标准。这一直都是标准。',
-        },
-        originalLang: 'en',
-        source: { en: 'The Lives of Animals', zh: '动物的生命' },
-        year: 1999,
-      },
-      {
-        text: {
           en: 'I was not, not any longer, parsing sounds into words, words into sentences, sentences into meanings. On the contrary, the entire rigmarole of language seemed to be falling away, and what I was hearing were simply sounds, sounds with no inherent sense.',
           zh: '我不再将声音解析为词语，将词语解析为句子，将句子解析为意义。恰恰相反，语言的全部繁文缛节似乎正在脱落，而我听到的不过是声音，没有任何内在意义的声音。',
         },
@@ -3075,15 +3067,6 @@ export const writerData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/多丽丝·莱辛',
     },
     quotes: [
-      {
-        text: {
-          en: 'Think wrongly, if you please, but in all cases think for yourself.',
-          zh: '你尽可以想错，但无论如何，要自己去想。',
-        },
-        originalLang: 'en',
-        source: { en: 'The Golden Notebook', zh: '金色笔记' },
-        year: 1962,
-      },
       {
         text: {
           en: 'Whatever you\'re meant to do, do it now. The conditions are always impossible.',
@@ -3366,6 +3349,7 @@ export const writerData: PersonData[] = [
         originalLang: 'it',
         source: { en: 'The Drowned and the Saved', zh: '被淹没和被拯救的' },
         year: 1986,
+        comment: { en: 'The Italian text and English text are from different passages of the same work. The Italian describes survivors telling others\' stories; the English is the famous Gorgon metaphor.', zh: '意大利语文本和英文文本来自同一作品的不同段落。意大利语描述幸存者讲述他人故事，英文则是著名的戈耳工隐喻。' },
       },
       {
         text: {

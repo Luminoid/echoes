@@ -825,9 +825,6 @@ export const architectData: PersonData[] = [
           en: 'I am not attracted to straight angles or to the straight line, hard and inflexible, created by man. I am attracted to free-flowing, sensual curves.',
           zh: '我不被直角或直线吸引，那是人类创造的僵硬和死板。我被自由流动的、感性的曲线所吸引。',
         },
-        original: 'I am not attracted to straight angles or to the straight line, hard and inflexible, created by man. I am attracted to free-flowing, sensual curves.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'The Curves of Time: The Memoirs of Oscar Niemeyer, 2000',
           zh: '《时间的曲线：奥斯卡·尼迈耶回忆录》，2000年',
@@ -839,9 +836,6 @@ export const architectData: PersonData[] = [
           en: 'Architecture was my way of expressing my ideals: to be simple, to create a world equal to everyone, to look at people with optimism.',
           zh: '建筑是我表达理想的方式：追求简洁，创造一个人人平等的世界，以乐观的目光看待人们。',
         },
-        original: 'Architecture was my way of expressing my ideals: to be simple, to create a world equal to everyone, to look at people with optimism.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in The Guardian obituary, 2012',
           zh: '引自《卫报》讣告，2012年',
@@ -869,9 +863,6 @@ export const architectData: PersonData[] = [
           en: 'The straight line belongs to men, the curved one to God.',
           zh: '直线属于人类，曲线属于上帝。',
         },
-        original: 'The straight line belongs to men, the curved one to God.',
-        originalLang: 'ca',
-        originalLocale: 'en',
         source: {
           en: 'Attributed, widely quoted in Gaud\u00ed scholarship',
           zh: '广泛引用于高迪研究文献',
@@ -882,9 +873,6 @@ export const architectData: PersonData[] = [
           en: 'Nothing is art if it does not come from nature.',
           zh: '不源于自然的东西都不是艺术。',
         },
-        original: 'Nothing is art if it does not come from nature.',
-        originalLang: 'ca',
-        originalLocale: 'en',
         source: {
           en: 'Attributed, quoted in Gaud\u00ed biographies',
           zh: '引自高迪传记',
@@ -1180,9 +1168,6 @@ export const architectData: PersonData[] = [
           en: 'I chose the difficult path of architecture because I believe it is a public service.',
           zh: '我选择了建筑这条艰难的道路，因为我相信它是一种公共服务。',
         },
-        original: 'I chose the difficult path of architecture because I believe it is a public service.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in Zeuler R. Lima, Lina Bo Bardi, 2013',
           zh: '引自泽乌勒尔·利马《丽娜·博·巴尔迪》，2013年',
@@ -1194,9 +1179,6 @@ export const architectData: PersonData[] = [
           en: 'Nothing should be thrown away. Everything can be transformed.',
           zh: '什么都不应该被丢弃。一切都可以被改造。',
         },
-        original: 'Nothing should be thrown away. Everything can be transformed.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in exhibition materials, SESC Pomp\u00e9ia',
           zh: '引自SESC蓬佩亚展览资料',
@@ -1223,9 +1205,6 @@ export const architectData: PersonData[] = [
           en: 'Architects don\'t invent anything; they transform reality.',
           zh: '建筑师不发明任何东西，他们转化现实。',
         },
-        original: 'Architects don\'t invent anything; they transform reality.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in Kenneth Frampton, \u00c1lvaro Siza: Complete Works',
           zh: '引自肯尼斯·弗兰姆普顿《阿尔瓦罗·西扎全集》',
@@ -1236,9 +1215,6 @@ export const architectData: PersonData[] = [
           en: 'To be modern is not a fashion, it is a state. It is necessary to understand history, and he who understands history knows how to find continuity between that which was, is, and will be.',
           zh: '现代不是一种时尚，而是一种状态。有必要理解历史，理解历史的人知道如何在过去、现在和未来之间找到延续。',
         },
-        original: 'To be modern is not a fashion, it is a state. It is necessary to understand history, and he who understands history knows how to find continuity between that which was, is, and will be.',
-        originalLang: 'pt',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in \u00c1lvaro Siza: A Question of Measure, 2009',
           zh: '引自《阿尔瓦罗·西扎：尺度的问题》，2009年',
@@ -1266,9 +1242,6 @@ export const architectData: PersonData[] = [
           en: 'I believe in an emotional architecture. It is very important for humankind that architecture should move by its beauty.',
           zh: '我相信情感建筑。建筑以其美感打动人心，这对人类至关重要。',
         },
-        original: 'I believe in an emotional architecture. It is very important for humankind that architecture should move by its beauty.',
-        originalLang: 'es',
-        originalLocale: 'en',
         source: {
           en: 'Acceptance speech, Pritzker Prize, 1980',
           zh: '普利兹克奖获奖感言，1980年',
@@ -1280,9 +1253,6 @@ export const architectData: PersonData[] = [
           en: 'Any work of architecture which does not express serenity is a mistake.',
           zh: '任何不表达宁静的建筑作品都是一个错误。',
         },
-        original: 'Any work of architecture which does not express serenity is a mistake.',
-        originalLang: 'es',
-        originalLocale: 'en',
         source: {
           en: 'Quoted in Emilio Ambasz, The Architecture of Luis Barrag\u00e1n',
           zh: '引自埃米利奥·安巴斯《路易斯·巴拉甘的建筑》',

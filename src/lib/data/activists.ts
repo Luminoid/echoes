@@ -77,7 +77,7 @@ export const activistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Oberlin College commencement address', zh: '奥伯林学院毕业典礼演讲' },
-        year: 1964,
+        year: 1965,
       },
       {
         text: {
@@ -1358,7 +1358,7 @@ export const activistData: PersonData[] = [
     slug: 'sakharov',
     name: { en: 'Andrei Sakharov', zh: '安德烈·萨哈罗夫' },
     years: '1921–1989',
-    nationality: { en: 'Russian', zh: '俄罗斯' },
+    nationality: { en: 'Soviet', zh: '苏联' },
     bio: {
       en: 'Soviet nuclear physicist turned dissident and Nobel Peace Prize laureate, who helped create the hydrogen bomb before devoting his life to nuclear disarmament, intellectual freedom, and the convergence of political systems toward shared human values.',
       zh: '苏联核物理学家，后成为异见人士和诺贝尔和平奖获得者，曾参与氢弹的研制，此后将毕生精力投入核裁军、思想自由以及推动政治体制向共同人类价值的趋同。',

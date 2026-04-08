@@ -209,7 +209,7 @@ export const cinemaData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'The Godfather Part II', zh: '《教父2》' },
         year: 1974,
-        speaker: { en: 'Michael Corleone', zh: '迈克尔·柯里昂' },
+        speaker: { en: 'Michael Corleone', zh: '迈克尔·科莱昂' },
       },
       {
         text: {
@@ -220,7 +220,7 @@ export const cinemaData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'The Godfather', zh: '《教父》' },
         year: 1972,
-        speaker: { en: 'Michael Corleone', zh: '迈克尔·柯里昂' },
+        speaker: { en: 'Michael Corleone', zh: '迈克尔·科莱昂' },
       },
       {
         text: {
@@ -562,7 +562,7 @@ export const cinemaData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind',
-      zh: 'https://zh.wikipedia.org/wiki/無痛失戀',
+      zh: 'https://zh.wikipedia.org/wiki/无痛失恋',
     },
     quotes: [
       {
@@ -891,7 +891,7 @@ export const cinemaData: PersonData[] = [
           zh: '生活不像电影里那样。生活要艰难得多。',
         },
         original: 'Life isn\'t like in the movies. Life is much harder.',
-        originalLang: 'en',
+        originalLang: 'it',
         originalLocale: 'en',
         source: { en: 'Cinema Paradiso', zh: '《天堂电影院》' },
         year: 1988,
@@ -907,7 +907,7 @@ export const cinemaData: PersonData[] = [
           zh: '无论你最终做什么，都要热爱它。就像你小时候热爱放映室那样。',
         },
         original: 'Whatever you end up doing, love it. The way you loved the projection booth when you were a little squirt.',
-        originalLang: 'en',
+        originalLang: 'it',
         originalLocale: 'en',
         source: { en: 'Cinema Paradiso', zh: '《天堂电影院》' },
         year: 1988,
@@ -1053,7 +1053,7 @@ export const cinemaData: PersonData[] = [
           zh: '人生真是令人失望啊。',
         },
         original: "Isn't life disappointing?",
-        originalLang: 'en',
+        originalLang: 'ja',
         originalLocale: 'en',
         source: { en: 'Tokyo Story', zh: '《东京物语》' },
         year: 1953,
@@ -1069,7 +1069,7 @@ export const cinemaData: PersonData[] = [
           zh: '是啊。',
         },
         original: 'Yes, it is.',
-        originalLang: 'en',
+        originalLang: 'ja',
         originalLocale: 'en',
         source: { en: 'Tokyo Story', zh: '《东京物语》' },
         year: 1953,

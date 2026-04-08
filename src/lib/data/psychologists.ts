@@ -66,13 +66,14 @@ export const psychologistData: PersonData[] = [
       },
       {
         text: {
-          en: 'The ego is not master in its own house. The mind is like an iceberg — it floats with one-seventh of its bulk above water. What is visible in mental life is only the surface; the great mass of psychical activity takes place below the threshold of consciousness.',
-          zh: '自我在自己的房屋中并非主人。心灵如同冰山——七分之一浮在水面之上。精神生活中可见的只是表面；大量的心理活动发生在意识的阈限之下。',
+          en: 'The ego is not master in its own house.',
+          zh: '自我在自己的房屋中并非主人。',
         },
         original: 'Das Ich ist nicht Herr im eigenen Hause.',
         originalLang: 'de',
-        source: { en: 'A Difficulty in the Path of Psycho-Analysis', zh: '《精神分析道路上的一个困难》' },
+        source: { en: 'A Difficulty in the Path of Psycho-Analysis', zh: '《精神分析运动中的一个困难》' },
         year: 1917,
+        comment: { en: 'The iceberg metaphor often combined with this quote was never written by Freud and originates from G. Stanley Hall (1898).', zh: '常与此句合并引用的冰山比喻并非弗洛伊德所写，而是出自G·斯坦利·霍尔（1898年）。' },
       },
     ],
   },
@@ -164,15 +165,6 @@ export const psychologistData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'Memories, Dreams, Reflections', zh: '《回忆·梦·思考》' },
         year: 1963,
-      },
-      {
-        text: {
-          en: 'The privilege of a lifetime is to become who you truly are. The most terrifying thing is to accept oneself completely. There is no coming to consciousness without pain.',
-          zh: '一生的特权就是成为真正的自己。最令人恐惧的事情是完全接受自己。没有痛苦，就没有意识的觉醒。',
-        },
-        originalLang: 'en',
-        source: { en: 'Collected Works of C.G. Jung, Volume 9', zh: '《荣格全集》第九卷' },
-        year: 1959,
       },
       {
         text: {
@@ -270,12 +262,21 @@ export const psychologistData: PersonData[] = [
       },
       {
         text: {
-          en: 'Life is never made unbearable by circumstances, but only by lack of meaning and purpose. What is to give light must endure burning.',
-          zh: '使生活变得无法忍受的从来不是环境，而只是意义和目的的缺失。要发光的东西必须承受燃烧。',
+          en: 'Life is never made unbearable by circumstances, but only by lack of meaning and purpose.',
+          zh: '使生活变得无法忍受的从来不是环境，而只是意义和目的的缺失。',
         },
         originalLang: 'en',
         source: { en: "Man's Search for Meaning", zh: '《活出生命的意义》' },
         year: 1946,
+      },
+      {
+        text: {
+          en: 'What is to give light must endure burning.',
+          zh: '要发光的东西必须承受燃烧。',
+        },
+        originalLang: 'en',
+        source: { en: 'Attributed', zh: '格言' },
+        comment: { en: 'Often attributed to Frankl but likely originates from Austrian poet Anton Wildgans (1916). Not definitively located in Frankl\'s published works.', zh: '常被归于弗兰克尔名下，但更可能出自奥地利诗人安东·维尔德甘斯（1916年）。未在弗兰克尔的出版著作中确切找到。' },
       },
     ],
   },
@@ -916,6 +917,7 @@ export const psychologistData: PersonData[] = [
         },
         originalLang: 'en',
         source: { en: 'Attributed, various lectures', zh: '出自多次演讲' },
+        comment: { en: 'Attribution disputed. The earliest known match was attributed to Bishop William Fitzjames Oldham in 1906. James received credit only from 1946 onward.', zh: '归属有争议。已知最早的匹配出处归于威廉·菲茨詹姆斯·奥尔德姆主教（1906年），詹姆斯获得署名始于1946年。' },
       },
     ],
   },
@@ -1200,16 +1202,6 @@ export const psychologistData: PersonData[] = [
       },
       {
         text: {
-          en: 'If it\'s very painful for you to criticize your friends — you\'re safe in doing it. But if you take the slightest pleasure in it, that\'s the time to hold your tongue.',
-          zh: '如果批评朋友让你感到非常痛苦——你可以放心地这样做。但如果你从中获得哪怕一丝快感，那就是你该闭嘴的时候。',
-        },
-        original: 'Wenn es dir sehr wehtut, deine Freunde zu kritisieren, kannst du es ruhig tun. Aber wenn du auch nur die geringste Freude daran hast, dann halte dich zurück.',
-        originalLang: 'de',
-        source: { en: 'The Body Never Lies', zh: '《身体不说谎》' },
-        year: 2004,
-      },
-      {
-        text: {
           en: 'Disregard for those dependent on us is the root of all other violence. What we do to children, they will do to society.',
           zh: '漠视依赖我们的人，是一切其他暴力的根源。我们对儿童做的事，他们会对社会做。',
         },
@@ -1389,7 +1381,7 @@ export const psychologistData: PersonData[] = [
     },
     wikipedia: {
       en: 'https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi',
-      zh: 'https://zh.wikipedia.org/wiki/米哈里·契克森米哈赖',
+      zh: 'https://zh.wikipedia.org/wiki/米哈里·契克森米哈伊',
     },
     quotes: [
       {

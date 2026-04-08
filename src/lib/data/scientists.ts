@@ -37,6 +37,7 @@ export const scientistData: PersonData[] = [
         original: 'Gott würfelt nicht.',
         originalLang: 'de',
         originalLocale: 'en',
+        comment: { en: 'Simplified form. Einstein\'s actual words in his 1926 letter to Born were: "Jedenfalls bin ich überzeugt, dass der Alte nicht würfelt" (In any case, I am convinced that the Old One does not play dice).', zh: '简化形式。爱因斯坦1926年写给玻恩的信中原文为："无论如何，我确信上帝不掷骰子。"' },
         source: {
           en: 'Letter to Max Born',
           zh: '致马克斯·玻恩的信',
@@ -247,6 +248,7 @@ export const scientistData: PersonData[] = [
         original: 'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.',
         originalLang: 'en',
         originalLocale: 'en',
+        comment: { en: 'Curie primarily wrote and spoke in French and Polish. Many attributed quotes survive only in English translation with no verified original-language text.', zh: '居里夫人主要以法语和波兰语写作与交流。许多归于她的名言仅存英文翻译，无法确认原语言文本。' },
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -902,8 +904,7 @@ export const scientistData: PersonData[] = [
           en: 'Not only is the universe stranger than we think, it is stranger than we can think.',
           zh: '宇宙不仅比我们所想的更奇异，它比我们所能想象的更奇异。',
         },
-        original: 'Nicht nur ist das Universum seltsamer, als wir denken, es ist seltsamer, als wir denken können.',
-        originalLang: 'de',
+        originalLang: 'en',
         comment: { en: 'The original version is by J.B.S. Haldane in Possible Worlds (1927): "The universe is not only queerer than we suppose, but queerer than we can suppose." Attribution to Heisenberg is disputed.', zh: '原始版本出自霍尔丹《可能的世界》(1927)："宇宙不仅比我们想象的更奇异，而且比我们所能想象的更奇异。"归于海森堡名下存在争议。' },
         source: {
           en: 'Across the Frontiers',
@@ -1017,6 +1018,7 @@ export const scientistData: PersonData[] = [
           en: 'You cannot teach a man anything, you can only help him find it within himself.',
           zh: '你不能教会一个人任何东西，你只能帮助他在自己内心发现它。',
         },
+        originalLang: 'it',
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -1027,6 +1029,7 @@ export const scientistData: PersonData[] = [
           en: 'The universe cannot be read until we have learnt the language and become familiar with the characters in which it is written. It is written in mathematical language, and the letters are triangles, circles and other geometrical figures.',
           zh: '宇宙在我们学会其语言并熟悉其书写符号之前是无法被理解的。它以数学语言写成，其字母是三角形、圆和其他几何图形。',
         },
+        originalLang: 'it',
         source: {
           en: 'The Assayer (Il Saggiatore)',
           zh: '《试金者》',
@@ -1035,19 +1038,10 @@ export const scientistData: PersonData[] = [
       },
       {
         text: {
-          en: 'I have never met a man so ignorant that I couldn\'t learn something from him.',
-          zh: '我从未遇到过一个无知到我无法从他身上学到东西的人。',
-        },
-        source: {
-          en: 'Attributed, widely quoted',
-          zh: '广泛引用',
-        },
-      },
-      {
-        text: {
           en: 'All truths are easy to understand once they are discovered; the point is to discover them.',
           zh: '所有真理一旦被发现就容易理解；关键在于发现它们。',
         },
+        originalLang: 'it',
         source: {
           en: 'Attributed, widely quoted',
           zh: '广泛引用',
@@ -1590,7 +1584,7 @@ export const scientistData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: {
-          en: 'Charlas de cafe',
+          en: 'Charlas de café',
           zh: '《咖啡馆闲谈》',
         },
         year: 1920,
@@ -1752,7 +1746,7 @@ export const scientistData: PersonData[] = [
           zh: '我越是审视宇宙、研究其结构的细节，就越是发现证据表明：宇宙在某种意义上一定知道我们要来。',
         },
         originalLang: 'en',
-        source: { en: 'Disturbing the Universe', zh: '宇宙波澜' },
+        source: { en: 'Disturbing the Universe', zh: '《宇宙波澜》' },
         year: 1979,
       },
       {
@@ -1761,7 +1755,7 @@ export const scientistData: PersonData[] = [
           zh: '宁可犯错，也不要含糊。一个精确到可以被证伪的理论，远比一个灵活到能容纳任何结果的理论有用得多。',
         },
         originalLang: 'en',
-        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        source: { en: 'Disturbing the Universe', zh: '《宇宙波澜》' },
         year: 1979,
       },
       {
@@ -1788,7 +1782,7 @@ export const scientistData: PersonData[] = [
           zh: '好的科学家是有原创想法的人。好的工程师是能用尽可能少的原创想法做出可行设计的人。工程领域没有自命不凡的主角。',
         },
         originalLang: 'en',
-        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        source: { en: 'Disturbing the Universe', zh: '《宇宙波澜》' },
         year: 1979,
       },
       {
@@ -1806,7 +1800,7 @@ export const scientistData: PersonData[] = [
           zh: '对数学家来说，底线是结构必须正确。在我所做的全部数学中，发现的丰富性和解法的优美都取决于找到正确的结构。找到它就像找到一把开门的钥匙——一切突然各就其位。',
         },
         originalLang: 'en',
-        source: { en: 'Disturbing the Universe', zh: '《搅动宇宙》' },
+        source: { en: 'Disturbing the Universe', zh: '《宇宙波澜》' },
         year: 1979,
       },
     ],
@@ -2174,7 +2168,7 @@ export const scientistData: PersonData[] = [
     slug: 'ilya-prigogine',
     name: { en: 'Ilya Prigogine', zh: '伊利亚·普里戈金' },
     years: '1917–2003',
-    nationality: { en: 'Belgian', zh: '比利时' },
+    nationality: { en: 'Russian-Belgian', zh: '俄裔比利时' },
     bio: {
       en: 'Physical chemist and Nobel laureate who discovered dissipative structures and argued that irreversibility and chance are not defects of classical science but fundamental features of nature that give rise to order, complexity, and life.',
       zh: '物理化学家与诺贝尔奖得主，发现了耗散结构，认为不可逆性和偶然性不是经典科学的缺陷，而是自然界产生秩序、复杂性和生命的根本特征。',

@@ -310,7 +310,7 @@ export const philosopherData: PersonData[] = [
         original: 'Je suis trop intelligente, trop exigeante et trop ingénieuse pour que quiconque puisse se charger entièrement de moi.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'Memoirs of a Dutiful Daughter', zh: '端方淑女回忆录' },
+        source: { en: 'Memoirs of a Dutiful Daughter', zh: '《一个规矩女孩的回忆》' },
         year: 1958,
       },
       {
@@ -321,8 +321,9 @@ export const philosopherData: PersonData[] = [
         original: 'Je voudrais que chaque vie humaine soit de la pure liberté transparente.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'The Second Sex', zh: '第二性' },
-        year: 1949,
+        source: { en: 'The Ethics of Ambiguity', zh: '《模糊性的道德》' },
+        year: 1947,
+        comment: { en: 'Sometimes attributed to The Second Sex, but more likely from The Ethics of Ambiguity (1947).', zh: '有时被归于《第二性》，但更可能出自《模糊性的道德》（1947年）。' },
       },
       {
         text: {
@@ -343,7 +344,7 @@ export const philosopherData: PersonData[] = [
         original: 'Changez votre vie aujourd\'hui. Ne pariez pas sur l\'avenir, agissez maintenant, sans tarder.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'All Said and Done', zh: '了结一切' },
+        source: { en: 'All Said and Done', zh: '《清算一切》' },
         year: 1972,
       },
     ],
@@ -425,23 +426,16 @@ export const philosopherData: PersonData[] = [
         original: 'Nous sommes nos choix.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'Being and Nothingness', zh: '存在与虚无' },
-        year: 1943,
+        source: { en: 'Attributed', zh: '出处不详' },
+        comment: { en: 'This exact phrasing is not found in Being and Nothingness or other Sartre works. It is a widely circulated summary of his existentialist philosophy.', zh: '此确切表述未见于《存在与虚无》或萨特其他著作中，而是对其存在主义哲学的广泛概括。' },
       },
       {
         text: {
           en: 'Everything has been figured out, except how to live.',
           zh: '一切都已被想通了，除了如何生活。',
         },
-        original: 'Tout a été figuré, sauf comment vivre.',
-        originalLang: 'fr',
-        originalLocale: 'en',
-        source: { en: 'Nausea', zh: '恶心' },
-        year: 1938,
-        comment: {
-          en: 'Widely attributed to Sartre but not verified in any of his published works.',
-          zh: '广泛归于萨特名下，但未在其任何出版著作中得到证实。',
-        },
+        source: { en: 'Attributed', zh: '出处不详' },
+        comment: { en: 'Widely attributed to Sartre but not verified in Nausea or other published works.', zh: '广泛归于萨特名下，但未在《恶心》或其他出版著作中得到证实。' },
       },
       {
         text: {
@@ -1351,7 +1345,7 @@ export const philosopherData: PersonData[] = [
       },
       {
         text: {
-          en: 'The superior man thinks of virtue; the inferior man thinks of comfort.',
+          en: 'The superior man thinks of virtue; the inferior man thinks of land.',
           zh: '君子怀德，小人怀土。',
         },
         original: '君子怀德，小人怀土。',
@@ -1370,6 +1364,7 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'zh',
         source: { en: 'Xunzi (attributed to Confucius)', zh: '荀子·儒效（传为孔子语）' },
         year: -500,
+        comment: { en: 'The English version is a popular 1960s Western formulation. The Chinese text is the original passage from Xunzi, which is longer and more nuanced. These are related but distinct formulations of a similar idea.', zh: '英文版本是20世纪60年代在西方流行的表述。中文文本为《荀子》原文，篇幅更长，含义更丰富。两者表达相似理念，但措辞迥异。' },
       },
       {
         text: {
@@ -1987,11 +1982,9 @@ export const philosopherData: PersonData[] = [
           en: 'The beginning is the most important part of the work.',
           zh: '开始是工作中最重要的部分。',
         },
-        original: 'Ἀρχὴ δέ τοι ἥμισυ παντός.',
-        originalLang: 'grc',
-        originalLocale: 'en',
         source: { en: 'The Republic', zh: '理想国' },
         year: -375,
+        comment: { en: 'Plato expresses this idea in Republic 377a-b. The often-cited Greek "Ἀρχὴ δέ τοι ἥμισυ παντός" is from Hesiod (Works and Days), not Plato.', zh: '柏拉图在《理想国》377a-b中表达了这一思想。常被引用的希腊文"Ἀρχὴ δέ τοι ἥμισυ παντός"实出自赫西俄德《工作与时日》，而非柏拉图。' },
       },
       {
         text: {
@@ -2204,6 +2197,7 @@ export const philosopherData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'The World as Will and Representation', zh: '作为意志和表象的世界' },
         year: 1844,
+        comment: { en: 'The German text is a modernized paraphrase. Schopenhauer\'s original in The World as Will and Representation uses different phrasing.', zh: '此处德文为现代简化版本，叔本华在《作为意志和表象的世界》中的原文措辞有所不同。' },
       },
       {
         text: {
@@ -3281,6 +3275,7 @@ export const philosopherData: PersonData[] = [
         originalLang: 'en',
         source: { en: 'A Theory of Justice', zh: '《正义论》' },
         year: 1971,
+        comment: { en: 'Popular paraphrase of Rawls\'s "veil of ignorance" concept from A Theory of Justice, not a direct quotation.', zh: '这是对罗尔斯《正义论》中"无知之幕"概念的通俗意译，并非直接引文。' },
       },
     ],
   },
@@ -3503,16 +3498,6 @@ export const philosopherData: PersonData[] = [
         originalLang: 'it',
         source: { en: 'Prison Notebooks', zh: '《狱中札记》' },
         year: 1935,
-      },
-      {
-        text: {
-          en: 'To tell the truth is revolutionary.',
-          zh: '说出真相就是革命。',
-        },
-        original: 'Dire la verità è rivoluzionario.',
-        originalLang: 'it',
-        source: { en: 'L\'Ordine Nuovo', zh: '《新秩序》' },
-        year: 1919,
       },
       {
         text: {

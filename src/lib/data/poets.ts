@@ -608,7 +608,7 @@ export const poetData: PersonData[] = [
         original: 'A word is dead When it is said, Some say. I say it just Begins to live That day.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'A word is dead (F278)', zh: '《一个词死了》（F278）' },
+        source: { en: 'A word is dead (F1212)', zh: '《一个词死了》（F1212）' },
         year: 1862,
       },
       {
@@ -1111,7 +1111,7 @@ export const poetData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Lady Lazarus', zh: '《拉撒路夫人》' },
-        year: 1965,
+        year: 1962,
       },
       {
         text: {
@@ -1122,7 +1122,7 @@ export const poetData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Lady Lazarus', zh: '《拉撒路夫人》' },
-        year: 1965,
+        year: 1962,
       },
       {
         text: {
@@ -1144,7 +1144,7 @@ export const poetData: PersonData[] = [
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'Daddy', zh: '《爹爹》' },
-        year: 1965,
+        year: 1962,
       },
     ],
   },
@@ -1249,6 +1249,7 @@ export const poetData: PersonData[] = [
         originalLocale: 'en',
         source: { en: 'Intimate Journals (Mon c\u0153ur mis \u00e0 nu)', zh: '《私人日记》（我心赤裸）' },
         year: 1887,
+        comment: { en: 'The French original uses "imb\u00e9cillit\u00e9" (imbecility/mental feebleness), not "folie" (madness). "Madness" follows Christopher Isherwood\'s 1930 English translation in Intimate Journals.', zh: '法语原文使用"imb\u00e9cillit\u00e9"（愚钝/心智衰弱），而非"folie"（疯狂）。"madness"沿用克里斯托弗·伊舍伍德1930年《私密日记》英译本的译法。' },
       },
       {
         text: {
@@ -2402,8 +2403,8 @@ export const poetData: PersonData[] = [
         original: 'Entre lo que veo y digo, entre lo que digo y callo, entre lo que callo y sue\u00f1o, entre lo que sue\u00f1o y olvido: la poes\u00eda.',
         originalLang: 'es',
         originalLocale: 'en',
-        source: { en: 'A Draft of Shadows', zh: '《影子的草稿》' },
-        year: 1974,
+        source: { en: 'A Tree Within (Árbol adentro)', zh: '《内在之树》' },
+        year: 1987,
       },
       {
         text: {
@@ -2882,7 +2883,7 @@ export const poetData: PersonData[] = [
         },
         original: 'Для человека нет другого будущего, кроме очерченного его способностью пользоваться языком.',
         originalLang: 'ru',
-        source: { en: 'Uncommon Visage (Nobel Lecture)', zh: '《不寻常的面容》（诺贝尔演讲）' },
+        source: { en: 'Nobel Lecture', zh: '诺贝尔演讲' },
         year: 1987,
       },
       {

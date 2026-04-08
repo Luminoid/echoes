@@ -456,17 +456,6 @@ export const musicianData: PersonData[] = [
     quotes: [
       {
         text: {
-          en: 'Life is what happens to you while you\'re busy making other plans.',
-          zh: '生活就是当你忙于制定其他计划时发生的事情。',
-        },
-        original: 'Life is what happens to you while you\'re busy making other plans.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Beautiful Boy (Darling Boy)', zh: '《美丽男孩》' },
-        year: 1980,
-      },
-      {
-        text: {
           en: 'A dream you dream alone is only a dream. A dream you dream together is reality.',
           zh: '一个人做的梦只是梦。一起做的梦就是现实。',
         },
@@ -693,8 +682,8 @@ export const musicianData: PersonData[] = [
           zh: '我认为爵士乐正开始一场运动，远离传统的和弦串联，回归对旋律变化而非和声变化的强调。和弦会更少，但如何处理它们的可能性将是无限的。',
         },
         originalLang: 'en',
-        source: { en: 'Liner notes for Kind of Blue', zh: '《泛蓝调调》内页文字' },
-        year: 1959,
+        source: { en: 'Interview with Nat Hentoff (The Jazz Review)', zh: '纳特·亨托夫访谈（《爵士评论》）' },
+        year: 1958,
       },
     ],
   },
@@ -984,16 +973,6 @@ export const musicianData: PersonData[] = [
       zh: 'https://zh.wikipedia.org/wiki/伊戈尔·斯特拉文斯基',
     },
     quotes: [
-      {
-        text: {
-          en: 'Lesser artists borrow, great artists steal.',
-          zh: '低级的艺术家借鉴，伟大的艺术家偷窃。',
-        },
-        original: 'Lesser artists borrow, great artists steal.',
-        originalLang: 'en',
-        originalLocale: 'en',
-        source: { en: 'Attributed', zh: '名言' },
-      },
       {
         text: {
           en: 'To listen is an effort, and just to hear is no merit. A duck hears also.',
@@ -1316,8 +1295,8 @@ export const musicianData: PersonData[] = [
           zh: '我无话可说，而我正在说它，这就是我所需要的诗。',
         },
         originalLang: 'en',
-        source: { en: 'Lecture on Nothing', zh: '《关于虚无的讲座》' },
-        year: 1959,
+        source: { en: 'Lecture on Nothing (published in Silence: Lectures and Writings)', zh: '《无的演讲》（收录于《沉默：演讲与写作》）' },
+        year: 1961,
       },
       {
         text: {
@@ -1379,6 +1358,7 @@ export const musicianData: PersonData[] = [
         originalLang: 'ru',
         source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
         year: 1979,
+        comment: { en: 'From Testimony, whose authenticity is heavily disputed. The book may not accurately represent Shostakovich\'s actual words.', zh: '出自《见证》一书，其真实性备受争议。该书可能未能准确反映肖斯塔科维奇的原话。' },
       },
       {
         text: {
@@ -1389,6 +1369,7 @@ export const musicianData: PersonData[] = [
         originalLang: 'ru',
         source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
         year: 1979,
+        comment: { en: 'See note on Testimony above.', zh: '参见上方关于《见证》的说明。' },
       },
       {
         text: {
@@ -1399,6 +1380,7 @@ export const musicianData: PersonData[] = [
         originalLang: 'ru',
         source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
         year: 1979,
+        comment: { en: 'See note on Testimony above.', zh: '参见上方关于《见证》的说明。' },
       },
       {
         text: {
@@ -1409,6 +1391,7 @@ export const musicianData: PersonData[] = [
         originalLang: 'ru',
         source: { en: 'Testimony (ed. Solomon Volkov)', zh: '《见证》（沃尔科夫编）' },
         year: 1979,
+        comment: { en: 'See note on Testimony above.', zh: '参见上方关于《见证》的说明。' },
       },
       {
         text: {

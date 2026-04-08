@@ -23,8 +23,8 @@ export const comedianData: PersonData[] = [
         original: 'Think of how stupid the average person is, and realize half of them are stupider than that.',
         originalLang: 'en',
         originalLocale: 'en',
-        source: { en: 'Napalm & Silly Putty', zh: '《凝固汽油弹与橡皮泥》' },
-        year: 2001,
+        source: { en: 'Doin\' It Again (HBO special)', zh: '《再来一次》（HBO特别节目）' },
+        year: 1990,
       },
       {
         text: {
@@ -943,8 +943,8 @@ export const comedianData: PersonData[] = [
       },
       {
         text: {
-          en: 'The whole aim of practical politics is to keep the populace alarmed — and hence clamorous to be led to safety — by menacing it with an endless series of hobgoblins, all of them imaginary.',
-          zh: '实际政治的全部目的是让民众保持恐慌——从而吵着要人领他们走向安全——方法是用一连串无穷无尽的妖怪来威胁他们，而这些妖怪全是虚构的。',
+          en: 'The whole aim of practical politics is to keep the populace alarmed — and hence clamorous to be led to safety — by menacing it with an endless series of hobgoblins, most of them imaginary.',
+          zh: '实际政治的全部目的是让民众保持恐慌——从而吵着要人领他们走向安全——方法是用一连串无穷无尽的妖怪来威胁他们，而这些妖怪大多是虚构的。',
         },
         originalLang: 'en',
         source: { en: 'In Defense of Women', zh: '《为女性辩护》' },

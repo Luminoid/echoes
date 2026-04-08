@@ -1193,7 +1193,7 @@ export const filmmakerData: PersonData[] = [
     slug: 'agnes-varda',
     name: { en: 'Agnès Varda', zh: '阿涅斯·瓦尔达' },
     years: '1928–2019',
-    nationality: { en: 'French', zh: '法国' },
+    nationality: { en: 'Belgian-French', zh: '比利时裔法国' },
     bio: {
       en: 'Pioneering filmmaker and grandmother of the French New Wave whose playful, deeply humane films — from Cleo from 5 to 7 to Faces Places — celebrated ordinary people and the passage of time.',
       zh: '先驱电影人、法国新浪潮的祖母，从《五至七时的克莱奥》到《脸庞，村庄》，以充满趣味和深刻人性的影片颂扬普通人和时光的流逝。',
@@ -1475,7 +1475,7 @@ export const filmmakerData: PersonData[] = [
   },
   {
     slug: 'pedro-almodovar',
-    name: { en: 'Pedro Almodovar', zh: '佩德罗·阿莫多瓦尔' },
+    name: { en: 'Pedro Almodóvar', zh: '佩德罗·阿莫多瓦尔' },
     years: '1949–',
     nationality: { en: 'Spanish', zh: '西班牙' },
     bio: {
@@ -1694,8 +1694,8 @@ export const filmmakerData: PersonData[] = [
       },
       {
         text: {
-          en: 'Compassion is the breakdown of all the barriers between us. A heart that is open to everything.',
-          zh: '慈悲是打破我们之间一切障碍。一颗对万物敞开的心。',
+          en: 'Compassion is the breakdown of all the barriers between us. A heart-to-heart bonding. Your pain is my pain. It\'s mingled and shared between us.',
+          zh: '慈悲是打破我们之间一切障碍。心与心的连结。你的痛苦就是我的痛苦，在我们之间交融共担。',
         },
         originalLang: 'en',
         source: {

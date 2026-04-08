@@ -204,7 +204,7 @@ export const historianData: PersonData[] = [
         },
         original: '前事不忘，后事之师。',
         originalLang: 'zh',
-        source: { en: 'Records of the Grand Historian, Basic Annals of Qin', zh: '《史记·秦本纪》' },
+        source: { en: 'Strategies of the Warring States (cited in Records of the Grand Historian)', zh: '《战国策·赵策一》（《史记》中亦有引用）' },
         year: -91,
       },
       {
@@ -214,7 +214,7 @@ export const historianData: PersonData[] = [
         },
         original: '人无远虑，必有近忧。',
         originalLang: 'zh',
-        source: { en: 'The Analerta (Weilinggong), cited in Records of the Grand Historian', zh: '《论语·卫灵公》，见引于《史记》' },
+        source: { en: 'The Analects (Weilinggong), cited in Records of the Grand Historian', zh: '《论语·卫灵公》，见引于《史记》' },
         year: -91,
       },
       {
@@ -224,7 +224,7 @@ export const historianData: PersonData[] = [
         },
         original: '鸟之将死，其鸣也哀；人之将死，其言也善。',
         originalLang: 'zh',
-        source: { en: 'The Analerta (Taibo, words of Zengzi), cited in Records of the Grand Historian', zh: '《论语·泰伯》（曾子语），见引于《史记》' },
+        source: { en: 'The Analects (Taibo, words of Zengzi), cited in Records of the Grand Historian', zh: '《论语·泰伯》（曾子语），见引于《史记》' },
         year: -91,
       },
       {

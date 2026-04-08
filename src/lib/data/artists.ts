@@ -256,8 +256,8 @@ export const artistData: PersonData[] = [
           en: 'I do not seek. I find.',
           zh: '我不寻找，我发现。',
         },
-        original: 'I do not seek. I find.',
-        originalLang: 'en',
+        original: 'Je ne cherche pas, je trouve.',
+        originalLang: 'fr',
         originalLocale: 'en',
         source: {
           en: 'Quoted in Roland Penrose, Picasso: His Life and Work',
