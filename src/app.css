@@ -40,6 +40,11 @@
   --color-quote-border: oklch(0.55 0.1 80 / 0.35);
 }
 
+/* Prevent scrollbar layout shift when content height changes dynamically */
+html {
+  overflow-y: scroll;
+}
+
 /* Base styles */
 body {
   font-family: var(--font-sans);

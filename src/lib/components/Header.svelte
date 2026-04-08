@@ -2,6 +2,7 @@
   import type { Locale } from '$lib/data/types';
   import { categoryList } from '$lib/data/types';
   import { t, localePath, switchLocalePath } from '$lib/i18n/translations';
+  import { goto } from '$app/navigation';
   import { page } from '$app/state';
 
   let { locale }: { locale: Locale } = $props();
@@ -23,6 +24,10 @@
     };
     const handleKeydown = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && menuOpen) menuOpen = false;
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        goto(localePath(locale, '/search/'));
+      }
     };
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('keydown', handleKeydown);
@@ -42,6 +47,15 @@
     </a>
 
     <div class="flex items-center gap-4">
+      <a
+        href={localePath(locale, '/search/')}
+        class="rounded-full p-1.5 text-text-muted transition-colors hover:text-accent"
+        aria-label={t(locale, 'search.title')}
+      >
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </a>
       <a href={switchLocalePath(page.url.pathname)} class="text-sm font-medium text-text-muted transition-colors hover:text-accent">
         {t(locale, 'lang.switch')}
       </a>

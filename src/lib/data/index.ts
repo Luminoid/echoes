@@ -130,6 +130,85 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+export interface SearchResult {
+  category: Category;
+  person: Person;
+  matchedQuotes: Quote[];
+  nameMatch: boolean;
+}
+
+/** Lowercase, strip diacritics, treat hyphens as spaces. */
+function normalize(text: string): string {
+  return text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/-/g, ' ')
+    .toLowerCase();
+}
+
+export function searchAll(query: string, locale: Locale): SearchResult[] {
+  const tokens = normalize(query).split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return [];
+
+  const results: SearchResult[] = [];
+
+  for (const cat of categories) {
+    for (const personData of categoryMap[cat]) {
+      const nameTexts = [
+        normalize(personData.name.en),
+        normalize(personData.name.zh),
+      ];
+
+      // Build per-quote searchable texts
+      const quoteEntries = personData.quotes.map((raw) => ({
+        texts: [
+          normalize(raw.text.en),
+          normalize(raw.text.zh),
+          normalize(raw.original ?? ''),
+          normalize(raw.source.en),
+          normalize(raw.source.zh),
+        ],
+        raw,
+      }));
+
+      const allTexts = [
+        ...nameTexts,
+        ...quoteEntries.flatMap((e) => e.texts),
+      ];
+
+      // Every token must appear somewhere in the person's combined data
+      if (!tokens.every((tok) => allTexts.some((t) => t.includes(tok)))) continue;
+
+      const nameMatch = tokens.some((tok) =>
+        nameTexts.some((t) => t.includes(tok)),
+      );
+
+      // Quotes where at least one token matches
+      const matchedQuotes: Quote[] = [];
+      for (const { texts, raw } of quoteEntries) {
+        if (tokens.some((tok) => texts.some((t) => t.includes(tok)))) {
+          matchedQuotes.push(resolveQuote(raw, locale));
+        }
+      }
+
+      results.push({
+        category: cat,
+        person: resolvePerson(personData, locale),
+        matchedQuotes,
+        nameMatch,
+      });
+    }
+  }
+
+  return results.sort((a, b) => {
+    if (a.nameMatch !== b.nameMatch) return a.nameMatch ? -1 : 1;
+    return (
+      b.matchedQuotes.length - a.matchedQuotes.length ||
+      a.person.name.localeCompare(b.person.name)
+    );
+  });
+}
+
 export function getFeaturedQuotes(locale: Locale, count: number = 5) {
   const all = getAllPeopleData();
   const featured: { person: Person; quote: Quote; category: Category }[] = [];
