@@ -2,22 +2,16 @@
   import type { Locale, Category } from '$lib/data/types';
   import { categoryList } from '$lib/data/types';
   import { t, localePath } from '$lib/i18n/translations';
-  import { getPeopleByCategory, getCategoryInfo, shuffle } from '$lib/data';
+  import { getPeopleByCategory, getCategoryInfo } from '$lib/data';
   import { page } from '$app/state';
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import HeroSection from '$lib/components/HeroSection.svelte';
   import PersonCard from '$lib/components/PersonCard.svelte';
+  import { selectedSlugs } from '$lib/stores/homeSelection';
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);
-
-  // Pick 3 random slugs per category once (stable across locale switches)
-  const selectedSlugs: Record<string, string[]> = {};
-  for (const cat of categoryList) {
-    const people = getPeopleByCategory(cat.key, 'en');
-    selectedSlugs[cat.key] = shuffle(people).slice(0, 3).map((p) => p.slug);
-  }
 
   let enUrl = $derived(`${page.url.origin}/`);
   let zhUrl = $derived(`${page.url.origin}/zh/`);

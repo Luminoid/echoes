@@ -56,7 +56,14 @@
           <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
       </a>
-      <a href={switchLocalePath(page.url.pathname)} class="text-sm font-medium text-text-muted transition-colors hover:text-accent">
+      <a
+        href={switchLocalePath(page.url.pathname)}
+        onclick={(e: MouseEvent) => {
+          e.preventDefault();
+          goto(switchLocalePath(page.url.pathname), { replaceState: true });
+        }}
+        class="text-sm font-medium text-text-muted transition-colors hover:text-accent"
+      >
         {t(locale, 'lang.switch')}
       </a>
       <button

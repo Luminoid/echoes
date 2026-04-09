@@ -9,6 +9,7 @@
   import CategoryNav from '$lib/components/CategoryNav.svelte';
   import PersonCard from '$lib/components/PersonCard.svelte';
   import FilterInput from '$lib/components/FilterInput.svelte';
+  import { getSortKey, setSortKey, type SortKey } from '$lib/stores/categorySort';
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);
@@ -16,9 +17,17 @@
   let people = $derived(data.people as Person[]);
   let info = $derived(getCategoryInfo(category, locale));
 
-  type SortKey = 'name' | 'birthYear';
   let filter = $state('');
   let sortBy = $state<SortKey>('name');
+
+  $effect(() => {
+    sortBy = getSortKey(category);
+  });
+
+  function setSort(key: SortKey) {
+    sortBy = key;
+    setSortKey(category, key);
+  }
 
   function parseBirthYear(years: string): number {
     const match = years.match(/\d+/);
@@ -88,7 +97,7 @@
           class="rounded-md px-3 py-1.5 text-sm transition-colors {sortBy === key
             ? 'bg-accent text-white'
             : 'text-text-muted hover:text-text'}"
-          onclick={() => (sortBy = key as SortKey)}
+          onclick={() => setSort(key as SortKey)}
         >
           {t(locale, `sort.${key}`)}
         </button>
