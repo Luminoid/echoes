@@ -344,17 +344,6 @@ export const filmmakerData: PersonData[] = [
       },
       {
         text: {
-          en: 'If there were an extra ticket, would you come with me?',
-          zh: '如果有多一张船票，你会不会跟我走？',
-        },
-        original: '如果有多一张船票，你会不会跟我走？',
-        originalLang: 'zh',
-        originalLocale: 'zh',
-        source: { en: 'In the Mood for Love', zh: '《花样年华》' },
-        year: 2000,
-      },
-      {
-        text: {
           en: 'The thing about falling in love is, you never know when you started.',
           zh: '恋爱这种事，你永远不知道是什么时候开始的。',
         },

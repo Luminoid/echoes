@@ -774,14 +774,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Visibility is a trap.',
-          zh: '可见性是一个捕捉器。',
+          zh: '可见性是一个陷阱。',
         },
         original: 'La visibilité est un piège.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: { en: 'Discipline and Punish', zh: '《规训与惩罚》' },
         year: 1975,
-        translator: '刘北成/杨远婴',
       },
       {
         text: {
