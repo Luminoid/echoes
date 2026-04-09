@@ -97,13 +97,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'Very early in my life it was too late.',
-          zh: '我在很年轻的时候，就已经老了。',
+          zh: '在我还很年轻的时候，在十八岁的时候，就已经太迟了。',
         },
         original: 'Tr\u00e8s vite dans ma vie il a \u00e9t\u00e9 trop tard.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'The Lover', zh: '情人' },
+        source: { en: 'The Lover', zh: '《情人》' },
         year: 1984,
+        translator: '王道乾',
       },
       {
         text: {
@@ -223,12 +224,13 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'I have always imagined that Paradise will be a kind of library.',
-          zh: '我一直想象，天堂应该是图书馆的模样。',
+          zh: '我心里一直都在暗暗设想，天堂应该是图书馆的模样。',
         },
         original: 'Yo, que me figuraba el Para\u00edso / bajo la especie de una biblioteca.',
         originalLang: 'es',
         originalLocale: 'en',
         source: { en: 'Poem of the Gifts', zh: '关于天赐的诗' },
+        translator: '王永年',
         year: 1960,
       },
       {
@@ -245,13 +247,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'Time is the substance I am made of. Time is a river which sweeps me along, but I am the river.',
-          zh: '时间是构成我的材料。时间是一条卷走我的河流，但我就是这条河。',
+          zh: '时间是构成我的实质。时间是一条将我卷走的河流，但我就是这条河。',
         },
         original: 'El tiempo es la substancia de que estoy hecho. El tiempo es un r\u00edo que me arrebata, pero yo soy el r\u00edo.',
         originalLang: 'es',
         originalLocale: 'en',
         source: { en: 'A New Refutation of Time', zh: '对时间的新反驳' },
         year: 1946,
+        translator: '王永年',
       },
       {
         text: {
@@ -490,11 +493,11 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'Let us not take it for granted that life exists more fully in what is commonly thought big than in what is commonly thought small.',
-          zh: '不要想当然地认为，生活在通常被认为重大的事物中比在通常被认为渺小的事物中更为充实。',
+          zh: '切莫以为，生命在世人所谓的宏大之中，就比在世人所谓的渺小之中活得更为丰盈。',
         },
         originalLang: 'en',
-        source: { en: 'The Common Reader', zh: '普通读者' },
-        year: 1925,
+        source: { en: 'Modern Fiction', zh: '现代小说' },
+        year: 1919,
       },
       {
         text: {
@@ -712,13 +715,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'It was inevitable: the scent of bitter almonds always reminded him of the fate of unrequited love.',
-          zh: '这是不可避免的：苦杏仁的气味总是使他想起不得回报的爱情的命运。',
+          zh: '这是不可避免的：苦杏仁的气味总是使他想起受阻爱情的宿命。',
         },
         original: 'Era inevitable: el olor de las almendras amargas le recordaba siempre el destino de los amores contrariados.',
         originalLang: 'es',
         originalLocale: 'en',
-        source: { en: 'Love in the Time of Cholera', zh: '霍乱时期的爱情' },
+        source: { en: 'Love in the Time of Cholera', zh: '《霍乱时期的爱情》' },
         year: 1985,
+        translator: '杨玲',
       },
       {
         text: {
@@ -772,13 +776,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together.',
-          zh: '活人的地狱不是将来才有的；如果真有的话，就是此刻已经存在的，是我们每天生活其中的，是我们聚在一起而形成的地狱。',
+          zh: '生者的地狱是不会出现的；如果真有，那就是这里已经有的，是我们天天生活在其中的，是我们在一起集结而形成的。',
         },
         original: 'L\u2019inferno dei viventi non \u00e8 qualcosa che sar\u00e0; se ce n\u2019\u00e8 uno, \u00e8 quello che \u00e8 gi\u00e0 qui, l\u2019inferno che abitiamo tutti i giorni, che formiamo stando insieme.',
         originalLang: 'it',
         originalLocale: 'en',
-        source: { en: 'Invisible Cities', zh: '看不见的城市' },
+        source: { en: 'Invisible Cities', zh: '《看不见的城市》' },
         year: 1972,
+        translator: '张密',
       },
       {
         text: {
@@ -970,13 +975,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'All happy families are alike; each unhappy family is unhappy in its own way.',
-          zh: '幸福的家庭都是相似的，不幸的家庭各有各的不幸。',
+          zh: '幸福的家庭家家相似，不幸的家庭各各不同。',
         },
         original: '\u0412\u0441\u0435 \u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0435 \u0441\u0435\u043c\u044c\u0438 \u043f\u043e\u0445\u043e\u0436\u0438 \u0434\u0440\u0443\u0433 \u043d\u0430 \u0434\u0440\u0443\u0433\u0430, \u043a\u0430\u0436\u0434\u0430\u044f \u043d\u0435\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u0430\u044f \u0441\u0435\u043c\u044c\u044f \u043d\u0435\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u0430 \u043f\u043e-\u0441\u0432\u043e\u0435\u043c\u0443.',
         originalLang: 'ru',
         originalLocale: 'en',
-        source: { en: 'Anna Karenina', zh: '安娜·卡列尼娜' },
+        source: { en: 'Anna Karenina', zh: '《安娜·卡列尼娜》' },
         year: 1877,
+        translator: '草婴',
       },
       {
         text: {
@@ -1199,16 +1205,17 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'For a long time I used to go to bed early.',
-          zh: '很长一段时间，我都是早早就上床了。',
+          zh: '在很长一段时期里，我都是早早就寝的。',
         },
         original: 'Longtemps, je me suis couch\u00e9 de bonne heure.',
         originalLang: 'fr',
         originalLocale: 'en',
         source: {
           en: 'In Search of Lost Time: Swann\'s Way',
-          zh: '追忆似水年华：在斯万家那边',
+          zh: '《追忆似水年华：在斯万家那边》',
         },
         year: 1913,
+        translator: '李恒基/徐继曾',
       },
       {
         text: {
@@ -1567,13 +1574,14 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'The struggle of man against power is the struggle of memory against forgetting.',
-          zh: '人与权力的斗争，就是记忆与遗忘的斗争。',
+          zh: '人与政权的斗争，就是记忆与遗忘的斗争。',
         },
         original: 'Boj \u010dlov\u011bka proti moci je boj pam\u011bti proti zapom\u011bn\u00ed.',
         originalLang: 'cs',
         originalLocale: 'en',
-        source: { en: 'The Book of Laughter and Forgetting', zh: '笑忘录' },
+        source: { en: 'The Book of Laughter and Forgetting', zh: '《笑忘录》' },
         year: 1979,
+        translator: '王东亮',
       },
       {
         text: {
@@ -1656,16 +1664,17 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'We can never know what to want, because, living only one life, we can neither compare it with our previous lives nor perfect it in our lives to come.',
-          zh: '我们永远不知道自己该要什么，因为人只活一次，既不能拿它跟前世相比，也不能在来世加以完善。',
+          zh: '人永远都无法知道自己该要什么，因为人只能活一次，既不能拿它与前世相比，也不能在来世加以修正。',
         },
         original: 'Nem\u016f\u017eeme nikdy v\u011bd\u011bt, co m\u00e1me cht\u00edt, proto\u017ee \u017eijeme jen jeden \u017eivot a nem\u016f\u017eeme ho ani porovnat se sv\u00fdmi p\u0159edchoz\u00edmi \u017eivoty, ani ho opravit v \u017eivotech p\u0159\u00ed\u0161t\u00edch.',
         originalLang: 'cs',
         originalLocale: 'en',
         source: {
           en: 'The Unbearable Lightness of Being',
-          zh: '不能承受的生命之轻',
+          zh: '《不能承受的生命之轻》',
         },
         year: 1984,
+        translator: '许钧',
       },
       {
         text: {
@@ -2621,12 +2630,13 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'Human speech is like a cracked kettle on which we tap crude rhythms for bears to dance to, while we long to make music that will melt the stars.',
-          zh: '人类的语言就像一面破鼓，我们在上面敲出粗糙的节奏让狗熊跳舞，而我们渴望的是创作出令星辰融化的音乐。',
+          zh: '人类的语言就像一面破锣，我们敲打出旋律让狗熊跳舞，而我们渴望的是感动天上的星辰。',
         },
         original: 'La parole humaine est comme un chaudron fêlé où nous battons des mélodies à faire danser les ours, quand on voudrait attendrir les étoiles.',
         originalLang: 'fr',
         source: { en: 'Madame Bovary', zh: '《包法利夫人》' },
         year: 1857,
+        translator: '李健吾',
       },
       {
         text: {

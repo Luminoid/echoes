@@ -239,24 +239,26 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.',
-          zh: '也许我们生命中所有的龙，都是等待着看到我们美丽而勇敢地行动的公主。',
+          zh: '也许我们生活里一切的恶龙都是公主们，她们只是等候着，看我们美丽而勇敢地走过去一次。',
         },
         original: 'Vielleicht sind alle Drachen unseres Lebens Prinzessinnen, die nur darauf warten, uns einmal sch\u00f6n und mutig zu sehen.',
         originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Letters to a Young Poet', zh: '《给一个青年诗人的信》' },
         year: 1903,
+        translator: '冯至',
       },
       {
         text: {
           en: 'For beauty is nothing but the beginning of terror, which we are still just able to endure.',
-          zh: '因为美不过是恐怖的开端，我们尚能承受。',
+          zh: '因为美无非是可怕之物的开端，我们尚可承受。',
         },
         original: 'Denn das Sch\u00f6ne ist nichts als des Schrecklichen Anfang, den wir noch grade ertragen.',
         originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Duino Elegies (First Elegy)', zh: '《杜伊诺哀歌（第一首）》' },
         year: 1923,
+        translator: '绿原',
       },
       {
         text: {
@@ -272,24 +274,26 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'Have patience with everything unresolved in your heart and try to love the questions themselves.',
-          zh: '对你心中一切未解之事要有耐心，试着去爱问题本身。',
+          zh: '对于你心里一切的疑难要多多忍耐，要去爱这些"问题的本身"。',
         },
         original: 'Haben Sie Geduld gegen alles Ungel\u00f6ste in Ihrem Herzen und versuchen Sie, die Fragen selbst liebzuhaben.',
         originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Letters to a Young Poet', zh: '《给一个青年诗人的信》' },
         year: 1903,
+        translator: '冯至',
       },
       {
         text: {
           en: 'Who, if I cried out, would hear me among the angels\' hierarchies?',
-          zh: '如果我呐喊，在天使的序列中，有谁能听见我？',
+          zh: '如果我哭喊，各级天使中间有谁听得见我？',
         },
         original: 'Wer, wenn ich schriee, h\u00f6rte mich denn aus der Engel Ordnungen?',
         originalLang: 'de',
         originalLocale: 'en',
         source: { en: 'Duino Elegies (First Elegy)', zh: '《杜伊诺哀歌（第一首）》' },
         year: 1923,
+        translator: '绿原',
       },
       {
         text: {
@@ -930,24 +934,26 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'I will arise and go now, and go to Innisfree.',
-          zh: '我就要动身走了，去茵尼斯弗利岛。',
+          zh: '我就要起身走了，到茵尼斯弗利岛。',
         },
         original: 'I will arise and go now, and go to Innisfree,',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Lake Isle of Innisfree', zh: '《茵尼斯弗利岛》' },
         year: 1890,
+        translator: '袁可嘉',
       },
       {
         text: {
           en: 'When you are old and grey and full of sleep, and nodding by the fire, take down this book.',
-          zh: '当你老了，头发白了，睡意昏沉，在炉火旁打盹，取下这本书。',
+          zh: '当你老了，头白了，睡意昏沉，炉火旁打盹，请取下这部诗歌。',
         },
         original: 'When you are old and grey and full of sleep, And nodding by the fire, take down this book,',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'When You Are Old', zh: '《当你老了》' },
         year: 1893,
+        translator: '袁可嘉',
       },
       {
         text: {
@@ -1001,13 +1007,14 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'April is the cruellest month, breeding lilacs out of the dead land.',
-          zh: '四月是最残忍的月份，从死去的土地上滋生丁香。',
+          zh: '四月最残忍，从死了的土地滋生丁香。',
         },
         original: 'April is the cruellest month, breeding Lilacs out of the dead land,',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Waste Land', zh: '《荒原》' },
         year: 1922,
+        translator: '查良铮（穆旦）',
       },
       {
         text: {
@@ -2119,13 +2126,14 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'Let me not pray to be sheltered from dangers, but to be fearless in facing them.',
-          zh: '让我不要祈求免于危险，而是无畏地面对它们。',
+          zh: '让我不要祈祷在险恶中得到庇护，但祈祷能无畏地面对它们。',
         },
         original: '\u09ac\u09bf\u09aa\u09a6\u09c7 \u09ae\u09cb\u09b0\u09c7 \u09b0\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09cb \u098f \u09a8\u09b9\u09c7 \u09ac\u09bf\u09aa\u09a6\u09c7 \u0986\u09ae\u09bf \u09a8\u09be \u09a1\u09b0\u09bf \u098f\u0987 \u09b0\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09cb।',
         originalLang: 'bn',
         originalLocale: 'en',
         source: { en: 'Fruit-Gathering', zh: '《采果集》' },
         year: 1916,
+        translator: '冰心',
       },
       {
         text: {
@@ -2196,13 +2204,14 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'You smiled and talked to me of nothing and I felt that for this I had been waiting long.',
-          zh: '你微笑着对我说着什么也没有的事，我觉得为了这个，我已经等了很久了。',
+          zh: '你微微地笑着，不同我说什么话，而我觉得，为了这个，我已等待得久了。',
         },
         original: '\u09a4\u09c1\u09ae\u09bf \u09b9\u09c7\u09b8\u09c7 \u0986\u09ae\u09be\u09b0 \u09b8\u0999\u09cd\u0997\u09c7 \u0995\u09bf\u099b\u09c1\u0987\u09a8\u09be \u09ac\u09b2\u09c7 \u0995\u09a5\u09be \u09ac\u09b2\u09b2\u09c7, \u0986\u09ae\u09bf \u0985\u09a8\u09c1\u09ad\u09ac \u0995\u09b0\u09b2\u09be\u09ae \u098f\u0987 \u099c\u09a8\u09cd\u09af\u0987 \u09ac\u09b9\u09c1\u0995\u09be\u09b2 \u0985\u09aa\u09c7\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09c7\u099b\u09bf\u09b2\u09be\u09ae।',
         originalLang: 'bn',
         originalLocale: 'en',
         source: { en: 'Stray Birds', zh: '《飞鸟集》' },
         year: 1916,
+        translator: '郑振铎',
       },
       {
         text: {
@@ -2290,13 +2299,14 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'Your children are not your children. They are the sons and daughters of Life\'s longing for itself.',
-          zh: '你的孩子不是你的孩子。他们是生命对自身的渴望所生的儿女。',
+          zh: '你们的孩子，都不是你们的孩子，乃是"生命"为自己所渴望的儿女。',
         },
         original: 'Your children are not your children. They are the sons and daughters of Life\'s longing for itself.',
         originalLang: 'en',
         originalLocale: 'en',
         source: { en: 'The Prophet (On Children)', zh: '《先知\u00b7论孩子》' },
         year: 1923,
+        translator: '冰心',
       },
       {
         text: {
@@ -2458,32 +2468,35 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'In the middle of the journey of our life, I found myself in a dark wood, for the straight way was lost.',
-          zh: '在人生旅途的中途，我发现自己身处一片幽暗的森林，因为正路已经迷失。',
+          zh: '在人生的中途，我发现我已经迷失了正路，走进了一座幽暗的森林。',
         },
         original: 'Nel mezzo del cammin di nostra vita / mi ritrovai per una selva oscura, / ché la diritta via era smarrita.',
         originalLang: 'it',
         source: { en: 'Inferno, Canto I', zh: '《地狱篇》第一歌' },
         year: 1320,
+        translator: '田德望',
       },
       {
         text: {
           en: 'Abandon all hope, ye who enter here.',
-          zh: '进入此处者，放弃一切希望。',
+          zh: '进来的人们，你们必须把一切希望抛开！',
         },
         original: 'Lasciate ogne speranza, voi ch\'intrate.',
         originalLang: 'it',
         source: { en: 'Inferno, Canto III', zh: '《地狱篇》第三歌' },
         year: 1320,
+        translator: '田德望',
       },
       {
         text: {
           en: 'The love that moves the sun and the other stars.',
-          zh: '推动太阳和其他星辰的爱。',
+          zh: '爱也推动那太阳和其他的星辰。',
         },
         original: 'L\'amor che move il sole e l\'altre stelle.',
         originalLang: 'it',
         source: { en: 'Paradiso, Canto XXXIII (final line)', zh: '《天堂篇》第三十三歌（末行）' },
         year: 1320,
+        translator: '田德望',
       },
       {
         text: {
@@ -2498,12 +2511,13 @@ export const poetData: PersonData[] = [
       {
         text: {
           en: 'There is no greater sorrow than to recall, in misery, the time when we were happy.',
-          zh: '没有比在痛苦中回忆幸福的时光更大的悲哀了。',
+          zh: '再没有比不幸中回忆幸福的时光更大的痛苦了。',
         },
         original: 'Nessun maggior dolore / che ricordarsi del tempo felice / ne la miseria.',
         originalLang: 'it',
         source: { en: 'Inferno, Canto V (Francesca)', zh: '《地狱篇》第五歌（弗兰切斯卡）' },
         year: 1320,
+        translator: '田德望',
       },
     ],
   },

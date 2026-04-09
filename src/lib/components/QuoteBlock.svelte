@@ -83,6 +83,11 @@
     <p class="mt-4 pl-5 text-base leading-relaxed text-text-muted">
       &ldquo;{quote.translation}&rdquo;
     </p>
+    {#if quote.translator}
+      <p class="mt-1 pl-5 text-xs text-text-muted/60">
+        {t(locale, 'quote.translator')}: {quote.translator}
+      </p>
+    {/if}
   {/if}
 
   <!-- Source — original language + translation -->

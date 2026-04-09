@@ -1295,7 +1295,7 @@ export const activistData: PersonData[] = [
       {
         text: {
           en: 'I have no enemies and no hatred. None of the police who monitored, arrested, and interrogated me, none of the prosecutors who indicted me, and none of the judges who judged me are my enemies.',
-          zh: '我没有敌人，也没有仇恨。所有监控、抓捕、审讯过我的警察，所有起诉过我的检察官，所有审判过我的法官，都不是我的敌人。',
+          zh: '我没有敌人，也没有仇恨。所有监控、抓捕、审讯过我的警察，起诉我的检察官，判决我的法官，都不是我的敌人。',
         },
         original: '我没有敌人，也没有仇恨。',
         originalLang: 'zh',

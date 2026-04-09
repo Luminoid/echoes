@@ -54,7 +54,7 @@ export const playwrightData: PersonData[] = [
       {
         text: {
           en: 'We are such stuff as dreams are made on, and our little life is rounded with a sleep.',
-          zh: '我们是梦的质料所构成，短暂的一生，以一场睡眠作结。',
+          zh: '构成我们的料子也就是那梦幻的料子；我们的短暂的一生，前后都环绕在酣睡之中。',
         },
         original: 'We are such stuff as dreams are made on, and our little life is rounded with a sleep.',
         originalLang: 'en',
@@ -62,11 +62,12 @@ export const playwrightData: PersonData[] = [
         source: { en: 'The Tempest (Act IV, Scene 1)', zh: '《暴风雨》（第四幕第一场）' },
         year: 1611,
         speaker: { en: 'Prospero', zh: '普洛斯彼罗' },
+        translator: '朱生豪',
       },
       {
         text: {
           en: 'The course of true love never did run smooth.',
-          zh: '真爱的道路从来不会平坦。',
+          zh: '真爱情的道路永远是崎岖多阻的。',
         },
         original: 'The course of true love never did run smooth.',
         originalLang: 'en',
@@ -74,28 +75,31 @@ export const playwrightData: PersonData[] = [
         source: { en: 'A Midsummer Night\'s Dream (Act I, Scene 1)', zh: '《仲夏夜之梦》（第一幕第一场）' },
         year: 1596,
         speaker: { en: 'Lysander', zh: '拉山德' },
+        translator: '朱生豪',
       },
       {
         text: {
           en: 'There is nothing either good or bad, but thinking makes it so.',
-          zh: '事情本无好坏之分，只是思想使然。',
+          zh: '世上本无所谓好和坏，思想使然。',
         },
         original: 'There is nothing either good or bad, but thinking makes it so.',
         originalLang: 'en',
         source: { en: 'Hamlet (Act II, Scene 2)', zh: '《哈姆雷特》（第二幕第二场）' },
         year: 1601,
         speaker: { en: 'Hamlet', zh: '哈姆雷特' },
+        translator: '朱生豪',
       },
       {
         text: {
           en: 'What\'s in a name? That which we call a rose by any other name would smell as sweet.',
-          zh: '名字有什么关系呢？我们叫做玫瑰的那朵花，换个名字还是一样芬芳。',
+          zh: '姓名本来是没有意义的；我们叫做玫瑰的这一种花，要是换了个名字，它的香味还是同样的芬芳。',
         },
         original: 'What\'s in a name? That which we call a rose by any other name would smell as sweet.',
         originalLang: 'en',
         source: { en: 'Romeo and Juliet (Act II, Scene 2)', zh: '《罗密欧与朱丽叶》（第二幕第二场）' },
         year: 1597,
         speaker: { en: 'Juliet', zh: '朱丽叶' },
+        translator: '朱生豪',
       },
       {
         text: {
@@ -122,13 +126,14 @@ export const playwrightData: PersonData[] = [
       {
         text: {
           en: 'Cowards die many times before their deaths; the valiant never taste of death but once.',
-          zh: '懦夫在死前已死过多次；勇者一生只死一回。',
+          zh: '懦夫在未死以前，就已经死过好多次；勇士一生只死一次。',
         },
         original: 'Cowards die many times before their deaths; the valiant never taste of death but once.',
         originalLang: 'en',
         source: { en: 'Julius Caesar (Act II, Scene 2)', zh: '《裘力斯·凯撒》（第二幕第二场）' },
         year: 1599,
         speaker: { en: 'Caesar', zh: '凯撒' },
+        translator: '朱生豪',
       },
       {
         text: {
@@ -384,13 +389,14 @@ export const playwrightData: PersonData[] = [
       {
         text: {
           en: 'We shall find peace. We shall hear angels, we shall see the sky sparkling with diamonds.',
-          zh: '我们会找到平静。我们会听到天使的声音，我们会看到钻石般闪耀的天空。',
+          zh: '我们会休息的！我们会听得见天使的声音，会看得见整个洒满了金刚石的天堂。',
         },
         original: 'Мы отдохнём! Мы услышим ангелов, мы увидим всё небо в алмазах.',
         originalLang: 'ru',
         source: { en: 'Uncle Vanya (Act IV)', zh: '《万尼亚舅舅》（第四幕）' },
         year: 1899,
         speaker: { en: 'Sonya', zh: '索尼娅' },
+        translator: '汝龙',
       },
       {
         text: {
@@ -605,7 +611,7 @@ export const playwrightData: PersonData[] = [
       {
         text: {
           en: 'The strongest man in the world is he who stands most alone.',
-          zh: '世界上最强大的人是最孤独的人。',
+          zh: '世上最强有力的人就是最孤立的人。',
         },
         original: 'Den stærkeste Mand i Verden, det er han, som staar mest alene.',
         originalLang: 'no',
@@ -613,6 +619,7 @@ export const playwrightData: PersonData[] = [
         source: { en: 'An Enemy of the People (Act V)', zh: '《人民公敌》（第五幕）' },
         year: 1882,
         speaker: { en: 'Dr. Stockmann', zh: '斯多克芒医生' },
+        translator: '潘家洵',
       },
     ],
   },

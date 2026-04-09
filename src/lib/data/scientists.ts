@@ -75,7 +75,7 @@ export const scientistData: PersonData[] = [
       {
         text: {
           en: 'I am enough of the artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.',
-          zh: '我足够像一位艺术家，能自由运用我的想象力。想象力比知识更重要。知识是有限的，而想象力环绕着整个世界。',
+          zh: '我足够像一位艺术家，能自由运用我的想象力。想象力比知识更重要。知识是有限的，而想象力概括着世界上的一切。',
         },
         original: 'I am enough of the artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.',
         originalLang: 'en',
@@ -1375,9 +1375,9 @@ export const scientistData: PersonData[] = [
       {
         text: {
           en: 'The discovery of artemisinin was a gift from traditional Chinese medicine to the world.',
-          zh: '青蒿素的发现是中医药给世界的一份礼物。',
+          zh: '青蒿素——中医药给世界的一份礼物。',
         },
-        original: '青蒿素的发现是中医药给世界的一份礼物。',
+        original: '青蒿素——中医药给世界的一份礼物。',
         originalLang: 'zh',
         originalLocale: 'zh',
         source: {

@@ -328,7 +328,7 @@ export const cinemaData: PersonData[] = [
       {
         text: {
           en: 'Do not go gentle into that good night. Rage, rage against the dying of the light.',
-          zh: '不要温顺地走进那个良夜。怒斥，怒斥光明的消逝。',
+          zh: '不要温和地走进那个良夜。怒斥，怒斥光明的消逝。',
         },
         original: 'Do not go gentle into that good night. Rage, rage against the dying of the light.',
         originalLang: 'en',
@@ -368,9 +368,9 @@ export const cinemaData: PersonData[] = [
       {
         text: {
           en: 'If there is an extra ticket, would you go with me?',
-          zh: '如果多一张船票，你愿不愿意跟我走？',
+          zh: '如果有多一张船票，你会不会跟我走？',
         },
-        original: '如果多一张船票，你愿不愿意跟我走？',
+        original: '如果有多一张船票，你会不会跟我走？',
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'In the Mood for Love', zh: '《花样年华》' },
@@ -796,7 +796,7 @@ export const cinemaData: PersonData[] = [
       {
         text: {
           en: 'We accept the reality of the world with which we\'re presented.',
-          zh: '我们接受我们所呈现的世界的现实。',
+          zh: '我们接受呈现在我们面前的世界。',
         },
         original: 'We accept the reality of the world with which we\'re presented.',
         originalLang: 'en',
@@ -936,7 +936,7 @@ export const cinemaData: PersonData[] = [
       {
         text: {
           en: "Here's looking at you, kid.",
-          zh: '看着你，孩子。',
+          zh: '永志不忘，孩子。',
         },
         original: "Here's looking at you, kid.",
         originalLang: 'en',

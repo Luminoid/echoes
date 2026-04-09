@@ -294,13 +294,14 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'One is not born, but rather becomes, a woman.',
-          zh: '女人不是天生的，而是后天形成的。',
+          zh: '一个人不是生下来就是女人，而是后来才变成女人的。',
         },
         original: 'On ne naît pas femme : on le devient.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'The Second Sex', zh: '第二性' },
+        source: { en: 'The Second Sex', zh: '《第二性》' },
         year: 1949,
+        translator: '郑克鲁',
       },
       {
         text: {
@@ -773,13 +774,14 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Visibility is a trap.',
-          zh: '可见性是一个陷阱。',
+          zh: '可见性是一个捕捉器。',
         },
         original: 'La visibilité est un piège.',
         originalLang: 'fr',
         originalLocale: 'en',
-        source: { en: 'Discipline and Punish', zh: '规训与惩罚' },
+        source: { en: 'Discipline and Punish', zh: '《规训与惩罚》' },
         year: 1975,
+        translator: '刘北成/杨远婴',
       },
       {
         text: {
@@ -922,13 +924,14 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Whereof one cannot speak, thereof one must be silent.',
-          zh: '对于不可言说之物，必须保持沉默。',
+          zh: '对于不可说的东西我们必须保持沉默。',
         },
         original: 'Wovon man nicht sprechen kann, darüber muss man schweigen.',
         originalLang: 'de',
         originalLocale: 'en',
-        source: { en: 'Tractatus Logico-Philosophicus', zh: '逻辑哲学论' },
+        source: { en: 'Tractatus Logico-Philosophicus', zh: '《逻辑哲学论》' },
         year: 1921,
+        translator: '贺绍甲',
       },
       {
         text: {
@@ -2101,13 +2104,14 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Two things fill the mind with ever new and increasing admiration and awe — the starry heavens above me and the moral law within me.',
-          zh: '有两样东西，越是经常而持久地思考它们，心中越是充满常新而日增的惊奇和敬畏——头上的星空和心中的道德法则。',
+          zh: '有两样东西，人们越是经常持久地对之凝神思索，它们就越是使内心充满常新而日增的惊奇和敬畏：我头上的星空和我心中的道德律。',
         },
         original: 'Zwei Dinge erfüllen das Gemüth mit immer neuer und zunehmender Bewunderung und Ehrfurcht — der bestirnte Himmel über mir und das moralische Gesetz in mir.',
         originalLang: 'de',
         originalLocale: 'en',
-        source: { en: 'Critique of Practical Reason', zh: '实践理性批判' },
+        source: { en: 'Critique of Practical Reason', zh: '《实践理性批判》' },
         year: 1788,
+        translator: '邓晓芒',
       },
       {
         text: {
@@ -2126,12 +2130,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Act only according to that maxim whereby you can at the same time will that it should become a universal law.',
-          zh: '仅按照你能够同时愿意它成为普遍法则的准则行事。',
+          zh: '你要仅仅按照你同时也能够愿意它成为一条普遍法则的那个准则去行动。',
         },
         original: 'Handle nur nach derjenigen Maxime, durch die du zugleich wollen kannst, daß sie ein allgemeines Gesetz werde.',
         originalLang: 'de',
         source: { en: 'Groundwork of the Metaphysics of Morals', zh: '《道德形而上学基础》' },
         year: 1785,
+        translator: '邓晓芒',
       },
       {
         text: {
@@ -2146,12 +2151,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Thoughts without content are empty, intuitions without concepts are blind.',
-          zh: '没有内容的思想是空洞的，没有概念的直觉是盲目的。',
+          zh: '思维无内容则空，直观无概念则盲。',
         },
         original: 'Gedanken ohne Inhalt sind leer, Anschauungen ohne Begriffe sind blind.',
         originalLang: 'de',
         source: { en: 'Critique of Pure Reason', zh: '《纯粹理性批判》' },
         year: 1781,
+        translator: '邓晓芒',
       },
     ],
   },
@@ -2762,12 +2768,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'Blessedness is not the reward of virtue, but virtue itself; nor do we delight in blessedness because we restrain our lusts; but, on the contrary, because we delight in it, therefore we are able to restrain them.',
-          zh: '幸福不是德性的报酬，而是德性本身；我们并非因为克制了欲望而享有幸福，恰恰相反，因为我们享有幸福，所以才能够克制欲望。',
+          zh: '幸福不是德性的报酬，而是德性自身；并不是因为我们克制情欲，我们才享有幸福，反之，乃是因为我们享有幸福，所以我们能够克制情欲。',
         },
         original: 'Beatitudo non est virtutis praemium, sed ipsa virtus; nec eadem gaudemus, quia libidines coercemus; sed contra, quia eadem gaudemus, ideo libidines coercere possumus.',
         originalLang: 'la',
         source: { en: 'Ethics, Part V, Proposition 42', zh: '《伦理学》第五部分命题四十二' },
         year: 1677,
+        translator: '贺麟',
         comment: {
           en: 'The concluding proposition of the Ethics — Spinoza\'s final word on the relationship between virtue, knowledge, and human flourishing.',
           zh: '《伦理学》的最后一个命题——斯宾诺莎对德性、知识与人类幸福之关系的终极论断。',
@@ -3131,12 +3138,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'The owl of Minerva spreads its wings only with the falling of the dusk.',
-          zh: '密涅瓦的猫头鹰要等到黄昏降临才会展翅飞翔。',
+          zh: '密纳发的猫头鹰要等黄昏到来，才会起飞。',
         },
         original: 'Die Eule der Minerva beginnt erst mit der einbrechenden Dämmerung ihren Flug.',
         originalLang: 'de',
         source: { en: 'Elements of the Philosophy of Right', zh: '《法哲学原理》' },
         year: 1820,
+        translator: '范扬/张企泰',
       },
       {
         text: {
@@ -3171,12 +3179,13 @@ export const philosopherData: PersonData[] = [
       {
         text: {
           en: 'What is rational is actual and what is actual is rational.',
-          zh: '凡是合理的都是现实的，凡是现实的都是合理的。',
+          zh: '凡是合乎理性的东西都是现实的；凡是现实的东西都是合乎理性的。',
         },
         original: 'Was vernünftig ist, das ist wirklich; und was wirklich ist, das ist vernünftig.',
         originalLang: 'de',
         source: { en: 'Elements of the Philosophy of Right', zh: '《法哲学原理》' },
         year: 1820,
+        translator: '范扬/张企泰',
       },
       {
         text: {

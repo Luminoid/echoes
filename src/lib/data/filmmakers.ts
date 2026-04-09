@@ -113,7 +113,7 @@ export const filmmakerData: PersonData[] = [
       {
         text: {
           en: 'What is the essence of the director\'s work? We could define it as sculpting in time. Just as a sculptor takes a lump of marble, and, inwardly conscious of the features of his finished piece, removes everything that is not a part of it — so the film-maker, from a "lump of time" made up of an enormous, solid cluster of living facts, cuts off and discards whatever he does not need.',
-          zh: '导演工作的本质是什么？我们可以将其定义为在时间中雕刻。正如雕塑家取来一块大理石，内心清楚成品的特征，去除一切不属于它的部分——电影创作者也是如此，从一块由大量坚实的生活事实构成的"时间块"中，切割并丢弃一切他不需要的东西。',
+          zh: '导演工作的本质是什么？我们可以将其定义为雕刻时光。正如雕塑家取来一块大理石，内心清楚成品的特征，去除一切不属于它的部分——电影创作者也是如此，从一块由大量坚实的生活事实构成的"时间块"中，切割并丢弃一切他不需要的东西。',
         },
         original: 'What is the essence of the director\'s work? We could define it as sculpting in time.',
         originalLang: 'ru',
@@ -345,9 +345,9 @@ export const filmmakerData: PersonData[] = [
       {
         text: {
           en: 'If there were an extra ticket, would you come with me?',
-          zh: '如果多一张船票，你会不会跟我走？',
+          zh: '如果有多一张船票，你会不会跟我走？',
         },
-        original: '如果多一张船票，你会不会跟我走？',
+        original: '如果有多一张船票，你会不会跟我走？',
         originalLang: 'zh',
         originalLocale: 'zh',
         source: { en: 'In the Mood for Love', zh: '《花样年华》' },

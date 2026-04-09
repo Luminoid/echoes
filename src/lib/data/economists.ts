@@ -951,7 +951,7 @@ export const economistData: PersonData[] = [
         },
         original: 'Quand le taux de rendement du capital dépasse durablement le taux de croissance de la production et du revenu — ce qui était le cas jusqu\'au XIXe siècle, et risque fort de redevenir la norme au XXIe siècle —, le capitalisme produit mécaniquement des inégalités insoutenables, arbitraires, remettant radicalement en cause les valeurs méritocratiques sur lesquelles se fondent nos sociétés démocratiques.',
         originalLang: 'fr',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
       },
       {
@@ -961,7 +961,7 @@ export const economistData: PersonData[] = [
         },
         original: 'L\'histoire de la répartition des richesses est toujours une histoire profondément politique, et elle ne saurait se résumer aux seuls mécanismes économiques.',
         originalLang: 'fr',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
       },
       {
@@ -970,7 +970,7 @@ export const economistData: PersonData[] = [
           zh: '社会差别只能以共同利益为基础。',
         },
         originalLang: 'en',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
         comment: {
           en: 'Piketty quotes Article 1 of the 1789 Declaration of the Rights of Man to frame his argument.',
@@ -984,7 +984,7 @@ export const economistData: PersonData[] = [
         },
         original: 'La force de déstabilisation principale est liée au fait que le taux de rendement privé du capital r peut être durablement et significativement plus élevé que le taux de croissance du revenu et de la production g.',
         originalLang: 'fr',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
       },
       {
@@ -994,7 +994,7 @@ export const economistData: PersonData[] = [
         },
         original: 'Le refus des chiffres sert rarement les intérêts des plus modestes.',
         originalLang: 'fr',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
       },
       {
@@ -1004,7 +1004,7 @@ export const economistData: PersonData[] = [
         },
         original: 'Sur le long terme, la force principale en faveur d\'une plus grande égalité a été la diffusion des connaissances et des compétences.',
         originalLang: 'fr',
-        source: { en: 'Capital in the Twenty-First Century', zh: '二十一世纪资本论' },
+        source: { en: 'Capital in the Twenty-First Century', zh: '《21世纪资本论》' },
         year: 2013,
       },
       {

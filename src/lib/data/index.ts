@@ -70,6 +70,7 @@ function resolveQuote(q: QuoteData, locale: Locale): Quote {
     sourceUrl: q.sourceUrl,
     comment: q.comment?.[locale],
     speaker: q.speaker?.[locale],
+    translator: q.translator,
   };
 }
 

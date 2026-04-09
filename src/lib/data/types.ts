@@ -30,6 +30,7 @@ export interface QuoteData {
   sourceUrl?: string;
   comment?: Record<Locale, string>;
   speaker?: Record<Locale, string>;
+  translator?: string;
 }
 
 export interface PersonData {
@@ -46,28 +47,28 @@ export interface PersonData {
 export const langNames: Record<string, Record<Locale, string>> = {
   en: { en: 'English', zh: '英语' },
   zh: { en: 'Chinese', zh: '中文' },
-  fr: { en: 'Fran\u00e7ais', zh: '法语' },
-  de: { en: 'Deutsch', zh: '德语' },
-  ru: { en: '\u0420\u0443\u0441\u0441\u043a\u0438\u0439', zh: '俄语' },
-  ja: { en: '\u65e5\u672c\u8a9e', zh: '日语' },
-  ko: { en: '\ud55c\uad6d\uc5b4', zh: '韩语' },
-  es: { en: 'Espa\u00f1ol', zh: '西班牙语' },
-  pt: { en: 'Portugu\u00eas', zh: '葡萄牙语' },
-  it: { en: 'Italiano', zh: '意大利语' },
-  la: { en: 'Latina', zh: '拉丁语' },
-  grc: { en: '\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac', zh: '古希腊语' },
-  da: { en: 'Dansk', zh: '丹麦语' },
-  no: { en: 'Norsk', zh: '挪威语' },
-  sv: { en: 'Svenska', zh: '瑞典语' },
-  pl: { en: 'Polski', zh: '波兰语' },
-  cs: { en: '\u010ce\u0161tina', zh: '捷克语' },
-  ar: { en: '\u0627\u0644\u0639\u0631\u0628\u064a\u0629', zh: '阿拉伯语' },
-  fa: { en: '\u0641\u0627\u0631\u0633\u06cc', zh: '波斯语' },
-  hi: { en: '\u0939\u093f\u0928\u094d\u0926\u0940', zh: '印地语' },
-  bn: { en: '\u09ac\u09be\u0982\u09b2\u09be', zh: '孟加拉语' },
-  he: { en: '\u05e2\u05d1\u05e8\u05d9\u05ea', zh: '希伯来语' },
-  hu: { en: 'Magyar', zh: '匈牙利语' },
-  ro: { en: 'Română', zh: '罗马尼亚语' },
+  fr: { en: 'French', zh: '法语' },
+  de: { en: 'German', zh: '德语' },
+  ru: { en: 'Russian', zh: '俄语' },
+  ja: { en: 'Japanese', zh: '日语' },
+  ko: { en: 'Korean', zh: '韩语' },
+  es: { en: 'Spanish', zh: '西班牙语' },
+  pt: { en: 'Portuguese', zh: '葡萄牙语' },
+  it: { en: 'Italian', zh: '意大利语' },
+  la: { en: 'Latin', zh: '拉丁语' },
+  grc: { en: 'Ancient Greek', zh: '古希腊语' },
+  da: { en: 'Danish', zh: '丹麦语' },
+  no: { en: 'Norwegian', zh: '挪威语' },
+  sv: { en: 'Swedish', zh: '瑞典语' },
+  pl: { en: 'Polish', zh: '波兰语' },
+  cs: { en: 'Czech', zh: '捷克语' },
+  ar: { en: 'Arabic', zh: '阿拉伯语' },
+  fa: { en: 'Persian', zh: '波斯语' },
+  hi: { en: 'Hindi', zh: '印地语' },
+  bn: { en: 'Bengali', zh: '孟加拉语' },
+  he: { en: 'Hebrew', zh: '希伯来语' },
+  hu: { en: 'Hungarian', zh: '匈牙利语' },
+  ro: { en: 'Romanian', zh: '罗马尼亚语' },
   af: { en: 'Afrikaans', zh: '南非荷兰语' },
 };
 
@@ -81,6 +82,7 @@ export interface Quote {
   sourceUrl?: string;
   comment?: string;
   speaker?: string;
+  translator?: string;
 }
 
 export interface Person {
