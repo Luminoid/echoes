@@ -493,11 +493,12 @@ export const writerData: PersonData[] = [
       {
         text: {
           en: 'Let us not take it for granted that life exists more fully in what is commonly thought big than in what is commonly thought small.',
-          zh: '切莫以为，生命在世人所谓的宏大之中，就比在世人所谓的渺小之中活得更为丰盈。',
+          zh: '我们不要想当然地认为，在公认为重大的事情中比通常以为渺小的事情中含有更为丰富充实的生活。',
         },
         originalLang: 'en',
         source: { en: 'Modern Fiction', zh: '现代小说' },
         year: 1919,
+        translator: '瞿世镜',
       },
       {
         text: {
