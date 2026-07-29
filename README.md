@@ -6,7 +6,7 @@ Built with SvelteKit 2, Svelte 5, Tailwind CSS 4, and Vite 6. Deployed as a stat
 
 ## Features
 
-- 375+ quotes across 16 categories
+- 2,300+ quotes across 18 categories
 - Bilingual: English and Chinese (Simplified)
 - Light/dark theme with OS preference detection
 - Alphabetical sorting by locale, chronological quote ordering
@@ -35,7 +35,7 @@ npm run preview
 src/
   lib/
     components/   # Svelte components (Header, Footer, PersonCard, QuoteBlock, etc.)
-    data/         # Quote data by category (16 files) + types + index
+    data/         # Quote data by category (18 files) + types + index
     i18n/         # Translation strings (EN/ZH)
   routes/         # SvelteKit pages (home, category, person detail)
 static/           # Favicon, robots.txt, _headers
