@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { Locale, Category } from '$lib/data/types';
-  import type { Person } from '$lib/data/types';
-  import { localePath } from '$lib/i18n/translations';
+  import type { Locale, Category } from '#lib/data/types.js';
+  import type { Person } from '#lib/data/types.js';
+  import { localePath } from '#lib/i18n/translations.js';
 
   let { person, category, locale }: { person: Person; category: Category; locale: Locale } = $props();
 

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import { t } from '$lib/i18n/translations';
+  import type { Locale } from '#lib/data/types.js';
+  import { t } from '#lib/i18n/translations.js';
 
   let { locale, value = $bindable('') }: { locale: Locale; value: string } = $props();
 </script>

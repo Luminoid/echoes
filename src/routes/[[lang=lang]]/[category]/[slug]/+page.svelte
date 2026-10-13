@@ -1,13 +1,13 @@
 <script lang="ts">
-  import type { Locale, Category } from '$lib/data/types';
-  import type { Person } from '$lib/data/types';
-  import { t } from '$lib/i18n/translations';
+  import type { Locale, Category } from '#lib/data/types.js';
+  import type { Person } from '#lib/data/types.js';
+  import { t } from '#lib/i18n/translations.js';
   import { page } from '$app/state';
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
-  import PersonMeta from '$lib/components/PersonMeta.svelte';
-  import QuoteBlock from '$lib/components/QuoteBlock.svelte';
-  import BackLink from '$lib/components/BackLink.svelte';
+  import Header from '#lib/components/Header.svelte';
+  import Footer from '#lib/components/Footer.svelte';
+  import PersonMeta from '#lib/components/PersonMeta.svelte';
+  import QuoteBlock from '#lib/components/QuoteBlock.svelte';
+  import BackLink from '#lib/components/BackLink.svelte';
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);

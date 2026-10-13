@@ -1,7 +1,7 @@
 <script lang="ts">
   import { afterNavigate, goto } from '$app/navigation';
-  import type { Locale, Category } from '$lib/data/types';
-  import { t, localePath } from '$lib/i18n/translations';
+  import type { Locale, Category } from '#lib/data/types.js';
+  import { t, localePath } from '#lib/i18n/translations.js';
 
   let { category, locale }: { category: Category; locale: Locale } = $props();
 

@@ -11,7 +11,7 @@ A curated collection of timeless quotes from philosophers, writers, artists, sci
   <a href="https://echoes.luminoid.dev"><img src="static/og-image.png" alt="Echoes: curated quotes from philosophers, writers, artists, and scientists in English and Chinese" width="720"></a>
 </p>
 
-Built with SvelteKit 2, Svelte 5, Tailwind CSS 4, and Vite 6. Deployed as a static site to Cloudflare Pages.
+Built with SvelteKit 3, Svelte 5, Tailwind CSS 4, and Vite 8. Deployed as a static site to Cloudflare Pages.
 
 ## Features
 

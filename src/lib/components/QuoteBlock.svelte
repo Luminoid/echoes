@@ -1,9 +1,9 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import type { Quote } from '$lib/data/types';
-  import { langNames } from '$lib/data/types';
-  import { t } from '$lib/i18n/translations';
-  import { shareQuote, formatYearForShare } from '$lib/shareQuote';
+  import type { Locale } from '#lib/data/types.js';
+  import type { Quote } from '#lib/data/types.js';
+  import { langNames } from '#lib/data/types.js';
+  import { t } from '#lib/i18n/translations.js';
+  import { shareQuote, formatYearForShare } from '#lib/shareQuote.js';
 
   let { quote, locale, personName }: { quote: Quote; locale: Locale; personName?: string } = $props();
 

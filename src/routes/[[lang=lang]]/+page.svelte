@@ -1,14 +1,14 @@
 <script lang="ts">
-  import type { Locale, Category } from '$lib/data/types';
-  import { categoryList } from '$lib/data/types';
-  import { t, localePath } from '$lib/i18n/translations';
-  import { getPeopleByCategory, getCategoryInfo } from '$lib/data';
+  import type { Locale, Category } from '#lib/data/types.js';
+  import { categoryList } from '#lib/data/types.js';
+  import { t, localePath } from '#lib/i18n/translations.js';
+  import { getPeopleByCategory, getCategoryInfo } from '#lib/data/index.js';
   import { page } from '$app/state';
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
-  import HeroSection from '$lib/components/HeroSection.svelte';
-  import PersonCard from '$lib/components/PersonCard.svelte';
-  import { selectedSlugs } from '$lib/stores/homeSelection';
+  import Header from '#lib/components/Header.svelte';
+  import Footer from '#lib/components/Footer.svelte';
+  import HeroSection from '#lib/components/HeroSection.svelte';
+  import PersonCard from '#lib/components/PersonCard.svelte';
+  import { selectedSlugs } from '#lib/stores/homeSelection.js';
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);

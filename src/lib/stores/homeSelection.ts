@@ -1,5 +1,5 @@
-import { categoryList } from '$lib/data/types';
-import { getPeopleByCategory, shuffle } from '$lib/data';
+import { categoryList } from '#lib/data/types.js';
+import { getPeopleByCategory, shuffle } from '#lib/data/index.js';
 
 export const selectedSlugs: Record<string, string[]> = {};
 for (const cat of categoryList) {

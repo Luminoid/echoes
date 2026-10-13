@@ -1,3 +1,3 @@
-export function entries() {
-  return [{ lang: '' }, { lang: 'zh' }];
-}
+import type { EntryGenerator } from './$types';
+
+export const entries: EntryGenerator = () => [{}, { lang: 'zh' }];

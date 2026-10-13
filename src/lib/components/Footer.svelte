@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import { t, localePath } from '$lib/i18n/translations';
+  import type { Locale } from '#lib/data/types.js';
+  import { t, localePath } from '#lib/i18n/translations.js';
 
   let { locale }: { locale: Locale } = $props();
 </script>

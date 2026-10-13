@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import type { Person } from '$lib/data/types';
-  import { t } from '$lib/i18n/translations';
+  import type { Locale } from '#lib/data/types.js';
+  import type { Person } from '#lib/data/types.js';
+  import { t } from '#lib/i18n/translations.js';
 
   let { person, locale }: { person: Person; locale: Locale } = $props();
 </script>

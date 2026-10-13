@@ -1,7 +1,8 @@
-import { categories, getPeopleByCategory } from '$lib/data';
-import { getLocale } from '$lib/i18n/translations';
-import type { Category } from '$lib/data/types';
+import { categories, getPeopleByCategory } from '#lib/data/index.js';
+import { getLocale } from '#lib/i18n/translations.js';
+import type { Category } from '#lib/data/types.js';
 import { error } from '@sveltejs/kit';
+import type { EntryGenerator } from './$types';
 
 export function load({ params, parent }) {
   const locale = getLocale(params.lang);
@@ -15,6 +16,5 @@ export function load({ params, parent }) {
   return { people, category, locale };
 }
 
-export function entries() {
-  return ['', 'zh'].flatMap((lang) => categories.map((cat) => ({ lang, category: cat })));
-}
+export const entries: EntryGenerator = () =>
+  categories.flatMap((category) => [{ category }, { lang: 'zh', category }]);

@@ -3,7 +3,7 @@
 // x-default hreflang alternates, matching the per-page <link rel="alternate"> tags in <head>, so
 // search engines index the right language per region. adapter-static writes this to
 // build/sitemap.xml, the file static/robots.txt already advertises.
-import { categories, getAllPeopleData } from '$lib/data';
+import { categories, getAllPeopleData } from '#lib/data/index.js';
 import type { RequestHandler } from './$types';
 
 export const prerender = true;

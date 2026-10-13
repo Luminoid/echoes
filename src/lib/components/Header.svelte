@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import { categoryList } from '$lib/data/types';
-  import { t, localePath, switchLocalePath } from '$lib/i18n/translations';
+  import type { Locale } from '#lib/data/types.js';
+  import { categoryList } from '#lib/data/types.js';
+  import { t, localePath, switchLocalePath } from '#lib/i18n/translations.js';
   import { goto } from '$app/navigation';
   import { page } from '$app/state';
 
@@ -60,7 +60,7 @@
         href={switchLocalePath(page.url.pathname)}
         onclick={(e: MouseEvent) => {
           e.preventDefault();
-          goto(switchLocalePath(page.url.pathname), { replaceState: true });
+          goto(switchLocalePath(page.url.pathname), { replace: true });
         }}
         class="text-sm font-medium text-text-muted transition-colors hover:text-accent"
       >

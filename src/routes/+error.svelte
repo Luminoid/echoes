@@ -1,9 +1,9 @@
 <script lang="ts">
-  import type { Locale } from '$lib/data/types';
-  import { t, localePath } from '$lib/i18n/translations';
+  import type { Locale } from '#lib/data/types.js';
+  import { t, localePath } from '#lib/i18n/translations.js';
   import { page } from '$app/state';
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
+  import Header from '#lib/components/Header.svelte';
+  import Footer from '#lib/components/Footer.svelte';
 
   let locale: Locale = $derived(
     page.url.pathname.startsWith('/zh/') ? 'zh' : 'en',

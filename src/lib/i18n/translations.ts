@@ -1,4 +1,4 @@
-import type { Locale } from '$lib/data/types';
+import type { Locale } from '#lib/data/types.js';
 
 const translations: Record<Locale, Record<string, string>> = {
   en: {

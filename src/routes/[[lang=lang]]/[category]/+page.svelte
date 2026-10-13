@@ -1,15 +1,15 @@
 <script lang="ts">
-  import type { Locale, Category } from '$lib/data/types';
-  import { t, localePath } from '$lib/i18n/translations';
-  import { getCategoryInfo } from '$lib/data';
-  import type { Person } from '$lib/data/types';
+  import type { Locale, Category } from '#lib/data/types.js';
+  import { t, localePath } from '#lib/i18n/translations.js';
+  import { getCategoryInfo } from '#lib/data/index.js';
+  import type { Person } from '#lib/data/types.js';
   import { page } from '$app/state';
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
-  import CategoryNav from '$lib/components/CategoryNav.svelte';
-  import PersonCard from '$lib/components/PersonCard.svelte';
-  import FilterInput from '$lib/components/FilterInput.svelte';
-  import { getSortKey, setSortKey, type SortKey } from '$lib/stores/categorySort';
+  import Header from '#lib/components/Header.svelte';
+  import Footer from '#lib/components/Footer.svelte';
+  import CategoryNav from '#lib/components/CategoryNav.svelte';
+  import PersonCard from '#lib/components/PersonCard.svelte';
+  import FilterInput from '#lib/components/FilterInput.svelte';
+  import { getSortKey, setSortKey, type SortKey } from '#lib/stores/categorySort.js';
 
   let { data } = $props();
   let locale = $derived(data.locale as Locale);
