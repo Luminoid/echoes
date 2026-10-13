@@ -34,6 +34,21 @@ const translations: Record<Locale, Record<string, string>> = {
     'notFound.title': 'Page Not Found',
     'notFound.message': 'The page you are looking for does not exist.',
     'notFound.home': 'Go Home',
+    'footer.privacy': 'Privacy',
+    'privacy.title': 'Privacy',
+    'privacy.description':
+      'How the Echoes website handles visitor data: static hosting on Cloudflare, no cookies, no analytics, fonts from Google Fonts.',
+    'privacy.updated': 'Last updated: October 12, 2026',
+    'privacy.intro':
+      'Echoes is a static site served by Cloudflare: a set of prebuilt pages with no server code, no accounts, and no database. This page describes everything that happens with your data when you visit.',
+    'privacy.hosting':
+      "To deliver the pages and protect the site from abuse, Cloudflare's infrastructure processes your IP address and standard request metadata (such as the requested URL, the time of the request, and your browser's user agent string) in transit and in its security logs. We run no analytics and do not collect or store any personal data about visitors.",
+    'privacy.cookies':
+      'The site sets no cookies and uses no analytics, advertising, or tracking scripts. The only value it keeps in your browser is the theme (light or dark) you choose with the toggle, stored in local storage; it never leaves your device.',
+    'privacy.fonts':
+      "When a page loads, your browser fetches the site's typefaces from Google Fonts (a stylesheet from fonts.googleapis.com and font files from fonts.gstatic.com), so Google receives your IP address and standard request headers under its own privacy policy. Links to Wikipedia and other external sites take you to those sites, where their own policies apply.",
+    'privacy.policies': 'Third-party policies: ',
+    'privacy.contact': 'Questions about this page: ',
   },
   zh: {
     'site.title': '回声',
@@ -68,6 +83,21 @@ const translations: Record<Locale, Record<string, string>> = {
     'notFound.title': '页面未找到',
     'notFound.message': '您访问的页面不存在。',
     'notFound.home': '返回首页',
+    'footer.privacy': '隐私',
+    'privacy.title': '隐私',
+    'privacy.description':
+      '回声网站如何处理访问者数据：由 Cloudflare 托管的静态网站，不使用 Cookie，没有统计分析，字体来自 Google Fonts。',
+    'privacy.updated': '最后更新：2026 年 10 月 12 日',
+    'privacy.intro':
+      '回声（Echoes）是由 Cloudflare 托管的静态网站：由预先生成的页面组成，没有服务器端代码、账户或数据库。本页说明您访问时与您的数据相关的全部情况。',
+    'privacy.hosting':
+      '为了交付页面并保护网站免受滥用，Cloudflare 的基础设施会在传输过程中及其安全日志中处理您的 IP 地址和标准请求元数据（如所请求的网址、请求时间和您浏览器的用户代理字符串）。我们不运行任何统计分析，也不收集或存储访问者的任何个人数据。',
+    'privacy.cookies':
+      '本站不设置 Cookie，也不使用统计分析、广告或跟踪脚本。浏览器中保存的唯一数据是您用切换按钮选择的主题（浅色或深色），存放在本地存储中，不会离开您的设备。',
+    'privacy.fonts':
+      '页面加载时，您的浏览器会从 Google Fonts 获取本站字体（向 fonts.googleapis.com 请求样式表，向 fonts.gstatic.com 请求字体文件），因此 Google 会收到您的 IP 地址和标准请求标头，适用其自身的隐私政策。指向维基百科等外部网站的链接会前往那些网站，适用它们各自的政策。',
+    'privacy.policies': '第三方隐私政策：',
+    'privacy.contact': '有关本页的问题：',
   },
 };
 

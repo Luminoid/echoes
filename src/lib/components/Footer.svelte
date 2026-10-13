@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Locale } from '$lib/data/types';
-  import { t } from '$lib/i18n/translations';
+  import { t, localePath } from '$lib/i18n/translations';
 
   let { locale }: { locale: Locale } = $props();
 </script>
@@ -27,6 +27,10 @@
       </a>
       <p class="text-sm text-text-muted">
         {t(locale, 'footer.rights')}
+        ·
+        <a href={localePath(locale, '/privacy/')} class="transition-colors hover:text-accent">
+          {t(locale, 'footer.privacy')}
+        </a>
       </p>
     </div>
   </div>

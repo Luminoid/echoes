@@ -1,5 +1,5 @@
 // Prerendered sitemap covering every page in both locales (EN at `/...`, ZH under `/zh/...`):
-// home, search, one page per category, and one page per person. Each <url> declares its EN / ZH /
+// home, search, privacy, one page per category, and one page per person. Each <url> declares its EN / ZH /
 // x-default hreflang alternates, matching the per-page <link rel="alternate"> tags in <head>, so
 // search engines index the right language per region. adapter-static writes this to
 // build/sitemap.xml, the file static/robots.txt already advertises.
@@ -24,6 +24,7 @@ export const GET: RequestHandler = () => {
   const paths = [
     '/',
     '/search/',
+    '/privacy/',
     ...categories.map((category) => `/${category}/`),
     ...getAllPeopleData().map(({ category, person }) => `/${category}/${person.slug}/`),
   ];
